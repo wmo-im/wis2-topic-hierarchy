@@ -1,0 +1,4 @@
+Name,Description,Child
+core,Core,earth-system-domain
+recommended,Recommended,earth-system-domain
+other,Other,earth-system-domain

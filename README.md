@@ -19,9 +19,9 @@ The topic hierarchy is represented in the following table
 | **3** | wis2 | wis2 | Fixed for WIS 2.0 |
 | **4** | country | ISO3166 3-letter code | Exception for Partner Organizations |
 | **5** | center\_id | acronym decided by Member | List of NC/DCPC is the starting point. Acronym required |
-| **6** | resource\_type | data|metadata|report | In WIS 2.0 different resources will be shared, including data, metadata and reports (from monitoring activities) |
-| **7** | data-policy | core|recommended | Core are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended are available by subscription to Global Brokers. Recommended are downloaded from original NC/DCPC and may require authentication/authorisation |
-| **8** | Earth-system-domain | weather|climate|hydrology|atmospheric-composition|cryosphere|ocean|space-weather | Annex 1 of resolution 1 Cg-Ext-2021 |
+| **6** | resource\_type | data\|metadata\|report | In WIS 2.0 different resources will be shared, including data, metadata and reports (from monitoring activities) |
+| **7** | data-policy | core\|recommended | Core are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended are available by subscription to Global Brokers. Recommended are downloaded from original NC/DCPC and may require authentication/authorisation |
+| **8** | Earth-system-domain | weather\|climate\|hydrology\|atmospheric-composition\|cryosphere\|ocean\|space-weather | Annex 1 of resolution 1 Cg-Ext-2021 |
 | **9** | Earth-system-domain-subcategory | In table 2 | From this level it is entirely to be defined by the domain experts |
 
 | **earth-system-domain** | **earth-system-domain-subcategory** |

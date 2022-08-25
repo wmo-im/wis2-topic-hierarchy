@@ -13,7 +13,7 @@ The following WIS 2.0 topic hierarchy has been developed according to the classi
 The first levels of the topic hierarchy are described in the following table
 
 | **Level** | **Name** | **Notes** |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | **1** | channel ||
 | **2** | version | Alphabetic version of the topic hierarchy |
 | **3** | wis2 | Fixed for WIS 2.0 |

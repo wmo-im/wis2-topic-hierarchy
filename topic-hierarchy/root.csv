@@ -1,2 +1,2 @@
-Name,Description,Child
-wis2,WMO Information System 2.0,version
+Name,Description,Values,Child
+channel,origin -> data downloaded from original NC/DCPC; cache -> data downloaded from a Global Cache,origin|cache,version

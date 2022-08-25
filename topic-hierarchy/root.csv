@@ -1,2 +1,3 @@
-Name,Description,Values,Child
-channel,origin -> data downloaded from original NC/DCPC; cache -> data downloaded from a Global Cache,origin|cache,version
+Name,Description,Child
+origin,data downloaded from original NC/DCPC,version
+cache,data downloaded from a Global Cache,version

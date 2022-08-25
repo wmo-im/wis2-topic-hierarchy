@@ -1,0 +1,5 @@
+Name,Description,Child
+surface-based-observations,Surface based observations,hydrology-report-type
+space-based-observations,Space based observations,hydrology-report-type
+analysis-prediction,Analysis and prediction,hydrology-report-type
+advisories-warnings,Advisories and warnings,hydrology-report-type

@@ -1,8 +1,8 @@
 Name,Description,Child
-weather,Weather,TODO
-climate,Climate,TODO
-hydrology,Hydrology,TODO
-atmospheric_composition,Atmospheric Composition,TODO
-cryosphere,Cryosphere,TODO
-oceans,Oceans,TODO
-space_weather,Space Weather,TODO
+weather,Weather,weather
+climate,Climate,climate
+hydrology,Hydrology,hydrology
+atmospheric_composition,Atmospheric Composition,atmospheric_composition
+cryosphere,Cryosphere,cryosphere
+oceans,Oceans,oceans
+space_weather,Space Weather,space_weather

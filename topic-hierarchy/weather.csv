@@ -1,0 +1,6 @@
+Name,Description,Child
+surface-based-observations,Surface based observations,weather-report-type
+space-based-observations,Space based observations,weather-report-type
+analysis-prediction,Analysis and prediction,weather-report-type
+reanalysis,Reanalysis,weather-report-type
+advisories-warnings,Advisories and warnings,weather-report-type

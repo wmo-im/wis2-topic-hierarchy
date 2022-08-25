@@ -1,6 +1,6 @@
 Name,Description,Child
-surface-based-observations,Surface based observations,cryosphere-report-type
-space-based-observations,Space based observations,cryosphere-report-type
-analysis-prediction,Analysis and prediction,cryosphere-report-type
-reanalysis,Reanalysis,cryosphere-report-type
-advisories-warnings,Advisories and warnings,cryosphere-report-type
+surface-based-observations,Surface based observations,TODO
+space-based-observations,Space based observations,TODO
+analysis-prediction,Analysis and prediction,TODO
+reanalysis,Reanalysis,TODO
+advisories-warnings,Advisories and warnings,TODO

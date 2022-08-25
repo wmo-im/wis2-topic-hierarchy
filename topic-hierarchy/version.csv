@@ -1,2 +1,2 @@
-Name,Description,Child
-a,Edition A,distribution
+Name,Description,Values,Child
+version,Alphabetic version of the topic hierarchy,"a,b,c,...",distribution

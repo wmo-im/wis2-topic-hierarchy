@@ -1,6 +1,6 @@
 Name,Description,Child
-surface-based-observations,Surface based observations,surface-based-observatins-report-type
-space-based-observations,Space based observations,space-based-observations-report-type
-analysis-prediction,Analysis and prediction,analysis-prediction-report-type
-reanalysis,Reanalysis,reanalysis-report-type
-advisories-warnings,Advisories and warnings,advisories-report-type
+surface-based-observations,Surface based observations,weather-report-type
+space-based-observations,Space based observations,TODO
+analysis-prediction,Analysis and prediction,TODO
+reanalysis,Reanalysis,TODO
+advisories-warnings,Advisories and warnings,TODO

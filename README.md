@@ -10,48 +10,16 @@ Recalling that WIS 2.0 is designed to support the WMO Unified Data Policy, the t
 
 The following WIS 2.0 topic hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021).
 
-The topic hierarchy is represented in the following table
+The first levels of the topic hierarchy are described in the following table
 
-| **Level** | **Name** | **Values** | **Notes** |
-| --- | --- | --- | --- |
-| **1** | channel | origin|cache | origin -\&gt; data downloaded from original NC/DCPFcache -\&gt; data downloaded from a Global Cache |
-| **2** | version | a,b,c,… | Alphabetic version of the topic hierarchy |
-| **3** | wis2 | wis2 | Fixed for WIS 2.0 |
-| **4** | country | ISO3166 3-letter code | Exception for Partner Organizations |
-| **5** | center\_id | acronym decided by Member | List of NC/DCPC is the starting point. Acronym required |
-| **6** | resource\_type | data\|metadata\|report | In WIS 2.0 different resources will be shared, including data, metadata and reports (from monitoring activities) |
-| **7** | data-policy | core\|recommended | Core are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended are available by subscription to Global Brokers. Recommended are downloaded from original NC/DCPC and may require authentication/authorisation |
-| **8** | Earth-system-domain | weather\|climate\|hydrology\|atmospheric-composition\|cryosphere\|ocean\|space-weather | Annex 1 of resolution 1 Cg-Ext-2021 |
-| **9** | Earth-system-domain-subcategory | In table 2 | From this level it is entirely to be defined by the domain experts |
-
-| **earth-system-domain** | **earth-system-domain-subcategory** |
-| --- | --- |
-| **weather** |
-|| surface-based-observations |
-|| satellite-nwp |
-|| satellite-nowcasting |
-|| global-analysis-prediction |
-|| limited-area-analysis-prediction |
-|| watches-advisories-guidance |
-| **climate** |
-|| gcos-upper-air-and-surface |
-|| climate-data |
-|| ecv |
-|| climate-reanalysis |
-| **hydrology** |
-|| reference-stations |
-|| satellite |
-|| global-regional-models |
-| **Atmospheric composition** |
-|| observations |
-|| watches-advisories-warnings |
-| **cryosphere** |
-|| observations |
-|| analysis-prediction-reanalysis |
-|| watches-advisories-warnings |
-| **ocean** |
-|| observations |
-|| eov-and-ocean-ecv |
-|| analysis-prediction |
-|| reanalysis |
-|| watches-advisories-warnings |
+| **Level** | **Name** | **Notes** |
+| --- | --- | --- |
+| **1** | channel ||
+| **2** | version | Alphabetic version of the topic hierarchy |
+| **3** | wis2 | Fixed for WIS 2.0 |
+| **4** | country | ISO3166 3-letter code. Exception for Partner Organizations |
+| **5** | center\_id | acronym decided by Member |
+| **6** | resource\_type | In WIS 2.0 different resources will be shared, including data, metadata and reports (from monitoring activities) |
+| **7** | data-policy | Core are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended are available by subscription to Global Brokers. Recommended are downloaded from original NC/DCPC and may require authentication/authorisation |
+| **8** | Earth-system-domain | cryosphere\|ocean\|space-weather | Annex 1 of resolution 1 Cg-Ext-2021 |
+| **9** | Earth-system-domain-subcategory | From this level it is entirely to be defined by the domain experts |

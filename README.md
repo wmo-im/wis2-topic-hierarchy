@@ -12,7 +12,7 @@ WIS 2.0 real-time data sharing is based on a message queuing protocol (MQP) supp
 
 ## Data discovery
 
-Users can discover datasets from the Global Discovery Catalogue (GDC), obtaining the topic and the MQP broker offering the dataset to subscribe and receive notifications of new data. Datasets in the GDC are made available via the WMO Core Metadata Profile 2.0 (WCMP2), which supports a categorisation scheme consistent with the topic hierarchy to provide an seamless search experience compatible with the access modality provided by the MQP broker. In other words, the MQP topic and WIS 2.0 metadata have the same vocabulary so that discovery, subscription and download are consistent.
+Users can discover datasets from the Global Discovery Catalogue (GDC), obtaining the topic and the MQP broker offering the dataset to subscribe and receive notifications of new data. Datasets in the GDC are made available via the WMO Core Metadata Profile 2.0 (WCMP2) standard for discovery metadata, which supports a categorisation scheme consistent with the topic hierarchy to provide an seamless search experience compatible with the access modality provided by the MQP broker. In other words, the MQP topic and WIS 2.0 discovery metadata have the same vocabulary so that discovery, subscription and download are consistent.
 
 ## Structure
 
@@ -22,19 +22,19 @@ Recalling that WIS 2.0 is designed to support the WMO Unified Data Policy, the t
 
 The WIS 2.0 topic hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021), and is managed in two parts:
 
-1. core topic levels (levels 1-8): core topic structure to be applied by all data and services in WIS 2.0.
-2. domain specific topic subcategory levels (level 9 and beyond): topic structure defined by domain experts.  Note that the number of levels in this part may vary according to the requirements of various domains
+1. primary topic levels (levels 1-8): topic structure to be applied by all data and services in WIS 2.0. These levels are managed by the WMO Secretariat
+2. domain specific topic subcategory levels (level 9 and beyond): topic structure defined by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains
 
-The core topic levels are described in the following table:
+The primary topic levels are described in the following table:
 
 | **Level** | **Name** | **Notes** |
 | --- | --- | --- |
 | **1** | channel | Location of of where the data originates from (data providers [`origin`] or global services [`cache`]) |
 | **2** | version | Alphabetical version of the topic hierarchy |
 | **3** | wis2 | Fixed value of `wis2` for WIS 2.0 |
-| **4** | country | ISO3166 3-letter code.  Includes extensions for Partner Organizations |
+| **4** | country | ISO3166 3-letter code. Includes extensions for Partner Organizations |
 | **5** | center-id | acronym as specified by Member |
 | **6** | resource-type | WIS 2.0 resources types (`data`, `metadata`, `reports` [from monitoring activities]) |
-| **7** | data-policy | data policy as defined by the WMO Unified Data Policy.  `core` data are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended data are available by subscription to Global Brokers. `recommended` data are downloaded from original NC/DCPC and may require authentication/authorisation |
-| **8** | earth-system-domain | `cryosphere`\|`ocean`\|`space-weather` | Annex 1 of resolution 1 Cg-Ext-2021 |
-| **9** | earth-system-domain-subcategory | As defined by domain experts |
+| **7** | data-policy | data policy as defined by the WMO Unified Data Policy. `core` data are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended data are available by subscription to Global Brokers. `recommended` data are downloaded from original NC/DCPC and may require authentication/authorisation |
+| **8** | earth-system-discipline | As per Annex 1 of resolution 1 Cg-Ext-2021 |
+| **9** | earth-system-discipline-subcategory | As defined by domain experts |

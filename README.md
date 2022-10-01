@@ -10,14 +10,14 @@ Recalling that WIS 2.0 is designed to support the WMO Unified Data Policy, the t
 
 The following WIS 2.0 topic hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021).
 
-The first levels of the topic hierarchy are described in the following table
+The first levels of the topic hierarchy are described in the following table (note that all values SHALL be lowercase):
 
 | **Level** | **Name** | **Notes** |
 | --- | --- | --- |
 | **1** | channel ||
 | **2** | version | Alphabetic version of the topic hierarchy |
 | **3** | wis2 | Fixed for WIS 2.0 |
-| **4** | country | ISO3166 3-letter code. Exception for Partner Organizations |
+| **4** | country | lower case representation of ISO3166 derived 3-letter code. Exception for Partner Organizations |
 | **5** | center\_id | acronym decided by Member |
 | **6** | resource\_type | In WIS 2.0 different resources will be shared, including data, metadata and reports (from monitoring activities) |
 | **7** | data-policy | Core are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended are available by subscription to Global Brokers. Recommended are downloaded from original NC/DCPC and may require authentication/authorisation |

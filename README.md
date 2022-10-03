@@ -23,7 +23,7 @@ Recalling that WIS 2.0 is designed to support the WMO Unified Data Policy, the t
 The WIS 2.0 topic hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021), and is managed in two parts:
 
 1. primary topic levels (levels 1-8): topic structure to be applied by all data and services in WIS 2.0. These levels are managed by the WMO Secretariat
-2. domain specific topic subcategory levels (level 9 and beyond): topic structure defined by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains
+2. domain specific topic subcategory levels (level 9 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains
 
 
 The primary topic levels are described in the following table:
@@ -34,8 +34,8 @@ The primary topic levels are described in the following table:
 | **2** | version | Alphabetical version of the topic hierarchy |
 | **3** | wis2 | Fixed value of `wis2` for WIS 2.0 |
 | **4** | country | lower case representation of ISO3166 3-letter code. Includes extensions for partner organizations |
-| **5** | center-id | acronym as specified by member |
+| **5** | center-id | acronym as specified by member and endorsed by the PR of the country and by WMO|
 | **6** | resource-type | WIS 2.0 resources types (`data`, `metadata`, `reports` [from monitoring activities]) |
 | **7** | data-policy | data policy as defined by the WMO Unified Data Policy. `core` data are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended data are available by subscription to Global Brokers. `recommended` data are downloaded from original NC/DCPC and may require authentication/authorisation |
 | **8** | earth-system-discipline | As per Annex 1 of resolution 1 Cg-Ext-2021 |
-| **9** | earth-system-discipline-subcategory | As defined by domain experts |
+| **9** | earth-system-discipline-subcategory | As proposed by domain experts and further approved by INFCOM|

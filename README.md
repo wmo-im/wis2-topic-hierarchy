@@ -11,8 +11,7 @@ and download.
 WIS 2.0 real-time data sharing is based on a message queuing protocol (MQP) supporting a publication/subscription mechanism. A user can subscribe to an MQP broker to receive real-time notifications that some data can be downloaded. The notification message received from the MQP broker contains a URL to download the data. In addition, the MQP broker offers a range of topics organised in a hierarchy. The users can select their topics of interest and subscribe to them to receive notifications and download data relevant to their work.
 
 ## Data discovery
-
-Users can discover datasets from the Global Discovery Catalogue (GDC), obtaining the topic and the MQP broker offering the dataset to subscribe and receive notifications of new data. Datasets in the GDC are made available via the WMO Core Metadata Profile 2.0 (WCMP2) standard for discovery metadata, which supports a categorisation scheme consistent with the topic hierarchy to provide a seamless search experience compatible with the access modality provided by the MQP broker. In other words, the MQP topic and WIS 2.0 discovery metadata have the same vocabulary so that discovery, subscription, and download are consistent.
+Users can discover datasets from the Global Discovery Catalogue (GDC). Once a user has identified a dataset of interest, they may subscribe to data notifications and updates using the topic and MQP broker found from the GDC dataset discovery metadata. Datasets in the GDC are made available via the WMO Core Metadata Profile 2.0 (WCMP2) standard for discovery metadata, which supports a categorisation scheme consistent with the topic hierarchy to provide a seamless search experience compatible with the access modality provided by the MQP broker. In other words, the MQP topic and WIS 2.0 discovery metadata have the same vocabulary so that discovery, subscription, and download are consistent.
 
 ## Structure
 

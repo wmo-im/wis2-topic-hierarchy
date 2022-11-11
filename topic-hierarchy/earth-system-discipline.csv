@@ -2,7 +2,7 @@ Name,Description,Child
 weather,Weather,weather
 climate,Climate,climate
 hydrology,Hydrology,hydrology
-atmospheric-composition,Atmospheric Composition,atmospheric_composition
+atmospheric-composition,Atmospheric Composition,atmospheric-composition
 cryosphere,Cryosphere,cryosphere
 ocean,Ocean,ocean
-space-weather,Space Weather,space_weather
+space-weather,Space Weather,space-weather

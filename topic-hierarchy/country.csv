@@ -1,250 +1,250 @@
 Name,Description,Child
-afg,Afghanistan,center-id
-ala,Åland Islands,center-id
-alb,Albania,center-id
-dza,Algeria,center-id
-asm,American Samoa,center-id
-and,Andorra,center-id
-ago,Angola,center-id
-aia,Anguilla,center-id
-ata,Antarctica,center-id
-atg,Antigua and Barbuda,center-id
-arg,Argentina,center-id
-arm,Armenia,center-id
-abw,Aruba,center-id
-aus,Australia,center-id
-aut,Austria,center-id
-aze,Azerbaijan,center-id
-bhs,Bahamas,center-id
-bhr,Bahrain,center-id
-bgd,Bangladesh,center-id
-brb,Barbados,center-id
-blr,Belarus,center-id
-bel,Belgium,center-id
-blz,Belize,center-id
-ben,Benin,center-id
-bmu,Bermuda,center-id
-btn,Bhutan,center-id
-bol,Bolivia (Plurinational State of),center-id
-bes,"Bonaire, Sint Eustatius and Saba",center-id
-bih,Bosnia and Herzegovina,center-id
-bwa,Botswana,center-id
-bvt,Bouvet Island,center-id
-bra,Brazil,center-id
-iot,British Indian Ocean Territory,center-id
-brn,Brunei Darussalam,center-id
-bgr,Bulgaria,center-id
-bfa,Burkina Faso,center-id
-bdi,Burundi,center-id
-cpv,Cabo Verde,center-id
-khm,Cambodia,center-id
-cmr,Cameroon,center-id
-can,Canada,center-id
-cym,Cayman Islands,center-id
-caf,Central African Republic,center-id
-tcd,Chad,center-id
-chl,Chile,center-id
-chn,China,center-id
-cxr,Christmas Island,center-id
-cck,Cocos (Keeling) Islands,center-id
-col,Colombia,center-id
-com,Comoros,center-id
-cog,Congo,center-id
-cod,"Congo, Democratic Republic of the",center-id
-cok,Cook Islands,center-id
-cri,Costa Rica,center-id
-civ,Côte d'Ivoire,center-id
-hrv,Croatia,center-id
-cub,Cuba,center-id
-cuw,Curaçao,center-id
-cyp,Cyprus,center-id
-cze,Czechia,center-id
-dnk,Denmark,center-id
-dji,Djibouti,center-id
-dma,Dominica,center-id
-dom,Dominican Republic,center-id
-ecu,Ecuador,center-id
-egy,Egypt,center-id
-slv,El Salvador,center-id
-gnq,Equatorial Guinea,center-id
-eri,Eritrea,center-id
-est,Estonia,center-id
-swz,Eswatini,center-id
-eth,Ethiopia,center-id
-flk,Falkland Islands (Malvinas),center-id
-fro,Faroe Islands,center-id
-fji,Fiji,center-id
-fin,Finland,center-id
-fra,France,center-id
-guf,French Guiana,center-id
-pyf,French Polynesia,center-id
-atf,French Southern Territories,center-id
-gab,Gabon,center-id
-gmb,Gambia,center-id
-geo,Georgia,center-id
-deu,Germany,center-id
-gha,Ghana,center-id
-gib,Gibraltar,center-id
-grc,Greece,center-id
-grl,Greenland,center-id
-grd,Grenada,center-id
-glp,Guadeloupe,center-id
-gum,Guam,center-id
-gtm,Guatemala,center-id
-ggy,Guernsey,center-id
-gin,Guinea,center-id
-gnb,Guinea-Bissau,center-id
-guy,Guyana,center-id
-hti,Haiti,center-id
-hmd,Heard Island and McDonald Islands,center-id
-vat,Holy See,center-id
-hnd,Honduras,center-id
-hkg,Hong Kong,center-id
-hun,Hungary,center-id
-isl,Iceland,center-id
-ind,India,center-id
-idn,Indonesia,center-id
-irn,Iran (Islamic Republic of),center-id
-irq,Iraq,center-id
-irl,Ireland,center-id
-imn,Isle of Man,center-id
-isr,Israel,center-id
-ita,Italy,center-id
-jam,Jamaica,center-id
-jpn,Japan,center-id
-jey,Jersey,center-id
-jor,Jordan,center-id
-kaz,Kazakhstan,center-id
-ken,Kenya,center-id
-kir,Kiribati,center-id
-prk,Korea (Democratic People's Republic of),center-id
-kor,"Korea, Republic of",center-id
-kwt,Kuwait,center-id
-kgz,Kyrgyzstan,center-id
-lao,Lao People's Democratic Republic,center-id
-lva,Latvia,center-id
-lbn,Lebanon,center-id
-lso,Lesotho,center-id
-lbr,Liberia,center-id
-lby,Libya,center-id
-lie,Liechtenstein,center-id
-ltu,Lithuania,center-id
-lux,Luxembourg,center-id
-mac,Macao,center-id
-mdg,Madagascar,center-id
-mwi,Malawi,center-id
-mys,Malaysia,center-id
-mdv,Maldives,center-id
-mli,Mali,center-id
-mlt,Malta,center-id
-mhl,Marshall Islands,center-id
-mtq,Martinique,center-id
-mrt,Mauritania,center-id
-mus,Mauritius,center-id
-myt,Mayotte,center-id
-mex,Mexico,center-id
-fsm,Micronesia (Federated States of),center-id
-mda,"Moldova, Republic of",center-id
-mco,Monaco,center-id
-mng,Mongolia,center-id
-mne,Montenegro,center-id
-msr,Montserrat,center-id
-mar,Morocco,center-id
-moz,Mozambique,center-id
-mmr,Myanmar,center-id
-nam,Namibia,center-id
-nru,Nauru,center-id
-npl,Nepal,center-id
-nld,Netherlands,center-id
-ncl,New Caledonia,center-id
-nzl,New Zealand,center-id
-nic,Nicaragua,center-id
-ner,Niger,center-id
-nga,Nigeria,center-id
-niu,Niue,center-id
-nfk,Norfolk Island,center-id
-mkd,North Macedonia,center-id
-mnp,Northern Mariana Islands,center-id
-nor,Norway,center-id
-omn,Oman,center-id
-pak,Pakistan,center-id
-plw,Palau,center-id
-pse,"Palestine, State of",center-id
-pan,Panama,center-id
-png,Papua New Guinea,center-id
-pry,Paraguay,center-id
-per,Peru,center-id
-phl,Philippines,center-id
-pcn,Pitcairn,center-id
-pol,Poland,center-id
-prt,Portugal,center-id
-pri,Puerto Rico,center-id
-qat,Qatar,center-id
-reu,Réunion,center-id
-rou,Romania,center-id
-rus,Russian Federation,center-id
-rwa,Rwanda,center-id
-blm,Saint Barthélemy,center-id
-shn,"Saint Helena, Ascension and Tristan da Cunha",center-id
-kna,Saint Kitts and Nevis,center-id
-lca,Saint Lucia,center-id
-maf,Saint Martin (French part),center-id
-spm,Saint Pierre and Miquelon,center-id
-vct,Saint Vincent and the Grenadines,center-id
-wsm,Samoa,center-id
-smr,San Marino,center-id
-stp,Sao Tome and Principe,center-id
-sau,Saudi Arabia,center-id
-sen,Senegal,center-id
-srb,Serbia,center-id
-syc,Seychelles,center-id
-sle,Sierra Leone,center-id
-sgp,Singapore,center-id
-sxm,Sint Maarten (Dutch part),center-id
-svk,Slovakia,center-id
-svn,Slovenia,center-id
-slb,Solomon Islands,center-id
-som,Somalia,center-id
-zaf,South Africa,center-id
-sgs,South Georgia and the South Sandwich Islands,center-id
-ssd,South Sudan,center-id
-esp,Spain,center-id
-lka,Sri Lanka,center-id
-sdn,Sudan,center-id
-sur,Suriname,center-id
-sjm,Svalbard and Jan Mayen,center-id
-swe,Sweden,center-id
-che,Switzerland,center-id
-syr,Syrian Arab Republic,center-id
-twn,"Taiwan, Province of China",center-id
-tjk,Tajikistan,center-id
-tza,"Tanzania, United Republic of",center-id
-tha,Thailand,center-id
-tls,Timor-Leste,center-id
-tgo,Togo,center-id
-tkl,Tokelau,center-id
-ton,Tonga,center-id
-tto,Trinidad and Tobago,center-id
-tun,Tunisia,center-id
-tur,Turkey,center-id
-tkm,Turkmenistan,center-id
-tca,Turks and Caicos Islands,center-id
-tuv,Tuvalu,center-id
-uga,Uganda,center-id
-ukr,Ukraine,center-id
-are,United Arab Emirates,center-id
-gbr,United Kingdom of Great Britain and Northern Ireland,center-id
-usa,United States of America,center-id
-umi,United States Minor Outlying Islands,center-id
-ury,Uruguay,center-id
-uzb,Uzbekistan,center-id
-vut,Vanuatu,center-id
-ven,Venezuela (Bolivarian Republic of),center-id
-vnm,Viet Nam,center-id
-vgb,Virgin Islands (British),center-id
-vir,Virgin Islands (U.S.),center-id
-wlf,Wallis and Futuna,center-id
-esh,Western Sahara,center-id
-yem,Yemen,center-id
-zmb,Zambia,center-id
-zwe,Zimbabwe,center-id
+afg,Afghanistan,centre-id
+ala,Åland Islands,centre-id
+alb,Albania,centre-id
+dza,Algeria,centre-id
+asm,American Samoa,centre-id
+and,Andorra,centre-id
+ago,Angola,centre-id
+aia,Anguilla,centre-id
+ata,Antarctica,centre-id
+atg,Antigua and Barbuda,centre-id
+arg,Argentina,centre-id
+arm,Armenia,centre-id
+abw,Aruba,centre-id
+aus,Australia,centre-id
+aut,Austria,centre-id
+aze,Azerbaijan,centre-id
+bhs,Bahamas,centre-id
+bhr,Bahrain,centre-id
+bgd,Bangladesh,centre-id
+brb,Barbados,centre-id
+blr,Belarus,centre-id
+bel,Belgium,centre-id
+blz,Belize,centre-id
+ben,Benin,centre-id
+bmu,Bermuda,centre-id
+btn,Bhutan,centre-id
+bol,Bolivia (Plurinational State of),centre-id
+bes,"Bonaire, Sint Eustatius and Saba",centre-id
+bih,Bosnia and Herzegovina,centre-id
+bwa,Botswana,centre-id
+bvt,Bouvet Island,centre-id
+bra,Brazil,centre-id
+iot,British Indian Ocean Territory,centre-id
+brn,Brunei Darussalam,centre-id
+bgr,Bulgaria,centre-id
+bfa,Burkina Faso,centre-id
+bdi,Burundi,centre-id
+cpv,Cabo Verde,centre-id
+khm,Cambodia,centre-id
+cmr,Cameroon,centre-id
+can,Canada,centre-id
+cym,Cayman Islands,centre-id
+caf,Central African Republic,centre-id
+tcd,Chad,centre-id
+chl,Chile,centre-id
+chn,China,centre-id
+cxr,Christmas Island,centre-id
+cck,Cocos (Keeling) Islands,centre-id
+col,Colombia,centre-id
+com,Comoros,centre-id
+cog,Congo,centre-id
+cod,"Congo, Democratic Republic of the",centre-id
+cok,Cook Islands,centre-id
+cri,Costa Rica,centre-id
+civ,Côte d'Ivoire,centre-id
+hrv,Croatia,centre-id
+cub,Cuba,centre-id
+cuw,Curaçao,centre-id
+cyp,Cyprus,centre-id
+cze,Czechia,centre-id
+dnk,Denmark,centre-id
+dji,Djibouti,centre-id
+dma,Dominica,centre-id
+dom,Dominican Republic,centre-id
+ecu,Ecuador,centre-id
+egy,Egypt,centre-id
+slv,El Salvador,centre-id
+gnq,Equatorial Guinea,centre-id
+eri,Eritrea,centre-id
+est,Estonia,centre-id
+swz,Eswatini,centre-id
+eth,Ethiopia,centre-id
+flk,Falkland Islands (Malvinas),centre-id
+fro,Faroe Islands,centre-id
+fji,Fiji,centre-id
+fin,Finland,centre-id
+fra,France,centre-id
+guf,French Guiana,centre-id
+pyf,French Polynesia,centre-id
+atf,French Southern Territories,centre-id
+gab,Gabon,centre-id
+gmb,Gambia,centre-id
+geo,Georgia,centre-id
+deu,Germany,centre-id
+gha,Ghana,centre-id
+gib,Gibraltar,centre-id
+grc,Greece,centre-id
+grl,Greenland,centre-id
+grd,Grenada,centre-id
+glp,Guadeloupe,centre-id
+gum,Guam,centre-id
+gtm,Guatemala,centre-id
+ggy,Guernsey,centre-id
+gin,Guinea,centre-id
+gnb,Guinea-Bissau,centre-id
+guy,Guyana,centre-id
+hti,Haiti,centre-id
+hmd,Heard Island and McDonald Islands,centre-id
+vat,Holy See,centre-id
+hnd,Honduras,centre-id
+hkg,Hong Kong,centre-id
+hun,Hungary,centre-id
+isl,Iceland,centre-id
+ind,India,centre-id
+idn,Indonesia,centre-id
+irn,Iran (Islamic Republic of),centre-id
+irq,Iraq,centre-id
+irl,Ireland,centre-id
+imn,Isle of Man,centre-id
+isr,Israel,centre-id
+ita,Italy,centre-id
+jam,Jamaica,centre-id
+jpn,Japan,centre-id
+jey,Jersey,centre-id
+jor,Jordan,centre-id
+kaz,Kazakhstan,centre-id
+ken,Kenya,centre-id
+kir,Kiribati,centre-id
+prk,Korea (Democratic People's Republic of),centre-id
+kor,"Korea, Republic of",centre-id
+kwt,Kuwait,centre-id
+kgz,Kyrgyzstan,centre-id
+lao,Lao People's Democratic Republic,centre-id
+lva,Latvia,centre-id
+lbn,Lebanon,centre-id
+lso,Lesotho,centre-id
+lbr,Liberia,centre-id
+lby,Libya,centre-id
+lie,Liechtenstein,centre-id
+ltu,Lithuania,centre-id
+lux,Luxembourg,centre-id
+mac,Macao,centre-id
+mdg,Madagascar,centre-id
+mwi,Malawi,centre-id
+mys,Malaysia,centre-id
+mdv,Maldives,centre-id
+mli,Mali,centre-id
+mlt,Malta,centre-id
+mhl,Marshall Islands,centre-id
+mtq,Martinique,centre-id
+mrt,Mauritania,centre-id
+mus,Mauritius,centre-id
+myt,Mayotte,centre-id
+mex,Mexico,centre-id
+fsm,Micronesia (Federated States of),centre-id
+mda,"Moldova, Republic of",centre-id
+mco,Monaco,centre-id
+mng,Mongolia,centre-id
+mne,Montenegro,centre-id
+msr,Montserrat,centre-id
+mar,Morocco,centre-id
+moz,Mozambique,centre-id
+mmr,Myanmar,centre-id
+nam,Namibia,centre-id
+nru,Nauru,centre-id
+npl,Nepal,centre-id
+nld,Netherlands,centre-id
+ncl,New Caledonia,centre-id
+nzl,New Zealand,centre-id
+nic,Nicaragua,centre-id
+ner,Niger,centre-id
+nga,Nigeria,centre-id
+niu,Niue,centre-id
+nfk,Norfolk Island,centre-id
+mkd,North Macedonia,centre-id
+mnp,Northern Mariana Islands,centre-id
+nor,Norway,centre-id
+omn,Oman,centre-id
+pak,Pakistan,centre-id
+plw,Palau,centre-id
+pse,"Palestine, State of",centre-id
+pan,Panama,centre-id
+png,Papua New Guinea,centre-id
+pry,Paraguay,centre-id
+per,Peru,centre-id
+phl,Philippines,centre-id
+pcn,Pitcairn,centre-id
+pol,Poland,centre-id
+prt,Portugal,centre-id
+pri,Puerto Rico,centre-id
+qat,Qatar,centre-id
+reu,Réunion,centre-id
+rou,Romania,centre-id
+rus,Russian Federation,centre-id
+rwa,Rwanda,centre-id
+blm,Saint Barthélemy,centre-id
+shn,"Saint Helena, Ascension and Tristan da Cunha",centre-id
+kna,Saint Kitts and Nevis,centre-id
+lca,Saint Lucia,centre-id
+maf,Saint Martin (French part),centre-id
+spm,Saint Pierre and Miquelon,centre-id
+vct,Saint Vincent and the Grenadines,centre-id
+wsm,Samoa,centre-id
+smr,San Marino,centre-id
+stp,Sao Tome and Principe,centre-id
+sau,Saudi Arabia,centre-id
+sen,Senegal,centre-id
+srb,Serbia,centre-id
+syc,Seychelles,centre-id
+sle,Sierra Leone,centre-id
+sgp,Singapore,centre-id
+sxm,Sint Maarten (Dutch part),centre-id
+svk,Slovakia,centre-id
+svn,Slovenia,centre-id
+slb,Solomon Islands,centre-id
+som,Somalia,centre-id
+zaf,South Africa,centre-id
+sgs,South Georgia and the South Sandwich Islands,centre-id
+ssd,South Sudan,centre-id
+esp,Spain,centre-id
+lka,Sri Lanka,centre-id
+sdn,Sudan,centre-id
+sur,Suriname,centre-id
+sjm,Svalbard and Jan Mayen,centre-id
+swe,Sweden,centre-id
+che,Switzerland,centre-id
+syr,Syrian Arab Republic,centre-id
+twn,"Taiwan, Province of China",centre-id
+tjk,Tajikistan,centre-id
+tza,"Tanzania, United Republic of",centre-id
+tha,Thailand,centre-id
+tls,Timor-Leste,centre-id
+tgo,Togo,centre-id
+tkl,Tokelau,centre-id
+ton,Tonga,centre-id
+tto,Trinidad and Tobago,centre-id
+tun,Tunisia,centre-id
+tur,Turkey,centre-id
+tkm,Turkmenistan,centre-id
+tca,Turks and Caicos Islands,centre-id
+tuv,Tuvalu,centre-id
+uga,Uganda,centre-id
+ukr,Ukraine,centre-id
+are,United Arab Emirates,centre-id
+gbr,United Kingdom of Great Britain and Northern Ireland,centre-id
+usa,United States of America,centre-id
+umi,United States Minor Outlying Islands,centre-id
+ury,Uruguay,centre-id
+uzb,Uzbekistan,centre-id
+vut,Vanuatu,centre-id
+ven,Venezuela (Bolivarian Republic of),centre-id
+vnm,Viet Nam,centre-id
+vgb,Virgin Islands (British),centre-id
+vir,Virgin Islands (U.S.),centre-id
+wlf,Wallis and Futuna,centre-id
+esh,Western Sahara,centre-id
+yem,Yemen,centre-id
+zmb,Zambia,centre-id
+zwe,Zimbabwe,centre-id

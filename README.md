@@ -32,7 +32,7 @@ The primary topic levels are described in the following table:
 | **2** | version | Alphabetical version of the topic hierarchy |
 | **3** | wis2 | Fixed value of `wis2` for WIS 2.0 |
 | **4** | country | Lower case representation of ISO3166 3-letter code. Includes extensions for partner organizations |
-| **5** | center-id | Acronym as specified by member and endorsed by the PR of the country and by WMO |
+| **5** | centre-id | Acronym as specified by member and endorsed by the PR of the country and by WMO |
 | **6** | resource-type | WIS 2.0 resources types (`data`, `metadata`, `reports` [from monitoring activities]) |
 | **7** | data-policy | Data policy as defined by the WMO Unified Data Policy. `core` data are available from the Global Caches with open access on a free and unrestricted basis. Notifications for `core` and `recommended` data are available by subscription to Global Brokers. `recommended` data are downloaded from the original NC/DCPC and may require authentication/authorisation |
 | **8** | earth-system-discipline | As per Annex 1 of resolution 1 Cg-Ext-2021 |

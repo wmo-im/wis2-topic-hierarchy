@@ -1,2 +1,4 @@
 Name,Description,Child
+eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canada",resource-type
+woudc,World Ozone and Ultraviolet Radiation Data Centre,resource-type
 my-centre,my centre,resource-type

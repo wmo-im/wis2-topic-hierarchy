@@ -30,4 +30,4 @@ jobs:
         mv /tmp/all.json.zip .
         ls -alh
         git commit -m "generate bundle" all.json.zip
-        git push
+        git push -f origin main

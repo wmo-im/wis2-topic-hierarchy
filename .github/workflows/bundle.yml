@@ -1,0 +1,33 @@
+name: build bundle ⚙️
+
+on: [ push ]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      name: Setup Python ${{ matrix.python-version }}
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install requirements 📦
+      run: |
+        python3 -m pip install --upgrade pip
+        pip3 install https://github.com/wmo-im/pywcmp/archive/master.zip
+        pip3 install -U jsonschema
+    - name: Cache resources bundle 📦
+      run: pywcmp bundle sync
+    - uses: actions/checkout@v3
+      with:
+        ref: gh-pages
+    - name: update gh-pages branch and publish
+      run: | 
+        git config --global user.email "tomkralidis@gmail.com"
+        git config --global user.name "Tom Kralidis"
+        zip -j /tmp/all.json.zip ~/.pywcmp/wis2-topic-hierarchy/all.json
+        mv /tmp/all.json.zip .
+        ls -alh
+        git commit -m "generate bundle" all.json.zip
+        git push -f origin main

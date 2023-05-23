@@ -1,0 +1,6 @@
+name,description,status
+nowcasting,A prediction system up to the order of 120 minutes ahead,draft
+short-range,A prediction system up to the order of 72 hours ahead,draft
+medium-range,A prediction system up to the order of 240 hours ahead,draft
+subseasonal,A prediction system up to the order of 30 days ahead,draft
+seasonal,A prediction system up to the order of 6 months ahead,draft

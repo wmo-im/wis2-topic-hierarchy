@@ -1,6 +1,11 @@
 name: build bundle ⚙️
 
-on: [ push ]
+on:
+  push:
+    branches:
+    - main
+    paths:
+    - 'topic-hierarchy/**.csv'
 
 jobs:
   main:

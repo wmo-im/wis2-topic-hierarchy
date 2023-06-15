@@ -24,16 +24,4 @@ The WIS2 topic hierarchy has been developed according to the classification of t
 1. Primary topic levels (levels 1-8): topic structure applies to all data and services in WIS2 and is managed by the WMO Secretariat
 2. Domain-specific topic subcategory levels (level 9 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains.
 
-The primary topic levels are described in the following table:
-
-| **Level** | **Name** | **Notes** |
-| --- | --- | --- |
-| **1** | channel | Location of where the data originates from (data providers [`origin`] or global services [`cache`]) |
-| **2** | version | Alphabetical version of the topic hierarchy |
-| **3** | system | Fixed value of `wis2` for WIS2 |
-| **4** | country | Lower case representation of ISO3166 3-letter code. Includes extensions for partner organizations |
-| **5** | centre-id | Acronym as specified by member and endorsed by the PR of the country and by WMO |
-| **6** | resource-type | WIS2 resources types (`data`, `metadata`, `reports` [from monitoring activities]) |
-| **7** | data-policy | Data policy as defined by the WMO Unified Data Policy. `core` data are available from the Global Caches with open access on a free and unrestricted basis. Notifications for `core` and `recommended` data are available by subscription to Global Brokers. `recommended` data are downloaded from the original NC/DCPC and may require authentication/authorisation |
-| **8** | earth-system-discipline | As per Annex 1 of resolution 1 Cg-Ext-2021 |
-| **9** | earth-system-discipline-subcategory | As proposed by domain experts and further approved by INFCOM|
+Primary topic levels are described [topic-hierarchy.csv](topic-hierarchy.csv).

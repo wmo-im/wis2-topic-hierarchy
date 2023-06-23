@@ -3,4 +3,5 @@ eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canad
 woudc,World Ozone and Ultraviolet Radiation Data Centre,resource-type
 meteo-france,Météo-France,resource-type
 dwd,Deutscher Wetterdienst,resource-type
+ecmwf,European Centre for Medium-Range Weather Forecasts,resource-type
 my-centre,my centre,resource-type

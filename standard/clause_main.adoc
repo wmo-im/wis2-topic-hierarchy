@@ -2,14 +2,14 @@
 
 === Purpose
 
-This document is intended to define the topic structure in support of WIS data
-classification, discovery, and access.
+This document is intended to define the topic structure in support of WIS data notifications exchange, 
+discovery, and access.
 
-The core driver of WTH data discovery and filteing as part of the WMO Information System (WIS).footnote:[https://community.wmo.int/activity-areas/wmo-information-system-wis]
+The core driver of WTH is data discovery and filtering as part of the WMO Information System (WIS).footnote:[https://community.wmo.int/activity-areas/wmo-information-system-wis]
 
 === Scope
 
-This document defines the content and structure of WIS data as part of the WIS Global Broker (GB) and WIS Nodes.
+This document defines the topic-hierarchy used by WIS message brokers to manage message delivery to the respective group of recipients.
 All other topic structure specifications are not in scope.
 
 === Audience
@@ -17,10 +17,9 @@ All other topic structure specifications are not in scope.
 The target stakeholder audiences for this document include (but are not limited to):
 
 * Metadata providers (NCs, DCPCs)
-* WIS Global Discovery Catalogues (GDCs)
+* WIS Global Services (Global Discovery Catalogues (GDCs), Global Brokers (GB), Global Caches (GC), Global Monitoring (GM))
 * WIS Nodes
 * GAW World Data Centres (WDCs)
-* WIS Monitoring
 * Metadata implementors (generation, ingest)
 
 == Terms and definitions
@@ -124,7 +123,7 @@ The WIS Topic Hierarchy (WTH) provides a structure used by data providers and WI
 
 === Real-time data sharing
 
-WIS real-time data sharing is based on a message queuing protocol (MQP) supporting a publication/subscription mechanism. A user can subscribe to an MQP broker to receive real-time notifications that some data can be downloaded. The notification message received from the MQP broker contains a URL to download the data. In addition, the MQP broker offers a range of topics organised in a hierarchy. The users can select their topics of interest and subscribe to them to receive notifications and download data relevant to their work.
+WIS real-time data sharing is based on a message queuing protocol (MQP) supporting a publication/subscription mechanism. A user can subscribe to an MQP broker to receive real-time notifications. The notifications can be sent for new or updated data, for metadata, or also for reports. The notification message received from the MQP broker contains a URL to download the data. The MQP broker offers a range of topics organised in a hierarchy. The users can select their topics of interest and subscribe to them to receive notifications and download data relevant to their work.
 
 === Data discovery
 
@@ -143,7 +142,7 @@ The WIS Topic Hierarchy has been developed according to the classification of th
 
 == Management
 
-The WTH is managed by the WMO Task Team on WIS Metadata. Updates to the WTH are made as part of two workflows: core levels, and domain specific vocabularies.
+The WTH is managed by the WMO Task Team on WIS Metadata. Updates to the WTH are made as part of two workflows: core levels, and domain specific levels.
 
 === Responsibility
 
@@ -151,18 +150,18 @@ The WTH is managed by the WMO Task Team on WIS Metadata. Updates to the WTH are 
 
 WTH core levels (1-8) are managed by the WMO Task Team on WIS Metadata.
 
-==== Domain specific vocabularies
+==== Domain specific levels
 
-WTH domain specific vocabularies (level 9 and beyond) are determined by various teams familiar with the given domain.
+WTH domain specific levels (level 9 and beyond) are determined by various teams familiar with the given domain.
 
 === Managing updates
 
-==== Domain specific vocabularies
+==== Domain specific levels
 
-WTH domain specific vocabularies are updated using the following steps:
+WTH domain specific levels are updated using the following steps:
 
 - domain specific teams submit proposals to TT-WISMD
-- TT-WISMD peforms a review the proposal and curates the content for consistency.  Discussion and clarifications on the proposal are performed as required
+- TT-WISMD performs a review of the proposal and curates the content for consistency.  Discussion and clarifications on the proposal are performed as required
 - once consensus is reached, TT-WISMD approves the proposal for inclusion into the next release of WTH
 - Final approval of the WTH updates will go through the WMO fast-track amendment process.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]
 

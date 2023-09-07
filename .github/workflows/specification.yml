@@ -1,0 +1,44 @@
+name: WTH specification
+
+on:
+  push:
+    branches:
+    - main
+    paths:
+    - 'standard/**'
+
+env:
+  FILE_BASENAME: wis2-topic-hierarchy-DRAFT
+
+jobs:
+  build-wis2-topic-hierarchy:
+    name: Build WIS2 Topic Hierarchy documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -y \
+          && sudo apt-get install -y asciidoctor ruby-asciidoctor-pdf pandoc
+      - name: checkout repository
+        uses: actions/checkout@v3
+      - name: build documentation
+        run: |
+          cd standard \
+          && asciidoctor --trace -o /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.html index.adoc \
+          && asciidoctor --trace --backend docbook --out-file - index.adoc | pandoc --from docbook --to docx --output /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.docx \
+          && asciidoctor --trace -r asciidoctor-pdf --trace -b pdf -o /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.pdf index.adoc \
+          && cd ..
+      - name: checkout gh-pages branch
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+      - name: update gh-pages branch and publish
+        run: | 
+          git checkout gh-pages
+          git config --global user.email "tomkralidis@gmail.com"
+          git config --global user.name "Tom Kralidis"
+          rm -rf standard
+          mv -f /tmp/wis2-topic-hierarchy/* .
+          git add .
+          git commit -am "update WTH build"
+          git push

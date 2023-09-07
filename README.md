@@ -1,27 +1,7 @@
-# WIS2 topic hierarchy
+[![Build Status](https://github.com/wmo-im/wis2-topic-hierarchy/workflows/WTH%20specification/badge.svg)](https://github.com/wmo-im/wis2-topic-hierarchy/actions/workflows/main.yml)
+[![Bundle](https://github.com/wmo-im/wis2-topic-hierarchy/workflows/WTH%20specification/badge.svg)](https://github.com/wmo-im/wis2-topic-hierarchy/actions/workflows/main.yml)
 
-## Overview
+# wis2-topic-hierarchy
 
-The WIS2 topic hierarchy provides a central classification and categorization scheme used by data
-providers and WIS2 Global Services in support of core WIS2 workflows: publish, discover, subscribe
-and download.
-
-## Real-time data sharing
-
-WIS2 real-time data sharing is based on a message queuing protocol (MQP) supporting a publication/subscription mechanism. A user can subscribe to an MQP broker to receive real-time notifications that some data can be downloaded. The notification message received from the MQP broker contains a URL to download the data. In addition, the MQP broker offers a range of topics organised in a hierarchy. The users can select their topics of interest and subscribe to them to receive notifications and download data relevant to their work.
-
-## Data discovery
-Users can discover datasets from the Global Discovery Catalogue (GDC). Once a user has identified a dataset of interest, they may subscribe to data notifications and updates using the topic and MQP broker found from the GDC dataset discovery metadata. Datasets in the GDC are made available via the WMO Core Metadata Profile 2 (WCMP2) standard for discovery metadata, which supports a categorisation scheme consistent with the topic hierarchy to provide a seamless search experience compatible with the access modality provided by the MQP broker. In other words, the MQP topic and WIS2 discovery metadata have the same vocabulary so that discovery, subscription, and download are consistent.
-
-## Structure
-
-The structure of the topic hierarchy underpins the discovery and sharing of data in WIS2, and it has to be standardized across all the WIS2 services to provide consistent search and access to the user.
-
-Recalling that WIS2 is designed to support the WMO Unified Data Policy, the topic hierarchy must be aligned with [WMO Res. 1 Cg-EXT-21 - Unified Data Policy](https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/Cg-Ext2021-d04-1-WMO-UNIFIED-POLICY-FOR-THE-INTERNATIONAL-approved_en_0.pdf?4pv38FtU6R4fDNtwqOxjBCndLIfntWeR).
-
-The WIS2 topic hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021), and it is managed in two parts:
-
-1. Primary topic levels (levels 1-8): topic structure applies to all data and services in WIS2 and is managed by the WMO Secretariat
-2. Domain-specific topic subcategory levels (level 9 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains.
-
-Primary topic levels are described [topic-hierarchy.csv](topic-hierarchy.csv).
+WIS2 Topic Hierarchy
+* View drafts: https://wmo-im.github.io/wis2-topic-hierarchy

@@ -27,9 +27,8 @@ jobs:
           cd standard \
           && asciidoctor --trace -o /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.html index.adoc \
           && asciidoctor --trace --backend docbook --out-file - index.adoc | pandoc --from docbook --to docx --output /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.docx \
+          && asciidoctor --trace -r asciidoctor-pdf --trace -b pdf -o /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.pdf index.adoc \
           && cd ..
-#          && asciidoctor --trace -r asciidoctor-pdf --trace -b pdf -o /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.pdf index.adoc \
-#          && cd ..
       - name: checkout gh-pages branch
         uses: actions/checkout@v3
         with:

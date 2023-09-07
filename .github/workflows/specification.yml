@@ -4,8 +4,8 @@ on:
   push:
     branches:
     - main
-    paths:
-    - 'standard/**'
+#    paths:
+#    - 'standard/**'
 
 env:
   FILE_BASENAME: wis2-topic-hierarchy-DRAFT
@@ -26,7 +26,7 @@ jobs:
           cd standard \
           && asciidoctor --trace -o /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.html index.adoc \
           && asciidoctor --trace --backend docbook --out-file - index.adoc | pandoc --from docbook --to docx --output /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.docx \
-          && asciidoctor --trace -r asciidoctor-pdf --trace -b pdf -o /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.pdf index.adoc \
+#          && asciidoctor --trace -r asciidoctor-pdf --trace -b pdf -o /tmp/wis2-topic-hierarchy/standard/${FILE_BASENAME}.pdf index.adoc \
           && cd ..
       - name: checkout gh-pages branch
         uses: actions/checkout@v3

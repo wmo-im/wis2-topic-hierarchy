@@ -1,11 +1,12 @@
 name: WTH specification
 
 on:
+  pull_request:
   push:
     branches:
     - main
-    paths:
-    - 'standard/**'
+#    paths:
+#    - 'standard/**'
 
 env:
   FILE_BASENAME: wis2-topic-hierarchy-DRAFT
@@ -18,7 +19,8 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update -y \
-          && sudo apt-get install -y asciidoctor ruby-asciidoctor-pdf pandoc
+          && sudo apt-get install -y pandoc \
+          && sudo gem install asciidoctor asciidoctor-pdf
       - name: checkout repository
         uses: actions/checkout@v3
       - name: build documentation

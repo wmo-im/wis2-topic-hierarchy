@@ -4,4 +4,40 @@ woudc,World Ozone and Ultraviolet Radiation Data Centre,resource-type
 meteo-france,Météo-France,resource-type
 dwd,Deutscher Wetterdienst,resource-type
 ecmwf,European Centre for Medium-Range Weather Forecasts,resource-type
-my-centre,my centre,resource-type
+antigua_met_wis2node,Antigua Met Service,resource-type
+aviamettelecom,Roshydromet,resource-type
+belize_nms_wis2node,Belize Met Service,resource-type
+brazza_met_centre,Congo Met Service,resource-type
+burkina_faso_met_centre,Burkina Faso Met Service,resource-type
+cameroon_met_centre,Cameroon Met Service,resource-type
+casablanca_met_centre,Maroc-Météo,resource-type
+cayman_nws_wis2node,Cayman Island Met Service,resource-type
+dz,Algeria Met Service,resource-type
+eswatini_met_service,Eswatini Met Service,resource-type
+eumetsat,Eumetsat,resource-type
+globalbrokercma,Global Broker China Met Agency,resource-type
+globalbrokermf,Global Broker Météo-France,resource-type
+globalcachedwd,Global Cache Deutscher Wetterdienst,resource-type
+globalcachejma,Global Cache Japan Met Agency,resource-type
+globalcachesynoptic,Global Cache USA/UK/Synoptic,resource-type
+gts_to_wis2_dwd,GTS to WIS Gateway Deutscher Wetterdienst,resource-type
+guinea_met_centre,Guinea Met Service,resource-type
+guyana_nms_wis2node,Guyana Met Service,resource-type
+india_met_centre,India Met Service,resource-type
+jamaica_msj_wis2node,Jamaica Met Service,resource-type
+ken_met_centre,Kenya Met Service,resource-type
+kma,Korea Meteorological Agency,resource-type
+malawi_met_service,Malawai Met Service,resource-type
+meteoam,Italia Met Service,resource-type
+namibia_met_service,Namibia Met Service,resource-type
+nigeria_met_centre,Nigeria Met Service,resource-type
+poland,Poland Met Service,resource-type
+sabm,Argentina Met Service,resource-type
+smhi,Sweden Met Service,resource-type
+stkitts_met_wis2node,St Kitts and Nevis Met Service,resource-type
+swic,Severe Weather Information Centre,resource-type
+synoptic_data_pbc,Synoptic (USA Synop),resource-type
+ttpp_wis2node,Trinidad and Tobago Met Service,resource-type
+zambia_met_service,Zambia Met Service,resource-type
+za_met_centre,South Africa Met Service,resource-type
+zimbabwe_met_service,Zimbabwe Met Service,resource-type

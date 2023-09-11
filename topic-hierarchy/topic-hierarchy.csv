@@ -1,11 +1,11 @@
-name,description,status
+name,description
 channel,"Location where the data originates from, either 'origin' or cache'. (Level 1)"
 version,"Alphabetical version of the topic hierarchy. (Level 2)"
-system,"Fixed value of 'wis2'. (Level 3)" 
+system,"Fixed value of 'wis2'. (Level 3)"
 country,"Lower case representation of ISO3166 three letter code and it includes extensions for partner organizations. (Level 4)" 
 centre-id,"Acronym of centre as specified by member and endorsed by the PR of the country and by WMO. (Level 5)" 
 resource-type,"WIS2 resource type ('data', 'metadata', 'service', or 'report'). (Level 6)"
-data-policy,"Data policy as defined by the WMO Unified Data Policy. 'Core' data should be availabel from the Global Caches with open access on a free and unrestricted basis. 'Recommended' data are available from the original NC/DCPC and may require authentication or authorisation. (Level 7)"
+data-policy,"Data policy as defined by the WMO Unified Data Policy. 'Core' data should be available from the Global Caches with open access on a free and unrestricted basis. 'Recommended' data are available from the original NC/DCPC and may require authentication or authorisation. (Level 7)"
 atmospheric-composition,"High-level category as identified in Annex 1 of the Unified Data Policy, including, but not limited to, the observing component of the Global Atmosphere Watch Programme and other information on the chemical composition and related physical characteristics of the atmosphere that are produced in all parts of the globe. These data support multiple applications and are needed in order to reduce environmental risks to society, meet the requirements of environmental conventions, strengthen capabilities to predict climate, weather and air quality, and contribute to scientific assessments in support of environmental policy. (Level 8)"
 climate,"High-level category as identified in Annex 1 of the Unified Data Policy, including, but not limited to, current and historic time series data needed to understand climate change, assess the associated impacts and risks for lives, livelihoods, and property and support climate services. Data shall be made available in a timely manner, with a tentative maximum delay of one year. (Level 8)"
 cryosphere,"High-level category as identified in Annex 1 of the Unified Data Policy, including, but not limited to, monitoring data on snow, freshwater and sea ice, glaciers and ice caps, permafrost and seasonally frozen ground, ice sheets, ice shelves and icebergs that are necessary for specified applications. (Level 8)"

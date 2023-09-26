@@ -1,7 +1,7 @@
 Name,Description,Child
-eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canada",resource-type
-woudc,World Ozone and Ultraviolet Radiation Data Centre,resource-type
-meteo-france,Météo-France,resource-type
-dwd,Deutscher Wetterdienst,resource-type
-ecmwf,European Centre for Medium-Range Weather Forecasts,resource-type
-my-centre,my centre,resource-type
+eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canada",notification-type
+woudc,World Ozone and Ultraviolet Radiation Data Centre,notification-type
+meteo-france,Météo-France,notification-type
+dwd,Deutscher Wetterdienst,notification-type
+ecmwf,European Centre for Medium-Range Weather Forecasts,notification-type
+my-centre,my centre,notification-type

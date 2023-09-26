@@ -1,0 +1,42 @@
+== The WIS2 Topic Hierarchy
+
+The WIS Topic Hierarchy (WTH) provides a structure used by data providers and WIS Global Services in support of core WIS workflows: publish, discover, subscribe and download.
+
+=== Conformance Class Core
+
+==== Overview
+
+This Core Conformance Class provides requirements to articulate the required elements of the definition and management of the WIS2 Topic Hierarchy.
+
+include::../requirements/requirements_class_core.adoc[]
+
+The standard topic structure ensures that the WIS2 ecosystem (data publisher, data user, and global services) is a robust, effective, and unified data exchange platform for weather, climate, and water.
+
+==== Management
+
+The WTH is managed by the WMO Task Team on WIS Metadata. Updates to the WTH are made as part of two workflows: core levels, and domain specific levels.
+
+The WIS Topic Hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021), and it is managed in two parts:
+
+1. Primary topic levels (levels 1-8): topic structure applies to all data and services in WIS
+2. Domain specific topic subcategory levels (level 9 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains.
+
+include::../requirements/core/REQ_management.adoc[]
+
+==== Versioning
+
+The topic hierarchy version helps data providers and data consumers with change management and transition in relation to updates.
+
+include::../requirements/core/REQ_versioning.adoc[]
+
+==== Conventions
+
+All levels of the topic hierarchy are defined in a consistent manner to support a normalized and predictable structure.
+
+include::../requirements/core/REQ_conventions.adoc[]
+
+==== Publishing guidelines
+
+For maximum utility and efficient management of topics, data, metadata, and reports need to be published to a minimum level.  This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).
+
+include::../requirements/core/REQ_publishing.adoc[]

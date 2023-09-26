@@ -1,0 +1,11 @@
+[[req_core_versioning]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement {counter:req-id}* |*/req/core/versioning*
+^|A |A removal of a topic at any level SHALL result in a major version update.
+^|B |A renaming of a topic at any level SHALL result in a major version update.
+^|C |A change in structure of the topic hierarchy SHALL result in a major version update.
+^|D |A new topic SHALL NOT result in any version update.
+^|E |A major version SHALL result in a change / bump to the version level (i.e. ``a`` -> ``b``).
+^|F |A minor version SHALL NOT result in any changes to the version level.
+|===

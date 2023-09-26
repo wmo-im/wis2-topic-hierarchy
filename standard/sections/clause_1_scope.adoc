@@ -1,0 +1,7 @@
+== Scope
+
+This document defines the topic hierarchy used by WIS message brokers to manage message delivery to subscribers and / or recipients.
+
+This specification defines the conformance requirements for the WIS2 Topic Hierarchy.  Annex A defines the abstract test suite.
+
+All other topic structure specifications are not in scope.

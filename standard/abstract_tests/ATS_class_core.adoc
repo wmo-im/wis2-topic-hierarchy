@@ -1,0 +1,7 @@
+[[ats_core]]
+====
+[%metadata]
+label:: http://www.wmo.int/spec/wth/1/conf/core
+subject:: Requirements Class "core"
+classification:: Target Type:Topic Classification
+====

@@ -1,0 +1,9 @@
+[appendix]
+:appendix-caption: Annex
+[[Bibliography]]
+= Bibliography
+
+* [[OASIS-mqtt5]] OASIS: MQTT Version 5.0 (2019) footnote:[https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html]
+* [[OASIS-mqtt311]] OASIS: MQTT Version 3.1.1 (2014) footnote:[http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html]
+* [[Wikipedia-PubSub]] Wikipedia: Publish-subscribe pattern (2023) footnote:[https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern]
+* [[ITU-T50]] International Telecommunications Union (ITU): T.50 : International Reference Alphabet (IRA) (Formerly International Alphabet No. 5 or IA5) - Information technology - 7-bit coded character set for information interchange footnote:[https://www.itu.int/rec/T-REC-T.50]

@@ -483,98 +483,164 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc">
 <div id="toctitle" class="title">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_overview">1. Overview</a>
+<li><a href="#_scope">1. Scope</a></li>
+<li><a href="#_conformance">2. Conformance</a></li>
+<li><a href="#_references">3. References</a></li>
+<li><a href="#_terms_and_definitions">4. Terms and definitions</a>
 <ul class="sectlevel2">
-<li><a href="#_purpose">1.1. Purpose</a></li>
-<li><a href="#_scope">1.2. Scope</a></li>
-<li><a href="#_audience">1.3. Audience</a></li>
+<li><a href="#_abbreviated_terms">4.1. Abbreviated terms</a></li>
 </ul>
 </li>
-<li><a href="#_terms_and_definitions">2. Terms and definitions</a>
+<li><a href="#_conventions">5. Conventions</a>
 <ul class="sectlevel2">
-<li><a href="#_abbreviated_terms">2.1. Abbreviated terms</a></li>
+<li><a href="#_identifiers">5.1. Identifiers</a></li>
+<li><a href="#_examples">5.2. Examples</a></li>
+<li><a href="#_codelists_bundle">5.3. Codelists bundle</a></li>
 </ul>
 </li>
-<li><a href="#_conventions">3. Conventions</a>
+<li><a href="#_introduction">6. Introduction</a>
 <ul class="sectlevel2">
-<li><a href="#_publication">3.1. Publication</a></li>
+<li><a href="#_the_wis_topic_hierarchy">6.1. The WIS Topic Hierarchy</a></li>
+<li><a href="#_real_time_data_sharing">6.2. Real-time data sharing</a></li>
+<li><a href="#_data_discovery">6.3. Data discovery</a></li>
+<li><a href="#_structure">6.4. Structure</a></li>
 </ul>
 </li>
-<li><a href="#_the_wis_topic_hierarchy">4. The WIS Topic Hierarchy</a>
+<li><a href="#_the_wis2_topic_hierarchy">7. The WIS2 Topic Hierarchy</a>
 <ul class="sectlevel2">
-<li><a href="#_real_time_data_sharing">4.1. Real-time data sharing</a></li>
-<li><a href="#_data_discovery">4.2. Data discovery</a></li>
-<li><a href="#_structure">4.3. Structure</a></li>
+<li><a href="#_conformance_class_core">7.1. Conformance Class Core</a></li>
 </ul>
 </li>
-<li><a href="#_management">5. Management</a>
+<li><a href="#_conformance_class_abstract_test_suite_normative">Annex A: Conformance Class Abstract Test Suite (Normative)</a>
 <ul class="sectlevel2">
-<li><a href="#_responsibility">5.1. Responsibility</a></li>
-<li><a href="#_managing_updates">5.2. Managing updates</a></li>
-<li><a href="#_versioning">5.3. Versioning</a></li>
+<li><a href="#_conformance_class_core_2">A.1. Conformance Class: Core</a></li>
 </ul>
 </li>
-<li><a href="#_reference_implementation">6. Reference implementation</a></li>
+<li><a href="#examples">Annex B: Examples (Informative)</a>
+<ul class="sectlevel2">
+<li><a href="#_wis2_topic_hierarchy">B.1. WIS2 Topic Hierarchy</a></li>
+</ul>
+</li>
+<li><a href="#Bibliography">Annex C: Bibliography</a></li>
+<li><a href="#_revision_history">Annex D: Revision History</a></li>
 </ul>
 </div>
 <div style="page-break-after: always;"></div>
+<div class="paragraph">
+<p><strong class="big">i.     Abstract</strong></p>
+</div>
+<div class="paragraph">
+<p>WIS2 real-time data sharing is based on a message queuing protocol (MQP) supporting a
+publication/subscription (PubSub) mechanism.  A user can subscribe to an MQP broker to receive
+real-time notifications of the existence of new data.</p>
+</div>
+<div class="paragraph">
+<p>WIS2 brokers offer a range of topics organised in a hierarchy. Users can select their topics of interest and
+subscribe to them to receive notifications and download data relevant to their work.</p>
+</div>
+<div class="paragraph">
+<p>The standard notification message format ensures that the WIS2 ecosystem (data publisher, data
+user, and global services) is a robust, effective, and unified exchange platform for weather,
+climate, and water data.</p>
+</div>
+<div class="paragraph">
+<p>This document defines the structure of the WIS Topic Hierarchy.  Topics are utilized by WIS Nodes, Global
+Broker services, and data/metadata subscribers.</p>
+</div>
+<div class="paragraph">
+<p>The following are keywords to be used by search engines and document catalogues.</p>
+</div>
+<div class="paragraph">
+<p>wmo, wis 2.0, weather, climate, water, topic hierarchy, metadata, pubsub, mqp, message queuing protocol</p>
+</div>
+<div class="paragraph">
+<p><strong class="big">iii.    Security Considerations</strong></p>
+</div>
+<div class="paragraph">
+<p>Based on the WMO Unified Data Policy for the International Exchange of Earth System Data (Resolution 1 (Cg-Ext(2021) <sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup>, exchanged data are classified as <code>core</code> or <code>recommended</code>.  Core data is considered fully open and unrestricted with no security considerations.  Recommended data may have access control defined.</p>
+</div>
+<div class="paragraph">
+<p>No security considerations have been made for this standard.</p>
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_overview"><a class="anchor" href="#_overview"></a>1. Overview</h2>
+<h2 id="_scope"><a class="anchor" href="#_scope"></a>1. Scope</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_purpose"><a class="anchor" href="#_purpose"></a>1.1. Purpose</h3>
 <div class="paragraph">
-<p>This document is intended to define the topic structure in support of WIS data notifications exchange,
-discovery, and access.</p>
+<p>This document defines the topic hierarchy used by WIS message brokers to manage message delivery to subscribers and / or recipients.</p>
 </div>
 <div class="paragraph">
-<p>The core driver of WTH is data discovery and filtering as part of the WMO Information System (WIS).<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup></p>
+<p>This specification defines the conformance requirements for the WIS2 Topic Hierarchy.  Annex A defines the abstract test suite.</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_scope"><a class="anchor" href="#_scope"></a>1.2. Scope</h3>
 <div class="paragraph">
-<p>This document defines the topic-hierarchy used by WIS message brokers to manage message delivery to the respective group of recipients.
-All other topic structure specifications are not in scope.</p>
+<p>All other topic structure specifications are not in scope.</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_audience"><a class="anchor" href="#_audience"></a>1.3. Audience</h3>
+</div>
+<div class="sect1">
+<h2 id="_conformance"><a class="anchor" href="#_conformance"></a>2. Conformance</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>The target stakeholder audiences for this document include (but are not limited to):</p>
+<p>Conformance with this standard shall be checked using the tests specified in Annex A (normative) of this document.</p>
+</div>
+<div class="paragraph">
+<p>WIS Global Brokers and Nodes are required to comply with all conformance classes of this specification in support
+of providing MQP services in alignment with the defined topic structure.</p>
+</div>
+<div class="paragraph">
+<p>WMO shall publish guidance material to assist WIS Global Brokers and Nodes in constructing valid topic structures.</p>
+</div>
+<div class="paragraph">
+<p>This standard identifies one Conformance Class which defines the functional requirements.</p>
+</div>
+<div class="paragraph">
+<p>The mandatory Conformance Class for this specification is:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Metadata providers (NCs, DCPCs)</p>
-</li>
-<li>
-<p>WIS Global Services (Global Discovery Catalogues (GDCs), Global Brokers (GB), Global Caches (GC), Global Monitoring (GM))</p>
-</li>
-<li>
-<p>WIS Nodes</p>
-</li>
-<li>
-<p>GAW World Data Centres (WDCs)</p>
-</li>
-<li>
-<p>Metadata implementors (generation, ingest)</p>
+<p>"WIS2 Topic Hierarchy Core"</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_references"><a class="anchor" href="#_references"></a>3. References</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>OASIS: MQTT Version 5.0 (2019) <sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup></p>
+</li>
+<li>
+<p>OASIS: MQTT Version 3.1.1 (2014) <sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup></p>
+</li>
+<li>
+<p>Wikipedia: Publish-subscribe pattern (2023) <sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup></p>
+</li>
+<li>
+<p>International Telecommunications Union (ITU): T.50 : International Reference Alphabet (IRA) (Formerly International Alphabet No. 5 or IA5) - Information technology - 7-bit coded character set for information interchange <sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup></p>
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div class="sect1">
-<h2 id="_terms_and_definitions"><a class="anchor" href="#_terms_and_definitions"></a>2. Terms and definitions</h2>
+<h2 id="_terms_and_definitions"><a class="anchor" href="#_terms_and_definitions"></a>4. Terms and definitions</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The following terms and definitions also apply.</p>
+<p>This document uses the terms defined in <a href="https://portal.ogc.org/public_ogc/directives/directives.php">OGC Policy Directive 49</a>, which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this Standard and OGC documents do not use the equivalent phrases in the ISO/IEC Directives, Part 2.</p>
+</div>
+<div class="paragraph">
+<p>This document also uses terms defined in the OGC Standard for Modular specifications (<a href="https://portal.opengeospatial.org/files/?artifact_id=34762">OGC 08-131r3</a>), also known as the 'ModSpec'. The definitions of terms such as standard, specification, requirement, and conformance test are provided in the ModSpec.</p>
+</div>
+<div class="paragraph">
+<p>The following additional terms and definitions also apply.</p>
 </div>
 <div class="sect2">
-<h3 id="_abbreviated_terms"><a class="anchor" href="#_abbreviated_terms"></a>2.1. Abbreviated terms</h3>
+<h3 id="_abbreviated_terms"><a class="anchor" href="#_abbreviated_terms"></a>4.1. Abbreviated terms</h3>
 <table class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 1. Symbols and abbreviated terms</caption>
 <colgroup>
@@ -589,28 +655,12 @@ All other topic structure specifications are not in scope.</p>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">API</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Application Programming Interface</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">DCPC</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Data Collection and Production Centres</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">GDC</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Global Discovery Catalogue</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">GIS</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Geographic Information System</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">GISC</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Global Information System Centre</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">HTML</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Hypertext Markup Language</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">HTTP</p></td>
@@ -633,12 +683,8 @@ All other topic structure specifications are not in scope.</p>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">International Organization for Standardization</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">JSON</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">JavaScript Object Notation</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">MQP</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Message queuing protocol</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Message Queuing Protocol</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">MQTT</p></td>
@@ -649,20 +695,12 @@ All other topic structure specifications are not in scope.</p>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">National Centre</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">NWP</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Numerical Weather Prediction</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">OGC</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Open Geospatial Consortium</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">REST</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Representational State Transfer</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">TT-WISMD</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Task Team on WIS Metadata</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">PubSub</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Publish / Subscribe</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">URI</p></td>
@@ -689,8 +727,8 @@ All other topic structure specifications are not in scope.</p>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">World Meteorological Organization</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">WTH</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">WIS Topic Hierarchy</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">WNM</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">WIS2 notification message</p></td>
 </tr>
 </tbody>
 </table>
@@ -698,41 +736,126 @@ All other topic structure specifications are not in scope.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_conventions"><a class="anchor" href="#_conventions"></a>3. Conventions</h2>
+<h2 id="_conventions"><a class="anchor" href="#_conventions"></a>5. Conventions</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_publication"><a class="anchor" href="#_publication"></a>3.1. Publication</h3>
 <div class="paragraph">
-<p>The WTH can be found at TODO (URL to deployment)</p>
+<p>This section provides details and examples for any conventions used in the document. Examples of conventions are symbols, abbreviations, or special notes regarding how to read the document.</p>
+</div>
+<div class="sect2">
+<h3 id="_identifiers"><a class="anchor" href="#_identifiers"></a>5.1. Identifiers</h3>
+<div class="paragraph">
+<p>The normative provisions in this Standard are denoted by the URI:</p>
+</div>
+<div class="paragraph">
+<p><a href="http://wis.wmo.int/spec/wth/1" class="bare">http://wis.wmo.int/spec/wth/1</a></p>
+</div>
+<div class="paragraph">
+<p>All requirements and conformance tests that appear in this document are denoted by partial URIs which are relative to this base.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_examples"><a class="anchor" href="#_examples"></a>5.2. Examples</h3>
+<div class="paragraph">
+<p>Examples provided in this specification are encoded as <code>plain text strings</code>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_codelists_bundle"><a class="anchor" href="#_codelists_bundle"></a>5.3. Codelists bundle</h3>
+<div class="paragraph">
+<p>The WIS2 Topic Hierarchy Notification codelist bundle can be found at <a href="https://schemas.wmo.int/wth/1.0/wth.zip" class="bare">https://schemas.wmo.int/wth/1.0/wth.zip</a>.  This bundle can be used by tools and applications wishing to browse or validate topic structures.</p>
+</div>
+<div class="paragraph">
+<p>A browseable codelist can be found at <a href="https://codes.wmo.int/wth" class="bare">https://codes.wmo.int/wth</a></p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_wis_topic_hierarchy"><a class="anchor" href="#_the_wis_topic_hierarchy"></a>4. The WIS Topic Hierarchy</h2>
+<h2 id="_introduction"><a class="anchor" href="#_introduction"></a>6. Introduction</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_the_wis_topic_hierarchy"><a class="anchor" href="#_the_wis_topic_hierarchy"></a>6.1. The WIS Topic Hierarchy</h3>
 <div class="paragraph">
 <p>The WIS Topic Hierarchy (WTH) provides a structure used by data providers and WIS Global Services in support of core WIS workflows: publish, discover, subscribe and download.</p>
 </div>
+</div>
 <div class="sect2">
-<h3 id="_real_time_data_sharing"><a class="anchor" href="#_real_time_data_sharing"></a>4.1. Real-time data sharing</h3>
+<h3 id="_real_time_data_sharing"><a class="anchor" href="#_real_time_data_sharing"></a>6.2. Real-time data sharing</h3>
 <div class="paragraph">
 <p>WIS real-time data sharing is based on a message queuing protocol (MQP) supporting a publication/subscription mechanism. A user can subscribe to an MQP broker to receive real-time notifications. The notifications can be sent for new or updated data, metadata, or reports. The notification message received from the MQP broker contains a URL to download the data. The MQP broker offers a range of topics organised in a hierarchy. The users can select their topics of interest and subscribe to them to receive notifications and download data relevant to their work.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_data_discovery"><a class="anchor" href="#_data_discovery"></a>4.2. Data discovery</h3>
+<h3 id="_data_discovery"><a class="anchor" href="#_data_discovery"></a>6.3. Data discovery</h3>
 <div class="paragraph">
 <p>Users can discover datasets from the Global Discovery Catalogue (GDC). Once a user has identified a dataset of interest, they may subscribe to data notifications and updates using the topic and MQP broker found from the GDC dataset discovery metadata. Datasets in the GDC are made available via the WMO Core Metadata Profile 2 (WCMP2) standard for discovery metadata, which supports a categorisation scheme consistent with the topic hierarchy to provide a seamless search experience compatible with the access modality provided by the MQP broker. In other words, the MQP topic and WIS discovery metadata have the same vocabulary so that discovery, subscription, and download are consistent.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_structure"><a class="anchor" href="#_structure"></a>4.3. Structure</h3>
+<h3 id="_structure"><a class="anchor" href="#_structure"></a>6.4. Structure</h3>
 <div class="paragraph">
-<p>The structure of the topic hierarchy underpins the discovery and sharing of data in WIS, and it has to be standardized across all the WIS services to provide consistent search and access to the user.</p>
+<p>The structure of the topic hierarchy underpins the discovery and sharing of data in WIS, and requires standardization across all WIS services to provide consistent filter and access to the user.</p>
 </div>
 <div class="paragraph">
-<p>Recalling that WIS is designed to support the WMO Unified Data Policy, the topic hierarchy must be aligned with WMO Res. 1 Cg-EXT-21 - Unified Data Policy.:<sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup></p>
+<p>Recalling that WIS is designed to support the WMO Unified Data Policy, the topic hierarchy must be aligned with WMO Res. 1 Cg-EXT-21 - Unified Data Policy.:<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup></p>
+</div>
+<div class="paragraph">
+<p>Final approval of the WTH updates will go through the WMO fast-track amendment process.<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnotedef_11" title="View footnote.">11</a>]</sup></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_wis2_topic_hierarchy"><a class="anchor" href="#_the_wis2_topic_hierarchy"></a>7. The WIS2 Topic Hierarchy</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The WIS Topic Hierarchy (WTH) provides a structure used by data providers and WIS Global Services in support of core WIS workflows: publish, discover, subscribe and download.</p>
+</div>
+<div class="sect2">
+<h3 id="_conformance_class_core"><a class="anchor" href="#_conformance_class_core"></a>7.1. Conformance Class Core</h3>
+<div class="sect3">
+<h4 id="_overview"><a class="anchor" href="#_overview"></a>7.1.1. Overview</h4>
+<div class="paragraph">
+<p>This Core Conformance Class provides requirements to articulate the required elements of the definition and management of the WIS2 Topic Hierarchy.</p>
+</div>
+<table id="rc_core" class="tableblock frame-all grid-all" style="width: 90%;">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="2" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirements Class</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="2" style="background-color: #FFFFFF;"><p class="tableblock"><a href="http://www.wmo.int/spec/wth/1/req/core" class="bare">http://www.wmo.int/spec/wth/1/req/core</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Target type</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Topic Classification</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Dependency</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><a href="#MQTT5">MQTT v5.0</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Dependency</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><a href="#MQTT3">MQTT v3.1.1</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Pre-conditions</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Topics conform to Topic Name requirements of MQTT</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The standard topic structure ensures that the WIS2 ecosystem (data publisher, data user, and global services) is a robust, effective, and unified data exchange platform for weather, climate, and water.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_management"><a class="anchor" href="#_management"></a>7.1.2. Management</h4>
+<div class="paragraph">
+<p>The WTH is managed by the WMO Task Team on WIS Metadata. Updates to the WTH are made as part of two workflows: core levels, and domain specific levels.</p>
 </div>
 <div class="paragraph">
 <p>The WIS Topic Hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021), and it is managed in two parts:</p>
@@ -740,43 +863,47 @@ All other topic structure specifications are not in scope.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Primary topic levels (levels 1-8): topic structure applies to all data and services in WIS and is managed by the WMO Secretariat</p>
+<p>Primary topic levels (levels 1-8): topic structure applies to all data and services in WIS</p>
 </li>
 <li>
-<p>Domain-specific topic subcategory levels (level 9 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains.</p>
+<p>Domain specific topic subcategory levels (level 9 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains.</p>
 </li>
 </ol>
 </div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_management"><a class="anchor" href="#_management"></a>5. Management</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The WTH is managed by the WMO Task Team on WIS Metadata. Updates to the WTH are made as part of two workflows: core levels, and domain specific levels.</p>
-</div>
-<div class="sect2">
-<h3 id="_responsibility"><a class="anchor" href="#_responsibility"></a>5.1. Responsibility</h3>
-<div class="sect3">
-<h4 id="_core_levels"><a class="anchor" href="#_core_levels"></a>5.1.1. Core levels</h4>
-<div class="paragraph">
-<p>WTH core levels (1-8) are managed by the WMO Task Team on WIS Metadata.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_domain_specific_levels"><a class="anchor" href="#_domain_specific_levels"></a>5.1.2. Domain specific levels</h4>
-<div class="paragraph">
-<p>WTH domain specific levels (level 9 and beyond) are determined by various teams familiar with the given domain.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_managing_updates"><a class="anchor" href="#_managing_updates"></a>5.2. Managing updates</h3>
-<div class="sect3">
-<h4 id="_domain_specific_levels_2"><a class="anchor" href="#_domain_specific_levels_2"></a>5.2.1. Domain specific levels</h4>
-<div class="paragraph">
-<p>WTH domain specific levels are updated using the following steps:</p>
+<table id="req_core_management" class="tableblock frame-all grid-all" style="width: 90%;">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 1</strong></p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p><strong>/req/core/management</strong></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Primary levels 1-8 SHALL be determined by the WMO Task Team on WIS Metadata.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Domain specific levels (level 9 and beyond) SHALL be determined by domain experts and user communities.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">C</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Domain specific levels (level 9 and beyond) SHALL be coordinated and integrated by the WMO Task Team on WIS Metadata.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">D</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Domain specific level updates SHALL be implemented using the following steps:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -790,46 +917,272 @@ All other topic structure specifications are not in scope.</p>
 <p>once consensus is reached, TT-WISMD approves the proposal for inclusion into the next release of WTH</p>
 </li>
 <li>
-<p>Final approval of the WTH updates will go through the WMO fast-track amendment process.<sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup></p>
+<p>Final approval of the WTH updates will go through the WMO fast-track amendment process.<sup class="footnote">[<a id="_footnoteref_12" class="footnote" href="#_footnotedef_12" title="View footnote.">12</a>]</sup></p>
 </li>
 </ul>
 </div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_12">
+<a href="#_footnoteref_12">12</a>. <a href="https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides" class="bare">https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides</a>
 </div>
+</div></div></td>
+</tr>
+</tbody>
+</table>
 </div>
-<div class="sect2">
-<h3 id="_versioning"><a class="anchor" href="#_versioning"></a>5.3. Versioning</h3>
+<div class="sect3">
+<h4 id="_versioning"><a class="anchor" href="#_versioning"></a>7.1.3. Versioning</h4>
 <div class="paragraph">
-<p>TODO</p>
+<p>The topic hierarchy version helps data providers and data consumers with change management and transition in relation to updates.</p>
+</div>
+<table id="req_core_versioning" class="tableblock frame-all grid-all" style="width: 90%;">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 2</strong></p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p><strong>/req/core/versioning</strong></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>A removal of a topic at any level SHALL result in a major version update.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>A renaming of a topic at any level SHALL result in a major version update.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">C</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>A change in structure of the topic hierarchy SHALL result in a major version update.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">D</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>A new topic SHALL NOT result in any version update.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">E</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>A major version SHALL result in a change / bump to the version level (i.e. <code>a</code> &#8594; <code>b</code>).</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">F</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>A minor version SHALL NOT result in any changes to the version level.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_conventions_2"><a class="anchor" href="#_conventions_2"></a>7.1.4. Conventions</h4>
+<div class="paragraph">
+<p>All levels of the topic hierarchy are defined in a consistent manner to support a normalized and predictable structure.</p>
+</div>
+<table id="req_core_conventions" class="tableblock frame-all grid-all" style="width: 90%;">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 3</strong></p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p><strong>/req/core/conventions</strong></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>All topic level definitions SHALL be lowercase.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>All topic level definitions SHALL following ASCII T.50.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">C</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>All topic level definitions SHALL NOT utilize dots (<code>.</code>).</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">D</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>All topic level definitions SHALL utilize dashes (<code>-</code>).</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">E</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>All topic level definitions at a given level SHALL be unique.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">F</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>The topic structure levels imply a fixed sequence and SHALL NOT be re-ordered.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_publishing_guidelines"><a class="anchor" href="#_publishing_guidelines"></a>7.1.5. Publishing guidelines</h4>
+<div class="paragraph">
+<p>For maximum utility and efficient management of topics, data, metadata, and reports need to be published to a minimum level.  This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).</p>
+</div>
+<table id="req_core_publishing" class="tableblock frame-all grid-all" style="width: 90%;">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 4</strong></p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p><strong>/req/core/publishing</strong></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Data SHALL be published to at least the level of the Earth system discipline subcategory.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Metadata SHALL be published to at least the level of the notification type (<code>metadata</code>).</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">C</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Reports SHALL be published to at least the level of the notification type (<code>reports</code>).</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_reference_implementation"><a class="anchor" href="#_reference_implementation"></a>6. Reference implementation</h2>
+<h2 id="_conformance_class_abstract_test_suite_normative"><a class="anchor" href="#_conformance_class_abstract_test_suite_normative"></a>Annex A: Conformance Class Abstract Test Suite (Normative)</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>The TT-WISMD maintains pywcmp<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup>, as the
-reference WTH validation utility which includes:</p>
+<div class="sect2">
+<h3 id="_conformance_class_core_2"><a class="anchor" href="#_conformance_class_core_2"></a>A.1. Conformance Class: Core</h3>
+<div id="ats_core" class="exampleblock">
+<div class="content">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">label</dt>
+<dd>
+<p><a href="http://www.wmo.int/spec/wth/1/conf/core" class="bare">http://www.wmo.int/spec/wth/1/conf/core</a></p>
+</dd>
+<dt class="hdlist1">subject</dt>
+<dd>
+<p>Requirements Class "core"</p>
+</dd>
+<dt class="hdlist1">classification</dt>
+<dd>
+<p>Target Type:Topic Classification</p>
+</dd>
+</dl>
 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="examples"><a class="anchor" href="#examples"></a>Annex B: Examples (Informative)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_wis2_topic_hierarchy"><a class="anchor" href="#_wis2_topic_hierarchy"></a>B.1. WIS2 Topic Hierarchy</h3>
+<div class="listingblock">
+<div class="title">Example: WIS Node data publishing (surface weather observations) from Environment and Climate Change Canada, Meteorological Service of Canada</div>
+<div class="content">
+<pre class="highlight"><code class="language-text" data-lang="text">origin/a/wis2/can/eccc-msc/data/core/weather/surface-based-observations/synop</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example: WIS Node metadata publishing from Deutscher Wetterdienst</div>
+<div class="content">
+<pre class="highlight"><code class="language-text" data-lang="text">cache/a/wis2/deu/dwd/metadata/core/wcmp2</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="Bibliography"><a class="anchor" href="#Bibliography"></a>Annex C: Bibliography</h2>
+<div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>validation of topics against this specification</p>
+<p><a id="OASIS-mqtt5"></a> OASIS: MQTT Version 5.0 (2019) <sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup></p>
 </li>
 <li>
-<p>browsing topics at a given level</p>
+<p><a id="OASIS-mqtt311"></a> OASIS: MQTT Version 3.1.1 (2014) <sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup></p>
+</li>
+<li>
+<p><a id="Wikipedia-PubSub"></a> Wikipedia: Publish-subscribe pattern (2023) <sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup></p>
+</li>
+<li>
+<p><a id="ITU-T50"></a> International Telecommunications Union (ITU): T.50 : International Reference Alphabet (IRA) (Formerly International Alphabet No. 5 or IA5) - Information technology - 7-bit coded character set for information interchange <sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup></p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Documentation on installation, configuration and usage can be found on the
-pywcmp website.</p>
 </div>
-<div class="paragraph">
-<p>pywcmp is provided as a resource to the community, under continuous
-improvement. Contributions are welcome and can be facilited by the
-WMO Task Team on WIS Metadata.</p>
 </div>
+<div class="sect1">
+<h2 id="_revision_history"><a class="anchor" href="#_revision_history"></a>Annex D: Revision History</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 12%;">
+<col style="width: 18%;">
+<col style="width: 12%;">
+<col style="width: 12%;">
+<col style="width: 46%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Date</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Release</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Editor</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Primary clauses modified</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">2023-09-25</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Template</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Tom Kralidis</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">all</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">initial revision</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -848,21 +1201,42 @@ WMO Task Team on WIS Metadata.</p>
 <a href="#_footnoteref_4">4</a>. <a href="https://community.wmo.int/governance/commission-membership/infcom" class="bare">https://community.wmo.int/governance/commission-membership/infcom</a>
 </div>
 <div class="footnote" id="_footnotedef_5">
-<a href="#_footnoteref_5">5</a>. <a href="https://community.wmo.int/activity-areas/wmo-information-system-wis" class="bare">https://community.wmo.int/activity-areas/wmo-information-system-wis</a>
+<a href="#_footnoteref_5">5</a>. <a href="https://library.wmo.int/doc_num.php?explnum_id=11113#page=9" class="bare">https://library.wmo.int/doc_num.php?explnum_id=11113#page=9</a>
 </div>
 <div class="footnote" id="_footnotedef_6">
-<a href="#_footnoteref_6">6</a>. <a href="https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/Cg-Ext2021-d04-1-WMO-UNIFIED-POLICY-FOR-THE-INTERNATIONAL-approved_en_0.pdf?4pv38FtU6R4fDNtwqOxjBCndLIfntWeR" class="bare">https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/Cg-Ext2021-d04-1-WMO-UNIFIED-POLICY-FOR-THE-INTERNATIONAL-approved_en_0.pdf?4pv38FtU6R4fDNtwqOxjBCndLIfntWeR</a>
+<a href="#_footnoteref_6">6</a>. <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html" class="bare">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a>
 </div>
 <div class="footnote" id="_footnotedef_7">
-<a href="#_footnoteref_7">7</a>. <a href="https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides" class="bare">https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides</a>
+<a href="#_footnoteref_7">7</a>. <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html" class="bare">http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html</a>
 </div>
 <div class="footnote" id="_footnotedef_8">
-<a href="#_footnoteref_8">8</a>. <a href="https://github.com/wmo-im/pywcmp" class="bare">https://github.com/wmo-im/pywcmp</a>
+<a href="#_footnoteref_8">8</a>. <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" class="bare">https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern</a>
+</div>
+<div class="footnote" id="_footnotedef_9">
+<a href="#_footnoteref_9">9</a>. <a href="https://www.itu.int/rec/T-REC-T.50" class="bare">https://www.itu.int/rec/T-REC-T.50</a>
+</div>
+<div class="footnote" id="_footnotedef_10">
+<a href="#_footnoteref_10">10</a>. <a href="https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/Cg-Ext2021-d04-1-WMO-UNIFIED-POLICY-FOR-THE-INTERNATIONAL-approved_en_0.pdf?4pv38FtU6R4fDNtwqOxjBCndLIfntWeR" class="bare">https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/Cg-Ext2021-d04-1-WMO-UNIFIED-POLICY-FOR-THE-INTERNATIONAL-approved_en_0.pdf?4pv38FtU6R4fDNtwqOxjBCndLIfntWeR</a>
+</div>
+<div class="footnote" id="_footnotedef_11">
+<a href="#_footnoteref_11">11</a>. <a href="https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides" class="bare">https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides</a>
+</div>
+<div class="footnote" id="_footnotedef_13">
+<a href="#_footnoteref_13">13</a>. <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html" class="bare">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a>
+</div>
+<div class="footnote" id="_footnotedef_14">
+<a href="#_footnoteref_14">14</a>. <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html" class="bare">http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html</a>
+</div>
+<div class="footnote" id="_footnotedef_15">
+<a href="#_footnoteref_15">15</a>. <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" class="bare">https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern</a>
+</div>
+<div class="footnote" id="_footnotedef_16">
+<a href="#_footnoteref_16">16</a>. <a href="https://www.itu.int/rec/T-REC-T.50" class="bare">https://www.itu.int/rec/T-REC-T.50</a>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-09-09 01:37:17 UTC
+Last updated 2023-09-26 10:45:41 UTC
 </div>
 </div>
 </body>

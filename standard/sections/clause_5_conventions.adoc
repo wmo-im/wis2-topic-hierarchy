@@ -1,0 +1,19 @@
+== Conventions
+This section provides details and examples for any conventions used in the document. Examples of conventions are symbols, abbreviations, or special notes regarding how to read the document.
+
+=== Identifiers
+The normative provisions in this Standard are denoted by the URI:
+
+http://wis.wmo.int/spec/wth/1
+
+All requirements and conformance tests that appear in this document are denoted by partial URIs which are relative to this base.
+
+=== Examples
+
+Examples provided in this specification are encoded as ``plain text strings``.
+
+=== Codelists bundle
+
+The WIS2 Topic Hierarchy Notification codelist bundle can be found at https://schemas.wmo.int/wth/1.0/wth.zip.  This bundle can be used by tools and applications wishing to browse or validate topic structures.
+
+A browseable codelist can be found at https://codes.wmo.int/wth

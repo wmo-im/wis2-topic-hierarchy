@@ -34,4 +34,26 @@
 toc::[]
 <<<
 
-include::clause_main.adoc[]
+include::sections/clause_0_front_material.adoc[]
+
+include::sections/clause_1_scope.adoc[]
+
+include::sections/clause_2_conformance.adoc[]
+
+include::sections/clause_3_references.adoc[]
+
+include::sections/clause_4_terms_and_definitions.adoc[]
+
+include::sections/clause_5_conventions.adoc[]
+
+include::sections/clause_6_informative_text.adoc[]
+
+include::sections/clause_7_normative_text.adoc[]
+
+include::sections/annex_a_ats.adoc[]
+
+include::sections/annex_b_examples.adoc[]
+
+include::sections/annex_c_bibliography.adoc[]
+
+include::sections/annex_d_revision_history.adoc[]

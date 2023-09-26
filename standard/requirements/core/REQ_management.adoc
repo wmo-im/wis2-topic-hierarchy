@@ -1,0 +1,18 @@
+[[req_core_management]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement {counter:req-id}* |*/req/core/management*
+^|A |Primary levels 1-8 SHALL be determined by the WMO Task Team on WIS Metadata.
+^|B |Domain specific levels (level 9 and beyond) SHALL be determined by domain experts and user communities.
+^|C |Domain specific levels (level 9 and beyond) SHALL be coordinated and integrated by the WMO Task Team on WIS Metadata.
+^|D
+a|Domain specific level updates SHALL be implemented using the following steps:
+
+- domain specific teams submit proposals to TT-WISMD
+
+- TT-WISMD performs a review of the proposal and curates the content for consistency.  Discussion and clarifications on the proposal are performed as required
+
+- once consensus is reached, TT-WISMD approves the proposal for inclusion into the next release of WTH
+
+- Final approval of the WTH updates will go through the WMO fast-track amendment process.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]
+|===

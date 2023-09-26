@@ -1,0 +1,25 @@
+[big]*i.     Abstract*
+
+WIS2 real-time data sharing is based on a message queuing protocol (MQP) supporting a
+publication/subscription (PubSub) mechanism.  A user can subscribe to an MQP broker to receive
+real-time notifications of the existence of new data.
+
+WIS2 brokers offer a range of topics organised in a hierarchy. Users can select their topics of interest and
+subscribe to them to receive notifications and download data relevant to their work.
+
+The standard notification message format ensures that the WIS2 ecosystem (data publisher, data
+user, and global services) is a robust, effective, and unified exchange platform for weather,
+climate, and water data.
+
+This document defines the structure of the WIS Topic Hierarchy.  Topics are utilized by WIS Nodes, Global
+Broker services, and data/metadata subscribers.
+
+The following are keywords to be used by search engines and document catalogues.
+
+wmo, wis 2.0, weather, climate, water, topic hierarchy, metadata, pubsub, mqp, message queuing protocol
+
+[big]*iii.    Security Considerations*
+
+Based on the WMO Unified Data Policy for the International Exchange of Earth System Data (Resolution 1 (Cg-Ext(2021) footnote:[https://library.wmo.int/doc_num.php?explnum_id=11113#page=9], exchanged data are classified as `+core+` or `+recommended+`.  Core data is considered fully open and unrestricted with no security considerations.  Recommended data may have access control defined.
+
+No security considerations have been made for this standard.

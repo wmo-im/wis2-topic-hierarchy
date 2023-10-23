@@ -1,6 +1,6 @@
 [[per_core_publishing]]
 [width="90%",cols="2,6a"]
 |===
-^|*Requirement {counter:req-id}* |*/per/core/publishing*
+^|*Permission {counter:req-id}* |*/per/core/publishing*
 ^|A |Metadata MAY be published at any level at or below the notification type (``metadata``).
 |===

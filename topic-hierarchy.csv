@@ -1,10 +1,14 @@
-Level,Name,Description
-1,channel,Location of where the data originates from (data providers [origin] or global services [cache])
-2,version,Alphabetical version of the topic hierarchy
-3,system,Fixed value of wis2 for WIS2
-4,country,Lower case representation of ISO3166 3-letter code. Includes extensions for partner organizations
-5,centre-id,Acronym as specified by member and endorsed by the PR of the country and by WMO
-6,notification-type,"WIS2 notification types (data, metadata, reports [from monitoring activities])"
-7,data-policy,Data policy as defined by the WMO Unified Data Policy. core data are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended data are available by subscription to Global Brokers. recommended data are downloaded from the original NC/DCPC and may require authentication/authorisation
-8,earth-system-discipline,As per Annex 1 of resolution 1 Cg-Ext-2021
-9,earth-system-discipline-subcategory,As proposed by domain experts and further approved by INFCOM
+level,name,description
+1,channel,"Location where the data originates from, either 'origin' for data providers or 'cache' for global services."
+2,version,"Alphabetical version of the topic hierarchy."
+3,system,"Fixed value of 'wis2'."
+4,country,"Lower case representation of ISO3166 three letter code and it includes extensions for partner organizations."
+5,centre-id,"Acronym of centre as specified by member and endorsed by the PR of the country and by WMO."
+6,notification-type,"WIS2 notification type ('data', 'metadata', or 'report')."
+7,data-policy,"Data policy as defined by the WMO Unified Data Policy. 'Core' data should be available from the Global Caches with open access on a free and unrestricted basis. 'Recommended' data are available from the original NC/DCPC and may require authentication or authorisation."
+8,discipline,"Earth system domains as defined by the WMO Unified Data Policy, Resolution 1 (Cg-Ext(2021)), Annex 1."
+9,category,"Categories of data as identified by the WMO Unified Data Policy, Resolution 1 (Cg-Ext(2021)), Annex 1."
+10,type,"Topics under discipline and category levels as defined by WMO experts and approved by WMO."
+11,subtype-1,"Refinement of topics under type as defined by WMO experts and approved by WMO."
+12,subtype-2,"Refinement of topics under subtype-1 as defined by WMO experts and approved by WMO."
+13,subtype-3,"Refinement of topics under subtype-2 as defined by WMO experts and approved by WMO."

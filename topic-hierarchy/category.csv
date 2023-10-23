@@ -1,0 +1,4 @@
+name,description
+analysis-prediction-fields,"Including, but not limited to, analysis, reanalysis, and prediction fields."
+advisories-alerts-warnings,"Including, but not limited to, watches, advisories, warnings and alerts for public safety."
+observations,"Including, but not limited to, surface-based and space-based observations." 

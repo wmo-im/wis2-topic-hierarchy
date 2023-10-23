@@ -40,3 +40,4 @@ include::../requirements/core/REQ_conventions.adoc[]
 For maximum utility and efficient management of topics, data, metadata, and reports need to be published to a minimum level.  This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).
 
 include::../requirements/core/REQ_publishing.adoc[]
+include::../recommendations/core/PER_publishing.adoc[]

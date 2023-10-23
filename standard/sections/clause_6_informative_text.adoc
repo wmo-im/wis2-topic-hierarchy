@@ -16,6 +16,6 @@ Users can discover datasets from the Global Discovery Catalogue (GDC). Once a us
 
 The structure of the topic hierarchy underpins the discovery and sharing of data in WIS, and requires standardization across all WIS services to provide consistent filter and access to the user.
 
-Recalling that WIS is designed to support the WMO Unified Data Policy, the topic hierarchy must be aligned with WMO Res. 1 Cg-EXT-21 - Unified Data Policy.:footnote:[https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/Cg-Ext2021-d04-1-WMO-UNIFIED-POLICY-FOR-THE-INTERNATIONAL-approved_en_0.pdf?4pv38FtU6R4fDNtwqOxjBCndLIfntWeR]
+Recalling that WIS is designed to support the WMO Unified Data Policy, the topic hierarchy must be aligned with WMO Res. 1 Cg-EXT-21 - Unified Data Policyfootnote:[https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/Cg-Ext2021-d04-1-WMO-UNIFIED-POLICY-FOR-THE-INTERNATIONAL-approved_en_0.pdf?4pv38FtU6R4fDNtwqOxjBCndLIfntWeR].
 
 Final approval of the WTH updates will go through the WMO fast-track amendment process.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]

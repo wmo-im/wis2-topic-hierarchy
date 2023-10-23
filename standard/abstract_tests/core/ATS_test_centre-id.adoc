@@ -1,0 +1,16 @@
+[[ats_core_centre-id]]
+====
+[%metadata]
+label:: /conf/core/centre-id
+subject:: /req/core/centre-id
+test-purpose:: Validate that a centre identifier is valid.
+
+[.component,class=test method]
+=====
+[.component,class=step]
+--
+Check that the first component of the centre identifier is a valid TLD as defined by IANAfootnote:[https://data.iana.org/TLD].
+--
+
+=====
+====

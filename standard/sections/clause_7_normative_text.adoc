@@ -18,8 +18,8 @@ The WTH is managed by the WMO Task Team on WIS Metadata. Updates to the WTH are 
 
 The WIS Topic Hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021), and it is managed in two parts:
 
-1. Primary topic levels (levels 1-8): topic structure applies to all data and services in WIS
-2. Domain specific topic subcategory levels (level 9 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains.
+1. Primary topic levels (levels 1-7): topic structure applies to all data and services in WIS
+2. Domain specific topic subcategory levels (level 8 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains.
 
 include::../requirements/core/REQ_management.adoc[]
 
@@ -34,6 +34,14 @@ include::../requirements/core/REQ_versioning.adoc[]
 All levels of the topic hierarchy are defined in a consistent manner to support a normalized and predictable structure.
 
 include::../requirements/core/REQ_conventions.adoc[]
+
+==== Centre identification
+
+The centre identifier (``centre-id``) is an acronym as specified by the member and endorsed by the PR of the country and WMO.  It is a single identifier comprised of a TLD and centre name, and represents the data publisher, distributor or issuing centre of a given dataset or data product/granule.
+
+include::../requirements/core/REQ_centre-id.adoc[]
+include::../recommendations/core/REC_centre-id.adoc[]
+include::../recommendations/core/PER_centre-id.adoc[]
 
 ==== Publishing guidelines
 

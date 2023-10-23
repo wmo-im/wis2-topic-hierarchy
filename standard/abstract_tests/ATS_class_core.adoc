@@ -5,3 +5,23 @@ label:: http://www.wmo.int/spec/wth/1/conf/core
 subject:: Requirements Class "core"
 classification:: Target Type:Topic Classification
 ====
+
+==== Management
+
+This requirement is not applicable to ATS testing.
+
+==== Versioning
+
+This requirement is not applicable to ATS testing.
+
+==== Conventions
+
+include::./core/ATS_test_conventions.adoc[]
+
+==== Centre identification
+
+include::./core/ATS_test_centre-id.adoc[]
+
+==== Publishing guidelines
+
+This requirement is not applicable to ATS testing.

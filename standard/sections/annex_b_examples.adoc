@@ -8,11 +8,11 @@
 .Example: WIS Node data publishing (surface weather observations) from Environment and Climate Change Canada, Meteorological Service of Canada
 [source,text]
 ----
-origin/a/wis2/can-eccc-msc/data/core/weather/surface-based-observations/synop
+origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop
 ----
 
 .Example: WIS Node metadata publishing from Deutscher Wetterdienst
 [source,text]
 ----
-cache/a/wis2/deu-dwd/metadata/core/wcmp2
+cache/a/wis2/de-dwd/metadata/core/wcmp2
 ----

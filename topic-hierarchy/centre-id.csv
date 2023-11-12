@@ -1,5 +1,5 @@
 Name,Description,Child
-can-eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canada",notification-type
+ca-eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canada",notification-type
 org-woudc,World Ozone and Ultraviolet Radiation Data Centre,notification-type
 fr-meteo-france,Météo-France,notification-type
 de-dwd,Deutscher Wetterdienst,notification-type

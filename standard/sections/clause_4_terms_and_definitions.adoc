@@ -48,6 +48,12 @@ The following additional terms and definitions also apply.
 |PubSub
 |Publish / Subscribe
 
+|PR
+|Permanent Representative
+
+|TLD
+|Top-level domain
+
 |URI
 |Uniform Resource Identifier
 

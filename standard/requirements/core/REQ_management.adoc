@@ -3,8 +3,8 @@
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/management*
 ^|A |Primary levels 1-8 SHALL be determined by the WMO Task Team on WIS Metadata.
-^|B |Domain specific levels (level 9 and beyond) SHALL be determined by domain experts and user communities.
-^|C |Domain specific levels (level 9 and beyond) SHALL be coordinated and integrated by the WMO Task Team on WIS Metadata.
+^|B |Domain specific levels (level 8 and beyond) SHALL be determined by domain experts and user communities.
+^|C |Domain specific levels (level 8 and beyond) SHALL be coordinated and integrated by the WMO Task Team on WIS Metadata.
 ^|D
 a|Domain specific level updates SHALL be implemented using the following steps:
 

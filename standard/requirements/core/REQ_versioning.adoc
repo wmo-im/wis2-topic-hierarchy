@@ -8,5 +8,5 @@
 ^|D |A new topic SHALL NOT result in any version update.
 ^|E |A major version SHALL result in a change / bump to the version level (i.e. ``a`` -> ``b``).
 ^|F |A minor version SHALL NOT result in any changes to the version level.
-^|G |A renaming or removal in the WMO Notification Message Format SHALL result in a major version update.
+^|G |A renaming or removal in the WMO Notification Message encoding SHALL result in a major version update.
 |===

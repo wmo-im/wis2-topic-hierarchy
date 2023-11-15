@@ -23,15 +23,16 @@ jobs:
     - name: Install requirements 📦
       run: |
     - name: Create resources bundle 📦
-      run: python3 scripts/generate-bundle.py
+      run: |
+        python3 scripts/generate-bundle.py
+        zip -j /tmp/wth-bundle.zip "topic-hierarchy/*.csv"
     - uses: actions/checkout@v3
       with:
         ref: gh-pages
     - name: update gh-pages branch and publish
-      run: | 
-        zip -j /tmp/all.json.zip topic-hierarchy/*.csv
-        mv /tmp/all.json.zip .
+      run: |
+        mv /tmp/wth-bundle.zip .
         git config --global user.email "tomkralidis@gmail.com"
         git config --global user.name "Tom Kralidis"
-        git commit -m "generate bundle" all.json.zip
+        git commit -m "generate bundle" wth-bundle.zip
         git push -f origin main

@@ -23,7 +23,7 @@ jobs:
     - name: Install requirements 📦
       run: |
     - name: Create resources bundle 📦
-      run: scripts/generate-bundle.py
+      run: python3 scripts/generate-bundle.py
     - uses: actions/checkout@v3
       with:
         ref: gh-pages

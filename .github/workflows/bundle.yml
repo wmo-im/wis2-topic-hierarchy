@@ -27,7 +27,7 @@ jobs:
         python3 scripts/generate-bundle.py
         ls -l
         ls -l topic-hierarchy
-        zip -j /tmp/wth-bundle.zip "topic-hierarchy/*.csv"
+        zip -j /tmp/wth-bundle.zip "topic-hierarchy/\*.csv"
     - uses: actions/checkout@v3
       with:
         ref: gh-pages

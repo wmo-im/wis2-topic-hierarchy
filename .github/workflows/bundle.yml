@@ -7,8 +7,6 @@ on:
     paths:
     - 'topic-hierarchy/**.csv'
   pull_request:
-    paths:
-    - 'topic-hierarchy/'
 
 jobs:
   main:

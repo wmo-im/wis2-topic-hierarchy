@@ -6,6 +6,9 @@ on:
     - main
     paths:
     - 'topic-hierarchy/**.csv'
+  pull_request:
+    paths:
+    - 'topic-hierarchy/'
 
 jobs:
   main:
@@ -19,20 +22,16 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install requirements 📦
       run: |
-        python3 -m pip install --upgrade pip
-        pip3 install https://github.com/wmo-im/pywcmp/archive/master.zip
-        pip3 install -U jsonschema
-    - name: Cache resources bundle 📦
-      run: pywcmp bundle sync
+    - name: Create resources bundle 📦
+      run: scripts/generate-bundle.py
     - uses: actions/checkout@v3
       with:
         ref: gh-pages
     - name: update gh-pages branch and publish
       run: | 
+        zip -j /tmp/all.json.zip topic-hierarchy/*.csv
+        mv /tmp/all.json.zip .
         git config --global user.email "tomkralidis@gmail.com"
         git config --global user.name "Tom Kralidis"
-        zip -j /tmp/all.json.zip ~/.pywcmp/wis2-topic-hierarchy/all.json
-        mv /tmp/all.json.zip .
-        ls -alh
         git commit -m "generate bundle" all.json.zip
         git push -f origin main

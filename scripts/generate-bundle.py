@@ -24,10 +24,10 @@ import os
 
 topics = []
 
-for root, dirs, files in os.walk('earth-system-discipline'):
+for root, dirs, files in os.walk('topic-hierarchy/earth-system-discipline'):
     for file_ in files:
         if file_.endswith('.csv'):
-            root2 = root.replace('earth-system-discipline', '')
+            root2 = root.replace('topic-hierarchy/earth-system-discipline', '')
             if root2.startswith('/'):
                 root2 = root2.replace('/', '', 1)
             filename = os.path.join(root, file_)
@@ -41,7 +41,7 @@ for root, dirs, files in os.walk('earth-system-discipline'):
 
                     topics.append(topic_to_add)
 
-with open('earth-system-discipline.csv', 'w') as fh:
+with open('topic-hierarchy/earth-system-discipline.csv', 'w') as fh:
     fieldnames = ['Name']
     writer = csv.DictWriter(fh, fieldnames=fieldnames)
     writer.writeheader()

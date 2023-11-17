@@ -6,4 +6,3 @@ Level,Name,Description
 5,notification-type,"WIS2 notification types (data, metadata, reports [from monitoring activities])"
 6,data-policy,Data policy as defined by the WMO Unified Data Policy. core data are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended data are available by subscription to Global Brokers. recommended data are downloaded from the original NC/DCPC and may require authentication/authorisation
 7,earth-system-discipline,As per Annex 1 of resolution 1 Cg-Ext-2021
-8,earth-system-discipline-subcategory,As proposed by domain experts and further approved by INFCOM

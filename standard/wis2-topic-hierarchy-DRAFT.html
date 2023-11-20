@@ -874,10 +874,10 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Primary topic levels (levels 1-7): topic structure applies to all data and services in WIS</p>
+<p>Primary topic levels (levels 1-7): topic structure applies to all data and services in WIS.  They are relational, meaning that any combination of each level can be used to construct a topic applicable to a data or metadata notification</p>
 </li>
 <li>
-<p>Domain specific topic subcategory levels (level 8 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains.</p>
+<p>Domain specific topic subcategory levels (level 8 and beyond): topic structures proposed by domain experts and user communities.  Note that the number of levels in this part may vary according to the requirements of various domains, and are meant to represent a hierarchical representation of data publication from a given domain.</p>
 </li>
 </ol>
 </div>
@@ -908,11 +908,17 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">C</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>Domain specific levels (level 8 and beyond) SHALL be coordinated and integrated by the WMO Task Team on WIS Metadata.</p>
+<p>Domain specific levels (level 8 and beyond) SHALL be defined using a hierarchical approach.</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">D</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Domain specific levels (level 8 and beyond) SHALL be coordinated and integrated by the WMO Task Team on WIS Metadata.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">E</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p>Domain specific level updates SHALL be implemented using the following steps:</p>
 </div>
@@ -1175,7 +1181,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="sect3">
 <h4 id="_publishing_guidelines"><a class="anchor" href="#_publishing_guidelines"></a>7.1.6. Publishing guidelines</h4>
 <div class="paragraph">
-<p>For maximum utility and efficient management of topics, data, metadata, and reports need to be published to a minimum level.  This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).</p>
+<p>For maximum utility and efficient management of topics, data, metadata, and reports need to be published to a minimum level.  This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).  Note that each domain is designated a topic named <code>experimental</code> for publication to provisional topics.</p>
 </div>
 <table id="req_core_publishing" class="tableblock frame-all grid-all" style="width: 90%;">
 <colgroup>
@@ -1215,6 +1221,26 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </tr>
 </tbody>
 </table>
+<table id="rec_core_publishing" class="tableblock frame-all grid-all" style="width: 90%;">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Recommendation 8</strong></p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p><strong>/rec/core/publishing</strong></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>The domain <code>experimental</code> level SHOULD be used as a temporary approach until a given domain topic is approved.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
 <table id="per_core_publishing" class="tableblock frame-all grid-all" style="width: 90%;">
 <colgroup>
 <col style="width: 25%;">
@@ -1222,7 +1248,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Permission 8</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Permission 9</strong></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p><strong>/per/core/publishing</strong></p>
 </div></div></td>
@@ -1231,6 +1257,12 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p>Metadata MAY be published at any level at or below the notification type (<code>metadata</code>).</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Experimental data MAY be published at the <code>experimental</code> level of a given domain, for domain topics which are not yet approved.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -1497,7 +1529,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-15 10:10:10 UTC
+Last updated 2023-11-20 11:17:34 UTC
 </div>
 </div>
 </body>

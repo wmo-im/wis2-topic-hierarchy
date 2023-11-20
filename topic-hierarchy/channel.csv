@@ -1,3 +1,3 @@
-Name,Description,Child
-origin,data downloaded from original NC/DCPC,version
-cache,data downloaded from a Global Cache,version
+Name,Description
+origin,data downloaded from original NC/DCPC
+cache,data downloaded from a Global Cache

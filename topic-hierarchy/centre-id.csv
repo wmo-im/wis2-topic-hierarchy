@@ -1,7 +1,7 @@
-Name,Description,Child
-ca-eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canada",notification-type
-cu-insmet,Institute of Meteorology of Cuba,notification-type
-de-dwd,Deutscher Wetterdienst,notification-type
-fr-meteo-france,Météo-France,notification-type
-int-ecmwf,European Centre for Medium-Range Weather Forecasts,notification-type
-org-woudc,World Ozone and Ultraviolet Radiation Data Centre,notification-type
+Name,Description
+ca-eccc-msc,"iEnvironment and Climate Change Canada, Meteorological Service of Canada"
+cu-insmet,Institute of Meteorology of Cuba
+de-dwd,Deutscher Wetterdienst
+fr-meteo-france,Météo-France
+int-ecmwf,European Centre for Medium-Range Weather Forecasts
+org-woudc,World Ozone and Ultraviolet Radiation Data Centre

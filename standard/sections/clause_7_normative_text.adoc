@@ -18,8 +18,8 @@ The WTH is managed by the WMO Task Team on WIS Metadata. Updates to the WTH are 
 
 The WIS Topic Hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021), and it is managed in two parts:
 
-1. Primary topic levels (levels 1-7): topic structure applies to all data and services in WIS
-2. Domain specific topic subcategory levels (level 8 and beyond): topic structure proposed by domain experts and user communities. Note that the number of levels in this part may vary according to the requirements of various domains.
+1. Primary topic levels (levels 1-7): topic structure applies to all data and services in WIS.  They are relational, meaning that any combination of each level can be used to construct a topic applicable to a data or metadata notification
+2. Domain specific topic subcategory levels (level 8 and beyond): topic structures proposed by domain experts and user communities.  Note that the number of levels in this part may vary according to the requirements of various domains, and are meant to represent a hierarchical representation of data publication from a given domain.
 
 include::../requirements/core/REQ_management.adoc[]
 
@@ -45,7 +45,8 @@ include::../recommendations/core/PER_centre-id.adoc[]
 
 ==== Publishing guidelines
 
-For maximum utility and efficient management of topics, data, metadata, and reports need to be published to a minimum level.  This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).
+For maximum utility and efficient management of topics, data, metadata, and reports need to be published to a minimum level.  This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).  Note that each domain is designated a topic named ``experimental`` for publication to provisional topics.
 
 include::../requirements/core/REQ_publishing.adoc[]
+include::../recommendations/core/REC_publishing.adoc[]
 include::../recommendations/core/PER_publishing.adoc[]

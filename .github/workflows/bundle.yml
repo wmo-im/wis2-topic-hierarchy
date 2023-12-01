@@ -6,9 +6,6 @@ on:
     - main
     paths:
     - 'topic-hierarchy/**.csv'
-  pull_request:
-    branches:
-    - main
 
 jobs:
   main:

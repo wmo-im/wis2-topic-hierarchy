@@ -1,0 +1,8 @@
+[[req_core_releasing]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement {counter:req-id}* |*/req/core/releasing*
+^|A |Final approval of the WTH updates will go through the WMO fast-track amendment process.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]
+^|B |Addition of a new centre identifier SHALL trigger an **immediate** stable release of WTH updates, which is not required to align with the WMO fast-track amendment process.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]
+^|C |Immediate stable releases SHALL only contain changes resulting from a new centre identifier.
+|===

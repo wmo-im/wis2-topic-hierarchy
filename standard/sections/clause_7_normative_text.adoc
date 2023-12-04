@@ -22,6 +22,7 @@ The WIS Topic Hierarchy has been developed according to the classification of th
 2. Domain specific topic subcategory levels (level 8 and beyond): topic structures proposed by domain experts and user communities.  Note that the number of levels in this part may vary according to the requirements of various domains, and are meant to represent a hierarchical representation of data publication from a given domain.
 
 include::../requirements/core/REQ_management.adoc[]
+include::../requirements/core/REQ_releasing.adoc[]
 
 ==== Versioning
 

@@ -947,6 +947,50 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </tr>
 </tbody>
 </table>
+<table id="req_core_releasing" class="tableblock frame-all grid-all" style="width: 90%;">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 2</strong></p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p><strong>/req/core/releasing</strong></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Final approval of the WTH updates will go through the WMO fast-track amendment process.<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup></p>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_14">
+<a href="#_footnoteref_14">14</a>. <a href="https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides" class="bare">https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides</a>
+</div>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Addition of a new centre identifier SHALL trigger an <strong>immediate</strong> stable release of WTH updates, which is not required to align with the WMO fast-track amendment process.<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup></p>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_15">
+<a href="#_footnoteref_15">15</a>. <a href="https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides" class="bare">https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides</a>
+</div>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">C</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Immediate stable releases SHALL only contain changes resulting from a new centre identifier.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="sect3">
 <h4 id="_versioning"><a class="anchor" href="#_versioning"></a>7.1.3. Versioning</h4>
@@ -960,7 +1004,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 2</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 3</strong></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p><strong>/req/core/versioning</strong></p>
 </div></div></td>
@@ -992,17 +1036,23 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">E</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>A major version SHALL result in a change / bump to the version level (i.e. <code>a</code> &#8594; <code>b</code>).</p>
+<p>A new centre identifier SHALL NOT result in any version update.</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">F</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>A minor version SHALL NOT result in any changes to the version level.</p>
+<p>A major version SHALL result in a change / bump to the version level (i.e. <code>a</code> &#8594; <code>b</code>).</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">G</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>A minor version SHALL NOT result in any changes to the version level.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">H</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p>A renaming or removal in the WMO Notification Message encoding SHALL result in a major version update.</p>
 </div></div></td>
@@ -1022,7 +1072,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 3</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 4</strong></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p><strong>/req/core/conventions</strong></p>
 </div></div></td>
@@ -1078,7 +1128,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 4</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 5</strong></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p><strong>/req/core/centre-id</strong></p>
 </div></div></td>
@@ -1097,7 +1147,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><code>tld</code> is based on a TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup></p>
+<p><code>tld</code> is based on a TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup></p>
 </li>
 <li>
 <p><code>centre-name</code> is based on a centre name as defined by the member</p>
@@ -1106,8 +1156,8 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </div>
 <div id="footnotes">
 <hr>
-<div class="footnote" id="_footnotedef_14">
-<a href="#_footnoteref_14">14</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
+<div class="footnote" id="_footnotedef_16">
+<a href="#_footnoteref_16">16</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
 </div>
 </div></div></td>
 </tr>
@@ -1126,7 +1176,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Recommendation 5</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Recommendation 6</strong></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p><strong>/rec/core/centre-id</strong></p>
 </div></div></td>
@@ -1158,7 +1208,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Permission 6</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Permission 7</strong></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p><strong>/per/core/centre-id</strong></p>
 </div></div></td>
@@ -1196,7 +1246,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 7</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Requirement 8</strong></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p><strong>/req/core/publishing</strong></p>
 </div></div></td>
@@ -1234,7 +1284,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Recommendation 8</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Recommendation 9</strong></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p><strong>/rec/core/publishing</strong></p>
 </div></div></td>
@@ -1254,7 +1304,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Permission 9</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Permission 10</strong></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p><strong>/per/core/publishing</strong></p>
 </div></div></td>
@@ -1387,7 +1437,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="openblock component">
 <div class="content">
 <div class="paragraph">
-<p>Check that the first component of the centre identifier is a valid TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup>.</p>
+<p>Check that the first component of the centre identifier is a valid TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup>.</p>
 </div>
 </div>
 </div>
@@ -1431,16 +1481,16 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a id="OASIS-mqtt5"></a> OASIS: MQTT Version 5.0 (2019) <sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup></p>
+<p><a id="OASIS-mqtt5"></a> OASIS: MQTT Version 5.0 (2019) <sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup></p>
 </li>
 <li>
-<p><a id="OASIS-mqtt311"></a> OASIS: MQTT Version 3.1.1 (2014) <sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup></p>
+<p><a id="OASIS-mqtt311"></a> OASIS: MQTT Version 3.1.1 (2014) <sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnotedef_19" title="View footnote.">19</a>]</sup></p>
 </li>
 <li>
-<p><a id="Wikipedia-PubSub"></a> Wikipedia: Publish-subscribe pattern (2023) <sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup></p>
+<p><a id="Wikipedia-PubSub"></a> Wikipedia: Publish-subscribe pattern (2023) <sup class="footnote">[<a id="_footnoteref_20" class="footnote" href="#_footnotedef_20" title="View footnote.">20</a>]</sup></p>
 </li>
 <li>
-<p><a id="ITU-T50"></a> International Telecommunications Union (ITU): T.50 : International Reference Alphabet (IRA) (Formerly International Alphabet No. 5 or IA5) - Information technology - 7-bit coded character set for information interchange <sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnotedef_19" title="View footnote.">19</a>]</sup></p>
+<p><a id="ITU-T50"></a> International Telecommunications Union (ITU): T.50 : International Reference Alphabet (IRA) (Formerly International Alphabet No. 5 or IA5) - Information technology - 7-bit coded character set for information interchange <sup class="footnote">[<a id="_footnoteref_21" class="footnote" href="#_footnotedef_21" title="View footnote.">21</a>]</sup></p>
 </li>
 </ul>
 </div>
@@ -1517,25 +1567,25 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="footnote" id="_footnotedef_12">
 <a href="#_footnoteref_12">12</a>. <a href="https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides" class="bare">https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides</a>
 </div>
-<div class="footnote" id="_footnotedef_15">
-<a href="#_footnoteref_15">15</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
-</div>
-<div class="footnote" id="_footnotedef_16">
-<a href="#_footnoteref_16">16</a>. <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html" class="bare">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a>
-</div>
 <div class="footnote" id="_footnotedef_17">
-<a href="#_footnoteref_17">17</a>. <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html" class="bare">http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html</a>
+<a href="#_footnoteref_17">17</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
 </div>
 <div class="footnote" id="_footnotedef_18">
-<a href="#_footnoteref_18">18</a>. <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" class="bare">https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern</a>
+<a href="#_footnoteref_18">18</a>. <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html" class="bare">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a>
 </div>
 <div class="footnote" id="_footnotedef_19">
-<a href="#_footnoteref_19">19</a>. <a href="https://www.itu.int/rec/T-REC-T.50" class="bare">https://www.itu.int/rec/T-REC-T.50</a>
+<a href="#_footnoteref_19">19</a>. <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html" class="bare">http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html</a>
+</div>
+<div class="footnote" id="_footnotedef_20">
+<a href="#_footnoteref_20">20</a>. <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" class="bare">https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern</a>
+</div>
+<div class="footnote" id="_footnotedef_21">
+<a href="#_footnoteref_21">21</a>. <a href="https://www.itu.int/rec/T-REC-T.50" class="bare">https://www.itu.int/rec/T-REC-T.50</a>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-30 19:42:32 UTC
+Last updated 2023-12-04 15:58:59 UTC
 </div>
 </div>
 </body>

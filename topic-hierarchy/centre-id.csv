@@ -1,11 +1,54 @@
 ﻿Name,Description,Prefix,Status
+ag-antiguamet,Antigua and Barbuda Meteorological Services,Antigua and Barbuda,draft
+ar-smn,Servicio Meteorológico Nacional (SMN),Argentina,draft
+au-bom,Bureau of Meteorology (BOM),Australia,draft
+bf-anam,Agence Nationale de la Météorologie du Burkina Faso,Burkina Faso,draft
+bz-nms,National Meteorological Service of Belize,Belize,draft
 ca-eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canada",Canada,operational
 ca-eccc-msc-gdc,"Environment and Climate Change Canada, Meteorological Service of Canada, Global Discovery Catalogue Service",Canada,operational
+cg-dmn,n/a,Republic of the Congo,draft
+cm-meteocameroon,Direction de la météorologie nationale du Cameroun,Cameroon,draft
+cn-cma,China Meteorological Administration (CMA),China,draft
 cu-insmet,Institute of Meteorology of Cuba,Cuba,operational
-de-dwd,Deutscher Wetterdienst,Germany,operational
-de-dwd-gts-to-wis2,"Deutscher Wetterdienst, GTS to WIS2 Gateway",Germany,operational
+de-dwd,Deutscher Wetterdienst (DWD),Germany,operational
+de-dwd-gts,"Deutscher Wetterdienst, GTS to WIS2 Gateway",Germany,operational
+dm-dms,Dominica Meteorological Service,Dominica,draft
+dz-meteo,Office national de la météorologie (ONM),Algeria,draft
 fr-meteo-france,Météo-France,France,operational
+gd-metservice,Grenada Meteorological Service,Grenada,draft
+gn-dnm,"Direction nationale de la météorologie, Guinea",Guinea,draft
+gy-hydromet,"Hydrometeorological Service, Guyana",Guyana,draft
+hk-hko-swic,SWIC,"Hong Kong, China",draft
+id-bmkg,"Meteorological, Climatological and Geophysical Agency (BMKG)",Indonesia,draft
+in-imd,India Meteorological Department,India,draft
 int-ecmwf,European Centre for Medium-Range Weather Forecasts,International,operational
+ir-irimo,Islamic Republic of Iran Meteorological Organization (IRIMO),"Iran, Islamic Republic of",draft
 it-meteoam,Italian National Centre of Meteorology and Climatology,Italy,operational
+jm-metservice,"Meteorological Service, Jamaica",Jamaica,draft
+jp-jma,Japan Meteorological Agency (JMA),Japan,draft
+ke-kmd,Kenya Meteorological Department,Kenya,draft
+kn-metservice,n/a,Saint Kitts and Nevis,draft
+kr-kma,n/a,Republic of Korea,draft
+ky-cinws,Caribbean Meteorological Organization,Cayman Islands,draft
+kz-kazhydromet,The National Center Astana,Kazakhstan,draft
+ly-lnmc,n/a,Libya,draft
+ma-dmn,Direction de la météorologie nationale du Maroc,Morocco,draft
+mw-dccms,Department of Climate Change & Meteorological Services,Malawi,draft
+na-meteona,Namibia Meteorological Service,Namibia,draft
+ng-nimet,Nigerian Meteorological Agency (NIMET),Nigeria,draft
+nz-metservice,Niue Meteorological Service,New Zealand,draft
 org-woudc,World Ozone and Ultraviolet Radiation Data Centre,Organization,operational
+pl-imgw,Institute of Meteorology and Water Management (IMGW-PIB),Poland,draft
+ru-roshydromet,Russian Federal Service for Hydrometeorology and Environmental Monitoring (ROSHYDROMET),Russian Federation,draft
+se-smhi,Swedish Meteorological and Hydrological Institute (SMHI),Sweden,draft
+sg-mss,Meteorological Service Singapore,Singapore,draft
+sx-metservice,Meteorological Department of St. Maarten (MDS)  (and Curaçao),Sint Maarten,draft
+sz-ems,Eswatini Meteorological Service,Eswatini,draft
+tc-metservice,Caribbean Meteorological Organization,Turks and Caicos Islands,draft
+tt-metoffice,Meteorological Service,Trinidad and Tobago,draft
+us-noaa-synoptic,National Oceanic and Atmospheric Administration (NOAA),United States of America,draft
 us-synoptic_data_pbc,Synoptic Data Public Benefit Corporation (PBC),United States of America,operational
+uy-inumet,Instituto Uruguayo de Meteorología (INUMET),Uruguay,draft
+za-weathersa,South African Weather Service,South Africa,draft
+zm-zmd,n/a,Zambia,draft
+zw-msd,n/a,Zimbabwe,draft

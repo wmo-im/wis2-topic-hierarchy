@@ -14,7 +14,7 @@ The standard topic structure ensures that the WIS2 ecosystem (data publisher, da
 
 ==== Management
 
-The WTH is managed by the WMO Task Team on WIS Metadata. Updates to the WTH are made as part of two workflows: core levels, and domain specific levels.
+The WTH is managed by the WMO. Updates to the WTH are made as part of two workflows: core levels, and domain specific levels.
 
 The WIS Topic Hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021), and it is managed in two parts:
 

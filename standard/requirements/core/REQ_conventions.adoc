@@ -2,10 +2,10 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/conventions*
-^|A |All topic level definitions SHALL be lowercase.
-^|B |All topic level definitions SHALL following ASCII T.50.
-^|C |All topic level definitions SHALL NOT utilize dots (``.``).
-^|D |All topic level definitions SHALL utilize dashes (``-``) to separate words (e.g. ``sea-ice``).
-^|E |All topic level definitions at a given level SHALL be unique.
-^|F |The topic structure levels imply a fixed sequence and SHALL NOT be re-ordered.
+^|A |All topic level definitions shall be lowercase.
+^|B |All topic level definitions shall following ASCII T.50.
+^|C |All topic level definitions shall not utilize dots (``.``).
+^|D |All topic level definitions shall utilize dashes (``-``) to separate words (such as, ``sea-ice``).
+^|E |All topic level definitions at a given level shall be unique.
+^|F |The topic structure levels imply a fixed sequence and shall not be re-ordered.
 |===

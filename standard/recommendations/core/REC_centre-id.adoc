@@ -2,7 +2,7 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Recommendation {counter:req-id}* |*/rec/core/centre-id*
-^|A |Organizations operating with a ``gov`` or similar TLD SHOULD use the TLD based on their country to define the TLD component of their centre identifier.
-^|B |International organizations operating with a ``int``, ``org`` or similar TLD SHOULD reuse these to define the TLD component of their centre identifier.
-^|C |Organizations wishing to test their WIS2 Node or Global Service MAY provide the ``-test`` suffix to their centre identifier (e.g. ``int-org1-test``).
+^|A |Organizations operating with a ``gov`` or similar TLD should use the TLD based on their country to define the TLD component of their centre identifier.
+^|B |International organizations operating with a ``int``, ``org`` or similar TLD should reuse these to define the TLD component of their centre identifier.
+^|C |Organizations wishing to test their WIS2 Node or Global Service may provide the ``-test`` suffix to their centre identifier (for example, ``int-org1-test``).
 |===

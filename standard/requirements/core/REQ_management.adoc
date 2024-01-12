@@ -2,18 +2,8 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/management*
-^|A |Primary levels 1-8 SHALL be determined by the WMO.
-^|B |Domain specific levels (level 8 and beyond) SHALL be determined by domain experts and user communities.
-^|C |Domain specific levels (level 8 and beyond) SHALL be defined using a hierarchical approach.
-^|D |Domain specific levels (level 8 and beyond) SHALL be coordinated and integrated by the WMO.
-^|E
-a|Domain specific level updates SHALL be implemented using the following steps:
-
-- domain specific teams submit proposals to TT-WISMD
-
-- TT-WISMD performs a review of the proposal and curates the content for consistency.  Discussion and clarifications on the proposal are performed as required
-
-- once consensus is reached, TT-WISMD approves the proposal for inclusion into the next release of WTH
-
-- Final approval of the WTH updates will go through the WMO fast-track amendment process.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]
+^|A |Primary levels 1-7 shall be determined by WMO.
+^|B |Discipline specific levels (level 8 and beyond) shall be proposed by domain experts and user communities.
+^|C |Discipline specific levels (level 8 and beyond) shall be defined using a hierarchical approach.
+^|D |Discipline specific levels (level 8 and beyond) shall be coordinated and integrated by WMO.
 |===

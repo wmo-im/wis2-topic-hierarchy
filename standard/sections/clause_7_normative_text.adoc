@@ -14,7 +14,7 @@ This Core Conformance Class provides requirements for the definition and managem
 
 include::../requirements/requirements_class_core.adoc[]
 
-{{add description on the types of levels and numbers of levels here?}}
+//add description on the types of levels and numbers of levels here
 
 The table below provides an overview primary topic levels of the WIS2 topic hierarchy.
 
@@ -32,7 +32,7 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 
 |3
 |system
-|Fixed value of [wis2] for WIS2
+|Fixed value of ``wis2`` for WIS2
 
 |4
 |centre-id
@@ -40,15 +40,15 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 
 |5
 |notification-type
-|WIS2 notification types ([data], [metadata], or [reports] [from monitoring activities])
+|WIS2 notification types (``data``, ``metadata``, or ``reports`` [from monitoring activities])
 
 |6
 |data-policy
-|Data policy as defined by the WMO Unified Data Policy. [core] data are available with open access on a free and unrestricted basis and [recommended] data are available from the original NC/DCPC which may require authentication or authorisation
+|Data policy as defined by the WMO Unified Data Policy. ``core`` data are available with open access on a free and unrestricted basis and ``recommended`` data are available from the original NC/DCPC which may require authentication or authorization
 
 |7
 |earth-system-discipline
-|Seven high-level categories as defined by the WMO Unified Data Policy, Annex 1: ([atmospheric-composition], [climate], [cryosphere], [hydrology], [ocean], [space-weather], or [weather])
+|Seven high-level categories as defined by the WMO Unified Data Policy, Annex 1: (``atmospheric-composition``, ``climate``, ``cryosphere``, ``hydrology``, ``ocean``, ``space-weather``, or ``weather``)
 
 |===
 
@@ -56,23 +56,21 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 ==== Management
 {{_I think these two paragraphs belong in the introduction_}}
 
-The WTH is managed by the WMO. Updates to the WTH are made as part of two workflows: primary levels and domain specific levels.
+The WTH is managed by the WMO. Updates to the WTH are made as part of two workflows: primary levels and sub-discipline specific levels.
 
 1. Primary topic levels (levels 1-7): topic structure applies to all data and services in WIS.  They are relational, meaning that any combination of each level can be used to construct a topic applicable to a data or metadata notification
-2. Domain specific topic subcategory levels (level 8 and beyond): topic structures proposed by domain experts and user communities.  These levels are a hierarchical representation of the dataset and the the number of levels in this part may vary according to the requirements of various domains.
+2. Sub-discipline topics (level 8 and beyond): topic structures proposed by domain experts and user communities.  These levels are a hierarchical representation of the dataset and the number of levels in this part may vary according to the requirements of various domains.
 
 include::../requirements/core/REQ_management.adoc[]
 include::../requirements/core/REQ_releasing.adoc[]
 
 ==== Versioning
-{{_move versioning section above management?_}}
 
 The topic hierarchy version helps data providers and data consumers with change management and transition in relation to updates.
 
 include::../requirements/core/REQ_versioning.adoc[]
 
 ==== Conventions
-{{_I think conventions should be the first section after Overview_}}
 
 All levels of the topic hierarchy are defined in a consistent manner to support a normalized and predictable structure.
 
@@ -80,7 +78,7 @@ include::../requirements/core/REQ_conventions.adoc[]
 
 ==== Centre identification
 
-The centre identifier (``centre-id``) is an acronym as specified by the member and endorsed by the PR of the country and WMO.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product/granule or other resources.
+The centre identifier (``centre-id``) is an acronym as specified by the member and endorsed by the PR of the country and WMO.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product, data granule or other resource.
 
 include::../requirements/core/REQ_centre-id.adoc[]
 include::../recommendations/core/REC_centre-id.adoc[]
@@ -88,7 +86,7 @@ include::../recommendations/core/PER_centre-id.adoc[]
 
 ==== Publishing guidelines
 
-For maximum utility and efficient management of topics, it is recommended that [data], [metadata], and [reports] need to be published to a minimum level. {{_rephrase above? It doesn't make sense to me._}} This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).  Note that each discpline has a sub-topic level named ``experimental`` for publication to provisional topics.
+For maximum utility and efficient management of topics, it is recommended that ``data``, ``metadata``, and ``reports`` need to be published to a detailed level. This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).  Note that each discpline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
 
 include::../requirements/core/REQ_publishing.adoc[]
 include::../recommendations/core/REC_publishing.adoc[]

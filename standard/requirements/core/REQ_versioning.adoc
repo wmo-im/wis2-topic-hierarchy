@@ -2,12 +2,13 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/versioning*
-^|A |A removal of a topic at any level shall result in a major version update.
-^|B |A renaming of a topic at any level shall result in a major version update.
-^|C |A change in structure of the topic hierarchy shall result in a major version update.
-^|D |A new topic shall not result in any version update.
-^|E |A new centre identifier shall not result in any version update.
-^|F |A major version shall result in a change to the version level (i.e. ``a`` -> ``b``).
-^|G |A minor version shall not result in any changes to the version level.
-^|H |A renaming or removal in the WMO Notification Message encoding shall result in a major version update. {{_is this supposed to be for WTH??_}}
+^|A |A removal of a topic at any level SHALL result in a major version update.
+^|B |A renaming of a topic at any level SHALL result in a major version update.
+^|C |A change in structure of the topic hierarchy SHALL result in a major version update.
+^|D |A new topic SHALL NOT result in any version update.
+^|E |A new centre identifier SHALL NOT result in any version update.
+^|F |A major version SHALL result in a change to the version level (i.e. ``a`` -> ``b``).
+^|G |A minor version SHALL NOT result in any changes to the version level.
+^|H |A renaming or removal in the WMO Notification Message encoding SHALL result in a major version update. 
+// Is req. H correct? When a WNM changes versions then the WTH shall have a major version update too?
 |===

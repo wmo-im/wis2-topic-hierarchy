@@ -2,19 +2,7 @@
 
 The WIS Topic Hierarchy (WTH) provides a structure used by data providers and WIS Global Services in support of core WIS workflows: publish, discover, subscribe and download. 
 
-The standard topic structure ensures that the WIS2 ecosystem (data publisher, data user, and global services) is a robust, effective, and unified data exchange platform for weather, climate, and water.
-
-//copied from abstract (not edited yet)
-***
-WIS2 real-time data sharing is based on a message queuing protocol (MQP) supporting a publication/subscription (PubSub) mechanism. A user can subscribe to an MQP broker to receive real-time notifications of the existence of new data.
-
-WIS2 brokers offer a range of topics organised in a hierarchy. Users can select their topics of interest and subscribe to them to receive notifications and download data relevant to their work.
-
-The standard notification message format ensures that the WIS2 ecosystem (data publisher, data user, and global services) is a robust, effective, and unified exchange platform for weather, climate, and water data.
-
-This document defines the structure of the WIS Topic Hierarchy. Topics are utilized by WIS Nodes, Global Broker services, and data/metadata subscribers.
-
-***
+The WIS2 Topic Hierarchy is included in the discovery metadata record <<see section X>>, made available by WIS brokers <<see Y>>, and selected by users to subscribe and receive notifications <<see Z>>. 
 
 === Conformance Class Core
 
@@ -25,14 +13,14 @@ This Core Conformance Class provides requirements for the definition and managem
 include::../requirements/requirements_class_core.adoc[]
 
 The WTH is composed of primary topics (levels 1-7) and sub-discipline specific topics (level 8 and beyond).
-//change .."and services" to "..and services"?
-The primary topics apply to all data and services in WIS.  They are relational, meaning that any combination of the values in each level can be used to construct a topic applicable to a data or metadata notification
+//change .."and services" to "..and resources"?
+The primary topics apply to all data and services in WIS.  They are relational, meaning that any combination of the values in each level can be used to construct a topic applicable to a notification.
 
 The sub-discipline topics are proposed by domain experts and user communities.  These levels are a hierarchical representation of the dataset and the number of levels in this part may vary according to the requirements of various domains.
 
-The combination of these topics are encoded as a simple text string of values in each topic level separated by a "/". For example, ``origin/a/wis2/data/ca-eccc/core/weather/surface-based-observations/synop`` or ``origin/a/wis2/data/ca-eccc/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``.
+The representation is encoded as a simple text string of values in each topic level separated by a "/". For example, ``origin/a/wis2/data/ca-eccc/core/weather/surface-based-observations/synop`` or ``origin/a/wis2/data/ca-eccc/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``.
 
-The table below provides an overview primary topic levels of the WIS2 topic hierarchy.
+The table below provides an overview of the primary topic levels.
 
 .WTH primary topic levels
 |===
@@ -44,7 +32,7 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 
 |2
 |version
-|Alphabetical version of the topic hierarchy
+|Alphabetical version of the topic hierarchy, currently: ``a`` 
 
 |3
 |system
@@ -68,7 +56,7 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 
 |===
 
-.WTH example of level 8 sub-discipline topics
+.WTH example table of sub-discipline topics
 |===
 |Level 8 topics|Level 9 topics|Level 10 topics
 
@@ -96,15 +84,15 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 
 ==== Publishing guidelines
 
-For maximum utility and efficient management of topics, it is recommended that ``data``, ``metadata``, and ``reports`` need to be published to a detailed level. This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).  Note that each discpline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
+For maximum utility and efficient management of topics, it is recommended that ``data``, ``metadata``, and ``reports`` need to be published to a detailed level. This helps with avoiding "pollution" of messages under the primary topics.  Note that each discipline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
 
 include::../requirements/core/REQ_publishing.adoc[]
 include::../recommendations/core/REC_publishing.adoc[]
 include::../recommendations/core/PER_publishing.adoc[]
 
 ==== Management
-
-The primary levels and sub-discipline specific levels are managed differently to maintain stability in the primary levels and flexibility for the sub-disciplines.
+//new text
+The primary levels and sub-discipline specific levels are managed differently to maintain stability and allow for flexibility.
 
 include::../requirements/core/REQ_management.adoc[]
 include::../requirements/core/REQ_releasing.adoc[]

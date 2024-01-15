@@ -2,7 +2,7 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/management*
-^|A |Primary levels 1-7 SHALL be determined by WMO.
+^|A |Primary topics (levels 1 to 7) SHALL be determined by WMO.
 ^|B |Sub-discipline topics (level 8 and beyond) SHALL be proposed by domain experts and user communities.
 ^|C |Sub-discipline topics (level 8 and beyond) SHALL be defined using a hierarchical approach.
 ^|D |Sub-discipline topics (level 8 and beyond) SHALL be coordinated and integrated by WMO.

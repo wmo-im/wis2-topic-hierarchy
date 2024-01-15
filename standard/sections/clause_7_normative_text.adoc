@@ -94,6 +94,14 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 |temp
 |===
 
+==== Publishing guidelines
+
+For maximum utility and efficient management of topics, it is recommended that ``data``, ``metadata``, and ``reports`` need to be published to a detailed level. This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).  Note that each discpline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
+
+include::../requirements/core/REQ_publishing.adoc[]
+include::../recommendations/core/REC_publishing.adoc[]
+include::../recommendations/core/PER_publishing.adoc[]
+
 ==== Management
 
 The primary levels and sub-discipline specific levels are managed differently to maintain stability in the primary levels and flexibility for the sub-disciplines.
@@ -120,11 +128,3 @@ The centre identifier (``centre-id``) is an acronym as specified by the member a
 include::../requirements/core/REQ_centre-id.adoc[]
 include::../recommendations/core/REC_centre-id.adoc[]
 include::../recommendations/core/PER_centre-id.adoc[]
-
-==== Publishing guidelines
-
-For maximum utility and efficient management of topics, it is recommended that ``data``, ``metadata``, and ``reports`` need to be published to a detailed level. This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).  Note that each discpline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
-
-include::../requirements/core/REQ_publishing.adoc[]
-include::../recommendations/core/REC_publishing.adoc[]
-include::../recommendations/core/PER_publishing.adoc[]

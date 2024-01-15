@@ -116,3 +116,14 @@ The centre identifier (``centre-id``) is an acronym as specified by the member a
 include::../requirements/core/REQ_centre-id.adoc[]
 include::../recommendations/core/REC_centre-id.adoc[]
 include::../recommendations/core/PER_centre-id.adoc[]
+
+== Resources
+//I don't think we need more examples for the WTH
+
+=== All topics
+A zip file of all the approved topics is available at https://schemas.wmo.int/wis2/wth/a/1.0/wth.zip.
+
+A browseable and searchable codelist of all topics can be found at https://codes.wmo.int/wis2/wth.
+
+=== Compliance
+Conformance with this standard shall be checked using the tests specified the Conformance Class Abstract Test Suite (Normative). It is published at https://schemas.wmo.int/wis2/wth/ats.

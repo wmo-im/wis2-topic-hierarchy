@@ -2,5 +2,6 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Recommendation {counter:req-id}* |*/rec/core/publishing*
-^|A |The topic level ``experimental`` SHOULD be used as a temporary approach until a given sub-discipline topic is approved.
+^|A |The topic ``experimental`` SHOULD be used as a temporary approach until a given sub-discipline topic is approved.
+^|B |The proposed sub-discipline topics SHOULD be included after the ``experimental`` topic.
 |===

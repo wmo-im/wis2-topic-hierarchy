@@ -2,8 +2,9 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/releasing*
-^|A |Updates to the sub-discipline topics (level 8 and beyond) will go through the WMO fast-track approval procedure.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]
-^|B |Addition of a new centre identifier SHALL trigger an **immediate** stable release of WTH updates, which is not required to align with the WMO fast-track approval procedure.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]
-^|C |Immediate stable releases SHALL only contain changes resulting from a new value in the [centre-id] topic.
-^|D |Updates to the primary levels and other major revisions will go through the WMO standard procedure.
+//re-order the reqs
+^|A |Addition of a new centre identifier SHALL trigger an **immediate** stable release of WTH updates, which is not required to align with the WMO fast-track approval procedure.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]
+^|B |Immediate stable releases SHALL only contain changes resulting from a new value in the [centre-id] topic.
+^|C |Updates to the primary levels and other major revisions will go through the WMO standard procedure.
+^|D |Updates to the sub-discipline topics (level 8 and beyond) will go through the WMO fast-track approval procedure.footnote:[https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides]
 |===

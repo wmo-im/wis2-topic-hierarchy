@@ -1,10 +1,20 @@
 == The WIS2 Topic Hierarchy
 
-The WIS Topic Hierarchy (WTH) provides a structure used by data providers and WIS Global Services in support of core WIS workflows: publish, discover, subscribe and download.
+The WIS Topic Hierarchy (WTH) provides a structure used by data providers and WIS Global Services in support of core WIS workflows: publish, discover, subscribe and download. 
 
 The standard topic structure ensures that the WIS2 ecosystem (data publisher, data user, and global services) is a robust, effective, and unified data exchange platform for weather, climate, and water.
 
-The WTH is a simple text string of topics separated by a "/" and it is used to categorize notifications for real-time/near-real-time data, metadata records and reports. For example, [...data/weather/surface-based-observations...].
+//copied from abstract (not edited yet)
+***
+WIS2 real-time data sharing is based on a message queuing protocol (MQP) supporting a publication/subscription (PubSub) mechanism. A user can subscribe to an MQP broker to receive real-time notifications of the existence of new data.
+
+WIS2 brokers offer a range of topics organised in a hierarchy. Users can select their topics of interest and subscribe to them to receive notifications and download data relevant to their work.
+
+The standard notification message format ensures that the WIS2 ecosystem (data publisher, data user, and global services) is a robust, effective, and unified exchange platform for weather, climate, and water data.
+
+This document defines the structure of the WIS Topic Hierarchy. Topics are utilized by WIS Nodes, Global Broker services, and data/metadata subscribers.
+
+***
 
 === Conformance Class Core
 
@@ -14,7 +24,13 @@ This Core Conformance Class provides requirements for the definition and managem
 
 include::../requirements/requirements_class_core.adoc[]
 
-//add description on the types of levels and numbers of levels here
+The WTH is composed of primary topics (levels 1-7) and sub-discipline specific topics (level 8 and beyond).
+//change .."and services" to "..and services"?
+The primary topics apply to all data and services in WIS.  They are relational, meaning that any combination of the values in each level can be used to construct a topic applicable to a data or metadata notification
+
+The sub-discipline topics are proposed by domain experts and user communities.  These levels are a hierarchical representation of the dataset and the number of levels in this part may vary according to the requirements of various domains.
+
+The combination of these topics are encoded as a simple text string of values in each topic level separated by a "/". For example, ``origin/a/wis2/data/ca-eccc/core/weather/surface-based-observations/synop`` or ``origin/a/wis2/data/ca-eccc/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``.
 
 The table below provides an overview primary topic levels of the WIS2 topic hierarchy.
 
@@ -52,14 +68,35 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 
 |===
 
+.WTH example of level 8 sub-discipline topics
+|===
+|Level 8 topics|Level 9 topics|Level 10 topics
+
+|atmospheric-composition
+|experimental
+|
+
+|cryosphere
+|experimental
+|
+|....
+|experimental
+|
+
+|weather
+|experimental
+|
+|
+|surface-based-observations
+|synop
+|
+|
+|temp
+|===
 
 ==== Management
-{{_I think these two paragraphs belong in the introduction_}}
 
-The WTH is managed by the WMO. Updates to the WTH are made as part of two workflows: primary levels and sub-discipline specific levels.
-
-1. Primary topic levels (levels 1-7): topic structure applies to all data and services in WIS.  They are relational, meaning that any combination of each level can be used to construct a topic applicable to a data or metadata notification
-2. Sub-discipline topics (level 8 and beyond): topic structures proposed by domain experts and user communities.  These levels are a hierarchical representation of the dataset and the number of levels in this part may vary according to the requirements of various domains.
+The primary levels and sub-discipline specific levels are managed differently to maintain stability in the primary levels and flexibility for the sub-disciplines.
 
 include::../requirements/core/REQ_management.adoc[]
 include::../requirements/core/REQ_releasing.adoc[]

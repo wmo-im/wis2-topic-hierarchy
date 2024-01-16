@@ -16,7 +16,7 @@ The primary topics apply to all data and resources in WIS.  They are relational,
 
 The sub-discipline topics are proposed by domain experts and user communities.  These levels are a hierarchical representation of the dataset and the number of levels in this part may vary according to the requirements of various domains.
 
-The representation is encoded as a simple text string of values in each topic level separated by a ``/``. For example, ``origin/a/wis2/data/ca-eccc/core/weather/surface-based-observations/synop`` or ``origin/a/wis2/data/ca-eccc/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``.
+The representation is encoded as a simple text string of values in each topic level separated by a ``/``. For example, ``origin/a/wis2/data/ca-eccc-msc/core/weather/surface-based-observations/synop`` or ``origin/a/wis2/data/ca-eccc-msc/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``.
 
 The table below provides an overview of the primary topic levels.
 

@@ -89,7 +89,6 @@ include::../recommendations/core/REC_publishing.adoc[]
 include::../recommendations/core/PER_publishing.adoc[]
 
 ==== Management
-//new text
 The primary levels and sub-discipline specific levels are managed differently to maintain stability and allow for flexibility.
 
 include::../requirements/core/REQ_management.adoc[]

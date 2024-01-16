@@ -26,7 +26,7 @@ The table below provides an overview of the primary topic levels.
 
 |1
 |channel
-|Location of where the data originates from (data providers [origin] or global services [cache])
+|Location of where the data originates from (data providers are ``origin`` and global services ``cache``)
 
 |2
 |version
@@ -42,7 +42,7 @@ The table below provides an overview of the primary topic levels.
 
 |5
 |notification-type
-|WIS2 notification types (``data``, ``metadata``, or ``reports`` [from monitoring activities])
+|WIS2 notification types (``data`` or ``metadata``)
 
 |6
 |data-policy
@@ -51,33 +51,6 @@ The table below provides an overview of the primary topic levels.
 |7
 |earth-system-discipline
 |Seven high-level categories as defined by the WMO Unified Data Policy, Annex 1: (``atmospheric-composition``, ``climate``, ``cryosphere``, ``hydrology``, ``ocean``, ``space-weather``, or ``weather``)
-
-|===
-
-.WTH example table of sub-discipline topics
-|===
-|Level 8 topics|Level 9 topics|Level 10 topics
-
-|atmospheric-composition
-|experimental
-|
-
-|cryosphere
-|experimental
-|
-|....
-|experimental
-|
-
-|weather
-|experimental
-|
-|
-|surface-based-observations
-|synop
-|
-|
-|temp
 |===
 
 ==== Publishing guidelines
@@ -122,4 +95,4 @@ A zip file of all the approved topics is available at https://schemas.wmo.int/wt
 A browseable and searchable codelist of all topics can be found at https://codes.wmo.int/wth.
 
 === Compliance
-Conformance with this standard shall be checked using the tests specified the Conformance Class Abstract Test Suite (Normative). It is published at https://schemas.wmo.int/wth/a/ats.
+Conformance with this standard shall be checked using the tests specified the Conformance Class Abstract Test Suite (Normative). It is published at https://schemas.wmo.int/wth/a/1.0/ats.

@@ -117,9 +117,9 @@ include::../recommendations/core/PER_centre-id.adoc[]
 == Resources
 
 === All topics
-A zip file of all the approved topics is available at https://schemas.wmo.int/wis2/wth/a/1.0/wth.zip.
+A zip file of all the approved topics is available at https://schemas.wmo.int/wth/a/1.0/wth.zip.
 
-A browseable and searchable codelist of all topics can be found at https://codes.wmo.int/wis2/wth.
+A browseable and searchable codelist of all topics can be found at https://codes.wmo.int/wth.
 
 === Compliance
-Conformance with this standard shall be checked using the tests specified the Conformance Class Abstract Test Suite (Normative). It is published at https://schemas.wmo.int/wis2/wth/ats.
+Conformance with this standard shall be checked using the tests specified the Conformance Class Abstract Test Suite (Normative). It is published at https://schemas.wmo.int/wth/a/ats.

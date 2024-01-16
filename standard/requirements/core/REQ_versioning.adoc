@@ -7,7 +7,7 @@
 ^|C |A removal of a topic at any level SHALL result in a major version update.
 ^|D |A renaming of a topic at any level SHALL result in a major version update.
 ^|E |A change in structure of the topic hierarchy SHALL result in a major version update.
-^|F |A major version change in the WMO Notification Message encoding SHALL result in a major version update.
+^|F |A major version change in the WMO Notification Message encoding SHALL result in a major version update of the WIS2 Topic Hierarchy.
 ^|G |A new topic SHALL NOT result in any version update.
 ^|H |A new centre identifier SHALL NOT result in any version update.
 |===

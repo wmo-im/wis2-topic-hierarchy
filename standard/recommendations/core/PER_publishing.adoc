@@ -3,5 +3,5 @@
 |===
 ^|*Permission {counter:req-id}* |*/per/core/publishing*
 ^|A |Metadata MAY be published at any level at or below the notification type (``metadata``).
-^|B |Experimental data MAY be published at the ``experimental`` level of a given domain, for domain topics which are not yet approved.
+^|B |Data MAY be published with the ``experimental`` topic and include any sub-discipline topics which are not yet approved.
 |===

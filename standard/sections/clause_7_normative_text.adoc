@@ -1,18 +1,24 @@
 == The WIS2 Topic Hierarchy
 
-The WIS Topic Hierarchy (WTH) provides a structure used by data providers and WIS Global Services in support of core WIS workflows: publish, discover, subscribe and download.
+The WIS2 Topic Hierarchy is provides a mechanism for users to subscribe to and receive data or metadata notifications, and is used in discovery metadata records as well as WIS2 brokers.
 
 === Conformance Class Core
 
 ==== Overview
 
-This Core Conformance Class provides requirements to articulate the required elements of the definition and management of the WIS2 Topic Hierarchy.
+This Core Conformance Class provides requirements for the definition and management of the WIS2 Topic Hierarchy.
 
 include::../requirements/requirements_class_core.adoc[]
 
-The standard topic structure ensures that the WIS2 ecosystem (data publisher, data user, and global services) is a robust, effective, and unified data exchange platform for weather, climate, and water
+The WTH is composed of primary topics (levels 1-7) and sub-discipline specific topics (level 8 and beyond).
 
-The table below provides an overview primary topic levels of the WIS2 topic hierarchy.
+The primary topics apply to all data and resources in WIS.  They are relational, meaning that any combination of the values in each level can be used to construct a topic applicable to a notification.
+
+The sub-discipline topics are proposed by domain experts and user communities.  These levels are a hierarchical representation of the dataset and the number of levels in this part may vary according to the requirements of various domains.
+
+The representation is encoded as a simple text string of values in each topic level separated by a ``/``. For example, ``origin/a/wis2/data/ca-eccc/core/weather/surface-based-observations/synop`` or ``origin/a/wis2/data/ca-eccc/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``.
+
+The table below provides an overview of the primary topic levels.
 
 .WTH primary topic levels
 |===
@@ -20,15 +26,15 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 
 |1
 |channel
-|Location of where the data originates from (data providers [origin] or global services [cache])
+|Location of where the data originates from (data providers are ``origin`` and global services ``cache``)
 
 |2
 |version
-|Alphabetical version of the topic hierarchy
+|Alphabetical version of the topic hierarchy, currently: ``a`` 
 
 |3
 |system
-|Fixed value of wis2 for WIS2
+|Fixed value of ``wis2`` for WIS2
 
 |4
 |centre-id
@@ -36,27 +42,27 @@ The table below provides an overview primary topic levels of the WIS2 topic hier
 
 |5
 |notification-type
-|WIS2 notification types (data, metadata, reports [from monitoring activities])
+|WIS2 notification types (``data`` or ``metadata``)
 
 |6
 |data-policy
-|Data policy as defined by the WMO Unified Data Policy. core data are available from the Global Caches with open access on a free and unrestricted basis. Notifications for core and recommended data are available by subscription to Global Brokers. recommended data are downloaded from the original NC/DCPC and may require authentication/authorisation
+|Data policy as defined by the WMO Unified Data Policy. ``core`` data are available with open access on a free and unrestricted basis and ``recommended`` data are available from the original NC/DCPC which may require authentication or authorization
 
 |7
 |earth-system-discipline
-|As per Annex 1 of resolution 1 Cg-Ext-2021
-
+|Seven high-level categories as defined by the WMO Unified Data Policy, Annex 1: (``atmospheric-composition``, ``climate``, ``cryosphere``, ``hydrology``, ``ocean``, ``space-weather``, or ``weather``)
 |===
 
+==== Publishing guidelines
+
+For maximum utility and efficient management of topics, it is recommended that ``data`` and ``metadata`` need to be published to a detailed level. This helps with avoiding "pollution" of messages under the primary topics.  Note that each discipline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
+
+include::../requirements/core/REQ_publishing.adoc[]
+include::../recommendations/core/REC_publishing.adoc[]
+include::../recommendations/core/PER_publishing.adoc[]
 
 ==== Management
-
-The WTH is managed by the WMO. Updates to the WTH are made as part of two workflows: core levels, and domain specific levels.
-
-The WIS Topic Hierarchy has been developed according to the classification of the Earth System domains in Annex 1 of Resolution 1 Cg-Ext(2021), and it is managed in two parts:
-
-1. Primary topic levels (levels 1-7): topic structure applies to all data and services in WIS.  They are relational, meaning that any combination of each level can be used to construct a topic applicable to a data or metadata notification
-2. Domain specific topic subcategory levels (level 8 and beyond): topic structures proposed by domain experts and user communities.  Note that the number of levels in this part may vary according to the requirements of various domains, and are meant to represent a hierarchical representation of data publication from a given domain.
+The primary levels and sub-discipline specific levels are managed differently to maintain stability and allow for flexibility.
 
 include::../requirements/core/REQ_management.adoc[]
 include::../requirements/core/REQ_releasing.adoc[]
@@ -75,16 +81,18 @@ include::../requirements/core/REQ_conventions.adoc[]
 
 ==== Centre identification
 
-The centre identifier (``centre-id``) is an acronym as specified by the member and endorsed by the PR of the country and WMO.  It is a single identifier comprised of a TLD and centre name, and represents the data publisher, distributor or issuing centre of a given dataset or data product/granule.
+The centre identifier (``centre-id``) is an acronym as specified by the member and endorsed by the PR of the country and WMO.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product, data granule or other resource.
 
 include::../requirements/core/REQ_centre-id.adoc[]
 include::../recommendations/core/REC_centre-id.adoc[]
 include::../recommendations/core/PER_centre-id.adoc[]
 
-==== Publishing guidelines
+== Resources
 
-For maximum utility and efficient management of topics, data, metadata, and reports need to be published to a minimum level.  This helps with avoiding "pollution" of messages in higher level topics which are used to delineate core concepts (centre identification, notification types, data policy, etc.).  Note that each domain is designated a topic named ``experimental`` for publication to provisional topics.
+=== All topics
+A zip file of all the approved topics is available at https://schemas.wmo.int/wth/a/1.0/wth.zip.
 
-include::../requirements/core/REQ_publishing.adoc[]
-include::../recommendations/core/REC_publishing.adoc[]
-include::../recommendations/core/PER_publishing.adoc[]
+A browseable and searchable codelist of all topics can be found at https://codes.wmo.int/wth.
+
+=== Compliance
+Conformance with this standard shall be checked using the tests specified the Conformance Class Abstract Test Suite (Normative). It is published at https://schemas.wmo.int/wth/a/1.0/ats.

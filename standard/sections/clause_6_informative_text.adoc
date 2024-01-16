@@ -6,7 +6,7 @@ The WIS Topic Hierarchy (WTH) provides a structure used by data providers and WI
 
 === Real-time data sharing
 
-WIS real-time data sharing is based on a message queuing protocol (MQP) supporting a publication/subscription mechanism. A user can subscribe to an MQP broker to receive real-time notifications. The notifications can be sent for new or updated data, metadata, or reports. The notification message received from the MQP broker contains a URL to download the data. The MQP broker offers a range of topics organised in a hierarchy. The users can select their topics of interest and subscribe to them to receive notifications and download data relevant to their work.
+WIS real-time data sharing is based on a message queuing protocol (MQP) supporting a publication/subscription mechanism. A user can subscribe to an MQP broker to receive real-time notifications. The notifications can be sent for new or updated data or metadata. The notification message received from the MQP broker contains a URL to download the data. The MQP broker offers a range of topics organised in a hierarchy. The users can select their topics of interest and subscribe to them to receive notifications and download data relevant to their work.
 
 === Data discovery
 

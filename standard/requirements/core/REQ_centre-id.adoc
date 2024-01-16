@@ -2,7 +2,7 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/centre-id*
-^|A | A centre identifier SHALL NOT be used by more than one WIS2 Node and/or Global Service.
+^|A | A centre identifier SHALL NOT be used by more than one WIS2 Node or Global Service.
 ^|B
 a|A centre identifier SHALL be formatted as ``tld-centre-name``, where:
 

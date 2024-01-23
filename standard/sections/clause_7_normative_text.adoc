@@ -88,6 +88,7 @@ include::../recommendations/core/REC_centre-id.adoc[]
 include::../recommendations/core/PER_centre-id.adoc[]
 
 == Resources
+Examples and relevant guidance will be posted to https://community.wmo.int/en/activity-areas/wis/wth. 
 
 === Topics
 A zip file of all topics is available at https://schemas.wmo.int/wth/a/1.0/wth.zip.
@@ -97,5 +98,3 @@ A browseable and searchable code table of all topics can be found at https://cod
 === Compliance
 Conformance with this standard shall be checked using the tests specified in the Conformance Class Abstract Test Suite (Normative). It is published at https://schemas.wmo.int/wth/a/1.0/ats.
 
-=== Examples
-Examples and relevant information will be posted to https://community.wmo.int/en/activity-areas/wis/wth. 

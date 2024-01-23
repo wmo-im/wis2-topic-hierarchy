@@ -1,6 +1,6 @@
 == The WIS2 Topic Hierarchy
 
-The WIS2 Topic Hierarchy provides a mechanism for users to subscribe to and receive data or metadata notifications, and is used in discovery metadata records as well as WIS2 brokers.
+The WIS2 Topic Hierarchy provides a mechanism for users to subscribe to and receive data or metadata notifications. It is documented in discovery metadata records and leveraged by WIS2 brokers.
 
 === Conformance Class Core
 
@@ -10,7 +10,7 @@ This Core Conformance Class provides requirements for the definition and managem
 
 include::../requirements/requirements_class_core.adoc[]
 
-The WTH is composed of primary topics (levels 1-7) and sub-discipline specific topics (level 8 and beyond).
+The WTH is composed of primary topics (levels 1-7) and sub-discipline specific topics (levels 8 and beyond).
 
 The primary topics apply to all data and resources in WIS.  They are relational, meaning that any combination of the values in each level can be used to construct a topic applicable to a notification.
 
@@ -55,7 +55,7 @@ The table below provides an overview of the primary topic levels.
 
 ==== Publishing guidelines
 
-For maximum utility and efficient management of topics, it is recommended that ``data`` and ``metadata`` need to be published to a detailed level. This helps with avoiding "pollution" of messages under the primary topics.  Note that each discipline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
+For maximum utility and efficient management of topics, it is recommended that ``data`` and ``metadata`` are published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of messages under the primary topics.  Note that each discipline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
 
 include::../requirements/core/REQ_publishing.adoc[]
 include::../recommendations/core/REC_publishing.adoc[]
@@ -89,10 +89,10 @@ include::../recommendations/core/PER_centre-id.adoc[]
 
 == Resources
 
-=== All topics
+=== Topics
 A zip file of all the approved topics is available at https://schemas.wmo.int/wth/a/1.0/wth.zip.
 
 A browseable and searchable codelist of all topics can be found at https://codes.wmo.int/wth.
 
 === Compliance
-Conformance with this standard shall be checked using the tests specified the Conformance Class Abstract Test Suite (Normative). It is published at https://schemas.wmo.int/wth/a/1.0/ats.
+Conformance with this standard shall be checked using the tests specified in the Conformance Class Abstract Test Suite (Normative). It is published at https://schemas.wmo.int/wth/a/1.0/ats.

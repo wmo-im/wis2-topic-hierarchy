@@ -1,6 +1,6 @@
 == The WIS2 Topic Hierarchy
 
-The WIS2 Topic Hierarchy is provides a mechanism for users to subscribe to and receive data or metadata notifications, and is used in discovery metadata records as well as WIS2 brokers.
+The WIS2 Topic Hierarchy provides a mechanism for users to subscribe to and receive data or metadata notifications, and is used in discovery metadata records as well as WIS2 brokers.
 
 === Conformance Class Core
 

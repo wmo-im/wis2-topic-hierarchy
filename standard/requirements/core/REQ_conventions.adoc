@@ -3,7 +3,7 @@
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/conventions*
 ^|A |Topic level definitions SHALL be lowercase.
-^|B |Topic level definitions SHALL be encoded in ASCII T.50.
+^|B |Topic level definitions SHALL be encoded in ASCII T.50footnote:[https://www.itu.int/rec/T-REC-T.50].
 ^|C |Topic level definitions SHALL NOT utilize dots (``.``).
 ^|D |Topic level definitions SHALL utilize dashes (``-``) to separate words (such as ``sea-ice``).
 ^|E |All topic level definitions at a given level SHALL be unique.

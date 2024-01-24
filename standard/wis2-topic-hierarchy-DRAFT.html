@@ -513,7 +513,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_resources">8. Resources</a>
 <ul class="sectlevel2">
-<li><a href="#_all_topics">8.1. All topics</a></li>
+<li><a href="#_topics">8.1. Topics</a></li>
 <li><a href="#_compliance">8.2. Compliance</a></li>
 </ul>
 </li>
@@ -826,7 +826,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <h2 id="_the_wis2_topic_hierarchy"><a class="anchor" href="#_the_wis2_topic_hierarchy"></a>7. The WIS2 Topic Hierarchy</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The WIS2 Topic Hierarchy provides a mechanism for users to subscribe to and receive data or metadata notifications, and is used in discovery metadata records as well as WIS2 brokers.</p>
+<p>The WIS2 Topic Hierarchy provides a mechanism for users to subscribe to and receive data or metadata notifications. It is documented in discovery metadata records and leveraged by WIS2 brokers.</p>
 </div>
 <div class="sect2">
 <h3 id="_conformance_class_core"><a class="anchor" href="#_conformance_class_core"></a>7.1. Conformance Class Core</h3>
@@ -866,7 +866,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p>The WTH is composed of primary topics (levels 1-7) and sub-discipline specific topics (level 8 and beyond).</p>
+<p>The WTH is composed of primary topics (levels 1-7) and sub-discipline specific topics (levels 8 and beyond).</p>
 </div>
 <div class="paragraph">
 <p>The primary topics apply to all data and resources in WIS.  They are relational, meaning that any combination of the values in each level can be used to construct a topic applicable to a notification.</p>
@@ -936,7 +936,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="sect3">
 <h4 id="_publishing_guidelines"><a class="anchor" href="#_publishing_guidelines"></a>7.1.2. Publishing guidelines</h4>
 <div class="paragraph">
-<p>For maximum utility and efficient management of topics, it is recommended that <code>data</code> and <code>metadata</code> need to be published to a detailed level. This helps with avoiding "pollution" of messages under the primary topics.  Note that each discipline has a sub-discipline topic named <code>experimental</code> for publication to provisional topics.</p>
+<p>For maximum utility and efficient management of topics, it is recommended that <code>data</code> and <code>metadata</code> are published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of messages under the primary topics.  Note that each discipline has a sub-discipline topic named <code>experimental</code> for publication to provisional topics.</p>
 </div>
 <table id="req_core_publishing" class="tableblock frame-all grid-all" style="width: 90%;">
 <colgroup>
@@ -953,7 +953,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>Data SHALL NOT be published to a topic that is not defined in this specification.</p>
+<p>Data SHALL NOT be published with a topic that is not defined in this specification.</p>
 </div></div></td>
 </tr>
 <tr>
@@ -1075,7 +1075,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>Addition of a new centre identifier SHALL trigger an <strong>immediate</strong> stable release of WTH updates, which is not required to align with the WMO fast-track approval procedure.</p>
+<p>The addition of a new centre identifier SHALL trigger an <strong>immediate</strong> stable release of WTH updates, which is not required to align with the WMO fast-track approval procedure.</p>
 </div></div></td>
 </tr>
 <tr>
@@ -1137,19 +1137,19 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">C</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>A removal of a topic at any level SHALL result in a major version update.</p>
+<p>Removal of a topic at any level SHALL result in a major version update.</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">D</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>A renaming of a topic at any level SHALL result in a major version update.</p>
+<p>Renaming of a topic at any level SHALL result in a major version update.</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">E</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>A change in structure of the topic hierarchy SHALL result in a major version update.</p>
+<p>A change in the structure of the topic hierarchy SHALL result in a major version update.</p>
 </div></div></td>
 </tr>
 <tr>
@@ -1193,25 +1193,31 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>All topic level definitions SHALL be lowercase.</p>
+<p>Topic level definitions SHALL be lowercase.</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>All topic level definitions SHALL following ASCII T.50.</p>
+<p>Topic level definitions SHALL be encoded in ASCII T.50<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup>.</p>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_14">
+<a href="#_footnoteref_14">14</a>. <a href="https://www.itu.int/rec/T-REC-T.50" class="bare">https://www.itu.int/rec/T-REC-T.50</a>
+</div>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">C</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>All topic level definitions SHALL NOT utilize dots (<code>.</code>).</p>
+<p>Topic level definitions SHALL NOT utilize dots (<code>.</code>).</p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">D</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>All topic level definitions SHALL utilize dashes (<code>-</code>) to separate words (such as, <code>sea-ice</code>).</p>
+<p>Topic level definitions SHALL utilize dashes (<code>-</code>) to separate words (such as <code>sea-ice</code>).</p>
 </div></div></td>
 </tr>
 <tr>
@@ -1260,7 +1266,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><code>tld</code> is based on a TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup></p>
+<p><code>tld</code> is based on a TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup></p>
 </li>
 <li>
 <p><code>centre-name</code> is based on a centre name as defined by the member</p>
@@ -1269,8 +1275,8 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </div>
 <div id="footnotes">
 <hr>
-<div class="footnote" id="_footnotedef_14">
-<a href="#_footnoteref_14">14</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
+<div class="footnote" id="_footnotedef_15">
+<a href="#_footnoteref_15">15</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
 </div>
 </div></div></td>
 </tr>
@@ -1303,7 +1309,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>International organizations operating with a <code>int</code>, <code>org</code> or similar TLD SHOULD reuse these to define the TLD component of their centre identifier.</p>
+<p>International organizations operating with <code>int</code>, <code>org</code> or similar TLD SHOULD reuse these to define the TLD component of their centre identifier.</p>
 </div></div></td>
 </tr>
 <tr>
@@ -1353,19 +1359,22 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="sect1">
 <h2 id="_resources"><a class="anchor" href="#_resources"></a>8. Resources</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_all_topics"><a class="anchor" href="#_all_topics"></a>8.1. All topics</h3>
 <div class="paragraph">
-<p>A zip file of all the approved topics is available at <a href="https://schemas.wmo.int/wth/a/1.0/wth.zip" class="bare">https://schemas.wmo.int/wth/a/1.0/wth.zip</a>.</p>
+<p>Examples and relevant guidance will be posted to <a href="https://community.wmo.int/en/activity-areas/wis/wth" class="bare">https://community.wmo.int/en/activity-areas/wis/wth</a>.</p>
+</div>
+<div class="sect2">
+<h3 id="_topics"><a class="anchor" href="#_topics"></a>8.1. Topics</h3>
+<div class="paragraph">
+<p>A zip file of all topics is available at <a href="https://schemas.wmo.int/wth/a/1.0/wth.zip" class="bare">https://schemas.wmo.int/wth/a/1.0/wth.zip</a>.</p>
 </div>
 <div class="paragraph">
-<p>A browseable and searchable codelist of all topics can be found at <a href="https://codes.wmo.int/wth" class="bare">https://codes.wmo.int/wth</a>.</p>
+<p>A browseable and searchable code table of all topics can be found at <a href="https://codes.wmo.int/wth" class="bare">https://codes.wmo.int/wth</a>.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_compliance"><a class="anchor" href="#_compliance"></a>8.2. Compliance</h3>
 <div class="paragraph">
-<p>Conformance with this standard shall be checked using the tests specified the Conformance Class Abstract Test Suite (Normative). It is published at <a href="https://schemas.wmo.int/wth/a/1.0/ats" class="bare">https://schemas.wmo.int/wth/a/1.0/ats</a>.</p>
+<p>Conformance with this standard shall be checked using the tests specified in the Conformance Class Abstract Test Suite (Normative). It is published at <a href="https://schemas.wmo.int/wth/a/1.0/ats" class="bare">https://schemas.wmo.int/wth/a/1.0/ats</a>.</p>
 </div>
 </div>
 </div>
@@ -1480,7 +1489,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="openblock component">
 <div class="content">
 <div class="paragraph">
-<p>Check that the first component of the centre identifier is a valid TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup>.</p>
+<p>Check that the first component of the centre identifier is a valid TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup>.</p>
 </div>
 </div>
 </div>
@@ -1524,16 +1533,16 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a id="OASIS-mqtt5"></a> OASIS: MQTT Version 5.0 (2019) <sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup></p>
+<p><a id="OASIS-mqtt5"></a> OASIS: MQTT Version 5.0 (2019) <sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup></p>
 </li>
 <li>
-<p><a id="OASIS-mqtt311"></a> OASIS: MQTT Version 3.1.1 (2014) <sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup></p>
+<p><a id="OASIS-mqtt311"></a> OASIS: MQTT Version 3.1.1 (2014) <sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup></p>
 </li>
 <li>
-<p><a id="Wikipedia-PubSub"></a> Wikipedia: Publish-subscribe pattern (2023) <sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup></p>
+<p><a id="Wikipedia-PubSub"></a> Wikipedia: Publish-subscribe pattern (2023) <sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnotedef_19" title="View footnote.">19</a>]</sup></p>
 </li>
 <li>
-<p><a id="ITU-T50"></a> International Telecommunications Union (ITU): T.50 : International Reference Alphabet (IRA) (Formerly International Alphabet No. 5 or IA5) - Information technology - 7-bit coded character set for information interchange <sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnotedef_19" title="View footnote.">19</a>]</sup></p>
+<p><a id="ITU-T50"></a> International Telecommunications Union (ITU): T.50 : International Reference Alphabet (IRA) (Formerly International Alphabet No. 5 or IA5) - Information technology - 7-bit coded character set for information interchange <sup class="footnote">[<a id="_footnoteref_20" class="footnote" href="#_footnotedef_20" title="View footnote.">20</a>]</sup></p>
 </li>
 </ul>
 </div>
@@ -1610,25 +1619,25 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="footnote" id="_footnotedef_12">
 <a href="#_footnoteref_12">12</a>. <a href="https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides" class="bare">https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides</a>
 </div>
-<div class="footnote" id="_footnotedef_15">
-<a href="#_footnoteref_15">15</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
-</div>
 <div class="footnote" id="_footnotedef_16">
-<a href="#_footnoteref_16">16</a>. <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html" class="bare">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a>
+<a href="#_footnoteref_16">16</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
 </div>
 <div class="footnote" id="_footnotedef_17">
-<a href="#_footnoteref_17">17</a>. <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html" class="bare">http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html</a>
+<a href="#_footnoteref_17">17</a>. <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html" class="bare">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a>
 </div>
 <div class="footnote" id="_footnotedef_18">
-<a href="#_footnoteref_18">18</a>. <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" class="bare">https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern</a>
+<a href="#_footnoteref_18">18</a>. <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html" class="bare">http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html</a>
 </div>
 <div class="footnote" id="_footnotedef_19">
-<a href="#_footnoteref_19">19</a>. <a href="https://www.itu.int/rec/T-REC-T.50" class="bare">https://www.itu.int/rec/T-REC-T.50</a>
+<a href="#_footnoteref_19">19</a>. <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" class="bare">https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern</a>
+</div>
+<div class="footnote" id="_footnotedef_20">
+<a href="#_footnoteref_20">20</a>. <a href="https://www.itu.int/rec/T-REC-T.50" class="bare">https://www.itu.int/rec/T-REC-T.50</a>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-01-23 10:28:48 UTC
+Last updated 2024-01-24 01:16:38 UTC
 </div>
 </div>
 </body>

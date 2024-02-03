@@ -2,7 +2,7 @@
 [cols="1,4",width="90%"]
 |===
 2+|*Requirements Class*
-2+|http://www.wmo.int/spec/wth/1/req/core
+2+|http://wis.wmo.int/spec/wth/1/req/core
 |Target type |Topic Classification
 |Dependency |<<MQTT5, MQTT v5.0>>
 |Dependency |<<MQTT3, MQTT v3.1.1>>

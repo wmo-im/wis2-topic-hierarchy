@@ -1,7 +1,7 @@
 [[per_core_centre-id]]
 [width="90%",cols="2,6a"]
 |===
-^|*Permission {counter:req-id}* |*/per/core/centre-id*
+^|*Permission {counter:per-id}* |*/per/core/centre-id*
 ^|A |A centre identifier's ``centre-name`` component MAY contain dashes.
 ^|B |Larger organizations providing multiple centres MAY use dashes in the ``centre-name`` component to further delineate a centre function (for example, ``int-org1-nwp``, ``int-org1-ozone``).
 ^|C |A centre providing a WIS service MAY further qualify the function within the ``centre-name`` component (for example, ``int-org1-global-cache``).

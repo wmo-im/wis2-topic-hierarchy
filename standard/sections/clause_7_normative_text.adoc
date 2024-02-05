@@ -2,11 +2,11 @@
 
 The WIS2 Topic Hierarchy provides a mechanism for users to subscribe to and receive data or metadata notifications. It is documented in discovery metadata records and leveraged by WIS2 brokers.
 
-=== Conformance Class Core
+=== Requirements Class Core
 
 ==== Overview
 
-This Core Conformance Class provides requirements for the definition and management of the WIS2 Topic Hierarchy.
+This Core Requirements Class provides requirements for the definition and management of the WIS2 Topic Hierarchy.
 
 include::../requirements/requirements_class_core.adoc[]
 

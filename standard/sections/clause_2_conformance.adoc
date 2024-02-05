@@ -7,8 +7,8 @@ of providing MQP services in alignment with the defined topic structure.
 
 WMO shall publish guidance material to assist WIS Global Brokers and Nodes in constructing valid topic structures.
 
-This standard identifies one Conformance Class which defines the functional requirements.
+This standard identifies one Requirements Class which defines the functional requirements.
 
-The mandatory Conformance Class for this specification is:
+The mandatory Requirements Class for this specification is:
 
 * "WIS2 Topic Hierarchy Core"

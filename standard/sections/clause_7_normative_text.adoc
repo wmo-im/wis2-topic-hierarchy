@@ -46,7 +46,7 @@ The table below provides an overview of the primary topic levels.
 
 |6
 |data-policy
-|Data policy as defined by the WMO Unified Data Policy. ``core`` data are available with open access on a free and unrestricted basis and ``recommended`` data are available from the original NC/DCPC which may require authentication or authorization
+|Data policy as defined by the WMO Unified Data Policy (``core`` and ``recommended``)
 
 |7
 |earth-system-discipline

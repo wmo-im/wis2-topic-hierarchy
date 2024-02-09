@@ -9,5 +9,5 @@
 ^|E |A change in the structure of the topic hierarchy SHALL result in a major version update.
 ^|F |A renaming or removal in the WMO Notification Message encoding SHALL result in a major version update. 
 ^|G |A new topic SHALL NOT result in any version update.
-^|H |A new centre identifier SHALL NOT result in any version update.
+^|H |A new or changed centre identifier SHALL NOT result in any version update.
 |===

@@ -2,12 +2,12 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/versioning*
-^|A |A minor version SHALL NOT result in any changes to the version level.
-^|B |A major version SHALL result in a change to the version level (for example, ``a`` becomes ``b``).
-^|C |Removal of a topic at any level SHALL result in a major version update.
-^|D |Renaming of a topic at any level SHALL result in a major version update.
-^|E |A change in the structure of the topic hierarchy SHALL result in a major version update.
-^|F |A renaming or removal in the WMO Notification Message encoding SHALL result in a major version update. 
-^|G |A new topic SHALL NOT result in any version update.
-^|H |A new or changed centre identifier SHALL NOT result in any version update.
+^|A |A minor version shall not result in any changes to the version level.
+^|B |A major version shall result in a change to the version level (for example, ``a`` becomes ``b``).
+^|C |Removal of a topic at any level shall result in a major version update.
+^|D |Renaming of a topic at any level shall result in a major version update.
+^|E |A change in the structure of the topic hierarchy shall result in a major version update.
+^|F |A renaming or removal in the WMO Notification Message encoding shall result in a major version update. 
+^|G |A new topic shall not result in any version update.
+^|H |A new or changed centre identifier shall not result in any version update.
 |===

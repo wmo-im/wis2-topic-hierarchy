@@ -2,12 +2,12 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/centre-id*
-^|A | A centre identifier SHALL NOT be used by more than one WIS2 Node or Global Service.
+^|A | A centre identifier shall not be used by more than one WIS2 Node or Global Service.
 ^|B
-a|A centre identifier SHALL be formatted as ``tld-centre-name``, where:
+a|A centre identifier shall be formatted as ``tld-centre-name``, where:
 
-- `tld` is based on TLD as defined by IANAfootnote:[https://data.iana.org/TLD] for the relevant country or international organization
-- `centre-name` is based on a centre name 
-^|C | The `test` TLD SHALL be used only for WIS internal system testing purposes.
+- The `tld` string is based on TLD as defined by IANAfootnote:[https://data.iana.org/TLD] for the relevant country or international organization
+- The `centre-name` string is based on a centre name 
+^|C | The `test` TLD shall be used only for WIS internal system testing purposes.
 
 |===

@@ -1,24 +1,25 @@
-== The WIS2 Topic Hierarchy
+== Appendix D: WIS2 Topic Hierarchy
 
-The WIS2 Topic Hierarchy provides a mechanism for users to subscribe to and receive data or metadata notifications. It is documented in discovery metadata records and leveraged by WIS2 brokers.
-
-=== Requirements Class Core
-
-==== Overview
-
-This Core Requirements Class provides requirements for the definition and management of the WIS2 Topic Hierarchy.
+=== Requirements Class "Core"
 
 include::../requirements/requirements_class_core.adoc[]
 
+The normative provisions in this standard are denoted by the ``http://wis.wmo.int/spec/wth/1`` URI. All requirements in this document are denoted by partial URIs which are relative to this base and examples are encoded as ``plain text`` strings.
+
+=== Overview
 The WTH is composed of primary topics (levels 1-7) and sub-discipline specific topics (levels 8 and beyond).
 
-The primary topics apply to all data and resources in WIS.  They are relational, meaning that any combination of the values in each level can be used to construct a topic applicable to a notification.
+The primary topics apply to all data and resources in WIS. They are relational, meaning that any combination of the values in each level can be used to construct a topic applicable to a notification. See table below.
 
 The sub-discipline topics are proposed by domain experts and user communities.  These levels are a hierarchical representation of the dataset and the number of levels in this part may vary according to the requirements of various domains.
 
-The representation is encoded as a simple text string of values in each topic level separated by a ``/``. For example, ``origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop`` or ``origin/a/wis2/ca-eccc-msc/data/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``.
+The representation is encoded as a simple text string of values in each topic level separated by a ``/``. 
 
-The table below provides an overview of the primary topic levels.
+Examples. 
+
+``origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop``
+
+``origin/a/wis2/ca-eccc-msc/data/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``
 
 .WTH primary topic levels
 |===
@@ -27,44 +28,41 @@ The table below provides an overview of the primary topic levels.
 |1
 |channel
 |Location of where the data originates from (data providers are ``origin`` and global services ``cache``)
-
 |2
 |version
 |Alphabetical version of the topic hierarchy, currently: ``a`` 
-
 |3
 |system
 |Fixed value of ``wis2`` for WIS2
-
 |4
 |centre-id
-|Acronym proposed by member and endorsed by WMO Secretariat
-
+|Acronym as specified by member and endorsed by the PR of the country and WMO
 |5
 |notification-type
 |WIS2 notification types (``data`` or ``metadata``)
-
 |6
 |data-policy
 |Data policy as defined by the WMO Unified Data Policy (``core`` and ``recommended``)
-
 |7
 |earth-system-discipline
 |Seven high-level categories as defined by the WMO Unified Data Policy, Annex 1: (``atmospheric-composition``, ``climate``, ``cryosphere``, ``hydrology``, ``ocean``, ``space-weather``, or ``weather``)
 |===
 
-==== Publishing guidelines
+==== Publishing
 
 For maximum utility and efficient management of topics, it is recommended that ``data`` and ``metadata`` are published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of messages under the primary topics.  Note that each discipline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
 
 include::../requirements/core/REQ_publishing.adoc[]
+
 include::../recommendations/core/REC_publishing.adoc[]
+
 include::../recommendations/core/PER_publishing.adoc[]
 
 ==== Management
 The primary levels and sub-discipline specific levels are managed differently to maintain stability and allow for flexibility.
 
 include::../requirements/core/REQ_management.adoc[]
+
 include::../requirements/core/REQ_releasing.adoc[]
 
 ==== Versioning
@@ -84,5 +82,63 @@ include::../requirements/core/REQ_conventions.adoc[]
 The centre identifier (``centre-id``) is an acronym as specified by the member and endorsed by the PR of the country and WMO.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product, data granule or other resource.
 
 include::../requirements/core/REQ_centre-id.adoc[]
+
 include::../recommendations/core/REC_centre-id.adoc[]
+
 include::../recommendations/core/PER_centre-id.adoc[]
+
+=== WIS2 Topic Hierarchy Resources
+
+==== WMO Codes Registry
+
+|===
+|Level |Topic |URI
+
+|1
+|channel
+|https://codes.wmo.int/wis/topic-hierarchy/channel
+|2
+|version
+|https://codes.wmo.int/wis/topic-hierarchy/version
+|3
+|system
+|https://codes.wmo.int/wis/topic-hierarchy/system
+|4
+|centre-id
+|https://codes.wmo.int/wis/topic-hierarchy/centre-id
+|5
+|notification-type
+|https://codes.wmo.int/wis/topic-hierarchy/notification-type
+|6
+|data-policy
+|https://codes.wmo.int/wis/topic-hierarchy/data-policy
+|7
+|earth-system-discipline
+|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline
+|8
+|atmospheric-composition
+|https://codes.wmo.int/wis/topic-hierarchy/atmospheric-composition
+|8
+|climate
+|https://codes.wmo.int/wis/topic-hierarchy/climate
+|8
+|cryosphere
+|https://codes.wmo.int/wis/topic-hierarchy/cryosphere
+|8
+|hydrology
+|https://codes.wmo.int/wis/topic-hierarchy/hydrology
+|8
+|ocean
+|https://codes.wmo.int/wis/topic-hierarchy/ocean
+|8
+|space-weather
+|https://codes.wmo.int/wis/topic-hierarchy/space-weather
+|8
+|weather
+|https://codes.wmo.int/wis/topic-hierarchy/weather
+|===
+
+==== WMO schemas server
+A zipped directory of all topics is published at https://schemas.wmo.int/wth/a.
+
+This bundle can be used by tools and applications wishing to browse or validate topic structures.

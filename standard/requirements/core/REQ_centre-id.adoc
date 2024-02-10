@@ -6,7 +6,7 @@
 ^|B
 a|A centre identifier shall be formatted as ``tld-centre-name``, where:
 
-- The `tld` string is based on a TLD as defined by IANAfootnote:[https://data.iana.org/TLD] for the relevant country or international organization
+- The `tld` string is based on TLD as defined by IANAfootnote:[https://data.iana.org/TLD] for the relevant country or international organization
 - The `centre-name` string is based on a centre name 
 ^|C | The `test` TLD shall be used only for WIS internal system testing purposes.
 

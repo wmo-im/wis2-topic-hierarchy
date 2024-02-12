@@ -38,7 +38,7 @@ The table below provides an overview of the primary topic levels.
 
 |4
 |centre-id
-|Acronym as specified by member and endorsed by the PR of the country and WMO
+|Acronym proposed by member and endorsed by WMO Secretariat
 
 |5
 |notification-type

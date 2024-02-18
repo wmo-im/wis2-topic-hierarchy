@@ -1,8 +1,8 @@
 :title: WIS2 Topic Hierarchy
 :titletext: {title}
-:version: 1.0.0-DRAFT
-:date: 2023-08-22
-:copyright: Copyright © 2023 World Meteorological Organization (WMO)
+:version: a
+:date: {docdate}
+:copyright: Copyright © 2024 World Meteorological Organization (WMO)
 :doctype: book
 :encoding: utf-8
 :lang: en

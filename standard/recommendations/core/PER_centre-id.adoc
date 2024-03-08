@@ -5,4 +5,5 @@
 ^|A |A centre identifier's ``centre-name`` component MAY contain dashes.
 ^|B |Larger organizations providing multiple centres MAY use dashes in the ``centre-name`` component to further delineate a centre function (for example, ``int-org1-nwp``, ``int-org1-ozone``).
 ^|C |A centre providing a WIS service MAY further qualify the function within the ``centre-name`` component (for example, ``int-org1-global-cache``).
+^|D |Organizations wishing to test their WIS2 Node or Global Service MAY provide the ``-test`` suffix to their centre identifier (for example, ``int-org1-test``).
 |===

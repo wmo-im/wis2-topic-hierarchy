@@ -126,7 +126,7 @@ CSV_FILES_PATH = ROOTPATH / 'topic-hierarchy'
 TTL_FILES_PATH = ROOTPATH / 'wis'
 COLLECTIONS = []
 print('Generating WTH TTL files')
-ttl_files_path = ROOTPATH / 'wis'
+ttl_files_path = ROOTPATH / 'wis' / 'topic-hierarchy'
 if ttl_files_path.exists():
     shutil.rmtree(ttl_files_path)
 ttl_files_path.mkdir()

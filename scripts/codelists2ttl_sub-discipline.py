@@ -132,7 +132,7 @@ def read_subdomain_index(index_file):
             fh2_index.write(ttl)
         concept_csv_dir = os.path.abspath(index_file)
         concept_csv_file = f"{concept_csv_dir}" / f"{row_index['Name']}" / "index.csv"
-        if os.path.exists(concept_csv_file):
+        if concept_csv_file.exists():
             read_subdomain_index(concept_csv_file)
 
 
@@ -140,25 +140,26 @@ REGISTER = 'http://codes.wmo.int/wis'
 
 ROOTPATH = Path.cwd()
 CSV_FILES_PATH = ROOTPATH / 'topic-hierarchy' / 'earth-system-discipline'
-TTL_FILES_PATH = ROOTPATH / 'wis' / 'topic-hierarchy' / 'earth-system-discipline'
+TTL_FILES_PATH = ROOTPATH / 'wis' / 'topic-hierarchy' / 'sub-discipline'
 COLLECTIONS = []
 
 print('Generating WIS2 Topic Hierarchy earth-system-disciplines TTL files')
 
-ttl_files_path = ROOTPATH / 'wis' / 'topic-hierarchy' / 'earth-system-discipline'
+ttl_files_path = ROOTPATH / 'wis' / 'topic-hierarchy' / 'sub-discipline'
 if ttl_files_path.exists():
     shutil.rmtree(ttl_files_path)
 ttl_files_path.mkdir()
 
 root_table = ROOTPATH / 'topic-hierarchy' / 'earth-system-discipline' / 'index.csv'
+ttl_files_path_base = ROOTPATH / 'wis' / 'topic-hierarchy' / 'sub-discipline'
 
 with root_table.open() as fh:
     subregisters = []
     reader = csv.DictReader(fh)
     for row in reader:
-        ttl_files_path = ROOTPATH / 'wis' / 'topic-hierarchy' / 'earth-system-discipline' / f"{row['Name']}"
+        ttl_files_path = f"{ttl_files_path_base}" / f"{row['Name']}"
         subdirectories = True
-        subregister_url = "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline" / f"{row['Name']}"
+        subregister_url = "http://codes.wmo.int/wis/topic-hierarchy/sub-discipline" / f"{row['Name']}"
         subregisters.append(f"<{subregister_url}>")
         register_ttl_dir = ttl_files_path
         register_ttl_file = ttl_files_path / f"{row['Name']}.ttl"

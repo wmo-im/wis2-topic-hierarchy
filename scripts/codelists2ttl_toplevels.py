@@ -23,8 +23,6 @@ import csv
 from pathlib import Path
 import shutil
 from string import Template
-import os
-
 
 def gen_skos_register(subregisters: list) -> str:
     """

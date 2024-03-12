@@ -126,10 +126,11 @@ def read_subdomain_index(index_file):
         reader_index = csv.DictReader(fh_index)
         index_file_path = os.path.abspath(index_file)
         sub_dir_part = index_file_path.split('/earth-system-discipline/')[1]
-        sub_dir = sub_dir_part.replace("/index.csv","")
+        sub_dir = sub_dir_part.replace("/index.csv", "")
         for row3 in reader_index:
             if sub_dir != "":
-                concept_ttl_file = f"{register_ttl_dir}/{sub_dir}/{row3['Name']}.ttl"
+                concept_ttl_dir = f"{register_ttl_dir}/{sub_dir}"
+                concept_ttl_file = f"{concept_ttl_dir}/{row3['Name']}.ttl"
             else:
                 concept_ttl_file = f"{register_ttl_dir}/{row3['Name']}.ttl"
             print(f'Generating {concept_ttl_file}')
@@ -141,35 +142,6 @@ def read_subdomain_index(index_file):
             concept_csv_file = f"{concept_csv_dir}/{row3['Name']}/index.csv"
             if os.path.exists(concept_csv_file):
                 read_subdomain_index(concept_csv_file)
-
-
-def read_subdomain_index2(index_file, concept_rel_path):
-    global concept_ttl_path
-    with open(index_file, "r") as fh_index:
-        reader_index = csv.DictReader(fh_index)
-        for row in reader_index:
-            if concept_rel_path == "":
-                concept_ttl_dir = Path(f"{concept_ttl_path}")
-            else:
-                concept_ttl_dir = Path(f"{concept_ttl_path}/{concept_rel_path}")
-            if not os.path.exists(concept_ttl_dir):
-                concept_ttl_dir.mkdir()
-
-            concept_ttl_file = f"{concept_ttl_dir}/{row['Name']}.ttl"
-            print(f'Generating {concept_ttl_file}')
-            with open(concept_ttl_file, 'w') as fh2_index:
-                ttl = gen_skos_concept(row['Name'],
-                                       row['Description'])
-                fh2_index.write(ttl)
-            if concept_rel_path == "":
-                concept_rel_path = f"{row['Name']}"
-            else:
-                concept_rel_path = f"{concept_rel_path}/{row['Name']}" 
-            print(concept_rel_path)
-            concept_csv_dir = ROOTPATH / f"topic-hierarchy/earth-system-discipline/{concept_rel_path}"
-            concept_csv_file = f"{concept_csv_dir}/index.csv"
-            if os.path.exists(concept_csv_file):
-                read_subdomain_index(concept_csv_file, concept_rel_path)
 
 
 REGISTER = 'http://codes.wmo.int/wis'

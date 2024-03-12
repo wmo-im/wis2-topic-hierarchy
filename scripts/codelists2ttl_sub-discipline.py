@@ -124,15 +124,15 @@ def gen_skos_concept(name: str, description: str, source: str = None) -> str:
 def read_subdomain_index(index_file):
     with open(index_file, "r") as fh_index:
         reader_index = csv.DictReader(fh_index)
-    for row_index in reader_index:
-        concept_ttl_file = register_ttl_dir / f"{row_index['Name']}.ttl"
+    for row3 in reader_index:
+        concept_ttl_file = register_ttl_dir / f"{row3['Name']}.ttl"
         print(f'Generating {concept_ttl_file}')
         with concept_ttl_file.open('w') as fh2_index:
-            ttl = gen_skos_concept(row_index['Name'],
-                                   row_index['Description'])
+            ttl = gen_skos_concept(row3['Name'],
+                                   row3['Description'])
             fh2_index.write(ttl)
         concept_csv_dir = os.path.abspath(index_file)
-        concept_csv_file = f"{concept_csv_dir}" / f"{row_index['Name']}" / "index.csv"
+        concept_csv_file = f"{concept_csv_dir}/{row3['Name']}/index.csv"
         if concept_csv_file.exists():
             read_subdomain_index(concept_csv_file)
 

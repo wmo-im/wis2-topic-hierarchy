@@ -168,7 +168,7 @@ with root_table.open() as fh:
         print(f'Generating {register_ttl_file}')
         register_ttl_dir.mkdir()
 
-        with register_ttl_file.open('w') as fh2:
+        with open(register_ttl_file, 'w') as fh2:
             ttl = gen_skos_subregister(row['Name'],
                                        row['Description'])
             fh2.write(ttl)

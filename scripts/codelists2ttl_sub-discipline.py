@@ -133,7 +133,7 @@ def read_subdomain_index(index_file):
                 fh2_index.write(ttl)
             concept_csv_dir = os.path.abspath(index_file)
             concept_csv_file = f"{concept_csv_dir}/{row3['Name']}/index.csv"
-            if concept_csv_file.exists():
+            if os.path.exists(concept_csv_file):
                 read_subdomain_index(concept_csv_file)
 
 

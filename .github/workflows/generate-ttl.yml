@@ -1,4 +1,4 @@
-name: Generate WCMP2 Codelists as TTL files
+name: Generate WIS2 Topic Hierarchy as TTL files
 
 on:
   pull_request:
@@ -25,6 +25,6 @@ jobs:
           pip3 install flake8
       - name: Generate TTL files
         run: |
-          python3 scripts/codelists2ttl_toplevel.py
+          python3 scripts/codelists2ttl_toplevels.py
       - name: run flake8
         run: flake8 scripts/

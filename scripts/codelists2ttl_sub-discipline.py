@@ -174,7 +174,7 @@ with root_table.open() as fh:
             fh2.write(ttl)
 
         concept_csv_dir = ROOTPATH / 'topic-hierarchy/earth-system-discipline'
-        concept_csv_file = f"{concept_csv_dir}" / f"{row['Name']}" / "index.csv"
+        concept_csv_file = f"{concept_csv_dir}/{row['Name']}" / "index.csv"
         concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
 
         read_subdomain_index(concept_csv_file)

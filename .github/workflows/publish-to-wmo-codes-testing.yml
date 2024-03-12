@@ -38,4 +38,4 @@ jobs:
           pip3 install -r scripts/requirements.txt
      # - name: update publication branch and publish
      #   run: |
-     #     python3 scripts/upload_changes.py https://api.github.com/users/{WMO_CODES_TEST_USER_ID} {WMO_CODES_TEST_API_KEY} test /tmp/wis experimental
+     #     python3 scripts/upload_changes.py {WMO_CODES_TEST_USER_ID} {WMO_CODES_TEST_API_KEY} test /tmp/wis --status experimental

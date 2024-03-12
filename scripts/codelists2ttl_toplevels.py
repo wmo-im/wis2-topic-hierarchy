@@ -141,15 +141,16 @@ with root_table.open() as fh:
         register_ttl_file = ttl_files_path / f"{row['Name']}.ttl"
         print(f'Generating {register_ttl_file}')
         register_ttl_dir.mkdir()
-        with register_ttl_file.open('w') as fh2:
-            ttl = gen_skos_subregister(row['Name'],
-                                       row['Description'])
-            fh2.write(ttl)
 
-        concept_csv_file = ROOTPATH / 'topic-hierarchy' / f"{row['Name']}.csv"
-        concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
+        if "earth-system-discipline" not in str(row['Name']):
+            with register_ttl_file.open('w') as fh2:
+                ttl = gen_skos_subregister(row['Name'],
+                                           row['Description'])
+                fh2.write(ttl)
 
-        if "earth-system-discipline" not in str(concept_csv_file):
+            concept_csv_file = ROOTPATH / 'topic-hierarchy' / f"{row['Name']}.csv"
+            concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
+
             with concept_csv_file.open() as fh2:
                 reader2 = csv.DictReader(fh2)
                 for row2 in reader2:

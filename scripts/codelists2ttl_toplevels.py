@@ -24,6 +24,7 @@ from pathlib import Path
 import shutil
 from string import Template
 
+
 def gen_skos_register(subregisters: list) -> str:
     """
     Generate SKOS Register TTL

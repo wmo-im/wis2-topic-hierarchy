@@ -127,7 +127,7 @@ CSV_FILES_PATH = ROOTPATH / 'topic-hierarchy'
 TTL_FILES_PATH = ROOTPATH / 'wis'
 COLLECTIONS = []
 
-print('Generating WCMP2 TTL files')
+print('Generating WIS2 Topic Hierarchy TTL files')
 
 ttl_files_path = ROOTPATH / 'wis'
 
@@ -158,15 +158,16 @@ with root_table.open() as fh:
         concept_csv_file = ROOTPATH / 'topic-hierarchy' / f"{row['Name']}.csv"
         concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
 
-        with concept_csv_file.open() as fh2:
-            reader2 = csv.DictReader(fh2)
-            for row2 in reader2:
-                concept_ttl_file = register_ttl_dir / f"{row2['Name']}.ttl"
-                print(f'Generating {concept_ttl_file}')
-                with concept_ttl_file.open('w') as fh3:
-                    ttl = gen_skos_concept(row2['Name'],
+        if not "earth-system-discipline" in concept_csv_file:
+            with concept_csv_file.open() as fh2:
+                reader2 = csv.DictReader(fh2)
+                for row2 in reader2:
+                    concept_ttl_file = register_ttl_dir / f"{row2['Name']}.ttl"
+                    print(f'Generating {concept_ttl_file}')
+                    with concept_ttl_file.open('w') as fh3:
+                        ttl = gen_skos_concept(row2['Name'],
                                            row2['Description'])
 
-                    fh3.write(ttl)
+                        fh3.write(ttl)
 
 print('Done')

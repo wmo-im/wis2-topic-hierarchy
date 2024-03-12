@@ -26,5 +26,6 @@ jobs:
       - name: Generate TTL files
         run: |
           python3 scripts/codelists2ttl_toplevels.py
+          python3 scripts/codelists2ttl_sub-discipline.py
       - name: run flake8
         run: flake8 scripts/

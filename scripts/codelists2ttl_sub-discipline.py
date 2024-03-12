@@ -23,6 +23,7 @@ import csv
 from pathlib import Path
 import shutil
 from string import Template
+import os
 
 
 def gen_skos_register(subregisters: list) -> str:
@@ -131,7 +132,7 @@ def read_subdomain_index(index_file):
                                    row_index['Description'])
             fh2_index.write(ttl)
         concept_csv_dir = os.path.abspath(index_file)
-        concept_csv_file = f"{concept_csv_dir}" / f"{row_index['Name']}" / "index.csv"
+        concept_csv_file = f"{concept_csv_dir}/{row_index['Name']}/index.csv"
         if concept_csv_file.exists():
             read_subdomain_index(concept_csv_file)
 
@@ -150,16 +151,17 @@ if ttl_files_path.exists():
     shutil.rmtree(ttl_files_path)
 ttl_files_path.mkdir()
 
-root_table = ROOTPATH / 'topic-hierarchy' / 'earth-system-discipline' / 'index.csv'
+root_table = ROOTPATH / 'topic-hierarchy/earth-system-discipline/index.csv'
 ttl_files_path_base = ROOTPATH / 'wis' / 'topic-hierarchy' / 'sub-discipline'
 
 with root_table.open() as fh:
     subregisters = []
     reader = csv.DictReader(fh)
+    subregister_baseurl = "http://codes.wmo.int/wis/topic-hierarchy/"
     for row in reader:
         ttl_files_path = f"{ttl_files_path_base}" / f"{row['Name']}"
         subdirectories = True
-        subregister_url = "http://codes.wmo.int/wis/topic-hierarchy/sub-discipline" / f"{row['Name']}"
+        subregister_url = f"{subregister_baseurl}" / "sub-discipline" / f"{row['Name']}"
         subregisters.append(f"<{subregister_url}>")
         register_ttl_dir = ttl_files_path
         register_ttl_file = ttl_files_path / f"{row['Name']}.ttl"
@@ -171,7 +173,7 @@ with root_table.open() as fh:
                                        row['Description'])
             fh2.write(ttl)
 
-        concept_csv_file = ROOTPATH / 'topic-hierarchy' / 'earth-system-discipline' / f"{row['Name']}" / "index.csv"
+        concept_csv_file = ROOTPATH / 'topic-hierarchy/earth-system-discipline' / f"{row['Name']}" / "index.csv"
         concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
 
         read_subdomain_index(concept_csv_file)

@@ -148,7 +148,7 @@ with root_table.open() as fh:
                                            row['Description'])
                 fh2.write(ttl)
 
-            concept_csv_file = ROOTPATH / 'topic-hierarchy' / f"{row['Name']}.csv"
+            concept_csv_file = ROOTPATH / f"topic-hierarchy/{row['Name']}.csv"
             concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
 
             with concept_csv_file.open() as fh2:

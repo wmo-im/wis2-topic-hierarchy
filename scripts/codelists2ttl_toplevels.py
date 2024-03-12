@@ -23,6 +23,7 @@ import csv
 from pathlib import Path
 import shutil
 from string import Template
+import os
 
 
 def gen_skos_register(subregisters: list) -> str:
@@ -127,7 +128,7 @@ CSV_FILES_PATH = ROOTPATH / 'topic-hierarchy'
 TTL_FILES_PATH = ROOTPATH / 'wis'
 COLLECTIONS = []
 
-print('Generating WIS2 Topic Hierarchy TTL files')
+print('Generating WTH TTL files')
 
 ttl_files_path = ROOTPATH / 'wis'
 
@@ -152,7 +153,6 @@ with root_table.open() as fh:
         with register_ttl_file.open('w') as fh2:
             ttl = gen_skos_subregister(row['Name'],
                                        row['Description'])
-
             fh2.write(ttl)
 
         concept_csv_file = ROOTPATH / 'topic-hierarchy' / f"{row['Name']}.csv"
@@ -167,7 +167,5 @@ with root_table.open() as fh:
                     with concept_ttl_file.open('w') as fh3:
                         ttl = gen_skos_concept(row2['Name'],
                                                row2['Description'])
-
                         fh3.write(ttl)
-
 print('Done')

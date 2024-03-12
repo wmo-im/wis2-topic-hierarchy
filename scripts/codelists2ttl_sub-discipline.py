@@ -161,7 +161,7 @@ with root_table.open() as fh:
     for row in reader:
         ttl_files_path = f"{ttl_files_path_base}/{row['Name']}"
         subdirectories = True
-        subregister_url = f"{subreg_baseurl}" / f"{row['Name']}"
+        subregister_url = f"{subreg_baseurl}/{row['Name']}"
         subregisters.append(f"<{subregister_url}>")
         register_ttl_dir = ttl_files_path
         register_ttl_file = ttl_files_path / f"{row['Name']}.ttl"

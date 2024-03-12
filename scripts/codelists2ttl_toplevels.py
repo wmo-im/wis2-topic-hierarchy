@@ -158,7 +158,7 @@ with root_table.open() as fh:
         concept_csv_file = ROOTPATH / 'topic-hierarchy' / f"{row['Name']}.csv"
         concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
 
-        if not "earth-system-discipline" in concept_csv_file:
+        if not "earth-system-discipline" in str(concept_csv_file):
             with concept_csv_file.open() as fh2:
                 reader2 = csv.DictReader(fh2)
                 for row2 in reader2:

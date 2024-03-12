@@ -157,11 +157,11 @@ ttl_files_path_base = ROOTPATH / 'wis' / 'topic-hierarchy' / 'sub-discipline'
 with root_table.open() as fh:
     subregisters = []
     reader = csv.DictReader(fh)
-    subregister_baseurl = "http://codes.wmo.int/wis/topic-hierarchy/"
+    subreg_baseurl = "http://codes.wmo.int/wis/topic-hierarchy/sub-discipline"
     for row in reader:
         ttl_files_path = f"{ttl_files_path_base}" / f"{row['Name']}"
         subdirectories = True
-        subregister_url = f"{subregister_baseurl}" / "sub-discipline" / f"{row['Name']}"
+        subregister_url = f"{subreg_baseurl}" / f"{row['Name']}"
         subregisters.append(f"<{subregister_url}>")
         register_ttl_dir = ttl_files_path
         register_ttl_file = ttl_files_path / f"{row['Name']}.ttl"
@@ -173,7 +173,8 @@ with root_table.open() as fh:
                                        row['Description'])
             fh2.write(ttl)
 
-        concept_csv_file = ROOTPATH / 'topic-hierarchy/earth-system-discipline' / f"{row['Name']}" / "index.csv"
+        concept_csv_dir = ROOTPATH / 'topic-hierarchy/earth-system-discipline'
+        concept_csv_file = f"{concept_csv_dir}" / f"{row['Name']}" / "index.csv"
         concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
 
         read_subdomain_index(concept_csv_file)

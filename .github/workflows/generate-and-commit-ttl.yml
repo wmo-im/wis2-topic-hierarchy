@@ -1,0 +1,41 @@
+name: Generate WIS2 Topic Hierarchy as TTL files and commit
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.yml'
+      - 'topic-hierarchy/**.csv'
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10']
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Generate TTL files
+        run: |
+          python3 scripts/codelists2ttl_toplevels.py
+      - name: checkout publication branch
+        uses: actions/checkout@v3
+        with:
+          ref: publication
+      - name: update publication branch and publish
+        run: |
+          mkdir /tmp/wis/topic-hierarchy
+          mv wis/topic-hierarchy/ tmp/wis/
+          git checkout publication
+          git config --global user.email "tomkralidis@gmail.com"
+          git config --global user.name "Tom Kralidis"
+          rm -rf wis/topic-hierarchy/*
+          cp -rpf /tmp/wis/topic-hierarchy/* .
+          git add .
+          git commit -am "update WIS2 Topic Hierarchy TTL files"
+          git push

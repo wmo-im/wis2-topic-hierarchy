@@ -23,7 +23,6 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           pip3 install flake8
-          pip3 install os
       - name: Generate TTL files
         run: |
           python3 scripts/codelists2ttl_toplevels.py

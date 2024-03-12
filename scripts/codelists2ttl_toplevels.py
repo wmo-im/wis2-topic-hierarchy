@@ -122,21 +122,15 @@ def gen_skos_concept(name: str, description: str, source: str = None) -> str:
 
 
 REGISTER = 'http://codes.wmo.int/wis/topic-hierarchy'
-
 ROOTPATH = Path.cwd()
 CSV_FILES_PATH = ROOTPATH / 'topic-hierarchy'
 TTL_FILES_PATH = ROOTPATH / 'wis'
 COLLECTIONS = []
-
 print('Generating WTH TTL files')
-
 ttl_files_path = ROOTPATH / 'wis'
-
 if ttl_files_path.exists():
     shutil.rmtree(ttl_files_path)
-
 ttl_files_path.mkdir()
-
 root_table = ROOTPATH / 'topic-hierarchy.csv'
 
 with root_table.open() as fh:
@@ -147,9 +141,7 @@ with root_table.open() as fh:
         register_ttl_dir = ttl_files_path / row['Name']
         register_ttl_file = ttl_files_path / f"{row['Name']}.ttl"
         print(f'Generating {register_ttl_file}')
-
         register_ttl_dir.mkdir()
-
         with register_ttl_file.open('w') as fh2:
             ttl = gen_skos_subregister(row['Name'],
                                        row['Description'])

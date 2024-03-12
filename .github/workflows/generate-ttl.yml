@@ -25,7 +25,6 @@ jobs:
           pip3 install flake8
       - name: Generate TTL files
         run: |
-          python3 scripts/codelists2ttl_toplevels.py
-          python3 scripts/codelists2ttl_sub-discipline.py
+          python3 scripts/codelists2ttl.py
       - name: run flake8
         run: flake8 scripts/

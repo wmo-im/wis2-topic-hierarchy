@@ -136,7 +136,7 @@ if ttl_files_path.exists():
 
 ttl_files_path.mkdir()
 
-root_table = ROOTPATH / 'codelists.csv'
+root_table = ROOTPATH / 'topic-hierarchy.csv'
 
 with root_table.open() as fh:
     subregisters = []
@@ -155,7 +155,7 @@ with root_table.open() as fh:
 
             fh2.write(ttl)
 
-        concept_csv_file = ROOTPATH / 'codelists' / f"{row['Name']}.csv"
+        concept_csv_file = ROOTPATH / 'topic-hierarchy' / f"{row['Name']}.csv"
         concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
 
         with concept_csv_file.open() as fh2:

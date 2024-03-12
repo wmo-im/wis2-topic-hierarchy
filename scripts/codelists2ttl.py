@@ -220,7 +220,8 @@ with open(root_table_sub, "r") as fh5:
                                        row['Description'])
             fh6.write(ttl)
 
-        concept_csv_dir = ROOTPATH / f"topic-hierarchy/earth-system-discipline/{row['Name']}"
+        concept_dir_part = "topic-hierarchy/earth-system-discipline"
+        concept_csv_dir = ROOTPATH / f"{concept_dir_part}/{row['Name']}"
         concept_csv_file = f"{concept_csv_dir}/index.csv"
         concept_ttl_path = Path(f"{ttl_files_path}/{row['Name']}")
         if not os.path.exists(concept_ttl_path):

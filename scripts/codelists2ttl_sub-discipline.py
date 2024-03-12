@@ -140,19 +140,19 @@ def read_subdomain_index(index_file):
 REGISTER = 'http://codes.wmo.int/wis'
 
 ROOTPATH = Path.cwd()
-CSV_FILES_PATH = ROOTPATH / 'topic-hierarchy' / 'earth-system-discipline'
-TTL_FILES_PATH = ROOTPATH / 'wis' / 'topic-hierarchy'
+CSV_FILES_PATH = ROOTPATH / 'topic-hierarchy/earth-system-discipline'
+TTL_FILES_PATH = ROOTPATH / 'wis/topic-hierarchy'
 COLLECTIONS = []
 
 print('Generating WIS2 Topic Hierarchy earth-system-disciplines TTL files')
 
-ttl_files_path = ROOTPATH / 'wis' / 'topic-hierarchy'
+ttl_files_path = ROOTPATH / 'wis/topic-hierarchy'
 if ttl_files_path.exists():
     shutil.rmtree(ttl_files_path)
 ttl_files_path.mkdir()
 
 root_table = ROOTPATH / 'topic-hierarchy/earth-system-discipline/index.csv'
-ttl_files_path_base = ROOTPATH / 'wis' / 'topic-hierarchy'
+ttl_files_path_base = ROOTPATH / 'wis/topic-hierarchy'
 
 with root_table.open() as fh:
     subregisters = []

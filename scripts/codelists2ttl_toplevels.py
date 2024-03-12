@@ -158,7 +158,7 @@ with root_table.open() as fh:
         concept_csv_file = ROOTPATH / 'topic-hierarchy' / f"{row['Name']}.csv"
         concept_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
 
-        if not "earth-system-discipline" in str(concept_csv_file):
+        if "earth-system-discipline" not in str(concept_csv_file):
             with concept_csv_file.open() as fh2:
                 reader2 = csv.DictReader(fh2)
                 for row2 in reader2:
@@ -166,7 +166,7 @@ with root_table.open() as fh:
                     print(f'Generating {concept_ttl_file}')
                     with concept_ttl_file.open('w') as fh3:
                         ttl = gen_skos_concept(row2['Name'],
-                                           row2['Description'])
+                                               row2['Description'])
 
                         fh3.write(ttl)
 

@@ -81,7 +81,7 @@ include::../requirements/core/REQ_conventions.adoc[]
 
 ==== Centre identification
 
-The centre identifier (``centre-id``) is an acronym as specified by the member and endorsed by the PR of the country and WMO.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product, data granule or other resource.
+The centre identifier (``centre-id``) is an acronym as specified by the WIS Centre and endorsed by WMO Secretariat.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product, data granule or other resource.
 
 include::../requirements/core/REQ_centre-id.adoc[]
 include::../recommendations/core/REC_centre-id.adoc[]

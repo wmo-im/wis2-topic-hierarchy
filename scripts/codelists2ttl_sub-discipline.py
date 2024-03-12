@@ -159,7 +159,7 @@ with root_table.open() as fh:
     reader = csv.DictReader(fh)
     subreg_baseurl = "http://codes.wmo.int/wis/topic-hierarchy"
     for row in reader:
-        ttl_files_path = f"{ttl_files_path_base}/{row['Name']}"
+        ttl_files_path = Path(f"{ttl_files_path_base}/{row['Name']}")
         subdirectories = True
         subregister_url = f"{subreg_baseurl}/{row['Name']}"
         subregisters.append(f"<{subregister_url}>")

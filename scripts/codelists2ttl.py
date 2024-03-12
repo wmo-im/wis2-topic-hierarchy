@@ -202,9 +202,11 @@ if not os.path.exists(ttl_root_dir):
 with open(root_table_sub, "r") as fh5:
     subregisters = []
     reader = csv.DictReader(fh5)
-    subreg_baseurl = "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
+    subreg_base = "http://codes.wmo.int/wis/topic-hierarchy"
+    subreg_baseurl = f"{subreg_base}/earth-system-discipline"
     for row in reader:
-        ttl_files_path = ROOTPATH / f"wis/topic-hierarchy/earth-system-discipline"
+        ttl_path_part = "wis/topic-hierarchy/earth-system-discipline"
+        ttl_files_path = ROOTPATH / f"{ttl_path_part}"
         subregister_url = f"{subreg_baseurl}/{row['Name']}"
         subregisters.append(f"<{subregister_url}>")
         register_ttl_dir = ttl_files_path

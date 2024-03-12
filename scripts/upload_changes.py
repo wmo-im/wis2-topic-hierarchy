@@ -37,7 +37,7 @@ def authenticate(base_url: str, user_id: str,
     Constructs authenticated session (with JSESSIONID cookie)
 
     :param base_url: base URL of registry API
-    :param user_id: User ID
+    :param user_id: GitHub User ID
     :param password: password
 
     :returns: Session for further interaction upon successful login
@@ -49,7 +49,7 @@ def authenticate(base_url: str, user_id: str,
     session = requests.Session()
 
     data = {
-        'userid': user_id,
+        'userid': f'https://api.github.com/users/{user_id}',
         'password': password
     }
 
@@ -209,8 +209,7 @@ def upload_file(session: requests.Session, url: str, filepath: Path,
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('user_id',
-                        help='User ID, in form https://api.github.com/users/<my_id>')  # noqa
+    parser.add_argument('user_id', help='GitHub User ID')
     parser.add_argument(
         'password',
         help=f'Password or token generated at {TEST_REGISTRY}/ui/temporary-password'  # noqa

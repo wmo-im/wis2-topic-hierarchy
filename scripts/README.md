@@ -70,7 +70,7 @@ This will create all TTL files in a directory called `wis`.
 To upload TTL files, from the root of the repository, run the following command:
 
 ```bash
-python3 scripts/upload_changes.py https://api.github.com/users/{user_id} <password> <environment> <output-directory> <status>
+python3 scripts/upload_changes.py user_id <password> <environment> <output-directory> --status <status>
 ```
 
 where:
@@ -87,16 +87,16 @@ Examples:
 
 ```bash
 # publish to test environment on https://ci.codes.wmo.int with experimental status
-python3 scripts/upload_changes.py https://api.github.com/users/tomkralidis API_KEY test wis experimental
+python3 scripts/upload_changes.py tomkralidis API_KEY test wis --status experimental
 
 # publish to test environment on https://ci.codes.wmo.int with stable status
-python3 scripts/upload_changes.py https://api.github.com/users/tomkralidis API_KEY test wis stable
+python3 scripts/upload_changes.py tomkralidis API_KEY test wis --status stable
 
 # publish to production environment on https://codes.wmo.int with experimental status
-python3 scripts/upload_changes.py https://api.github.com/users/tomkralidis API_KEY prod wis experimental
+python3 scripts/upload_changes.py tomkralidis API_KEY prod wis --status experimental
 
 # publish to production environment on https://codes.wmo.int with stable status
-python3 scripts/upload_changes.py https://api.github.com/users/tomkralidis API_KEY prod wis stable
+python3 scripts/upload_changes.py tomkralidis API_KEY prod wis --status stable
 ```
 
 This will create/update all resources on the WMO Codes Registry.

@@ -132,7 +132,7 @@ def read_subdomain_index(index_file):
                                    row_index['Description'])
             fh2_index.write(ttl)
         concept_csv_dir = os.path.abspath(index_file)
-        concept_csv_file = f"{concept_csv_dir}/{row_index['Name']}/index.csv"
+        concept_csv_file = f"{concept_csv_dir}" / f"{row_index['Name']}" / "index.csv"
         if concept_csv_file.exists():
             read_subdomain_index(concept_csv_file)
 
@@ -159,7 +159,7 @@ with root_table.open() as fh:
     reader = csv.DictReader(fh)
     subreg_baseurl = "http://codes.wmo.int/wis/topic-hierarchy"
     for row in reader:
-        ttl_files_path = f"{ttl_files_path_base}" / f"{row['Name']}"
+        ttl_files_path = f"{ttl_files_path_base}/{row['Name']}"
         subdirectories = True
         subregister_url = f"{subreg_baseurl}" / f"{row['Name']}"
         subregisters.append(f"<{subregister_url}>")

@@ -185,7 +185,7 @@ ttl_files_path = ROOTPATH / 'wis/topic-hierarchy'
 if ttl_files_path.exists():
     print(f'removed {ttl_files_path}')
     shutil.rmtree(ttl_files_path)
-ttl_files_path.mkdir()
+ttl_files_path.mkdir(parents=True)
 
 root_table = ROOTPATH / 'topic-hierarchy.csv'
 

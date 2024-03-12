@@ -164,7 +164,7 @@ with root_table.open() as fh:
         subregister_url = f"{subreg_baseurl}/{row['Name']}"
         subregisters.append(f"<{subregister_url}>")
         register_ttl_dir = ttl_files_path
-        register_ttl_file = ttl_files_path / f"{row['Name']}.ttl"
+        register_ttl_file = f"{ttl_files_path}/{row['Name']}.ttl"
         print(f'Generating {register_ttl_file}')
         register_ttl_dir.mkdir()
 

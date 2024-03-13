@@ -59,7 +59,8 @@ def gen_skos_register(subregisters: list) -> str:
     return REGISTER.strip()
 
 
-def gen_skos_subregister(name: str, description: str, source: str = None) -> str:
+def gen_skos_subregister(name: str, description: str,
+                         source: str = None) -> str:
     """
     Generate SKOS Sub-register TTL
 
@@ -121,13 +122,16 @@ def gen_skos_concept(name: str, description: str, source: str = None) -> str:
     return Template(CONCEPT).substitute(template_vars).strip()
 
 
-def write_ttl_file(ttl: str, ttl_base_path: Path, relative_path: Path, verbose: bool = False):
+def write_ttl_file(ttl: str, ttl_base_path: Path, relative_path: Path,
+                   verbose: bool = False) -> None:
     """
     Write TTL to file
 
     :param ttl: `str` the TTL to be written to the file
     :param ttl_base_path: the base path/directory for TTL files
     :param relative_path: the relative path of this TTL file
+
+    :returns: `None`
     """
 
     file_path = ttl_base_path / relative_path
@@ -137,14 +141,20 @@ def write_ttl_file(ttl: str, ttl_base_path: Path, relative_path: Path, verbose: 
         fh.write(ttl)
 
 
-def process_subdomain_index(relative_path: Path, csv_base_path: Path, ttl_base_path: Path, verbose: bool = False):
+def process_subdomain_index(relative_path: Path, csv_base_path: Path,
+                            ttl_base_path: Path,
+                            verbose: bool = False) -> None:
     """
-    Processes recursively all index.csv files in csv_base_path/relative_path and write output to ttl_base_path/relative_path/
+    Processes recursively all index.csv files in csv_base_path/relative_path
+    and writes output to ttl_base_path/relative_path/
 
     :param relative_path: relative path to start with
     :param csv_base_path: base path where to look for CSV files
     :param ttl_base_path: base path where store generated TTL files
+
+    :returns: `None`
     """
+
     if verbose:
         print(f'  processing {relative_path}')
     current_csv_dir = csv_base_path / relative_path
@@ -159,19 +169,23 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path, ttl_base_p
             if os.path.exists(csv_sub_dir):
                 if verbose:
                     print(f'    creating sub-register {file_name}')
-                ttl = gen_skos_subregister(csv_record['Name'], csv_record['Name'])
+                ttl = gen_skos_subregister(csv_record['Name'],
+                                           csv_record['Name'])
                 write_ttl_file(ttl, ttl_base_path, relative_path / file_name)
                 # recursion
-                process_subdomain_index(relative_path / csv_record['Name'], csv_base_path, ttl_base_path, verbose)
+                process_subdomain_index(relative_path / csv_record['Name'],
+                                        csv_base_path, ttl_base_path, verbose)
             else:
                 if verbose:
                     print(f'    creating concept {file_name}')
-                ttl = gen_skos_concept(csv_record['Name'], csv_record['Description'])
+                ttl = gen_skos_concept(csv_record['Name'],
+                                       csv_record['Description'])
                 write_ttl_file(ttl, ttl_base_path, relative_path / file_name)
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-v', '--verbose', action='store_true', help='Print more details')
+parser.add_argument('-v', '--verbose', action='store_true',
+                    help='Print more details')
 args = parser.parse_args()
 
 ROOT_PATH = Path.cwd()
@@ -225,7 +239,8 @@ with root_table.open() as fh:
                     if args.verbose:
                         print(f'Generating {concept_ttl_file}')
                     with concept_ttl_file.open('w') as fh4:
-                        ttl = gen_skos_concept(row2['Name'], row2['Description'])
+                        ttl = gen_skos_concept(row2['Name'],
+                                               row2['Description'])
                         fh4.write(ttl)
         else:
             with register_ttl_file.open('w') as fh2:
@@ -235,6 +250,7 @@ with root_table.open() as fh:
 print('Level 1-7 completed')
 
 print('Generating Level 8+')
-process_subdomain_index(Path('earth-system-discipline'), CSV_FILES_PATH, TTL_FILES_PATH, args.verbose)
+process_subdomain_index(Path('earth-system-discipline'), CSV_FILES_PATH,
+                        TTL_FILES_PATH, args.verbose)
 
 print('Done')

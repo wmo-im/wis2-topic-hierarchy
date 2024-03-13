@@ -19,6 +19,7 @@
 #
 ###############################################################################
 
+import argparse
 import csv
 from pathlib import Path
 import shutil
@@ -58,8 +59,7 @@ def gen_skos_register(subregisters: list) -> str:
     return REGISTER.strip()
 
 
-def gen_skos_subregister(name: str, description: str,
-                         source: str = None) -> str:
+def gen_skos_subregister(name: str, description: str, source: str = None) -> str:
     """
     Generate SKOS Sub-register TTL
 
@@ -121,51 +121,78 @@ def gen_skos_concept(name: str, description: str, source: str = None) -> str:
     return Template(CONCEPT).substitute(template_vars).strip()
 
 
-def read_subdomain_index(index_file):
-    with index_file.open() as fh_index:
-        reader_index = csv.DictReader(fh_index)
-        index_file_path = os.path.abspath(index_file)
-        sub_dir_part = index_file_path.split('/earth-system-discipline/')[1]
-        sub_dir = sub_dir_part.replace('/index.csv', '')
-        for row3 in reader_index:
-            if sub_dir != '':
-                concept_ttl_dir = register_ttl_dir / sub_dir
-                concept_ttl_file = concept_ttl_dir / f"{row3['Name']}.ttl"
+def write_ttl_file(ttl: str, ttl_base_path: Path, relative_path: Path, verbose: bool = False):
+    """
+    Write TTL to file
+
+    :param ttl: `str` the TTL to be written to the file
+    :param ttl_base_path: the base path/directory for TTL files
+    :param relative_path: the relative path of this TTL file
+    """
+
+    file_path = ttl_base_path / relative_path
+    if verbose:
+        print(f'    Generating {relative_path}')
+    with file_path.open('w') as fh:
+        fh.write(ttl)
+
+
+def process_subdomain_index(relative_path: Path, csv_base_path: Path, ttl_base_path: Path, verbose: bool = False):
+    """
+    Processes recursively all index.csv files in csv_base_path/relative_path and write output to ttl_base_path/relative_path/
+
+    :param relative_path: relative path to start with
+    :param csv_base_path: base path where to look for CSV files
+    :param ttl_base_path: base path where store generated TTL files
+    """
+    if verbose:
+        print(f'  processing {relative_path}')
+    current_csv_dir = csv_base_path / relative_path
+    current_ttl_dir = ttl_base_path / relative_path
+    current_ttl_dir.mkdir()
+    index_file_path = current_csv_dir / 'index.csv'
+    with index_file_path.open() as fh_index:
+        csv_reader = csv.DictReader(fh_index)
+        for csv_record in csv_reader:
+            file_name = csv_record['Name'] + '.ttl'
+            csv_sub_dir = current_csv_dir / csv_record['Name']
+            if os.path.exists(csv_sub_dir):
+                if verbose:
+                    print(f'    creating sub-register {file_name}')
+                ttl = gen_skos_subregister(csv_record['Name'], csv_record['Name'])
+                write_ttl_file(ttl, ttl_base_path, relative_path / file_name)
+                # recursion
+                process_subdomain_index(relative_path / csv_record['Name'], csv_base_path, ttl_base_path, verbose)
             else:
-                concept_ttl_file = register_ttl_dir / f"{row3['Name']}.ttl"
-            print(f'Generating {concept_ttl_file}')
-            with concept_ttl_file.open('w') as fh2_index:
-                ttl = gen_skos_concept(row3['Name'],
-                                       row3['Description'])
-                fh2_index.write(ttl)
-            concept_csv_dir = os.path.abspath(index_file)
-            concept_csv_file = f"{concept_csv_dir}/{row3['Name']}/index.csv"
-            if os.path.exists(concept_csv_file):
-                read_subdomain_index(concept_csv_file)
+                if verbose:
+                    print(f'    creating concept {file_name}')
+                ttl = gen_skos_concept(csv_record['Name'], csv_record['Description'])
+                write_ttl_file(ttl, ttl_base_path, relative_path / file_name)
 
 
-REGISTER = 'http://codes.wmo.int/wis'
+parser = argparse.ArgumentParser()
+parser.add_argument('-v', '--verbose', action='store_true', help='Print more details')
+args = parser.parse_args()
 
-ROOTPATH = Path.cwd()
-CSV_FILES_PATH = ROOTPATH / 'topic-hierarchy'
-TTL_FILES_PATH = ROOTPATH / 'wis/topic-hierarchy'
+ROOT_PATH = Path.cwd()
+CSV_FILES_PATH = ROOT_PATH / 'topic-hierarchy'
+TTL_FILES_PATH = ROOT_PATH / 'wis/topic-hierarchy'
 COLLECTIONS = []
 
 print('Generating WIS2 Topic Hierarchy TTL files')
 
-ttl_files_path = ROOTPATH / 'wis/topic-hierarchy'
+ttl_files_path = ROOT_PATH / 'wis/topic-hierarchy'
 if ttl_files_path.exists():
     print(f'removed {ttl_files_path}')
     shutil.rmtree(ttl_files_path)
 ttl_files_path.mkdir(parents=True)
 
-root_table = ROOTPATH / 'topic-hierarchy.csv'
+root_table = ROOT_PATH / 'topic-hierarchy.csv'
 
 
-root_ttl = ROOTPATH / 'wis' / 'topic-hierarchy.ttl'
+root_ttl = ROOT_PATH / 'wis' / 'topic-hierarchy.ttl'
 with root_ttl.open('w') as fh:
-    ttl = gen_skos_subregister('topic-hierarchy',
-                               'WIS2 Topic Hierarchy')
+    ttl = gen_skos_subregister('topic-hierarchy', 'WIS2 Topic Hierarchy')
     fh.write(ttl)
 
 
@@ -173,76 +200,41 @@ with root_table.open() as fh:
     subregisters = []
     reader = csv.DictReader(fh)
     for row in reader:
-        ttl_files_path = ROOTPATH / 'wis/topic-hierarchy'
+        ttl_files_path = ROOT_PATH / 'wis/topic-hierarchy'
         subregister_url = 'http://codes.wmo.int/wis/topic-hierarchy'
         subregisters.append(f'<{subregister_url}>')
         register_ttl_dir = ttl_files_path
-        register_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
-        print(f'Generating {register_ttl_file}')
+        register_ttl_file = register_ttl_dir / f'{row["Name"]}.ttl'
+        if args.verbose:
+            print(f'Generating {register_ttl_file}')
 
         if row['Name'] != 'earth-system-discipline':
             with register_ttl_file.open('w') as fh2:
-                ttl = gen_skos_subregister(row['Name'],
-                                           row['Description'])
+                ttl = gen_skos_subregister(row['Name'], row['Description'])
                 fh2.write(ttl)
 
-            concept_csv_file = ROOTPATH / f"topic-hierarchy/{row['Name']}.csv"
+            concept_csv_file = ROOT_PATH / f'topic-hierarchy/{row["Name"]}.csv'
 
             with concept_csv_file.open() as fh3:
                 reader2 = csv.DictReader(fh3)
                 for row2 in reader2:
-                    concept_ttl_dir = register_ttl_dir / f"{row['Name']}"
+                    concept_ttl_dir = register_ttl_dir / f'{row["Name"]}'
                     if not os.path.exists(concept_ttl_dir):
                         concept_ttl_dir.mkdir()
-                    concept_ttl_file = concept_ttl_dir / f"{row2['Name']}.ttl"
-                    print(f'Generating {concept_ttl_file}')
+                    concept_ttl_file = concept_ttl_dir / f'{row2["Name"]}.ttl'
+                    if args.verbose:
+                        print(f'Generating {concept_ttl_file}')
                     with concept_ttl_file.open('w') as fh4:
-                        ttl = gen_skos_concept(row2['Name'],
-                                               row2['Description'])
+                        ttl = gen_skos_concept(row2['Name'], row2['Description'])
                         fh4.write(ttl)
         else:
             with register_ttl_file.open('w') as fh2:
-                ttl = gen_skos_subregister(row['Name'],
-                                           row['Description'])
+                ttl = gen_skos_subregister(row['Name'], row['Description'])
                 fh2.write(ttl)
 
 print('Level 1-7 completed')
 
-print('Generating Level 8-')
-
-root_table_sub = ROOTPATH / 'topic-hierarchy/earth-system-discipline/index.csv'
-ttl_root_dir = ROOTPATH / 'wis/topic-hierarchy/earth-system-discipline'
-if not os.path.exists(ttl_root_dir):
-    ttl_root_dir.mkdir()
-
-with root_table_sub.open() as fh5:
-    subregisters = []
-    reader = csv.DictReader(fh5)
-    subreg_base = 'http://codes.wmo.int/wis/topic-hierarchy'
-    subreg_baseurl = f'{subreg_base}/earth-system-discipline'
-    for row in reader:
-        ttl_path_part = 'wis/topic-hierarchy/earth-system-discipline'
-        ttl_files_path = ROOTPATH / ttl_path_part
-        subregister_url = f"{subreg_baseurl}/{row['Name']}"
-        subregisters.append(f'<{subregister_url}>')
-        register_ttl_dir = ttl_files_path
-        register_ttl_file = register_ttl_dir / f"{row['Name']}.ttl"
-        print(f'Generating {register_ttl_file}')
-        if not os.path.exists(register_ttl_dir):
-            register_ttl_dir.mkdir()
-
-        with register_ttl_file.open('w') as fh6:
-            ttl = gen_skos_subregister(row['Name'],
-                                       row['Description'])
-            fh6.write(ttl)
-
-        concept_dir_part = 'topic-hierarchy/earth-system-discipline'
-        concept_csv_dir = ROOTPATH / f"{concept_dir_part}/{row['Name']}"
-        concept_csv_file = concept_csv_dir / 'index.csv'
-        concept_ttl_path = ttl_files_path / row['Name']
-        if not os.path.exists(concept_ttl_path):
-            concept_ttl_path.mkdir()
-
-        read_subdomain_index(concept_csv_file)
+print('Generating Level 8+')
+process_subdomain_index(Path('earth-system-discipline'), CSV_FILES_PATH, TTL_FILES_PATH, args.verbose)
 
 print('Done')

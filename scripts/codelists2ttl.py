@@ -139,7 +139,7 @@ def write_ttl_file(ttl: str, ttl_base_path: Path, relative_path: Path, verbose: 
 
 def process_subdomain_index(relative_path: Path, csv_base_path: Path, ttl_base_path: Path, verbose: bool = False):
     """
-    Processes recessively all index.csv files in csv_base_path/relative_path and write output to ttl_base_path/relative_path/
+    Processes recursively all index.csv files in csv_base_path/relative_path and write output to ttl_base_path/relative_path/
 
     :param relative_path: relative path to start with
     :param csv_base_path: base path where to look for CSV files

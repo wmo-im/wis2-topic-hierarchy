@@ -2,11 +2,12 @@ name: Generate WIS2 Topic Hierarchy as TTL files and commit
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - '**.yml'
-      - 'topic-hierarchy/**.csv'
+#    branches:
+#      - main
+#    paths:
+#      - '**.yml'
+#      - 'topic-hierarchy/**.csv'
+  pull_request:
 
 jobs:
   main:
@@ -23,6 +24,7 @@ jobs:
       - name: Generate TTL files
         run: |
           python3 scripts/codelists2ttl.py
+          ls -l
       - name: checkout publication branch
         uses: actions/checkout@v3
         with:

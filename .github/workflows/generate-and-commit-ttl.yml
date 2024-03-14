@@ -34,9 +34,6 @@ jobs:
         run: |
           ls -l
           ls -l /tmp
-#          mkdir -p /tmp/wis/topic-hierarchy
-#          mv wis/topic-hierarchy/ /tmp/wis/
-#          git checkout publication
           git config --global user.email "tomkralidis@gmail.com"
           git config --global user.name "Tom Kralidis"
           rm -rf wis/topic-hierarchy/*

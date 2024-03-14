@@ -28,7 +28,7 @@ jobs:
       - name: checkout publication branch
         uses: actions/checkout@v3
         with:
-          ref: publication
+          ref: gh-pages
       - name: update publication branch and publish
         run: |
           ls -l

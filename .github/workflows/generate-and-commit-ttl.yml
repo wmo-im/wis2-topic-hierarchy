@@ -36,8 +36,9 @@ jobs:
           ls -l /tmp
           git config --global user.email "tomkralidis@gmail.com"
           git config --global user.name "Tom Kralidis"
+          mkdir -p wis
           rm -rf wis/topic-hierarchy/*
-          cp -rpf /tmp/wis/topic-hierarchy/* .
+          cp -rpf /tmp/wis/topic-hierarchy/* wis
           git add .
           git commit -am "update WIS2 Topic Hierarchy TTL files"
           git push

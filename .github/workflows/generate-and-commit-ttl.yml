@@ -40,5 +40,5 @@ jobs:
             git commit -am "update WIS2 Topic Hierarchy TTL files"
             git push
           fi
-        else
-          echo "No changes to push"
+          else
+            echo "No changes to push"

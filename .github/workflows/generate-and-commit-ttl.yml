@@ -2,12 +2,11 @@ name: Generate WIS2 Topic Hierarchy as TTL files and commit
 
 on:
   push:
-#    branches:
-#      - main
-#    paths:
-#      - '**.yml'
-#      - 'topic-hierarchy/**.csv'
-  pull_request:
+    branches:
+      - main
+    paths:
+      - '**.yml'
+      - 'topic-hierarchy/**.csv'
 
 jobs:
   main:

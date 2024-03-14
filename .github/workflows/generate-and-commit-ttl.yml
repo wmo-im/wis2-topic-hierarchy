@@ -23,19 +23,22 @@ jobs:
       - name: Generate TTL files
         run: |
           python3 scripts/codelists2ttl.py
-      - name: checkout publication branch
+          mv wis /tmp
+      - name: checkout gh-pages branch
         uses: actions/checkout@v3
         with:
-          ref: publication
-      - name: update publication branch and publish
+          ref: gh-pages
+      - name: update gh-pages branch and publish
         run: |
-          mkdir -p /tmp/wis/topic-hierarchy
-          mv wis/topic-hierarchy/ /tmp/wis/
-          git checkout publication
           git config --global user.email "tomkralidis@gmail.com"
           git config --global user.name "Tom Kralidis"
+          mkdir -p wis
           rm -rf wis/topic-hierarchy/*
-          cp -rpf /tmp/wis/topic-hierarchy/* .
-          git add .
-          git commit -am "update WIS2 Topic Hierarchy TTL files"
-          git push
+          cp -rpf /tmp/wis/topic-hierarchy/* wis
+          if [[ `git status --porcelain` ]]; then
+            git add .
+            git commit -am "update WIS2 Topic Hierarchy TTL files"
+            git push
+          fi
+        else
+          echo "No changes to push"

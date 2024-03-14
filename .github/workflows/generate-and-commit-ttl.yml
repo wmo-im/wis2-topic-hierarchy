@@ -29,8 +29,8 @@ jobs:
           ref: publication
       - name: update publication branch and publish
         run: |
-          mkdir /tmp/wis/topic-hierarchy
-          mv wis/topic-hierarchy/ tmp/wis/
+          mkdir -p /tmp/wis/topic-hierarchy
+          mv wis/topic-hierarchy/ /tmp/wis/
           git checkout publication
           git config --global user.email "tomkralidis@gmail.com"
           git config --global user.name "Tom Kralidis"

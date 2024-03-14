@@ -24,7 +24,6 @@ import csv
 from pathlib import Path
 import shutil
 from string import Template
-import os
 
 
 def gen_skos_subregister(name: str, description: str,
@@ -134,7 +133,7 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path,
         for csv_record in csv_reader:
             file_name = csv_record['Name'] + '.ttl'
             csv_sub_dir = current_csv_dir / csv_record['Name']
-            if os.path.exists(csv_sub_dir):
+            if csv_sub_dir.exists():
                 if verbose:
                     print(f'    creating sub-register {file_name}')
                 ttl = gen_skos_subregister(csv_record['Name'],
@@ -202,7 +201,7 @@ with root_table.open() as fh:
                 reader2 = csv.DictReader(fh3)
                 for row2 in reader2:
                     concept_ttl_dir = register_ttl_dir / f'{row["Name"]}'
-                    if not os.path.exists(concept_ttl_dir):
+                    if not concept_ttl_dir.exists():
                         concept_ttl_dir.mkdir()
                     concept_ttl_file = concept_ttl_dir / f'{row2["Name"]}.ttl'
                     if args.verbose:

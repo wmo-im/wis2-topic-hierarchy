@@ -1,8 +1,0 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-
-<cu-insmet> a skos:Concept ;
-        rdfs:label "cu-insmet" ;
-        skos:notation "cu-insmet" ;
-        dct:description "Institute of Meteorology of Cuba"@en .

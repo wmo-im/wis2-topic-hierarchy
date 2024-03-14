@@ -138,7 +138,7 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path,
                 if verbose:
                     print(f'    creating sub-register {file_name}')
                 ttl = gen_skos_subregister(csv_record['Name'],
-                                           csv_record['Name'])
+                                           csv_record['Description'])
                 write_ttl_file(ttl, ttl_base_path, relative_path / file_name)
                 # recursion
                 process_subdomain_index(relative_path / csv_record['Name'],

@@ -24,6 +24,7 @@ jobs:
       - name: Generate TTL files
         run: |
           python3 scripts/codelists2ttl.py
+          mv wis /tmp
           ls -l
       - name: checkout publication branch
         uses: actions/checkout@v3
@@ -32,9 +33,10 @@ jobs:
       - name: update publication branch and publish
         run: |
           ls -l
-          mkdir -p /tmp/wis/topic-hierarchy
-          mv wis/topic-hierarchy/ /tmp/wis/
-          git checkout publication
+          ls -l /tmp
+#          mkdir -p /tmp/wis/topic-hierarchy
+#          mv wis/topic-hierarchy/ /tmp/wis/
+#          git checkout publication
           git config --global user.email "tomkralidis@gmail.com"
           git config --global user.name "Tom Kralidis"
           rm -rf wis/topic-hierarchy/*

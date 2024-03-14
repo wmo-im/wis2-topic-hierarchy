@@ -7,7 +7,7 @@ env:
 on:
   push:
     branches:
-      - publication
+      - gh-pages
     paths:
       - 'wis/**.ttl'
 
@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: publication 
+          ref: gh-pages
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
@@ -36,6 +36,6 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           pip3 install -r scripts/requirements.txt
-     # - name: update publication branch and publish
+     # - name: update gh-pages branch and publish
      #   run: |
      #     python3 scripts/upload_changes.py {WMO_CODES_TEST_USER_ID} {WMO_CODES_TEST_API_KEY} test /tmp/wis --status experimental

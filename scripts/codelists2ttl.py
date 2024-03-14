@@ -27,38 +27,6 @@ from string import Template
 import os
 
 
-def gen_skos_register(subregisters: list) -> str:
-    """
-    Generate SKOS Register TTL
-
-    :param name: identifier of collection
-    :param description: label of collection
-
-    :returns: `str` of SKOS Register TTL
-    """
-
-    REGISTER = '''
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix ldp: <http://www.w3.org/ns/ldp#> .
-@prefix reg: <http://purl.org/linked-data/registry#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<wis> a reg:Register , ldp:Container ;
-        rdfs:label "WIS" ;
-        reg:notation "wis" ;
-        dct:description "WIS2 Topic Hierarchy"@en ;
-        reg:subregister '''
-
-    REGISTER += ' , '.join(subregisters) + ' ; \n'
-
-    REGISTER += 'rdfs:member' + ' , '.join(subregisters)
-
-    REGISTER += ' .'
-
-    return REGISTER.strip()
-
-
 def gen_skos_subregister(name: str, description: str,
                          source: str = None) -> str:
     """
@@ -177,6 +145,7 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path,
                                         csv_base_path, ttl_base_path, verbose)
             else:
                 if verbose:
+                    print(f'    no sub-directory {csv_sub_dir}')
                     print(f'    creating concept {file_name}')
                 ttl = gen_skos_concept(csv_record['Name'],
                                        csv_record['Description'])

@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<ca-eccc-msc> a skos:Concept ;
+        rdfs:label "ca-eccc-msc" ;
+        skos:notation "ca-eccc-msc" ;
+        dct:description "Environment and Climate Change Canada, Meteorological Service of Canada"@en .

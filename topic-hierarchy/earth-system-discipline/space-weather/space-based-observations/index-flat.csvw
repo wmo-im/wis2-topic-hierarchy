@@ -1,0 +1,28 @@
+{
+    "@type": "Table",
+    "url": "index-flat.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "orbit-type",
+                "datatype": "string",
+                "titles": "Type of satellite orbit"
+            },
+            {
+                "name": "sensor-type",
+                "datatype": "string",
+                "titles": "Type of sensor"
+            },
+            {
+                "name": "satellite",
+                "datatype": "string",
+                "titles": "Satellite name"
+            },
+            {
+                "name": "data-type",
+                "datatype": "string",
+                "titles": "Type of data"
+            }
+        ]
+    }
+}

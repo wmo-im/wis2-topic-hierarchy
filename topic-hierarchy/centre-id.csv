@@ -1,17 +1,46 @@
 Name,Description
-ca-eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canada"
+au-bom,"Bureau of Meteorology Water Division, Australia"
+br-inmet,"Instituto Nacional de Meteorologia, Brazil"
+bz-nms,"National Meteorological Service, Belize"
+ca-eccc-msc,"Meteorological Service of Canada, Canada"
 ca-eccc-msc-global-discovery-catalogue,"Environment and Climate Change Canada, Meteorological Service of Canada, Global Discovery Catalogue Service"
-cn-cma-babj,China Meteorological Administration (CMA); National Meteorological Information Center (NMIC)
-cu-insmet,Institute of Meteorology of Cuba
-de-dwd,Deutscher Wetterdienst
+cg-met,"Direction de la Meteorologie Nationale, Congo"
+cm-meteocameroon,"Direction de la Meteorologie Nationale, Cameroon"
+cn-cma,"China Meteorological Administration, China"
+cu-insmet,"Instituto de Meteorologia, Cuba"
+de-dwd,"Deutscher Wetterdienst, Germany"
 de-dwd-global-cache,"Deutscher Wetterdienst, Global Cache Service"
-de-dwd-gts-to-wis2,"Deutscher Wetterdienst, GTS to WIS2 Gateway"
-fr-meteo-france,Météo-France
-int-ecmwf,European Centre for Medium-Range Weather Forecasts
-int-eumetsat,European Organisation for the Exploitation of Meteorological Satellites
-it-meteoam,Italian National Centre of Meteorology and Climatology
-ma-marocmeteo,Maroc Météo
-org-woudc,World Ozone and Ultraviolet Radiation Data Centre
+de-dwd-gts-to-wis2,"Deutscher Wetterdienst (GTS to WIS2 Gateway), Germany"
+dk-dmi-opendata,"Danish Meteorological Institute, Denmark"
+dz-meteoalgerie,"Office National de la Meteorologie, Algeria"
+eu-eumetnet-femdi,EUMETNET
+fr-meteofrance,"Meteo-France (Clipperton), France"
+gn-meteo-guinee-conakry,"Direction Nationale de la Meteorologie, Guinea"
+hk-hko,"Hong Kong Observatory, Hong Kong (China)"
+hk-hko-swic,Hong Kong (China)
+in-imd,"India Meteorological Department, India"
+int-ecmwf,European Centre for Medium-Range Weather Forecasts (ECMWF)
+int-eumetsat,European Organization for the Exploitation of Meteorological Satellites (EUMETSAT)
+ir-irimo,"Islamic Republic of Iran Meteorological Organization, Iran (Islamic Republic of)"
+it-meteoam,"Servizio Meteorologico, Italy"
+jp-jma,"Japan Meteorological Agency, Japan"
+ke-meteo,"Kenya Meteorological Department, Kenya"
+kr-kma,"Korea Meteorological Administration, Republic of Korea"
+kz-kazhydromet,"National Meteorological and Hydrological Service (Almaty), Kazakhstan"
+ly-lnmc,"Libyan National Meteorological Centre, Libya (State of)"
+ma-marocmeteo,"Direction de la Meteorologie Nationale, Morocco"
+na-meteona,"Namibia Meteorological Service, Namibia"
+ng-nimet,"Nigerian Meteorological Agency, Nigeria"
+nz-metservice,"New Zealand National Meteorological Service, New Zealand"
+pl-imgw,"Institute of Meteorology and Water Management, Poland"
+ru-aviamettelecom,"Russian Federal Service for Hydrometeorology and Environmental Monitoring, Russian Federation"
+se-smhi,"Swedish Meteorological and Hydrological Institute, Sweden"
+sg-mss,"Meteorological Services Division, Singapore"
+sg-mss-asmc,"ASEAN Specialized Meteorological Centre (ASMC), Singapore"
+uk-metoffice-nmc,"Met Office (Ascension Island), United Kingdom of Great Britain and Northern Ireland"
 us-noaa-nws,"National Oceanic and Atmospheric Administration, National Weather Service"
+us-noaa-nws,"National Oceanic and Atmospheric Administration/National Weather Service, United States of America"
 us-noaa-nws-global-broker,"National Oceanic and Atmospheric Administration, National Weather Service, Global Broker Service"
-us-synoptic_data_pbc,Synoptic Data Public Benefit Corporation (PBC)
+us-noaa-synoptic,"National Oceanic and Atmospheric Administration/National Weather Service, United States of America"
+uy-inumet,"Direccion Nacional de Meteorologia, Uruguay"
+zm-zmd,"Zambia Meteorological Department, Zambia"

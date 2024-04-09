@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<uk-metoffice-wis2-to-gts> a skos:Concept ;
+        rdfs:label "uk-metoffice-wis2-to-gts" ;
+        skos:notation "uk-metoffice-wis2-to-gts" ;
+        dct:description "UK Meteorological Office, WIS2 to GTS Gateway"@en .

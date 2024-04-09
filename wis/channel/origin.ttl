@@ -5,4 +5,4 @@
 <origin> a skos:Concept ;
         rdfs:label "origin" ;
         skos:notation "origin" ;
-        dct:description "data downloaded from original NC/DCPC"@en .
+        dct:description "Data downloadable from the original NC/DCPC"@en .

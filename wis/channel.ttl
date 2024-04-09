@@ -7,4 +7,4 @@
 <channel> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "channel" ;
-        dct:description "Location of where the data originates from (data providers are 'origin' and global services 'cache')" .
+        dct:description "Location of where the data originates from (data providers are 'origin' and global services are 'cache')" .

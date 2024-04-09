@@ -7,4 +7,4 @@
 <centre-id> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "centre-id" ;
-        dct:description "Acronym as specified by member and endorsed by the PR of the country and WMO" .
+        dct:description "Acronym proposed by member and endorsed by WMO Secretariat." .

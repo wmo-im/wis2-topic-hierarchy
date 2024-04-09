@@ -5,4 +5,4 @@
 <cache> a skos:Concept ;
         rdfs:label "cache" ;
         skos:notation "cache" ;
-        dct:description "data downloaded from a Global Cache"@en .
+        dct:description "Data downloadable from a Global Cache"@en .

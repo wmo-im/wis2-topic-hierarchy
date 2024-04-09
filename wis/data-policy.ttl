@@ -7,4 +7,4 @@
 <data-policy> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "data-policy" ;
-        dct:description "Data policy as defined by the WMO Unified Data Policy. 'core' data are available with open access on a free and unrestricted basis and 'recommended' data are available from the original NC/DCPC which may require authentication or authorization" .
+        dct:description "Data policy as defined by the WMO Unified Data Policy ('core' and 'recommended')" .

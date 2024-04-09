@@ -13,6 +13,8 @@ int-eumetsat,European Organisation for the Exploitation of Meteorological Satell
 it-meteoam,Italian National Centre of Meteorology and Climatology
 ma-marocmeteo,Maroc Météo
 org-woudc,World Ozone and Ultraviolet Radiation Data Centre
+uk-metoffice-nmc,UK Meteorological Office
+uk-metoffice-wis2-to-gts,"UK Meteorological Office, WIS2 to GTS Gateway"
 us-noaa-nws,"National Oceanic and Atmospheric Administration, National Weather Service"
 us-noaa-nws-global-broker,"National Oceanic and Atmospheric Administration, National Weather Service, Global Broker Service"
 us-synoptic_data_pbc,Synoptic Data Public Benefit Corporation (PBC)

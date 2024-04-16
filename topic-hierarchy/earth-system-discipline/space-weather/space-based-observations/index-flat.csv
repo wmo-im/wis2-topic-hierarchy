@@ -1,13 +1,13 @@
 satellite,instrument,satellite-description,instrument-description
-ace,cris,ace,cris
-ace,epam,ace,epam
-ace,mag,ace,mag
-ace,sepica ,ace,sepica 
-ace,sis,ace,sis
-ace,swepam,ace,swepam
-ace,swics,ace,swics
-ace,swims,ace,swims
-ace,uleis,ace,uleis
+ace,cris,Advanced Composition Explorer (ACE),Cosmic Ray Isotope Spectrometer (CRiS)
+ace,epam,Advanced Composition Explorer (ACE),Electron, Proton, and Alpha-particle Monitor (EPAM)
+ace,mag,Advanced Composition Explorer (ACE),Magnetic Field Monitor (MAG)
+ace,sepica ,Advanced Composition Explorer (ACE),Solar Energetic Particle Ionic Charge Analyzer (SEPICA) 
+ace,sis,Advanced Composition Explorer (ACE),Solar Isotope Spectrometer (SIS)
+ace,swepam,Advanced Composition Explorer (ACE),Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM)
+ace,swics,Advanced Composition Explorer (ACE),Solar Wind Ion Composition Spectrometer (SWICS)
+ace,swims,Advanced Composition Explorer (ACE),Solar Wind Ion Mass Spectrometer (SWIMS)
+ace,uleis,Advanced Composition Explorer (ACE),Ultra-Low Energy Isotope Spectrometer (ULEIS)
 aditya-1,aspex,aditya-1,aspex
 aditya-1,hel1os,aditya-1,hel1os
 aditya-1,magnetometer,aditya-1,magnetometer

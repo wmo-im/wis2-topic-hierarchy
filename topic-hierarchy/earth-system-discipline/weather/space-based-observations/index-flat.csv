@@ -2,12 +2,12 @@ satellite,instrument,satellite-description,instrument-description
 alos-2,palsar-2,alos-2,palsar-2
 alsat-2b,naomi,alsat-2b,naomi
 amazonia-1,awfi,amazonia-1,awfi
-aqua,airs,aqua,airs
-aqua,amsr-e,aqua,amsr-e
-aqua,amsu-a,aqua,amsu-a
-aqua,ceres,aqua,ceres
-aqua,hsb,aqua,hsb
-aqua,modis,aqua,modis
+aqua,airs,Earth Observation System - Aqua,Atmospheric Infra-Red Sounder (AIRS)
+aqua,amsr-e,Earth Observation System - Aqua,Advanced Microwave Scanning Radiometer for EOS (AMSR-E)
+aqua,amsu-a,Earth Observation System - Aqua,Advanced Microwave Sounding Unit - A (AMSU-A)
+aqua,ceres,Earth Observation System - Aqua,Clouds and the Earth’s Radiant Energy System (CERES)
+aqua,hsb,Earth Observation System - Aqua,Humidity Sounder for Brazil (HSB)
+aqua,modis,Earth Observation System - Aqua,Moderate-resolution Imaging Spectro-radiometer (MODIS)
 arctica-m-n1,msu-gs-a,arctica-m-n1,msu-gs-a
 arctica-m-n2,msu-gs-a,arctica-m-n2,msu-gs-a
 asnaro-2,xsar,asnaro-2,xsar

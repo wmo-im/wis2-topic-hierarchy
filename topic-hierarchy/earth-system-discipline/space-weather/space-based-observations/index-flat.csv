@@ -1,10 +1,10 @@
 satellite,instrument,satellite-description,instrument-description
 ace,cris,Advanced Composition Explorer (ACE),Cosmic Ray Isotope Spectrometer (CRiS)
-ace,epam,Advanced Composition Explorer (ACE),Electron, Proton, and Alpha-particle Monitor (EPAM)
+ace,epam,Advanced Composition Explorer (ACE),"Electron, Proton, and Alpha-particle Monitor (EPAM)"
 ace,mag,Advanced Composition Explorer (ACE),Magnetic Field Monitor (MAG)
 ace,sepica ,Advanced Composition Explorer (ACE),Solar Energetic Particle Ionic Charge Analyzer (SEPICA) 
 ace,sis,Advanced Composition Explorer (ACE),Solar Isotope Spectrometer (SIS)
-ace,swepam,Advanced Composition Explorer (ACE),Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM)
+ace,swepam,Advanced Composition Explorer (ACE),"Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM)"
 ace,swics,Advanced Composition Explorer (ACE),Solar Wind Ion Composition Spectrometer (SWICS)
 ace,swims,Advanced Composition Explorer (ACE),Solar Wind Ion Mass Spectrometer (SWIMS)
 ace,uleis,Advanced Composition Explorer (ACE),Ultra-Low Energy Isotope Spectrometer (ULEIS)
@@ -80,16 +80,16 @@ cluster-4,wbd,cluster-4,wbd
 cluster-4,whisper,cluster-4,whisper
 diademe-1,rra,diademe-1,rra
 diademe-2,rra,diademe-2,rra
-dmsp-f17,sess-ssi-es-3,dmsp-f17,sess-ssi-es-3
-dmsp-f17,sess-ssj5,dmsp-f17,sess-ssj5
-dmsp-f17,sess-ssm-boom,dmsp-f17,sess-ssm-boom
-dmsp-f17,sess-ssuli,dmsp-f17,sess-ssuli
-dmsp-f17,sess-ssusi,dmsp-f17,sess-ssusi
-dmsp-f18,sess-ssi-es-3,dmsp-f18,sess-ssi-es-3
-dmsp-f18,sess-ssj5,dmsp-f18,sess-ssj5
-dmsp-f18,sess-ssm-boom,dmsp-f18,sess-ssm-boom
-dmsp-f18,sess-ssuli,dmsp-f18,sess-ssuli
-dmsp-f18,sess-ssusi,dmsp-f18,sess-ssusi
+dmsp-17,sess-ssi-es-3,dmsp-17,sess-ssi-es-3
+dmsp-17,sess-ssj5,dmsp-17,sess-ssj5
+dmsp-17,sess-ssm-boom,dmsp-17,sess-ssm-boom
+dmsp-17,sess-ssuli,dmsp-17,sess-ssuli
+dmsp-17,sess-ssusi,dmsp-17,sess-ssusi
+dmsp-18,sess-ssi-es-3,dmsp-18,sess-ssi-es-3
+dmsp-18,sess-ssj5,dmsp-18,sess-ssj5
+dmsp-18,sess-ssm-boom,dmsp-18,sess-ssm-boom
+dmsp-18,sess-ssuli,dmsp-18,sess-ssuli
+dmsp-18,sess-ssusi,dmsp-18,sess-ssusi
 dscovr,es,dscovr,es
 dscovr,fc,dscovr,fc
 dscovr,mag,dscovr,mag

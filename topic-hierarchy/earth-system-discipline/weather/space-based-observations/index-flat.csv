@@ -5,7 +5,7 @@ amazonia-1,awfi,amazonia-1,awfi
 aqua,airs,Earth Observation System - Aqua,Atmospheric Infra-Red Sounder (AIRS)
 aqua,amsr-e,Earth Observation System - Aqua,Advanced Microwave Scanning Radiometer for EOS (AMSR-E)
 aqua,amsu-a,Earth Observation System - Aqua,Advanced Microwave Sounding Unit - A (AMSU-A)
-aqua,ceres,Earth Observation System - Aqua,Clouds and the Earth’s Radiant Energy System (CERES)
+aqua,ceres,Earth Observation System - Aqua,Clouds and the Earth's Radiant Energy System (CERES)
 aqua,hsb,Earth Observation System - Aqua,Humidity Sounder for Brazil (HSB)
 aqua,modis,Earth Observation System - Aqua,Moderate-resolution Imaging Spectro-radiometer (MODIS)
 arctica-m-n1,msu-gs-a,arctica-m-n1,msu-gs-a
@@ -47,10 +47,10 @@ csk-4,sar-2000,csk-4,sar-2000
 ctim-fd,ctim-fd,ctim-fd,ctim-fd
 cygnss,ddmi,cygnss,ddmi
 deimos-2,hirais,deimos-2,hirais
-dmsp-f17,ols,dmsp-f17,ols
-dmsp-f17,ssmis,dmsp-f17,ssmis
-dmsp-f18,ols,dmsp-f18,ols
-dmsp-f18,ssmis,dmsp-f18,ssmis
+dmsp-17,ols,dmsp-17,ols
+dmsp-17,ssmis,dmsp-17,ssmis
+dmsp-18,ols,dmsp-18,ols
+dmsp-18,ssmis,dmsp-18,ssmis
 dq-1,acdl,dq-1,acdl
 dq-1,dpc-2,dq-1,dpc-2
 dq-1,emi-2,dq-1,emi-2
@@ -167,25 +167,25 @@ hj-2e,sar-s,hj-2e,sar-s
 hj-2f,sar-s,hj-2f,sar-s
 hrmis,hrc,hrmis,hrc
 hrmis,smac,hrmis,smac
-hy-1c,cocts,hy-1c,cocts
-hy-1c,czi,hy-1c,czi
-hy-1c,uvi,hy-1c,uvi
-hy-1d,cocts,hy-1d,cocts
-hy-1d,czi,hy-1d,czi
-hy-1d,uvi,hy-1d,uvi
-hy-1e,cocts2,hy-1e,cocts2
-hy-1e,czi2,hy-1e,czi2
-hy-1e,pmris,hy-1e,pmris
-hy-2b,alt,hy-2b,alt
-hy-2b,hscat,hy-2b,hscat
-hy-2b,lra,hy-2b,lra
-hy-2b,mwri,hy-2b,mwri
-hy-2c,alt,hy-2c,alt
-hy-2c,hscat,hy-2c,hscat
-hy-2c,lra,hy-2c,lra
-hy-2d,alt,hy-2d,alt
-hy-2d,hscat,hy-2d,hscat
-hy-2d,lra,hy-2d,lra
+hai-yang-1c,cocts,hai-yang-1c,cocts
+hai-yang-1c,czi,hai-yang-1c,czi
+hai-yang-1c,uvi,hai-yang-1c,uvi
+hai-yang-1d,cocts,hai-yang-1d,cocts
+hai-yang-1d,czi,hai-yang-1d,czi
+hai-yang-1d,uvi,hai-yang-1d,uvi
+hai-yang-1e,cocts2,hai-yang-1e,cocts2
+hai-yang-1e,czi2,hai-yang-1e,czi2
+hai-yang-1e,pmris,hai-yang-1e,pmris
+hai-yang-2b,alt,hai-yang-2b,alt
+hai-yang-2b,hscat,hai-yang-2b,hscat
+hai-yang-2b,lra,hai-yang-2b,lra
+hai-yang-2b,mwri,hai-yang-2b,mwri
+hai-yang-2c,alt,hai-yang-2c,alt
+hai-yang-2c,hscat,hai-yang-2c,hscat
+hai-yang-2c,lra,hai-yang-2c,lra
+hai-yang-2d,alt,hai-yang-2d,alt
+hai-yang-2d,hscat,hai-yang-2d,hscat
+hai-yang-2d,lra,hai-yang-2d,lra
 hysis,hysis,hysis,hysis
 icesat-2,atlas,icesat-2,atlas
 icesat-2,lra,icesat-2,lra

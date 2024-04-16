@@ -12,6 +12,16 @@
                 "name": "instrument",
                 "datatype": "string",
                 "titles": "Instrument name"
+            },
+             {
+                "name": "satellite-description",
+                "datatype": "string",
+                "titles": "Satellite description"
+            },
+            {
+                "name": "instrument-description",
+                "datatype": "string",
+                "titles": "Instrument description"
             }
         ]
     }

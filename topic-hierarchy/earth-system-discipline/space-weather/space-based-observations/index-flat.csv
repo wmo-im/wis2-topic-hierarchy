@@ -2,7 +2,7 @@ satellite,instrument,satellite-description,instrument-description
 ace,cris,Advanced Composition Explorer (ACE),Cosmic Ray Isotope Spectrometer (CRiS)
 ace,epam,Advanced Composition Explorer (ACE),"Electron, Proton, and Alpha-particle Monitor (EPAM)"
 ace,mag,Advanced Composition Explorer (ACE),Magnetic Field Monitor (MAG)
-ace,sepica ,Advanced Composition Explorer (ACE),Solar Energetic Particle Ionic Charge Analyzer (SEPICA) 
+ace,sepica,Advanced Composition Explorer (ACE),Solar Energetic Particle Ionic Charge Analyzer (SEPICA) 
 ace,sis,Advanced Composition Explorer (ACE),Solar Isotope Spectrometer (SIS)
 ace,swepam,Advanced Composition Explorer (ACE),"Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM)"
 ace,swics,Advanced Composition Explorer (ACE),Solar Wind Ion Composition Spectrometer (SWICS)
@@ -156,6 +156,7 @@ fy-4e,sxus,fy-4e,sxus
 galileo,emu,galileo,emu
 geo-kompsat-2a,ksem-mag,geo-kompsat-2a,ksem-mag
 geo-kompsat-2a,ksem-pd,geo-kompsat-2a,ksem-pd
+geo-kompsat-2a,ksem-cm,geo-kompsat-2a,ksem-cm
 goes-14,sem-eps,goes-14,sem-eps
 goes-14,sem-hepad,goes-14,sem-hepad
 goes-14,sem-mag,goes-14,sem-mag
@@ -271,7 +272,7 @@ soho,sem,soho,sem
 soho,sumer,soho,sumer
 soho,swan,soho,swan
 soho,uvcs,soho,uvcs
-soho,virgo ,soho,virgo 
+soho,virgo,soho,virgo 
 solar-b,eis,solar-b,eis
 solar-b,sot,solar-b,sot
 solar-b,xrt,solar-b,xrt
@@ -333,13 +334,8 @@ tianmu-1,tianmu-receiver,tianmu-1,tianmu-receiver
 timed,guvi,timed,guvi
 timed,saber,timed,saber
 timed,see,timed,see
-timed,tidi ,timed,tidi 
-triton ,gpsr,triton ,gpsr
-tropics-01,tms,tropics-01,tms
-tropics-03,tms,tropics-03,tms
-tropics-05,tms,tropics-05,tms
-tropics-06,tms,tropics-06,tms
-tropics-07,tms,tropics-07,tms
+timed,tidi,timed,tidi 
+triton,gpsr,triton,gpsr
 venus,vssc,venus,vssc
 wind,epact,wind,epact
 wind,mfi,wind,mfi

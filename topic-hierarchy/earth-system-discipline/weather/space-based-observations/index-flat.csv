@@ -12,8 +12,8 @@ arctica-m-n1,msu-gs-a,arctica-m-n1,msu-gs-a
 arctica-m-n2,msu-gs-a,arctica-m-n2,msu-gs-a
 asnaro-2,xsar,asnaro-2,xsar
 aura,hirdls,aura,hirdls
-aura,mls ,aura,mls 
-aura,omi ,aura,omi 
+aura,mls,aura,mls 
+aura,omi,aura,omi 
 aura,tes-limb,aura,tes-limb
 aura,tes-nadir,aura,tes-nadir
 cartosat-2c,hrmx,cartosat-2c,hrmx
@@ -201,7 +201,7 @@ iss-desis,desis,iss-desis,desis
 iss-emit,emit,iss-emit,emit
 iss-hisui,hisui,iss-hisui,hisui
 iss-oco-3,oco-iss-spectrometer,iss-oco-3,oco-iss-spectrometer
-iss-sage-iii,sage-iii ,iss-sage-iii,sage-iii 
+iss-sage-iii,sage-iii,iss-sage-iii,sage-iii 
 iss-tempest-1,mm-radiometer,iss-tempest-1,mm-radiometer
 iss-tsis-1,tsis,iss-tsis-1,tsis
 jason-3,lra,jason-3,lra
@@ -271,8 +271,8 @@ metop-c,gome-2,metop-c,gome-2
 metop-c,gras,metop-c,gras
 metop-c,iasi,metop-c,iasi
 metop-c,mhs,metop-c,mhs
-mtg-i1,fci,mtg-i1,fci
-mtg-i1,li,mtg-i1,li
+meteosat-12,fci,meteosat-12,fci
+meteosat-12,li,meteosat-12,li
 nachos-1,nachos,nachos-1,nachos
 nachos-2,nachos,nachos-2,nachos
 noaa-15,amsu-a,noaa-15,amsu-a
@@ -336,10 +336,10 @@ sdgsat-1,tir,sdgsat-1,tir
 sentinel-1a,sar-c,sentinel-1a,sar-c
 sentinel-2a,msi,sentinel-2a,msi
 sentinel-2b,msi,sentinel-2b,msi
-sentinel-3a,olci ,sentinel-3a,olci 
+sentinel-3a,olci,sentinel-3a,olci 
 sentinel-3a,slstr,sentinel-3a,slstr
 sentinel-3a,sral,sentinel-3a,sral
-sentinel-3b,olci ,sentinel-3b,olci 
+sentinel-3b,olci,sentinel-3b,olci 
 sentinel-3b,slstr,sentinel-3b,slstr
 sentinel-3b,sral,sentinel-3b,sral
 sentinel-5p,tropomi,sentinel-5p,tropomi
@@ -376,5 +376,10 @@ terra,modis,terra,modis
 terra,mopitt,terra,mopitt
 terrasar-x,sar-x,terrasar-x,sar-x
 terrasar-x,tor,terrasar-x,tor
+tropics-01,tms,tropics-01,tms
+tropics-03,tms,tropics-03,tms
+tropics-05,tms,tropics-05,tms
+tropics-06,tms,tropics-06,tms
+tropics-07,tms,tropics-07,tms
 zy-3-02,msc,zy-3-02,msc
 zy-3-03,msc,zy-3-03,msc

@@ -297,8 +297,8 @@ noaa-21,omps-limb,noaa-21,omps-limb
 noaa-21,omps-nadir,noaa-21,omps-nadir
 noaa-21,viirs,noaa-21,viirs
 novasar-s,s-sar,novasar-s,s-sar
-oceansat-3,ocm,oceansat-3,ocm
-oceansat-3,oscat-3,oceansat-3,oscat-3
+eos-06,ocm,eos-06,ocm
+eos-06,oscat-3,eos-06,oscat-3
 oco-2,oco-spectrometer,oco-2,oco-spectrometer
 odin,osiris,odin,osiris
 odin,smr,odin,smr

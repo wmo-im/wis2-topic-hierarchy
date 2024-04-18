@@ -16,7 +16,7 @@ aura,mls,aura,mls
 aura,omi,aura,omi 
 aura,tes-limb,aura,tes-limb
 aura,tes-nadir,aura,tes-nadir
-aws-pfm,eps-sterna-radiometer,Arctic Weather Satellite Proto-Flight Model (AWS PFM),EPS Sterna Radiometer
+aws1,eps-sterna-radiometer,Arctic Weather Satellite Proto-Flight Model (AWS PFM),EPS Sterna Radiometer
 cartosat-2c,hrmx,cartosat-2c,hrmx
 cartosat-2d,hrmx,cartosat-2d,hrmx
 cartosat-2e,hrmx,cartosat-2e,hrmx

@@ -8,27 +8,27 @@ ace,swepam,Advanced Composition Explorer (ACE),"Solar Wind Electron, Proton, and
 ace,swics,Advanced Composition Explorer (ACE),Solar Wind Ion Composition Spectrometer (SWICS)
 ace,swims,Advanced Composition Explorer (ACE),Solar Wind Ion Mass Spectrometer (SWIMS)
 ace,uleis,Advanced Composition Explorer (ACE),Ultra-Low Energy Isotope Spectrometer (ULEIS)
-aditya-1,aspex,aditya-1,aspex
-aditya-1,hel1os,aditya-1,hel1os
-aditya-1,magnetometer,aditya-1,magnetometer
-aditya-1,papa,aditya-1,papa
-aditya-1,solexs,aditya-1,solexs
-aditya-1,suit,aditya-1,suit
-aditya-1,velc,aditya-1,velc
-arase-erg,hep-e,arase-erg,hep-e
-arase-erg,lep-e,arase-erg,lep-e
-arase-erg,lep-i,arase-erg,lep-i
-arase-erg,mep-e,arase-erg,mep-e
-arase-erg,mep-i,arase-erg,mep-i
-arase-erg,mgf,arase-erg,mgf
-arase-erg,pwe,arase-erg,pwe
-arase-erg,xep-e,arase-erg,xep-e
-arctica-m-n1,ggak-e-fm-e,arctica-m-n1,ggak-e-fm-e
-arctica-m-n1,ggak-e-gals-e,arctica-m-n1,ggak-e-gals-e
-arctica-m-n1,ggak-e-skif-6,arctica-m-n1,ggak-e-skif-6
-arctica-m-n2,ggak-e-fm-e,arctica-m-n2,ggak-e-fm-e
-arctica-m-n2,ggak-e-gals-e,arctica-m-n2,ggak-e-gals-e
-arctica-m-n2,ggak-e-skif-6,arctica-m-n2,ggak-e-skif-6
+aditya-1,aspex,Aditya-1,Aditya Solar wind Particle Experiment (ASPEX)
+aditya-1,hel1os,Aditya-1,High Energy L1 Orbiting X-ray Spectrometer (HEL1OS)
+aditya-1,magnetometer,Aditya-1,Magnetometer (Magnetometer)
+aditya-1,papa,Aditya-1,Plasma Analyzer Package for Aditya (PAPA)
+aditya-1,solexs,Aditya-1,Solar Low Energy X-ray Spectrometer (SoLEXS)
+aditya-1,suit,Aditya-1,Solar Ultraviolet Imaging Telescope (SUIT)
+aditya-1,velc,Aditya-1,Visible Emission Line Coronagraph (VELC)
+arase-erg,hep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),High-energy electron experiments (HEP-e)
+arase-erg,lep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),Low-energy particle experiments - electron analyzer (LEP-e)
+arase-erg,lep-i,Exploration of energization and Radiation in Geospace (Arase (ERG)),Low-energy particle experiments - ion mass analyzer (LEP-i)
+arase-erg,mep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),Medium-energy particle experiments - electron analyzer (MEP-e)
+arase-erg,mep-i,Exploration of energization and Radiation in Geospace (Arase (ERG)),Medium-energy particle experiments - ion mass analyzer (MEP-i)
+arase-erg,mgf,Exploration of energization and Radiation in Geospace (Arase (ERG)),Magnetic field experiment (MGF)
+arase-erg,pwe,Exploration of energization and Radiation in Geospace (Arase (ERG)),Plasma Wave Experiment (PWE)
+arase-erg,xep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),Extremely high-energy electron experiments (XEP-e)
+arctica-m-n1,ggak-e-fm-e,Arctica-M N1,GGAK-E / Magnetometer instrument (GGAK-E/FM-E)
+arctica-m-n1,ggak-e-gals-e,Arctica-M N1,GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
+arctica-m-n1,ggak-e-skif-6,Arctica-M N1,GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
+arctica-m-n2,ggak-e-fm-e,Arctica-M N2,GGAK-E / Magnetometer instrument (GGAK-E/FM-E)
+arctica-m-n2,ggak-e-gals-e,Arctica-M N2,GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
+arctica-m-n2,ggak-e-skif-6,Arctica-M N2,GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
 artemis-p1,efi,artemis-p1,efi
 artemis-p1,esa,artemis-p1,esa
 artemis-p1,fgm,artemis-p1,fgm
@@ -39,60 +39,60 @@ artemis-p2,esa,artemis-p2,esa
 artemis-p2,fgm,artemis-p2,fgm
 artemis-p2,scm,artemis-p2,scm
 artemis-p2,sst,artemis-p2,sst
-aso-s,fmg,aso-s,fmg
-aso-s,hxi,aso-s,hxi
-aso-s,lst,aso-s,lst
-cluster-1,cis,cluster-1,cis
-cluster-1,edi,cluster-1,edi
-cluster-1,efw,cluster-1,efw
-cluster-1,fgm,cluster-1,fgm
-cluster-1,peace,cluster-1,peace
-cluster-1,rapid,cluster-1,rapid
-cluster-1,staff,cluster-1,staff
-cluster-1,wbd,cluster-1,wbd
-cluster-1,whisper,cluster-1,whisper
-cluster-2,cis,cluster-2,cis
-cluster-2,edi,cluster-2,edi
-cluster-2,efw,cluster-2,efw
-cluster-2,fgm,cluster-2,fgm
-cluster-2,peace,cluster-2,peace
-cluster-2,rapid,cluster-2,rapid
-cluster-2,staff,cluster-2,staff
-cluster-2,wbd,cluster-2,wbd
-cluster-2,whisper,cluster-2,whisper
-cluster-3,cis,cluster-3,cis
-cluster-3,edi,cluster-3,edi
-cluster-3,efw,cluster-3,efw
-cluster-3,fgm,cluster-3,fgm
-cluster-3,peace,cluster-3,peace
-cluster-3,rapid,cluster-3,rapid
-cluster-3,staff,cluster-3,staff
-cluster-3,wbd,cluster-3,wbd
-cluster-3,whisper,cluster-3,whisper
-cluster-4,cis,cluster-4,cis
-cluster-4,edi,cluster-4,edi
-cluster-4,efw,cluster-4,efw
-cluster-4,fgm,cluster-4,fgm
-cluster-4,peace,cluster-4,peace
-cluster-4,rapid,cluster-4,rapid
-cluster-4,staff,cluster-4,staff
-cluster-4,wbd,cluster-4,wbd
-cluster-4,whisper,cluster-4,whisper
-diademe-1,rra,diademe-1,rra
-diademe-2,rra,diademe-2,rra
-dmsp-17,sess-ssi-es-3,dmsp-17,sess-ssi-es-3
-dmsp-17,sess-ssj5,dmsp-17,sess-ssj5
-dmsp-17,sess-ssm-boom,dmsp-17,sess-ssm-boom
-dmsp-17,sess-ssuli,dmsp-17,sess-ssuli
-dmsp-17,sess-ssusi,dmsp-17,sess-ssusi
-dmsp-18,sess-ssi-es-3,dmsp-18,sess-ssi-es-3
-dmsp-18,sess-ssj5,dmsp-18,sess-ssj5
-dmsp-18,sess-ssm-boom,dmsp-18,sess-ssm-boom
-dmsp-18,sess-ssuli,dmsp-18,sess-ssuli
-dmsp-18,sess-ssusi,dmsp-18,sess-ssusi
-dscovr,es,dscovr,es
-dscovr,fc,dscovr,fc
-dscovr,mag,dscovr,mag
+aso-s,fmg,Advanced Space-based Solar Observatory (ASO-S (Kuafu-1)),Full-disk solar vector MagnetoGraph (FMG)
+aso-s,hxi,Advanced Space-based Solar Observatory (ASO-S (Kuafu-1)),Hard X-ray Imager (HXI)
+aso-s,lst,Advanced Space-based Solar Observatory (ASO-S (Kuafu-1)),Lyman-alpha Solar Telescope (LST)
+cluster-1,cis,CLUSTER-1,Cluster Ion Spectrometry experiment (CIS)
+cluster-1,edi,CLUSTER-1,Electron Drift Instrument (EDI)
+cluster-1,efw,CLUSTER-1,Electric Fields and Waves (EFW)
+cluster-1,fgm,CLUSTER-1,Fluxgate Magnetometer (FGM)
+cluster-1,peace,CLUSTER-1,Plasma Electron and Current Analyzer (PEACE)
+cluster-1,rapid,CLUSTER-1,Research with Adaptive Particle Imaging Detectors (RAPID)
+cluster-1,staff,CLUSTER-1,Spatio-Temporal Analysis of Field Fluctuations (STAFF)
+cluster-1,wbd,CLUSTER-1,Wide Band Data (WBD)
+cluster-1,whisper,CLUSTER-1,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER)
+cluster-2,cis,CLUSTER-2,Cluster Ion Spectrometry experiment (CIS)
+cluster-2,edi,CLUSTER-2,Electron Drift Instrument (EDI)
+cluster-2,efw,CLUSTER-2,Electric Fields and Waves (EFW)
+cluster-2,fgm,CLUSTER-2,Fluxgate Magnetometer (FGM)
+cluster-2,peace,CLUSTER-2,Plasma Electron and Current Analyzer (PEACE)
+cluster-2,rapid,CLUSTER-2,Research with Adaptive Particle Imaging Detectors (RAPID)
+cluster-2,staff,CLUSTER-2,Spatio-Temporal Analysis of Field Fluctuations (STAFF)
+cluster-2,wbd,CLUSTER-2,Wide Band Data (WBD)
+cluster-2,whisper,CLUSTER-2,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER)
+cluster-3,cis,CLUSTER-3,Cluster Ion Spectrometry experiment (CIS)
+cluster-3,edi,CLUSTER-3,Electron Drift Instrument (EDI)
+cluster-3,efw,CLUSTER-3,Electric Fields and Waves (EFW)
+cluster-3,fgm,CLUSTER-3,Fluxgate Magnetometer (FGM)
+cluster-3,peace,CLUSTER-3,Plasma Electron and Current Analyzer (PEACE)
+cluster-3,rapid,CLUSTER-3,Research with Adaptive Particle Imaging Detectors (RAPID)
+cluster-3,staff,CLUSTER-3,Spatio-Temporal Analysis of Field Fluctuations (STAFF)
+cluster-3,wbd,CLUSTER-3,Wide Band Data (WBD)
+cluster-3,whisper,CLUSTER-3,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER)
+cluster-4,cis,CLUSTER-4,Cluster Ion Spectrometry experiment (CIS)
+cluster-4,edi,CLUSTER-4,Electron Drift Instrument (EDI)
+cluster-4,efw,CLUSTER-4,Electric Fields and Waves (EFW)
+cluster-4,fgm,CLUSTER-4,Fluxgate Magnetometer (FGM)
+cluster-4,peace,CLUSTER-4,Plasma Electron and Current Analyzer (PEACE)
+cluster-4,rapid,CLUSTER-4,Research with Adaptive Particle Imaging Detectors (RAPID)
+cluster-4,staff,CLUSTER-4,Spatio-Temporal Analysis of Field Fluctuations (STAFF)
+cluster-4,wbd,CLUSTER-4,Wide Band Data (WBD)
+cluster-4,whisper,CLUSTER-4,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER)
+diademe-1,rra,Diademe-1,Retro-Reflector Array  (RRA)
+diademe-2,rra,Diademe-2,Retro-Reflector Array  (RRA)
+dmsp-17,sess-ssi-es-3,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Ionospheric Plasma Drift/Scintillation Monitor - 3 (SESS/SSI/ES-3)
+dmsp-17,sess-ssj5,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Precipitating Electron and Ion Spectrometer  (SESS/SSJ5 )
+dmsp-17,sess-ssm-boom,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Magnetometer - Boom (SESS/SSM-Boom)
+dmsp-17,sess-ssuli,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Ultraviolet Limb Imager (SESS/SSULI)
+dmsp-17,sess-ssusi,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Ultraviolet Spectrographic Imager (SESS/SSUSI)
+dmsp-18,sess-ssi-es-3,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Ionospheric Plasma Drift/Scintillation Monitor - 3 (SESS/SSI/ES-3)
+dmsp-18,sess-ssj5,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Precipitating Electron and Ion Spectrometer  (SESS/SSJ5 )
+dmsp-18,sess-ssm-boom,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Magnetometer - Boom (SESS/SSM-Boom)
+dmsp-18,sess-ssuli,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Ultraviolet Limb Imager (SESS/SSULI)
+dmsp-18,sess-ssusi,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Ultraviolet Spectrographic Imager (SESS/SSUSI)
+dscovr,es,Deep Space Climate Observatory (DSCOVR),Electron Spectrometer (ES)
+dscovr,fc,Deep Space Climate Observatory (DSCOVR),Faraday Cup (FC)
+dscovr,mag,Deep Space Climate Observatory (DSCOVR),Magnetometer (MAG)
 electro-l-n2,ggak-e-dir-e,electro-l-n2,ggak-e-dir-e
 electro-l-n2,ggak-e-gals-e,electro-l-n2,ggak-e-gals-e
 electro-l-n2,ggak-e-skif-6,electro-l-n2,ggak-e-skif-6
@@ -154,9 +154,9 @@ fy-4e,suvi,fy-4e,suvi
 fy-4e,sxeuv,fy-4e,sxeuv
 fy-4e,sxus,fy-4e,sxus
 galileo,emu,galileo,emu
+geo-kompsat-2a,ksem-cm,geo-kompsat-2a,ksem-cm
 geo-kompsat-2a,ksem-mag,geo-kompsat-2a,ksem-mag
 geo-kompsat-2a,ksem-pd,geo-kompsat-2a,ksem-pd
-geo-kompsat-2a,ksem-cm,geo-kompsat-2a,ksem-cm
 goes-14,sem-eps,goes-14,sem-eps
 goes-14,sem-hepad,goes-14,sem-hepad
 goes-14,sem-mag,goes-14,sem-mag

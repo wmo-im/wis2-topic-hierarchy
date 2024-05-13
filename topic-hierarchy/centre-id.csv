@@ -1,20 +1,63 @@
 Name,Description
-ca-eccc-msc,"Environment and Climate Change Canada, Meteorological Service of Canada"
-ca-eccc-msc-global-discovery-catalogue,"Environment and Climate Change Canada, Meteorological Service of Canada, Global Discovery Catalogue Service"
-cn-cma-babj,"China Meteorological Administration (CMA); National Meteorological Information Center (NMIC)"
-cu-insmet,Institute of Meteorology of Cuba
-data-metoffice-noaa-global-cache,"Met Office / National Oceanic and Atmospheric Administration, Global Cache Service"
-de-dwd,Deutscher Wetterdienst
-de-dwd-gts-to-wis2,"Deutscher Wetterdienst, GTS to WIS2 Gateway"
-de-dwd-global-cache,"Deutscher Wetterdienst, Global Cache Service"
-fr-meteo-france,Météo-France
-int-ecmwf,European Centre for Medium-Range Weather Forecasts
-int-eumetsat,European Organisation for the Exploitation of Meteorological Satellites
-it-meteoam,Italian National Centre of Meteorology and Climatology
-ma-marocmeteo,Maroc Météo
-org-woudc,World Ozone and Ultraviolet Radiation Data Centre
-uk-metoffice-nmc,UK Meteorological Office
-uk-metoffice-wis2-to-gts,"UK Meteorological Office, WIS2 to GTS Gateway"
-us-noaa-nws,"National Oceanic and Atmospheric Administration, National Weather Service"
-us-noaa-nws-global-broker,"National Oceanic and Atmospheric Administration, National Weather Service, Global Broker Service"
-us-synoptic_data_pbc,Synoptic Data Public Benefit Corporation (PBC)
+dz-meteoalgerie,Office National de la Météorologie (Algeria)
+ar-smn,Servicio Meteorológico Nacional (Argentina)
+au-bom,Bureau of Meteorology Water Division
+bb-barbadosmetservices,Meteorological Services (Barbados)
+bz-nms,National Meteorological Service (Belize)
+br-inmet,Instituto Nacional de Meteorología (Brazil)
+bf-anam,Direction de la Météorologie (Burkina Faso)
+cm-meteocameroon,Direction de la Météorologie Nationale (Cameroon)
+ca-eccc-msc,Meteorological Service of Canada
+ky-cinws,Caribbean Meteorological Organization (Cayman Islands)
+cn-cma,China Meteorological Administration
+cl-meteochile,Dirección Meteorológica de Chile
+cg-met,Direction de la Météorologie Nationale (Congo)
+cu-insmet,Instituto de Meteorología (Cuba)
+sx-metservice,Meteorological Department Curaçao (Curaçao and Sint Maarten)
+dk-dmi-opendata,Danish Meteorological Institute (Denmark)
+dm-dms,Dominica Meteorological Services
+fr-meteofrance,Météo-France (Toulouse)
+de-dwd,Deutscher Wetterdienst (Germany)
+de-dwd-gts-to-wis2,"Deutscher Wetterdienst, GTS to WIS2 Gateway (Germany)"
+gd-metservice,CMO Member (Grenada)
+gn-meteo-guinee-conakry,Direction Nationale de la Météorologie (Guinea)
+gy-hydromet,Hydrometeorological Service (Guyana)
+hk-hko,Hong Kong Observatory
+hk-hko-swic,"World Weather Information Service (WWIS) (Hong Kong, China)"
+in-imd,India Meteorological Department
+id-bmkg,"Agency for Meteorology,Climatology and Geophysics (Indonesia)"
+ir-irimo,Islamic Republic of Iran Meteorological Organization
+it-meteoam,Servizio Meteorológico (Italy)
+jm-msj,Meteorological Service (Jamaica)
+jp-jma,Japan Meteorological Agency
+ke-meteo,Kenya Meteorological Department
+kz-kazhydromet,National Meteorological and Hydrological Service (Almaty) (Kazakhstan)
+ly-lnmc,Libyan National Meteorological Centre
+my-metmalaysia,Malaysian Meteorological Department
+ma-marocmeteo,Direction de la Météorologie Nationale (Morocco)
+na-meteona,Namibia Meteorological Service
+nz-metservice,New Zealand National Meteorological Service
+ng-nimet,Nigerian Meteorological Agency
+pl-imgw,Institute of Meteorology and Water Management (Poland)
+kr-kma,Korea Meteorological Administration
+ru-aviamettelecom,Russian Federal Service for Hydrometeorology and Environmental Monitoring
+sg-mss,Meteorological Services Division (Singapore)
+sg-mss-asmc,ASEAN Specialized Meteorological Centre (ASMC) (Singapore)
+za-weathersa,South African Weather Service
+kn-metservice,St Kitts and Nevis Meteorological Service
+vc-metservice,CMO Member (St. Vincent and the Grenadines)
+se-smhi,Swedish Meteorological and Hydrological Institute
+tt-trin-met,Meteorological Service (Trinidad and Tobago)
+tc-metservice,Caribbean Meteorological Organization (Turks and Caicos Islands)
+uk-metoffice-nmc,Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland)
+us-noaa-synoptic,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)"
+us-noaa-nws,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)"
+us-synoptic-uas,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)"
+us-ucsd-scripps-ldl,WIS Centre (other)/University of California San Diego (United States of America)
+us-cimss,"National Environmental Satellite, Data, and Information Service (NESDIS) (United States of America)"
+uy-inumet,Dirección Nacional de Meteorología (Uruguay)
+zm-zmd,Zambia Meteorological Department
+zw-msd,Zimbabwe Meteorological Services Department
+int-ecmwf,European Centre for Medium-Range Weather Forecasts (ECMWF)
+int-eumetsat,European Organization for the Exploitation of Meteorological Satellites (EUMETSAT)
+eu-eumetnet-femdi,WIS Centre (other)

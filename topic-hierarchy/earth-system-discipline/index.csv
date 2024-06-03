@@ -1,8 +1,8 @@
-Name,Description
-weather,Weather
-climate,Climate
-hydrology,Hydrology
-atmospheric-composition,Atmospheric Composition
-cryosphere,Cryosphere
-ocean,Ocean
-space-weather,Space Weather
+Name,Description,Source
+weather,Weather,
+climate,Climate,
+hydrology,Hydrology,
+atmospheric-composition,Atmospheric Composition,
+cryosphere,Cryosphere,
+ocean,Ocean,
+space-weather,Space Weather,

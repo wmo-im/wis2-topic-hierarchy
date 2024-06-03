@@ -86,3 +86,9 @@ The centre identifier (``centre-id``) is an acronym as specified by the WIS Cent
 include::../requirements/core/REQ_centre-id.adoc[]
 include::../recommendations/core/REC_centre-id.adoc[]
 include::../recommendations/core/PER_centre-id.adoc[]
+
+==== Monitoring and metrics
+
+The availability of data and performance of system components within WIS2 are actively monitored by GISCs and the Global Monitor service to ensure proactive response to incidents and effective capacity planning for future operations.  The ability to report errors is critical in supporting corrective action for service outages and invalid data and / or metadata.  The topic structure can be reused for familiar terms and semantics as for data/metadata subscriptions.
+
+include::../requirements/core/REQ_monitoring.adoc[]

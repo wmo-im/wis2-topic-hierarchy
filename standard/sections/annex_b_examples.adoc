@@ -16,3 +16,11 @@ origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop
 ----
 cache/a/wis2/de-dwd/metadata/core/wcmp2
 ----
+
+==== Monitoring Hierarchy
+
+.Example: WIS GDC metadata validation reporting (reporter is Environment and Climate Change Canada, Meteorological Service of Canada, Global Discovery Catalogue Service, data/metadata/service provider is Météo-France)
+[source,text]
+----
+monitor/a/wis2/ca-eccc-msc-global-discovery-catalogue/fr-meteo-france
+----

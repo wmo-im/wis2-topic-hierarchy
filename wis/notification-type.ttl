@@ -7,4 +7,5 @@
 <notification-type> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "notification-type" ;
-        dct:description "WIS2 notification types ('data' or 'metadata')" .
+        dct:description "WIS2 notification types ('data' or 'metadata')" ;
+        rdfs:isDefinedBy "None" .

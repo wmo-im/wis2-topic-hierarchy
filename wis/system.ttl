@@ -7,4 +7,5 @@
 <system> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "system" ;
-        dct:description "Fixed value of 'wis2' for WIS2" .
+        dct:description "Fixed value of 'wis2' for WIS2" ;
+        rdfs:isDefinedBy "None" .

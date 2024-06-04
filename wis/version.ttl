@@ -7,4 +7,5 @@
 <version> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "version" ;
-        dct:description "Alphabetical version of the topic hierarchy, currently 'a'" .
+        dct:description "Alphabetical version of the topic hierarchy, currently 'a'" ;
+        rdfs:isDefinedBy "None" .

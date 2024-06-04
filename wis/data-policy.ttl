@@ -7,4 +7,5 @@
 <data-policy> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "data-policy" ;
-        dct:description "Data policy as defined by the WMO Unified Data Policy ('core' and 'recommended')" .
+        dct:description "Data policy as defined by the WMO Unified Data Policy ('core' and 'recommended')" ;
+        rdfs:isDefinedBy "None" .

@@ -1,8 +1,8 @@
-Level,Name,Description
-1,channel,"Location of where the data originates from (data providers are 'origin' and global services are 'cache')"
-2,version,"Alphabetical version of the topic hierarchy, currently 'a'"
-3,system,Fixed value of 'wis2' for WIS2
-4,centre-id,Acronym proposed by member and endorsed by WMO Secretariat.
-5,notification-type,"WIS2 notification types ('data' or 'metadata')"
-6,data-policy,"Data policy as defined by the WMO Unified Data Policy ('core' and 'recommended')"
-7,earth-system-discipline,"Seven high-level categories as defined by the WMO Unified Data Policy, Annex 1: 'atmospheric-composition', 'climate', 'cryosphere', 'hydrology', 'ocean', 'space-weather', or 'weather'"
+Level,Name,Description,Source
+1,channel,"Location of where the data originates from (data providers are 'origin' and global services are 'cache')",
+2,version,"Alphabetical version of the topic hierarchy, currently 'a'",
+3,system,Fixed value of 'wis2' for WIS2,
+4,centre-id,Acronym proposed by member and endorsed by WMO Secretariat,
+5,notification-type,"WIS2 notification types ('data' or 'metadata')",
+6,data-policy,"Data policy as defined by the WMO Unified Data Policy ('core' and 'recommended')",
+7,earth-system-discipline,"Seven high-level categories as defined by the WMO Unified Data Policy, Annex 1: 'atmospheric-composition', 'climate', 'cryosphere', 'hydrology', 'ocean', 'space-weather', or 'weather'",

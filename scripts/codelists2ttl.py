@@ -54,7 +54,11 @@ def gen_skos_subregister(name: str, description: str,
         'description': description
     }
 
-    SUBREGISTER += ' .'
+    if source != '':
+        SUBREGISTER += ' ;\n        rdfs:isDefinedBy "$source" .'
+        template_vars['source'] = source
+    else:
+        SUBREGISTER += ' .'
 
     return Template(SUBREGISTER).substitute(template_vars).strip()
 
@@ -84,7 +88,11 @@ def gen_skos_concept(name: str, description: str, source: str = None) -> str:
         'description': description
     }
 
-    CONCEPT += ' .'
+    if source != '':
+        CONCEPT += ' ;\n        rdfs:isDefinedBy "$source" .'
+        template_vars['source'] = source
+    else:
+        CONCEPT += ' .'
 
     return Template(CONCEPT).substitute(template_vars).strip()
 
@@ -137,7 +145,8 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path,
                 if verbose:
                     print(f'    creating sub-register {file_name}')
                 ttl = gen_skos_subregister(csv_record['Name'],
-                                           csv_record['Description'])
+                                           csv_record['Description'],
+                                           csv_record['Source'])
                 write_ttl_file(ttl, ttl_base_path, relative_path / file_name)
                 # recursion
                 process_subdomain_index(relative_path / csv_record['Name'],
@@ -147,7 +156,8 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path,
                     print(f'    no sub-directory {csv_sub_dir}')
                     print(f'    creating concept {file_name}')
                 ttl = gen_skos_concept(csv_record['Name'],
-                                       csv_record['Description'])
+                                       csv_record['Description'],
+                                       csv_record['Source'])
                 write_ttl_file(ttl, ttl_base_path, relative_path / file_name)
 
 
@@ -208,7 +218,8 @@ with root_table.open() as fh:
                         print(f'Generating {concept_ttl_file}')
                     with concept_ttl_file.open('w') as fh4:
                         ttl = gen_skos_concept(row2['Name'],
-                                               row2['Description'])
+                                               row2['Description'],
+                                               row2['Source'])
                         fh4.write(ttl)
         else:
             with register_ttl_file.open('w') as fh2:

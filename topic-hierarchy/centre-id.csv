@@ -10,7 +10,7 @@ de-dwd-global-cache,"Deutscher Wetterdienst, Global Cache Service"
 fr-meteo-france,Météo-France
 int-ecmwf,European Centre for Medium-Range Weather Forecasts
 int-eumetsat,European Organisation for the Exploitation of Meteorological Satellites
-io-wis2dev1-test,Test WIS2 Node
+io-wis2dev1-test,Test WIS2 Node (for use in the WIS2 test environment only, not for operations)
 it-meteoam,Italian National Centre of Meteorology and Climatology
 ma-marocmeteo,Maroc Météo
 org-woudc,World Ozone and Ultraviolet Radiation Data Centre

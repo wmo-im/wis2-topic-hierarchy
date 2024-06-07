@@ -1,155 +1,159 @@
 satellite,instrument,satellite-description,instrument-description
-alos-2,palsar-2,alos-2,palsar-2
-alsat-2b,naomi,alsat-2b,naomi
-amazonia-1,awfi,amazonia-1,awfi
+alos-2,palsar-2,Advanced Land Observing Satellite - 2 (ALOS-2),Phased-Array L-band Synthetic Aperture Radar - 2 (PALSAR-2)
+alsat-2b,naomi,Algeria Satellite - 2B (AlSat-2B),New AstroSat Optical Modular Instrument (NAOMI)
+amazonia-1,awfi,Amazonia-1,Advanced Wide Field Imager (AWFI)
 aqua,airs,Earth Observation System - Aqua,Atmospheric Infra-Red Sounder (AIRS)
 aqua,amsr-e,Earth Observation System - Aqua,Advanced Microwave Scanning Radiometer for EOS (AMSR-E)
 aqua,amsu-a,Earth Observation System - Aqua,Advanced Microwave Sounding Unit - A (AMSU-A)
 aqua,ceres,Earth Observation System - Aqua,Clouds and the Earth's Radiant Energy System (CERES)
 aqua,hsb,Earth Observation System - Aqua,Humidity Sounder for Brazil (HSB)
 aqua,modis,Earth Observation System - Aqua,Moderate-resolution Imaging Spectro-radiometer (MODIS)
-arctica-m-n1,msu-gs-a,arctica-m-n1,msu-gs-a
-arctica-m-n2,msu-gs-a,arctica-m-n2,msu-gs-a
-asnaro-2,xsar,asnaro-2,xsar
-aura,hirdls,aura,hirdls
-aura,mls,aura,mls 
-aura,omi,aura,omi 
-aura,tes-limb,aura,tes-limb
-aura,tes-nadir,aura,tes-nadir
+arctica-m-n1,msu-gs-a,Arctica-M N1,Electro-L Imager for Arktika (MSU-GS/A)
+arctica-m-n2,msu-gs-a,Arctica-M N2,Electro-L Imager for Arktika (MSU-GS/A)
+asnaro-2,xsar,Advanced Satellite with new system ARchitecure for Observation - 2 (ASNARO-2),X-band Synthetic Aperture Radar (XSAR)
+aura,hirdls,Earth Observation System - Aura,High-Resolution Dynamics Limb Sounder (HIRDLS)
+aura,mls,Earth Observation System - Aura,Microwave Limb Sounder (MLS )
+aura,omi,Earth Observation System - Aura,Ozone Monitoring Instrument (OMI )
+aura,tes-limb,Earth Observation System - Aura,Tropospheric Emission Spectrometer (TES-limb)
+aura,tes-nadir,Earth Observation System - Aura,Tropospheric Emission Spectrometer (TES-nadir)
 aws1,eps-sterna-radiometer,Arctic Weather Satellite Proto-Flight Model (AWS PFM),EPS Sterna Radiometer
-cartosat-2c,hrmx,cartosat-2c,hrmx
-cartosat-2d,hrmx,cartosat-2d,hrmx
-cartosat-2e,hrmx,cartosat-2e,hrmx
-cartosat-2f,hrmx,cartosat-2f,hrmx
-cartosat-3,mx,cartosat-3,mx
-cas-500-1,aeiss-hr,cas-500-1,aeiss-hr
-cbers-4,irmss-2,cbers-4,irmss-2
-cbers-4,muxcam,cbers-4,muxcam
-cbers-4,panmux,cbers-4,panmux
-cbers-4,wfi-2,cbers-4,wfi-2
-cbers-4b,irmss-2,cbers-4b,irmss-2
-cbers-4b,muxcam,cbers-4b,muxcam
-cbers-4b,panmux,cbers-4b,panmux
-cbers-4b,wfi-2,cbers-4b,wfi-2
-cfosat,cscat,cfosat,cscat
-cfosat,swim,cfosat,swim
-cicero,cion,cicero,cion
-cicero-2,cion-2,cicero-2,cion-2
+cartosat-2c,hrmx,CartoSat-2C,High-Resolution Multi-Spectral (HRMX)
+cartosat-2d,hrmx,CartoSat-2D,High-Resolution Multi-Spectral (HRMX)
+cartosat-2e,hrmx,CartoSat-2E,High-Resolution Multi-Spectral (HRMX)
+cartosat-2f,hrmx,CartoSat-2F,High-Resolution Multi-Spectral (HRMX)
+cartosat-3,mx,CartoSat-3,Multispectral VNIR (MX)
+cas-500-1,aeiss-hr,Compact Advanced Satellite 500-1 (CAS 500-1),Advanced Electronic Image Scanning System - High Resolution (AEISS-HR)
+cbers-4,irmss-2,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Infrared Multispectral Scanner - 2 (IRMSS-2)
+cbers-4,muxcam,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Multispectral Camera (MUXCAM)
+cbers-4,panmux,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Panchromatic and Multispectral imager (PANMUX)
+cbers-4,wfi-2,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Wide Field Imager - 2 (WFI-2)
+cbers-4b,irmss-2,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Infrared Multispectral Scanner - 2 (IRMSS-2)
+cbers-4b,muxcam,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Multispectral Camera (MUXCAM)
+cbers-4b,panmux,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Panchromatic and Multispectral imager (PANMUX)
+cbers-4b,wfi-2,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Wide Field Imager - 2 (WFI-2)
+cfosat,cscat,Chinese-French Oceanography Satellite (CFOSAT),CFOSAT Scatterometer (CSCAT)
+cfosat,swim,Chinese-French Oceanography Satellite (CFOSAT),Surface Waves Investigation and Monitoring (SWIM)
+cicero,cion,Community Initiative for Continuing Earth Radio Occultation (CICERO),CICERO Instrument for GNSS-RO (CION)
+cicero-2,cion-2,Community Initiative for Continuing Earth Radio Occultation (CICERO-2),CICERO-2 Instrument for GNSS-RO (CION-2)
 cosmic-2,rfb,cosmic-2,rfb
 cosmic-2,tgrs,cosmic-2,tgrs
 cosmic-2,vidi,cosmic-2,vidi
-cryosat-2,siral,cryosat-2,siral
-csar-1,sar-c,csar-1,sar-c
-csar-2,sar-c,csar-2,sar-c
-csg-1,csg-sar,csg-1,csg-sar
-csg-2,csg-sar,csg-2,csg-sar
-csk-1,sar-2000,csk-1,sar-2000
-csk-2,sar-2000,csk-2,sar-2000
-csk-3,sar-2000,csk-3,sar-2000
-csk-4,sar-2000,csk-4,sar-2000
-ctim-fd,ctim-fd,ctim-fd,ctim-fd
-cygnss,ddmi,cygnss,ddmi
-deimos-2,hirais,deimos-2,hirais
-dmsp-17,ols,dmsp-17,ols
-dmsp-17,ssmis,dmsp-17,ssmis
-dmsp-18,ols,dmsp-18,ols
-dmsp-18,ssmis,dmsp-18,ssmis
-dq-1,acdl,dq-1,acdl
-dq-1,dpc-2,dq-1,dpc-2
-dq-1,emi-2,dq-1,emi-2
-dq-1,posp,dq-1,posp
-dscovr,nistar,dscovr,nistar
-dubaisat-3,khcs,dubaisat-3,khcs
-egyptsat-a,msi,egyptsat-a,msi
-electro-l-n2,msu-gs,electro-l-n2,msu-gs
-electro-l-n3,msu-gs,electro-l-n3,msu-gs
-electro-l-n4,msu-gs,electro-l-n4,msu-gs
-enmap,hsi,enmap,hsi
-eos-01,sar-x,eos-01,sar-x
-eos-04,sar-c,eos-04,sar-c
-eos-07,mhs,eos-07,mhs
-formosat-5,rsi,formosat-5,rsi
-fy-2g,s-vissr,fy-2g,s-vissr
-fy-2h,s-vissr,fy-2h,s-vissr
-fy-3c,erm-1,fy-3c,erm-1
-fy-3c,gnos,fy-3c,gnos
-fy-3c,mersi-1,fy-3c,mersi-1
-fy-3c,mwhs-2,fy-3c,mwhs-2
-fy-3c,mwri-1,fy-3c,mwri-1
-fy-3c,mwts-2,fy-3c,mwts-2
-fy-3c,sbus,fy-3c,sbus
-fy-3c,sim-1,fy-3c,sim-1
-fy-3c,tou,fy-3c,tou
-fy-3c,virr,fy-3c,virr
-fy-3d,gas,fy-3d,gas
-fy-3d,gnos,fy-3d,gnos
-fy-3d,hiras,fy-3d,hiras
-fy-3d,mersi-2,fy-3d,mersi-2
-fy-3d,mwhs-2,fy-3d,mwhs-2
-fy-3d,mwri-1,fy-3d,mwri-1
-fy-3d,mwts-2,fy-3d,mwts-2
-fy-3d,sws-ipm,fy-3d,sws-ipm
-fy-3e,gnos-2,fy-3e,gnos-2
-fy-3e,hiras-2,fy-3e,hiras-2
-fy-3e,mersi-ll,fy-3e,mersi-ll
-fy-3e,mwhs-2,fy-3e,mwhs-2
-fy-3e,mwts-3,fy-3e,mwts-3
-fy-3e,sim-2,fy-3e,sim-2
-fy-3e,ssim,fy-3e,ssim
-fy-3e,windrad,fy-3e,windrad
-fy-3f,erm-2,fy-3f,erm-2
-fy-3f,gnos-2,fy-3f,gnos-2
-fy-3f,hiras-2,fy-3f,hiras-2
-fy-3f,mersi-3,fy-3f,mersi-3
-fy-3f,mwhs-2,fy-3f,mwhs-2
-fy-3f,mwri-2,fy-3f,mwri-2
-fy-3f,mwts-3,fy-3f,mwts-3
-fy-3f,oms-limb,fy-3f,oms-limb
-fy-3f,oms-nadir,fy-3f,oms-nadir
-fy-3f,sim-2,fy-3f,sim-2
-fy-3g,gnos-2,fy-3g,gnos-2
-fy-3g,haoc,fy-3g,haoc
-fy-3g,mwri-rm,fy-3g,mwri-rm
-fy-3g,pmai,fy-3g,pmai
-fy-3g,pmr,fy-3g,pmr
+cryosat-2,siral,CryoSat-2,SAR Interferometer Radar Altimeter (SIRAL)
+csar-1,sar-c,C-Band Synthetic Aperture Radar 1 (CSAR-1),Synthetic Aperture Radar (SAR-C)
+csar-2,sar-c,C-Band Synthetic Aperture Radar 2 (CSAR-2),Synthetic Aperture Radar (SAR-C)
+csg-1,csg-sar,COSMO-SkyMed Second Generation - 1 (CSG-1),COSMO-SkyMed Second Generation Synthetic Aperture Radar (CSG-SAR)
+csg-2,csg-sar,COSMO-SkyMed Second Generation - 2 (CSG-2),COSMO-SkyMed Second Generation Synthetic Aperture Radar (CSG-SAR)
+csk-1,sar-2000,COSMO-SkyMed - 1 (CSK-1),Synthetic Aperture Radar 2000 (X-band) (SAR-2000)
+csk-2,sar-2000,COSMO-SkyMed - 2 (CSK-2),Synthetic Aperture Radar 2000 (X-band) (SAR-2000)
+csk-3,sar-2000,COSMO-SkyMed - 3 (CSK-3),Synthetic Aperture Radar 2000 (X-band) (SAR-2000)
+csk-4,sar-2000,COSMO-SkyMed - 4 (CSK-4),Synthetic Aperture Radar 2000 (X-band) (SAR-2000)
+ctim-fd,ctim-fd,Compact Total Irradiance Monitor-Flight Demonstration (CTIM-FD),Compact Total Irradiance Monitor-Flight Demonstration (CTIM-FD)
+cygnss,ddmi,Cyclone Global Navigation Satellite System (8 sats) (CYGNSS (8 sats)),Delay Doppler Mapping Instrument (DDMI)
+deimos-2,hirais,Deimos-2,High Resolution Advanced Imaging System (HiRAIS)
+dmsp-17,ols,Defense Meteorological Satellite Program - F17 (DMSP-F17),Operational Linescan Systerm (OLS)
+dmsp-17,ssmis,Defense Meteorological Satellite Program - F17 (DMSP-F17),Special Sensor Microwave - Imager/Sounder (SSMIS)
+dmsp-18,ols,Defense Meteorological Satellite Program - F18 (DMSP-F18),Operational Linescan Systerm (OLS)
+dmsp-18,ssmis,Defense Meteorological Satellite Program - F18 (DMSP-F18),Special Sensor Microwave - Imager/Sounder (SSMIS)
+dq-1,acdl,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Aerosol and Carbon Detection Lidar (ACDL)
+dq-1,dpc-2,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Directional Polarization Camera - 2 (DPC-2)
+dq-1,emi-2,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Environment Monitoring Instrument-2 (EMI-2)
+dq-1,posp,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Particulate Observing Scanning Polarimeter (POSP)
+dscovr,nistar,Deep Space Climate Observatory (DSCOVR),NIST Advanced Radiometer (NIST = National Institute of Standards and Technology Advanced Radiometer) (NISTAR)
+dubaisat-3,khcs,DubaiSat-3,KhalifaSat Camera System (KHCS)
+egyptsat-a,msi,EgyptSat-A,Multispectral imager (MSI)
+electro-l-n2,msu-gs,Electro-L Number 2 (Electro-L N2),Electro-L Imager (MSU-GS)
+electro-l-n3,msu-gs,Electro-L Number 3 (Electro-L N3),Electro-L Imager (MSU-GS)
+electro-l-n4,msu-gs,Electro-L Number 4 (Electro-L N4),Electro-L Imager (MSU-GS)
+enmap,hsi,Environmental Mapping and Analysis Programme (EnMAP),Hyper-Spectral Imager (HSI)
+eos-01,sar-x,Earth Observation Satellite - 01 (EOS-01),Synthetic Aperture Radar (X-band) (SAR-X)
+eos-04,sar-c,Earth Observation Satellite - 04 (also known as RISAT-1A) (EOS-04),Synthetic Aperture Radar (C-band) (SAR-C)
+eos-06,ocm,OceanSat-3 (EOS-06),Ocean Color Monitor (OCM)
+eos-06,oscat-3,OceanSat-3 (EOS-06),Scatterometer for Oceansat-3 (OSCAT-3)
+eos-07,mhs,EOS-07 (Microsat-2B) (EOS-07),Microwave Humidity Sounder (MHS)
+formosat-5,rsi,FORMOSAT-5,Remote Sensing Instrument (RSI)
+fy-2g,s-vissr,Feng-Yun - 2G (FY-2G),Stretched Visible and Infrared Spin Scan Radiometer (S-VISSR)
+fy-2h,s-vissr,Feng-Yun - 2H (FY-2H),Stretched Visible and Infrared Spin Scan Radiometer (S-VISSR)
+fy-3c,erm-1,Feng-Yun 3C (FY-3C),Earth Radiation Measurement - 1 (ERM-1)
+fy-3c,gnos,Feng-Yun 3C (FY-3C),GNSS Radio Occultation Sounder (GNOS)
+fy-3c,mersi-1,Feng-Yun 3C (FY-3C),Medium Resolution Spectral Imager -1 (MERSI-1)
+fy-3c,mwhs-2,Feng-Yun 3C (FY-3C),Micro-Wave Humidity Sounder -2 (MWHS-2)
+fy-3c,mwri-1,Feng-Yun 3C (FY-3C),Micro-Wave Radiation Imager 1 (MWRI-1)
+fy-3c,mwts-2,Feng-Yun 3C (FY-3C),Micro-Wave Temperature Sounder - 2 (MWTS-2)
+fy-3c,sbus,Feng-Yun 3C (FY-3C),Solar Backscatter Ultraviolet Sounder (SBUS)
+fy-3c,sim-1,Feng-Yun 3C (FY-3C),Solar Irradiance Monitor - 1 (SIM-1)
+fy-3c,tou,Feng-Yun 3C (FY-3C),Total Ozone Unit (TOU)
+fy-3c,virr,Feng-Yun 3C (FY-3C),Visible and Infra-Red Radiometer (VIRR)
+fy-3d,gas,Feng-Yun 3D (FY-3D),Greenhouse-gases Absorption Spectrometer (GAS)
+fy-3d,gnos,Feng-Yun 3D (FY-3D),GNSS Radio Occultation Sounder (GNOS)
+fy-3d,hiras,Feng-Yun 3D (FY-3D),Hyperspectral Infrared Atmospheric Sounder (HIRAS)
+fy-3d,mersi-2,Feng-Yun 3D (FY-3D),Medium Resolution Spectral Imager -2 (MERSI-2)
+fy-3d,mwhs-2,Feng-Yun 3D (FY-3D),Micro-Wave Humidity Sounder -2 (MWHS-2)
+fy-3d,mwri-1,Feng-Yun 3D (FY-3D),Micro-Wave Radiation Imager 1 (MWRI-1)
+fy-3d,mwts-2,Feng-Yun 3D (FY-3D),Micro-Wave Temperature Sounder - 2 (MWTS-2)
+fy-3d,sws-ipm,Feng-Yun 3D (FY-3D),Space Weather Suite / Ionospheric PhotoMeter (SWS/IPM)
+fy-3e,gnos-2,Feng-Yun 3E (FY-3E),GNSS Radio Occultation Sounder - 2 (GNOS-2)
+fy-3e,hiras-2,Feng-Yun 3E (FY-3E),Hyperspectral Infrared Atmospheric Sounder - 2 (HIRAS-2)
+fy-3e,mersi-ll,Feng-Yun 3E (FY-3E),Medium Resolution Spectral Imager - Low-Light (MERSI-LL)
+fy-3e,mwhs-2,Feng-Yun 3E (FY-3E),Micro-Wave Humidity Sounder -2 (MWHS-2)
+fy-3e,mwts-3,Feng-Yun 3E (FY-3E),Micro-Wave Temperature Sounder - 3 (MWTS-3)
+fy-3e,sim-2,Feng-Yun 3E (FY-3E),Solar Irradiance Monitor - 2 (SIM-2)
+fy-3e,ssim,Feng-Yun 3E (FY-3E),Solar Spectral Irradiance Monitor (SSIM)
+fy-3e,windrad,Feng-Yun 3E (FY-3E),Wind Radar (WindRAD)
+fy-3f,erm-2,Feng-Yun 3E (FY-3E),Earth Radiation Measurement - 2 (ERM-2)
+fy-3f,gnos-2,Feng-Yun 3F (FY-3F),GNSS Radio Occultation Sounder - 2 (GNOS-2)
+fy-3f,hiras-2,Feng-Yun 3F (FY-3F),Hyperspectral Infrared Atmospheric Sounder - 2 (HIRAS-2)
+fy-3f,mersi-3,Feng-Yun 3F (FY-3F),Medium Resolution Spectral Imager - 3 (MERSI-3)
+fy-3f,mwhs-2,Feng-Yun 3F (FY-3F),Micro-Wave Humidity Sounder -2 (MWHS-2)
+fy-3f,mwri-2,Feng-Yun 3F (FY-3F),Micro-Wave Radiation Imager 2 (MWRI-2)
+fy-3f,mwts-3,Feng-Yun 3F (FY-3F),Micro-Wave Temperature Sounder - 3 (MWTS-3)
+fy-3f,oms-limb,Feng-Yun 3F (FY-3F),Ozone Monitoring Suite - limb scanning unit (OMS-limb)
+fy-3f,oms-nadir,Feng-Yun 3F (FY-3F),Ozone Monitoring Suite - nadir scanning unit (OMS-nadir)
+fy-3f,sim-2,Feng-Yun 3F (FY-3F),Solar Irradiance Monitor - 2 (SIM-2)
+fy-3f,windrad,Feng-Yun 3F (FY-3F),Wind Radar (WindRAD)
+fy-3g,gnos-2,Feng Yun 3G (FY-3G),GNSS Radio Occultation Sounder - 2 (GNOS-2)
+fy-3g,haoc,Feng Yun 3G (FY-3G),High Accuracy On-board Calibrator (HAOC)
+fy-3g,mwri-rm,Feng Yun 3G (FY-3G),Micro-Wave Radiation Imager for the Rainfall Mission (MWRI-RM)
+fy-3g,pmai,Feng Yun 3G (FY-3G),Short-wave Infrared Polarized Multi-Angle Imager (PMAI)
+fy-3g,pmr,Feng Yun 3G (FY-3G),Precipitation Measurement Radar (PMR)
 fy-4a,agri,fy-4a,agri
 fy-4a,giirs,fy-4a,giirs
 fy-4a,lmi,fy-4a,lmi
-fy-4b,agri,fy-4b,agri
-fy-4b,ghi,fy-4b,ghi
-fy-4b,giirs-2,fy-4b,giirs-2
+fy-4b,agri,Feng-Yun - 4B (FY-4B),Advanced Geostationary Radiation Imager (AGRI)
+fy-4b,ghi,Feng-Yun - 4B (FY-4B),Geostationary High-speed Imager (GHI)
+fy-4b,giirs-2,Feng-Yun - 4B (FY-4B),Geostationary Interferometric Infrared Sounder-2 (GIIRS-2)
 fy-4c,musi,fy-4c,musi
 fy-4d,musi,fy-4d,musi
 fy-4e,musi,fy-4e,musi
-gcom-c,sgli,gcom-c,sgli
-gcom-w,amsr2,gcom-w,amsr2
-geo-kompsat-2a,ami,geo-kompsat-2a,ami
-geo-kompsat-2b,gems,geo-kompsat-2b,gems
-geo-kompsat-2b,goci-ii,geo-kompsat-2b,goci-ii
-gf-12,sar-c,gf-12,sar-c
-gf-12-02,sar-c,gf-12-02,sar-c
-gf-12-03,sar-c,gf-12-03,sar-c
-gf-12-04,sar-c,gf-12-04,sar-c
-gf-3,sar-c,gf-3,sar-c
-gf-5-01a,aius,gf-5-01a,aius
-gf-5-01a,dpc,gf-5-01a,dpc
-gf-5-01a,emi,gf-5-01a,emi
-gf-5-01a,gmi,gf-5-01a,gmi
-gf-5-02,aius,gf-5-02,aius
-gf-5-02,dpc,gf-5-02,dpc
-gf-5-02,emi,gf-5-02,emi
-gf-5-02,gmi,gf-5-02,gmi
-ghgsat,ghgsat-spectrometer,ghgsat,ghgsat-spectrometer
-gnomes-2,pyxis-ro,gnomes-2,pyxis-ro
-gnomes-3,pyxis-ro,gnomes-3,pyxis-ro
-gnomes-4,pyxis-ro,gnomes-4,pyxis-ro
-goes-14,imager,goes-14,imager
-goes-16,abi,goes-16,abi
-goes-16,glm,goes-16,glm
-goes-17,abi,goes-17,abi
-goes-17,glm,goes-17,glm
-goes-18,abi,goes-18,abi
-goes-18,glm,goes-18,glm
+gcom-c,sgli,Global Change Observation Mission for Climate (GCOM-C),Second-generation Global Imager (SGLI)
+gcom-w,amsr2,Global Change Observation Mission for Water (GCOM-W),Advanced Microwave Scanning Radiometer - 2 (AMSR2)
+geo-kompsat-2a,ami,Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A),Advanced Meteorological Imager (AMI)
+geo-kompsat-2b,gems,Geostationary Korea Multi-Purpose Satellite - 2B (GEO-KOMPSAT-2B),Geostationary Environmental Monitoring Spectrometer (GEMS)
+geo-kompsat-2b,goci-ii,Geostationary Korea Multi-Purpose Satellite - 2B (GEO-KOMPSAT-2B),Geostationary Ocean Color Imager: Follow-on (GOCI-II)
+gf-12,sar-c,Gao Fen - 12 (GF-12),Synthetic Aperture Radar (SAR-C)
+gf-12-02,sar-c,Gao Fen - 12-02 (GF-12-02),Synthetic Aperture Radar (SAR-C)
+gf-12-03,sar-c,Gao Fen - 12-03 (GF-12-03),Synthetic Aperture Radar (SAR-C)
+gf-12-04,sar-c,Gao Fen - 12-04 (GF-12-04),Synthetic Aperture Radar (SAR-C)
+gf-3,sar-c,Gao Fen - 3 (GF-3),Synthetic Aperture Radar (SAR-C)
+gf-5-01a,aius,Gao Fen - 5-01A (GF-5-01A),Atmospheric Infrared Ultra-spectral spectrometer (AIUS)
+gf-5-01a,dpc,Gao Fen - 5-01A (GF-5-01A),Directional Polarization Camera (DPC)
+gf-5-01a,emi,Gao Fen - 5-01A (GF-5-01A),Environment Monitoring Instrument (EMI)
+gf-5-01a,gmi,Gao Fen - 5-01A (GF-5-01A),Greenhouse-gases Monitoring Instrument (GMI)
+gf-5-02,aius,Gao Fen - 5-02 (GF-5-02),Atmospheric Infrared Ultra-spectral spectrometer (AIUS)
+gf-5-02,dpc,Gao Fen - 5-02 (GF-5-02),Directional Polarization Camera (DPC)
+gf-5-02,emi,Gao Fen - 5-02 (GF-5-02),Environment Monitoring Instrument (EMI)
+gf-5-02,gmi,Gao Fen - 5-02 (GF-5-02),Greenhouse-gases Monitoring Instrument (GMI)
+ghgsat,ghgsat-spectrometer,Greenhouse Gas Satellite (GHGSat),GHGSat Imaging Spectrometer (GHGSat-Spectrometer)
+gnomes-2,pyxis-ro,GNSS Navigation and Occultation Measurement Satellites (GNOMES-2),Pyxis-RO
+gnomes-3,pyxis-ro,GNSS Navigation and Occultation Measurement Satellites (GNOMES-3),Pyxis-RO
+gnomes-4,pyxis-ro,GNSS Navigation and Occultation Measurement Satellites (GNOMES-4),Pyxis-RO
+goes-14,imager,Geostationary Operational Environmental Satellite - 14 (GOES-14),GOES Imager
+goes-14,imager,Geostationary Operational Environmental Satellite - 14 (GOES-14),GOES Sounder
+goes-16,abi,Geostationary Operational Environmental Satellite - 16 (GOES-16),Advanced Baseline Imager (ABI)
+goes-16,glm,Geostationary Operational Environmental Satellite - 16 (GOES-16),Geostationary Lightning Mapper (GLM)
+goes-17,abi,Geostationary Operational Environmental Satellite - 17 (GOES-17),Advanced Baseline Imager (ABI)
+goes-17,glm,Geostationary Operational Environmental Satellite - 17 (GOES-17),Geostationary Lightning Mapper (GLM)
+goes-18,abi,Geostationary Operational Environmental Satellite - 18 (GOES-18),Advanced Baseline Imager (ABI)
+goes-18,glm,Geostationary Operational Environmental Satellite - 18 (GOES-18),Geostationary Lightning Mapper (GLM)
 gosat,tanso-cai,gosat,tanso-cai
 gosat,tanso-fts,gosat,tanso-fts
 gosat-2,tanso-cai2,gosat-2,tanso-cai2
@@ -256,6 +260,8 @@ meteosat-10,gerb,meteosat-10,gerb
 meteosat-10,seviri,meteosat-10,seviri
 meteosat-11,gerb,meteosat-11,gerb
 meteosat-11,seviri,meteosat-11,seviri
+meteosat-12,fci,meteosat-12,fci
+meteosat-12,li,meteosat-12,li
 meteosat-9,gerb,meteosat-9,gerb
 meteosat-9,seviri,meteosat-9,seviri
 metop-b,amsu-a,metop-b,amsu-a
@@ -273,8 +279,6 @@ metop-c,gome-2,metop-c,gome-2
 metop-c,gras,metop-c,gras
 metop-c,iasi,metop-c,iasi
 metop-c,mhs,metop-c,mhs
-meteosat-12,fci,meteosat-12,fci
-meteosat-12,li,meteosat-12,li
 nachos-1,nachos,nachos-1,nachos
 nachos-2,nachos,nachos-2,nachos
 noaa-15,amsu-a,noaa-15,amsu-a
@@ -299,8 +303,6 @@ noaa-21,omps-limb,noaa-21,omps-limb
 noaa-21,omps-nadir,noaa-21,omps-nadir
 noaa-21,viirs,noaa-21,viirs
 novasar-s,s-sar,novasar-s,s-sar
-eos-06,ocm,eos-06,ocm
-eos-06,oscat-3,eos-06,oscat-3
 oco-2,oco-spectrometer,oco-2,oco-spectrometer
 odin,osiris,odin,osiris
 odin,smr,odin,smr
@@ -383,7 +385,7 @@ tropics-03,tms,tropics-03,tms
 tropics-05,tms,tropics-05,tms
 tropics-06,tms,tropics-06,tms
 tropics-07,tms,tropics-07,tms
-wsf-m1,mwi,Weather System Follow-on Microwave (WSF-M1),MicroWave Imager
 wsf-m1,ecp,Weather System Follow-on Microwave (WSF-M1),Energetic Charged Particle sensor
+wsf-m1,mwi,Weather System Follow-on Microwave (WSF-M1),MicroWave Imager
 zy-3-02,msc,zy-3-02,msc
 zy-3-03,msc,zy-3-03,msc

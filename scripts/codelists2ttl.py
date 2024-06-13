@@ -53,7 +53,10 @@ def gen_skos_subregister(
         rdfs:label "$name" ;
         dct:description "$description"'''
 
-    template_vars = {'name': name, 'description': description}
+    template_vars = {
+        'name': name,
+        'description': description
+    }
 
     if source != '':
         SUBREGISTER += ' ;\n        rdfs:isDefinedBy "$source" .'
@@ -84,7 +87,10 @@ def gen_skos_concept(name: str, description: str, source: str = None) -> str:
         skos:notation "$name" ;
         dct:description "$description"@en'''
 
-    template_vars = {'name': name, 'description': description}
+    template_vars = {
+        'name': name,
+        'description': description
+    }
 
     if source != '':
         CONCEPT += ' ;\n        rdfs:isDefinedBy "$source" .'
@@ -95,9 +101,8 @@ def gen_skos_concept(name: str, description: str, source: str = None) -> str:
     return Template(CONCEPT).substitute(template_vars).strip()
 
 
-def write_ttl_file(
-    ttl: str, ttl_base_path: Path, relative_path: Path, verbose: bool = False
-) -> None:
+def write_ttl_file(ttl: str, ttl_base_path: Path, relative_path: Path,
+                   verbose: bool = False) -> None:
     """
     Write TTL to file
 
@@ -130,12 +135,9 @@ def print_with_indent(indent: int, message: str) -> None:
     print(f'{indent_str}{message}')
 
 
-def process_subdomain_index(
-    relative_path: Path,
-    csv_base_path: Path,
-    ttl_base_path: Path,
-    verbose: bool = False,
-) -> None:
+def process_subdomain_index(relative_path: Path, csv_base_path: Path,
+                            ttl_base_path: Path,
+                            verbose: bool = False,) -> None:
     """
     Processes recursively all index.csv files in csv_base_path/relative_path
     and writes output to ttl_base_path/relative_path/
@@ -249,18 +251,13 @@ def read_flat_index_keys(keys: list[str]) -> list[str]:
     return (name_keys, description_keys)
 
 
-def process_flat_subdomain_index(
-    csv_records: list[str],
-    current_row: int,
-    name_column: int,
-    name_keys: list[str],
-    description_keys: list[str],
-    relative_path: Path,
-    csv_base_path: Path,
-    ttl_base_path: Path,
-    is_leaf: bool,
-    verbose: bool = False,
-) -> None:
+def process_flat_subdomain_index(csv_records: list[str], current_row: int,
+                                 name_column: int, name_keys: list[str],
+                                 description_keys: list[str],
+                                 relative_path: Path,
+                                 csv_base_path: Path,
+                                 ttl_base_path: Path, is_leaf: bool,
+                                 verbose: bool = False,) -> None:
     """
     Processes index-flat.csv file as if it was a sub-tree in
     "csv_base_path/relative_path" where each level is described by two columns
@@ -269,19 +266,18 @@ def process_flat_subdomain_index(
     the order of description columns is not important.
     The output (sub-tree of TTLs) is written into "ttl_base_path/relative_path"
 
-    :param csv_records:   list of CSV records read from the flat file
-    :param current_row:   current row in the CSV file
-    :param name_column:   index of the (sub-domain) name column in the record
-    :param name_keys:     list of (sub-domain) name keys (not descriptions)
+    :param csv_records: list of CSV records read from the flat file
+    :param current_row: current row in the CSV file
+    :param name_column: index of the (sub-domain) name column in the record
+    :param name_keys: list of (sub-domain) name keys (not descriptions)
     :param description_keys: list of (sub-domain) description keys
     :param relative_path: relative path to start with
     :param csv_base_path: base path where to look for CSV files
     :param ttl_base_path: base path where store generated TTL files
-    :param is_leaf:       `True` if this is the last level of the hierarchy
-    :param verbose:       `True` if more details should be printed out
+    :param is_leaf: `True` if this is the last level of the hierarchy
+    :param verbose: `True` if more details should be printed out
 
     :returns: `None`
-
     """
 
     indent = len(relative_path.parents) + name_column
@@ -330,7 +326,7 @@ def process_flat_subdomain_index(
                     csv_base_path,
                     ttl_base_path,
                     next_level_name_column + 1 == len(name_keys),
-                    verbose,
+                    verbose
                 )
             else:  # is leaf
                 if verbose:
@@ -406,7 +402,7 @@ with topic_hierarchy_csv_path.open() as root_table_file:
                         ttl,
                         topic_hierarchy_ttl_dir,
                         relative_concept_ttl_path,
-                        args.verbose,
+                        args.verbose
                     )
 
 
@@ -417,7 +413,7 @@ process_subdomain_index(
     Path('earth-system-discipline'),
     CSV_FILES_PATH,
     topic_hierarchy_ttl_dir,
-    args.verbose,
+    args.verbose
 )
 
 print('Done')

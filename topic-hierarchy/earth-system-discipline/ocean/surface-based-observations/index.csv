@@ -1,7 +1,7 @@
 Name,Description,Source
 moored-buoys,Data from moored buoys,
 drifting-buoys,Data from drifting buoys,
-sea-ice,Data from ice buoys,
+sea-ice,Sea ice observations,
 ocean-profilers,"Data from ocean profilers, e.g. Argo",
 ship-based-surface,Along track surface observations from ships,
 ship-based-sub-surface,"Profile data measured from ships, e.g. XBT, CTD, etc.",

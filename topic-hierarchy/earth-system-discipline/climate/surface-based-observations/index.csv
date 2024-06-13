@@ -1,4 +1,4 @@
 Name,Description,Source
 monthly,Monthly climate summary (CLIMAT),
 daily,Daily climate summary (DAYCLI),
-sub-daily, Reprocessed sub-daily (e.g. hourly, SYNOP) observations,
+sub-daily, "Reprocessed sub-daily (e.g. hourly, SYNOP) observations",

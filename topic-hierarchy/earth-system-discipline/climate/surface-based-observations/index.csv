@@ -1,4 +1,4 @@
 Name,Description,Source
-monthly,Monthly climate summary (CLIMAT),
-daily,Daily climate summary (DAYCLI),
-sub-daily, "Reprocessed sub-daily (e.g. hourly, SYNOP) observations",
+monthly,"Monthly values from land stations, e.g. CLIMAT",
+daily,"Daily values from land stations, e.g. DAYCLI",
+sub-daily,Reprocessed hourly and other sub-daily observations from land stations,

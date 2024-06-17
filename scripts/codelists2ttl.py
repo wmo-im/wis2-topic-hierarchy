@@ -334,7 +334,7 @@ def process_flat_subdomain_index(csv_records: list[str], current_row: int,
                         indent, f'creating concept/{name_key} "{name_value}"'
                     )
                 # TODO: source?
-                ttl = gen_skos_concept(file_name, description_value, '')
+                ttl = gen_skos_concept(name_value, description_value, '')
                 write_ttl_file(
                     ttl, ttl_base_path, relative_path / file_name, verbose
                 )

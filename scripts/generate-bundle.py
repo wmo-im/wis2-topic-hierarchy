@@ -39,6 +39,9 @@ for root, dirs, files in os.walk('topic-hierarchy/earth-system-discipline'):
                     if topic_to_add.startswith('/'):
                         topic_to_add = topic_to_add.lstrip('/')
 
+                    test_parent_dir = f'{root}/{row[0]}'
+                    if os.path.isdir(test_parent_dir):
+                        break
                     topics.append(topic_to_add)
 
 with open('topic-hierarchy/earth-system-discipline.csv', 'w') as fh:

@@ -5,4 +5,6 @@
 ^|A |Data SHALL NOT be published with a topic that is not defined in this specification.
 ^|B |Data SHALL be published to at least the level of the sub-discipline topic (level 8 or beyond).
 ^|C |Metadata SHALL be published to at least the level of the notification type (``metadata``).
+^|D |Topics SHALL be published to the lowest possible defined level (leaf).
+^|E |Topics SHALL NOT be published to intermediary levels where sublevels are defined.
 |===

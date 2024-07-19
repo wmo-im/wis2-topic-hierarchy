@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<fixed-land-stations-sub-hourly> a skos:Concept ;
+        rdfs:label "fixed-land-stations-sub-hourly" ;
+        skos:notation "fixed-land-stations-sub-hourly" ;
+        dct:description "Weather observations from fixed land stations with a reporting frequency < 1 hour"@en .

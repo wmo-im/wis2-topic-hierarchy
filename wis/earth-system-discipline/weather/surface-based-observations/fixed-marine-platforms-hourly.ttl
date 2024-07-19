@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<fixed-marine-platforms-hourly> a skos:Concept ;
+        rdfs:label "fixed-marine-platforms-hourly" ;
+        skos:notation "fixed-marine-platforms-hourly" ;
+        dct:description "Hourly weather observations from fixed marine platforms, e.g. rigs and offshore platforms"@en .

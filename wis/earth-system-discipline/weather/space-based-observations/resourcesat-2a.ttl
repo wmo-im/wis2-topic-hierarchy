@@ -1,0 +1,10 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<resourcesat-2a> a reg:Register , skos:Collection , ldp:Container ;
+        ldp:hasMemberRelation skos:member ;
+        rdfs:label "resourcesat-2a" ;
+        dct:description "Satellite for Earth Resources - 2A (ResourceSat-2A)" .

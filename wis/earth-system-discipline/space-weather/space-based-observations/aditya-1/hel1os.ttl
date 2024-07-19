@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<hel1os> a skos:Concept ;
+        rdfs:label "hel1os" ;
+        skos:notation "hel1os" ;
+        dct:description "High Energy L1 Orbiting X-ray Spectrometer (HEL1OS)"@en .

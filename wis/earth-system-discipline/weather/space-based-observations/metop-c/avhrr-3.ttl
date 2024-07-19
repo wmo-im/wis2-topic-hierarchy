@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<avhrr-3> a skos:Concept ;
+        rdfs:label "avhrr-3" ;
+        skos:notation "avhrr-3" ;
+        dct:description "Advanced Very High Resolution Radiometer / 3 (AVHRR/3)"@en .

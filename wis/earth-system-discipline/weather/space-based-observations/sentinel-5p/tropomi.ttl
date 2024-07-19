@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<tropomi> a skos:Concept ;
+        rdfs:label "tropomi" ;
+        skos:notation "tropomi" ;
+        dct:description "Tropospheric Monitoring Instrument (TROPOMI)"@en .

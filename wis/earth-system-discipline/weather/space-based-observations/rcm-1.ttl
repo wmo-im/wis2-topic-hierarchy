@@ -1,0 +1,10 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<rcm-1> a reg:Register , skos:Collection , ldp:Container ;
+        ldp:hasMemberRelation skos:member ;
+        rdfs:label "rcm-1" ;
+        dct:description "RadarSat Constellation Mission - 1 (RCM-1)" .

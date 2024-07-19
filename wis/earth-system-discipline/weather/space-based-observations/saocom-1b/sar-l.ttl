@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<sar-l> a skos:Concept ;
+        rdfs:label "sar-l" ;
+        skos:notation "sar-l" ;
+        dct:description "Synthetic Aperture Radar (L-band) (SAR-L)"@en .

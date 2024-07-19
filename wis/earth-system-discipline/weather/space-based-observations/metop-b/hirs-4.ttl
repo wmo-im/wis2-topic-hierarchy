@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<hirs-4> a skos:Concept ;
+        rdfs:label "hirs-4" ;
+        skos:notation "hirs-4" ;
+        dct:description "High-resolution Infra Red Sounder / 4 (HIRS/4)"@en .

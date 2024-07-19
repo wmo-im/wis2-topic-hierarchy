@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<hpca> a skos:Concept ;
+        rdfs:label "hpca" ;
+        skos:notation "hpca" ;
+        dct:description "Hot Plasma Composition Analyzer (HPCA)"@en .

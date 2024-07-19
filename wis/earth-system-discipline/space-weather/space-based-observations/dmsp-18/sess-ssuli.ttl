@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<sess-ssuli> a skos:Concept ;
+        rdfs:label "sess-ssuli" ;
+        skos:notation "sess-ssuli" ;
+        dct:description "SESS / Special Sensor Ultraviolet Limb Imager (SESS/SSULI)"@en .

@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<whisper> a skos:Concept ;
+        rdfs:label "whisper" ;
+        skos:notation "whisper" ;
+        dct:description "Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER)"@en .

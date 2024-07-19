@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<impact-swea> a skos:Concept ;
+        rdfs:label "impact-swea" ;
+        skos:notation "impact-swea" ;
+        dct:description "IMPACT / Solar Wind Electron Analyzer (IMPACT/SWEA)"@en .

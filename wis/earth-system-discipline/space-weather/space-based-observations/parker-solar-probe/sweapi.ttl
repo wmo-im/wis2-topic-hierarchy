@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<sweapi> a skos:Concept ;
+        rdfs:label "sweapi" ;
+        skos:notation "sweapi" ;
+        dct:description "Solar Wind Electrons Alphas and Protons Investigation (SWEAPI)"@en .

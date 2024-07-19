@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<sws-sem-fgm> a skos:Concept ;
+        rdfs:label "sws-sem-fgm" ;
+        skos:notation "sws-sem-fgm" ;
+        dct:description "Space Weather Suite / Space Environment Monitor / Flux Gate Magnetometer (SWS/SEM/FGM)"@en .

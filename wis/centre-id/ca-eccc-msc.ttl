@@ -5,4 +5,4 @@
 <ca-eccc-msc> a skos:Concept ;
         rdfs:label "ca-eccc-msc" ;
         skos:notation "ca-eccc-msc" ;
-        dct:description "Environment and Climate Change Canada, Meteorological Service of Canada"@en .
+        dct:description "Meteorological Service of Canada"@en .

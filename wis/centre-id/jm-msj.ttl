@@ -2,7 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
-<de-dwd> a skos:Concept ;
-        rdfs:label "de-dwd" ;
-        skos:notation "de-dwd" ;
-        dct:description "Deutscher Wetterdienst (Germany)"@en .
+<jm-msj> a skos:Concept ;
+        rdfs:label "jm-msj" ;
+        skos:notation "jm-msj" ;
+        dct:description "Meteorological Service (Jamaica)"@en .

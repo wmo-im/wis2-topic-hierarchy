@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<nz-metservice> a skos:Concept ;
+        rdfs:label "nz-metservice" ;
+        skos:notation "nz-metservice" ;
+        dct:description "New Zealand National Meteorological Service"@en .

@@ -5,4 +5,4 @@
 <uk-metoffice-nmc> a skos:Concept ;
         rdfs:label "uk-metoffice-nmc" ;
         skos:notation "uk-metoffice-nmc" ;
-        dct:description "UK Meteorological Office"@en .
+        dct:description "Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland)"@en .

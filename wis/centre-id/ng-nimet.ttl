@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<ng-nimet> a skos:Concept ;
+        rdfs:label "ng-nimet" ;
+        skos:notation "ng-nimet" ;
+        dct:description "Nigerian Meteorological Agency"@en .

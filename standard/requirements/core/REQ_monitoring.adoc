@@ -1,0 +1,10 @@
+[[req_core_monitoring]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement {counter:req-id}* |*/req/core/monitoring*
+^|A |Monitoring and reporting SHALL be provided using the channel named `monitor` as the first token.
+^|B |Monitoring and reporting SHALL be provided using a valid version as the second token.
+^|C |Monitoring and reporting SHALL be provided using a valid system as the third token.
+^|D |Monitoring and reporting SHALL be provided using a **centre identifier of the reporter** as the fourth token.
+^|E |Monitoring and reporting SHALL be provided using a **centre identifier of the provider of the data, metadata or service** as the fifth token.
+|===

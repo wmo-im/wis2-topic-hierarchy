@@ -3,7 +3,7 @@
 |===
 |URI|http://wis.wmo.int/spec/wth/1/req/core
 |Target type |Topic classification
-|Dependency |<<MQTT5, MQTT v5.0>>
-|Dependency |<<MQTT3, MQTT v3.1.1>>
+|Dependency |link:https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html[MQTT5, MQTT v5.0]
+|Dependency |link:https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html[MQTT3, MQTT v3.1.1]
 |Pre-conditions | Topics conform to the Topic Name requirements of MQTT
 |===

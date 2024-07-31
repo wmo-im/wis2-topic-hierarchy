@@ -1,11 +1,9 @@
 [[rc_core]]
 [cols="1,4",width="90%"]
 |===
-2+|*Requirements Class*
-2+|http://wis.wmo.int/spec/wth/1/req/core
-|Target type |Topic Classification
+|URI|http://wis.wmo.int/spec/wth/1/req/core
+|Target type |Topic classification
 |Dependency |<<MQTT5, MQTT v5.0>>
 |Dependency |<<MQTT3, MQTT v3.1.1>>
-|Pre-conditions |
-Topics conform to Topic Name requirements of MQTT
+|Pre-conditions | Topics conform to the Topic Name requirements of MQTT
 |===

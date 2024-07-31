@@ -11,3 +11,4 @@
 ^|G |A new topic SHALL NOT result in any version update.
 ^|H |A new centre identifier SHALL NOT result in any version update.
 |===
+//req4

@@ -4,3 +4,4 @@
 ^|*Recommendation {counter:rec-id}* |*/rec/core/publishing*
 ^|A |The topic ``experimental`` SHOULD be used as a temporary approach until a given sub-discipline topic is approved.
 |===
+//rec1

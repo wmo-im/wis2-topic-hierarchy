@@ -59,7 +59,7 @@ The table below provides an overview of the primary topic levels.
 
 |7
 |earth-system-discipline
-|Seven high-level categories as defined by the WMO Unified Data Policy, Annex 1: (``atmospheric-composition``, ``climate``, ``cryosphere``, ``hydrology``, ``ocean``, ``space-weather``, or ``weather``)
+|Seven high-level categories as defined by the WMO Data Policy (Resolution 1 (Cg-Ext(2021))) - Annex 1: (``atmospheric-composition``, ``climate``, ``cryosphere``, ``hydrology``, ``ocean``, ``space-weather``, or ``weather``)
 |===
 
 ==== 1.2 Publishing
@@ -89,8 +89,8 @@ All levels of the topic hierarchy are defined in a consistent manner to support 
 include::../requirements/core/REQ_conventions.adoc[]
 
 ==== 1.6 Centre identification
-
-The centre identifier (``centre-id``) is an acronym as specified by the WIS Centre and endorsed by WMO Secretariat.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product, data granule or other resource.
+//specified by WIS Centre or Member?
+The centre identifier (``centre-id``) is an acronym as proposed by the Member and endorsed by the WMO Secretariat.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product, data granule or other resource.
 
 include::../requirements/core/REQ_centre-id.adoc[]
 include::../recommendations/core/REC_centre-id.adoc[]

@@ -97,38 +97,62 @@ include::../recommendations/core/REC_centre-id.adoc[]
 include::../recommendations/core/PER_centre-id.adoc[]
 
 === 2. WIS2 Topic Hierarchy resources
-==== 2.1	WMO Codes Registry
+==== 2.1WMO Codes Registry
 
 |===
 |Level|Topic|URI
-|1|channel	|https://codes.wmo.int/wis/topic-hierarchy/channel
 
-|2	|version	|https://codes.wmo.int/wis/topic-hierarchy/version
+|1
+|channel
+|https://codes.wmo.int/wis/topic-hierarchy/channel
 
-|3	|system	|https://codes.wmo.int/wis/topic-hierarchy/system
+|2
+|version
+|https://codes.wmo.int/wis/topic-hierarchy/version
 
-|4	|centre-id	|https://codes.wmo.int/wis/topic-hierarchy/centre-id
+|3
+|system
+|https://codes.wmo.int/wis/topic-hierarchy/system
 
-|5	|notification-type	|https://codes.wmo.int/wis/topic-hierarchy/notification-type
+|4
+|centre-id
+|https://codes.wmo.int/wis/topic-hierarchy/centre-id
 
-|6	|data-policy	|https://codes.wmo.int/wis/topic-hierarchy/data-policy
+|5
+|notification-type
+|https://codes.wmo.int/wis/topic-hierarchy/notification-type
 
-|7	|earth-system-discipline	|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline
+|6
+|data-policy
+|https://codes.wmo.int/wis/topic-hierarchy/data-policy
 
-|8	|atmospheric-composition	|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/atmospheric-composition
+|7
+|earth-system-discipline
+|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline
 
-|8	|climate	|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/climate
+.7+|8
+|atmospheric-composition
+|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/atmospheric-composition
 
-|8	|cryosphere	|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/cryosphere
+|climate
+|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/climate
 
-|8	|hydrology	|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/hydrology
+|cryosphere
+|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/cryosphere
 
-|8	|ocean	|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/ocean
+|hydrology
+|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/hydrology
 
-|8	|space-weather	|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/space-weather
+|ocean
+|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/ocean
 
-|8	|weather	|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather 
+|space-weather
+|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/space-weather
+
+|weather
+|https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather
+
 |===
 
-==== 2.2	WMO schemas server
+==== 2.2WMO schemas server
 A zipped directory of all topics is published at https://schemas.wmo.int/wth/a. This bundle can be used by tools and applications wishing to browse or validate topic structures.

@@ -97,7 +97,7 @@ include::../recommendations/core/REC_centre-id.adoc[]
 include::../recommendations/core/PER_centre-id.adoc[]
 
 === 2. WIS2 Topic Hierarchy resources
-==== 2.1WMO Codes Registry
+==== 2.1 WMO Codes Registry
 
 |===
 |Level|Topic|URI

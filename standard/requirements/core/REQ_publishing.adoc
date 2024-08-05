@@ -6,3 +6,4 @@
 ^|B |Data SHALL be published to at least the level of the sub-discipline topic (level 8 or beyond).
 ^|C |Metadata SHALL be published to at least the level of the notification type (``metadata``).
 |===
+//req1

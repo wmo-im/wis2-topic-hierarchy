@@ -1,11 +1,9 @@
 [[rc_core]]
 [cols="1,4",width="90%"]
 |===
-2+|*Requirements Class*
-2+|http://wis.wmo.int/spec/wth/1/req/core
-|Target type |Topic Classification
-|Dependency |<<MQTT5, MQTT v5.0>>
-|Dependency |<<MQTT3, MQTT v3.1.1>>
-|Pre-conditions |
-Topics conform to Topic Name requirements of MQTT
+|URI|http://wis.wmo.int/spec/wth/1/req/core
+|Target type |Topic classification
+|Dependency |link:https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html[MQTT v5.0]
+|Dependency |link:https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html[MQTT v3.1.1]
+|Pre-conditions | Topics conform to the Topic Name requirements of MQTT
 |===

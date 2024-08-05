@@ -154,5 +154,5 @@ include::../recommendations/core/PER_centre-id.adoc[]
 
 |===
 
-==== 2.2WMO schemas server
+==== 2.2 WMO schemas server
 A zipped directory of all topics is published at https://schemas.wmo.int/wth/a. This bundle can be used by tools and applications wishing to browse or validate topic structures.

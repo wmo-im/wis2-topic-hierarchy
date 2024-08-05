@@ -21,7 +21,11 @@ The sub-discipline topics are proposed by domain experts and user communities.  
 
 The representation is encoded as a simple text string of values in each topic level separated by a slash (``/``). 
 
-Examples.
+Examples:
+
+``origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop``
+
+``cache/a/wis2/ca-eccc-msc/data/core/weather/prediction/forecast/medium-range/probabilistic/global``
 
 ``origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop``
 

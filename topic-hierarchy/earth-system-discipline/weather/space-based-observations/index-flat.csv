@@ -374,7 +374,7 @@ swot,poseidon-3c,Surface Water and Ocean Topography (SWOT),Poseidon-3C Altimeter
 tandem-x,sar-x,TerraSAR-X Add-oN for Digital Elevation Measurement (TanDEM-X),Synthetic Aperture Radar (X-band) (SAR-X)
 tandem-x,tor,TerraSAR-X Add-oN for Digital Elevation Measurement (TanDEM-X),Tracking (TOR)
 terra,aster,Earth Observation System - Terra,Advanced Spaceborne Thermal Emission and Reflection radiometer (ASTER)
-terra,ceres,Earth Observation System - Terra,Clouds and the Earth�s Radiant Energy System (CERES)
+terra,ceres,Earth Observation System - Terra,Clouds and the Earth's Radiant Energy System (CERES)
 terra,misr,Earth Observation System - Terra,Multi-angle Imaging Spectro-Radiometer (MISR)
 terra,modis,Earth Observation System - Terra,Moderate-resolution Imaging Spectro-radiometer (MODIS)
 terra,mopitt,Earth Observation System - Terra,Measurement Of Pollution In The Troposphere (MOPITT)

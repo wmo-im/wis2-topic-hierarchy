@@ -1,7 +1,7 @@
-Name,Description
-sand-and-dust,Sand and dust
-air-pollution,Air pollution
-fires,Fires
-ozone-and-ultraviolet-radiation,Ozone and ultraviolet radiation
-greenhouse-gases,Greenhouse gases
-total-atmospheric-deposition,Total atmospheric deposition
+Name,Description,Source
+sand-and-dust,Sand and dust,
+air-pollution,Air pollution,
+fires,Fires,
+ozone-and-ultraviolet-radiation,Ozone and ultraviolet radiation,
+greenhouse-gases,Greenhouse gases,
+total-atmospheric-deposition,Total atmospheric deposition,

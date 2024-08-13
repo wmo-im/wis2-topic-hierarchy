@@ -5,4 +5,4 @@
 <ceres> a skos:Concept ;
         rdfs:label "ceres" ;
         skos:notation "ceres" ;
-        dct:description "Clouds and the Earth�s Radiant Energy System (CERES)"@en .
+        dct:description "Clouds and the Earth's Radiant Energy System (CERES)"@en .

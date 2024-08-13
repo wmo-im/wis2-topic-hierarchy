@@ -5,4 +5,4 @@
 <tempo> a skos:Concept ;
         rdfs:label "tempo" ;
         skos:notation "tempo" ;
-        dct:description "Electric Field Instrument (EFI)"@en .
+        dct:description "Tropospheric Emissions: Monitoring of Pollution"@en .

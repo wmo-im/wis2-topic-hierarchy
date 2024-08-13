@@ -5,4 +5,4 @@
 <edi> a skos:Concept ;
         rdfs:label "edi" ;
         skos:notation "edi" ;
-        dct:description "Digital Fluxgate Magnetometer (DFG)"@en .
+        dct:description "Electron Drift Instrument (EDI)"@en .

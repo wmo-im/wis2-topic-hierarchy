@@ -5,4 +5,4 @@
 <eis> a skos:Concept ;
         rdfs:label "eis" ;
         skos:notation "eis" ;
-        dct:description "Digital Fluxgate Magnetometer (DFG)"@en .
+        dct:description "Energetic Ion Spectrometer (EIS)"@en .

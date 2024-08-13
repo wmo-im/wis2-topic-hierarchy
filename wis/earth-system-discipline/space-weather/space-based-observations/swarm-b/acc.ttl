@@ -5,4 +5,4 @@
 <acc> a skos:Concept ;
         rdfs:label "acc" ;
         skos:notation "acc" ;
-        dct:description "Electric Field Instrument (EFI)"@en .
+        dct:description "Accelerometer (ACC)"@en .

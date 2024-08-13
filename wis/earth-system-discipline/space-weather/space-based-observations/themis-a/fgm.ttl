@@ -5,4 +5,4 @@
 <fgm> a skos:Concept ;
         rdfs:label "fgm" ;
         skos:notation "fgm" ;
-        dct:description "Electric Field Instrument (EFI)"@en .
+        dct:description "Fluxgate Magnetometer (FGM)"@en .

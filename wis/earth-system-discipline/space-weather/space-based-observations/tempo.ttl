@@ -7,4 +7,4 @@
 <tempo> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "tempo" ;
-        dct:description "The Earth's Magnetic Field and Environment Explorers - C (SWARM-C)" .
+        dct:description "Tropospheric Emissions: Monitoring of Pollution" .

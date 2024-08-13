@@ -5,4 +5,4 @@
 <feeps> a skos:Concept ;
         rdfs:label "feeps" ;
         skos:notation "feeps" ;
-        dct:description "Mesospheric Airglow/Aerosol Tomography and Spectroscopy (MATS)"@en .
+        dct:description "Fly's Eye Energetic Particle Sensor (FEEPS)"@en .

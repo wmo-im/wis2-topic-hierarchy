@@ -5,4 +5,4 @@
 <magnetometer> a skos:Concept ;
         rdfs:label "magnetometer" ;
         skos:notation "magnetometer" ;
-        dct:description "Magnetometer (Magnetometer)"@en .
+        dct:description "Magnetometer"@en .

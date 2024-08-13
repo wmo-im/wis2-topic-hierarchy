@@ -5,4 +5,4 @@
 <asm> a skos:Concept ;
         rdfs:label "asm" ;
         skos:notation "asm" ;
-        dct:description "Accelerometer (ACC)"@en .
+        dct:description "Absolute Scalar Magnetometer (ASM)"@en .

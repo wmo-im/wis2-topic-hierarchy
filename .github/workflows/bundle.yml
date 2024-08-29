@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
+    - uses: actions/checkout@master
+    - uses: actions/setup-python@v5
       name: Setup Python ${{ matrix.python-version }}
       with:
         python-version: ${{ matrix.python-version }}
@@ -24,7 +24,7 @@ jobs:
       run: |
         python3 scripts/generate-bundle.py
         zip -j /tmp/wth-bundle.zip topic-hierarchy/*.csv
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@master
       with:
         ref: gh-pages
     - name: update gh-pages branch and publish

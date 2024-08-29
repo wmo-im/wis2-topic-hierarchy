@@ -29,7 +29,7 @@ Examples:
 
 ``origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop``
 
- ``origin/a/wis2/ca-eccc-msc/data/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``
+``origin/a/wis2/ca-eccc-msc/data/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares``
 
 The table below provides an overview of the primary topic levels.
 

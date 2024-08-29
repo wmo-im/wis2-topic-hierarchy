@@ -34,12 +34,21 @@ for root, dirs, files in os.walk('topic-hierarchy/earth-system-discipline'):
             with open(filename) as fh2:
                 reader = csv.reader(fh2)
                 next(reader)
-                for row in reader:
-                    topic_to_add = f'{root2}/{row[0]}'
-                    if topic_to_add.startswith('/'):
-                        topic_to_add = topic_to_add.lstrip('/')
+                if file_.endswith('index.csv'):
+                    for row in reader:
+                        topic_to_add = f'{root2}/{row[0]}'
+                        if topic_to_add.startswith('/'):
+                            topic_to_add = topic_to_add.lstrip('/')
 
-                    topics.append(topic_to_add)
+                        topics.append(topic_to_add)
+                elif file_.endswith('index-flat.csv'):
+                    parent_groups = []
+                    for row in reader:
+                        parent_groups.append(row[0])
+                        topics.append(f'{root2}/{row[0]}/{row[1]}')
+
+                    for parent_group in set(parent_groups):
+                        topics.append(f'{root2}/{parent_group}')
 
 with open('topic-hierarchy/earth-system-discipline.csv', 'w') as fh:
     fieldnames = ['Name']

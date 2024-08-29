@@ -35,7 +35,7 @@ for root, dirs, files in os.walk('topic-hierarchy/earth-system-discipline'):
                 reader = csv.reader(fh2)
                 next(reader)
                 if file_.endswith('index.csv'):
-                    print('Processing hierarchical CSV')
+                    print('Processing hierarchical index CSV')
                     for row in reader:
                         topic_to_add = f'{root2}/{row[0]}'
                         if topic_to_add.startswith('/'):

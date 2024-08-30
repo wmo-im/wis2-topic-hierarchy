@@ -309,8 +309,8 @@ odin,smr,Odin,Sub-Millimetre Radiometer (SMR)
 pace,harp2,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",Hyper Angular Research Polarimeter 2 (HARP2)
 pace,oci,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",Ocean Color Instrument (OCI)
 pace,spexone,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",SPEXone Polarimeter (SPEXone)
-pleiades-neo 3,pleiades-neo,Pleiades-Neo 3,Pleiades-Neo
-pleiades-neo 4,pleiades-neo,Pleiades-Neo 4,Pleiades-Neo
+pleiades-neo-3,pleiades-neo,Pleiades-Neo 3,Pleiades-Neo
+pleiades-neo-4,pleiades-neo,Pleiades-Neo 4,Pleiades-Neo
 pretty,gnss-r,Passive Reflectometry and Dosimetry (PRETTY),GNSS Reflectometer (GNSS-R)
 prisma,hyc,PRecursore IperSpettrale della Missione Applicativa (PRISMA),HYperspectral Camera (HYC)
 proba-1,chris,Project for On-Board Autonomy - 1 (PROBA-1),Compact High Resolution Imaging Spectrometer (CHRIS)

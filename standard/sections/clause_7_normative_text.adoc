@@ -68,7 +68,7 @@ The table below provides an overview of the primary topic levels.
 
 ==== 1.2 Publishing
 
-For maximum utility and efficient management of topics, it is recommended that ``data`` and ``metadata`` are published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of messages under the primary topics.  Note that each discipline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
+For maximum utility and efficient management of topics, it is recommended that ``data`` is published to a detailed level of the topic hierarchy. This helps avoid the "pollution" of data messages under the primary topics.  Note that each discipline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
 
 include::../requirements/core/REQ_publishing.adoc[]
 include::../recommendations/core/REC_publishing.adoc[]

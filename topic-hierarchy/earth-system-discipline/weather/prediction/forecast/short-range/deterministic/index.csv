@@ -1,4 +1,4 @@
 Name,Description,Source
 global,A prediction system that covers the entire globe,
 limited-area,A prediction system that does not cover the entire globe,
-trajectory,tbd,
+trajectory,"Line in space tracing the successive positions of (i) moving particles in the air, such as radioactive particles from a nuclear accident or (ii) the centre of a weather system, such as a tropical cyclone.",

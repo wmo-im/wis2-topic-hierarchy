@@ -455,7 +455,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong class="big">World Meteorological Organization</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2024-10-21</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2024-10-23</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: a</p></td>
@@ -828,7 +828,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <p>The WIS2 Topic Hierarchy (WTH) provides a mechanism for users to subscribe to and receive data or metadata notifications. It is documented in discovery metadata records and leveraged by WIS2 brokers.</p>
 </div>
 <div class="paragraph">
-<p>The normative provisions in this standard are denoted by the <code><a href="http://wis.wmo.int/spec/wth/1" class="bare">http://wis.wmo.int/spec/wth/1</a></code> URI. All requirements in this document are denoted by partial Uniform Resource Identifiers (URIs) which are relative to this base and examples are represented with <code>shaded text</code>.</p>
+<p>The normative provisions in the WTH are denoted by the base Uniform Resoure Identifier (URI) <code><a href="http://wis.wmo.int/spec/wth/1" class="bare">http://wis.wmo.int/spec/wth/1</a></code> and requirements are denoted by partial URIs which are relative to this base. Topics, values, and examples are represented with <code>shaded text</code>.</p>
 </div>
 <div class="sect2">
 <h3 id="_1_requirements_class_core"><a class="anchor" href="#_1_requirements_class_core"></a>1. Requirements Class Core</h3>
@@ -857,7 +857,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><a href="https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html">MQTT v3.1.1</a></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Pre-conditions</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Preconditions</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Topics conform to the Topic Name requirements of MQTT</p></td>
 </tr>
 </tbody>
@@ -869,13 +869,13 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <p>The primary topics apply to all data and resources in WIS.  They are relational, meaning that any combination of the values in each level can be used to construct a topic applicable to a notification.</p>
 </div>
 <div class="paragraph">
-<p>The sub-discipline topics are proposed by domain experts and user communities.  These levels are a hierarchical representation of the dataset and the number of levels in this part may vary according to the requirements of various domains.</p>
+<p>The sub-discipline topics are proposed by domain experts and user communities.  These levels are a hierarchical representation of the datase, and the number of levels in this part may vary according to the requirements of various domains.</p>
 </div>
 <div class="paragraph">
-<p>The representation is encoded as a simple text string of values in each topic level separated by a slash (<code>/</code>).</p>
+<p>The representation is encoded as a simple text string of values in each topic level, separated by a slash (<code>/</code>).</p>
 </div>
 <div class="paragraph">
-<p>Examples:</p>
+<p><em>Examples</em>:</p>
 </div>
 <div class="paragraph">
 <p><code>origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop</code></p>
@@ -890,7 +890,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <p><code>origin/a/wis2/ca-eccc-msc/data/recommended/atmospheric-composition/experimental/space-based-observation/geostationary/solar-flares</code></p>
 </div>
 <div class="paragraph">
-<p>The table below provides an overview of the primary topic levels.</p>
+<p>Table 1 provides an overview of the primary topic levels.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 2. WTH primary topic levels</caption>
@@ -910,7 +910,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">1</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">channel</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Location of where the data originates from (data providers are <code>origin</code> and Global Services are <code>cache</code>)</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Location at which the data originates (data providers are <code>origin</code> and Global Services are <code>cache</code>)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">2</p></td>
@@ -935,12 +935,12 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">6</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">data-policy</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Data policy as defined by the WMO Data Policy (Resolution 1 (Cg-Ext(2021)))<sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup> (<code>core</code> and <code>recommended</code>)</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Data policy as defined by the WMO Unified Data Policy (Resolution 1 (Cg-Ext(2021)))<sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup> (<code>core</code> or <code>recommended</code>)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">7</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">earth-system-discipline</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Seven high-level categories as defined by the WMO Data Policy (Resolution 1 (Cg-Ext(2021))) - Annex 1: (<code>atmospheric-composition</code>, <code>climate</code>, <code>cryosphere</code>, <code>hydrology</code>, <code>ocean</code>, <code>space-weather</code>, or <code>weather</code>)</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Seven high-level categories as defined by the WMO Unified Data Policy (Resolution 1 (Cg-Ext(2021))) - Annex 1 (<code>atmospheric-composition</code>, <code>climate</code>, <code>cryosphere</code>, <code>hydrology</code>, <code>ocean</code>, <code>space-weather</code> or <code>weather</code>)</p></td>
 </tr>
 </tbody>
 </table>
@@ -948,7 +948,10 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="sect3">
 <h4 id="_1_2_publishing"><a class="anchor" href="#_1_2_publishing"></a>1.2 Publishing</h4>
 <div class="paragraph">
-<p>For maximum utility and efficient management of topics, it is recommended that <code>data</code> and <code>metadata</code> are published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of messages under the primary topics.  Note that each discipline has a sub-discipline topic named <code>experimental</code> for publication to provisional topics.</p>
+<p>For maximum utility and efficient management of topics, it is recommended that <code>data</code> and <code>metadata</code> are published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of messages under the primary topics.</p>
+</div>
+<div class="paragraph">
+<p>Note: Each discipline has a sub-discipline topic named <code>experimental</code> for publication to provisional topics.</p>
 </div>
 <table id="req_core_publishing" class="tableblock frame-all grid-all" style="width: 90%;">
 <colgroup>
@@ -965,7 +968,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>Data SHALL NOT be published with a topic that is not defined in this specification.</p>
+<p>Data SHALL NOT be published with a topic that is not defined in the WTH.</p>
 </div></div></td>
 </tr>
 <tr>
@@ -1105,13 +1108,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">D</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>Updates to the sub-discipline topics (level 8 and beyond) will go through the WMO fast-track approval procedure.<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup></p>
-</div>
-<div id="footnotes">
-<hr>
-<div class="footnote" id="_footnotedef_14">
-<a href="#_footnoteref_14">14</a>. <a href="https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides" class="bare">https://community.wmo.int/en/activity-areas/wis/amendment-processes-wis-manuals-and-guides</a>
-</div>
+<p>Updates to the sub-discipline topics (level 8 and beyond) will go through the WMO fast-track approval procedure (see <a href="https://library.wmo.int/idurl/4/56841"><em>Rules of Procedure for Technical Commissions</em></a> (WMO-No. 1240)).</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -1244,7 +1241,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="sect3">
 <h4 id="_1_6_centre_identification"><a class="anchor" href="#_1_6_centre_identification"></a>1.6 Centre identification</h4>
 <div class="paragraph">
-<p>The centre identifier (<code>centre-id</code>) is an acronym as proposed by the Member and endorsed by the WMO Secretariat.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product, data granule or other resource.</p>
+<p>The centre identifier (<code>centre-id</code>) is an acronym, as proposed by the Member and endorsed by the WMO Secretariat.  It is a single identifier comprised of a top-level domain (TLD) and centre name. It represents the data publisher, distributor or issuing centre of a given dataset, data product, data granule or other resource.</p>
 </div>
 <table id="req_core_centre-id" class="tableblock frame-all grid-all" style="width: 90%;">
 <colgroup>
@@ -1272,7 +1269,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><code>tld</code> is based on TLD as defined by <a href="https://data.iana.org/TLD">IANA</a> for the relevant country or international organization;</p>
+<p><code>tld</code> is based on TLD as defined by the Internet Assigned Numbers Authority <a href="https://data.iana.org/TLD">IANA</a> for the relevant country or international organization;</p>
 </li>
 <li>
 <p><code>centre-name</code> is based on a centre name.</p>
@@ -1309,7 +1306,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>International organizations operating with <code>int</code>, <code>org</code> or similar TLD SHOULD reuse these to define the TLD component of their centre identifier.</p>
+<p>International organizations operating with an <code>int</code>, <code>org</code> or similar TLD SHOULD reuse these to define the TLD component of their centre identifier.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -1558,7 +1555,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="openblock component">
 <div class="content">
 <div class="paragraph">
-<p>Check that the first component of the centre identifier is a valid TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup>.</p>
+<p>Check that the first component of the centre identifier is a valid TLD as defined by IANA<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup>.</p>
 </div>
 </div>
 </div>
@@ -1602,16 +1599,16 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a id="OASIS-mqtt5"></a> OASIS: MQTT Version 5.0 (2019) <sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup></p>
+<p><a id="OASIS-mqtt5"></a> OASIS: MQTT Version 5.0 (2019) <sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup></p>
 </li>
 <li>
-<p><a id="OASIS-mqtt311"></a> OASIS: MQTT Version 3.1.1 (2014) <sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup></p>
+<p><a id="OASIS-mqtt311"></a> OASIS: MQTT Version 3.1.1 (2014) <sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup></p>
 </li>
 <li>
-<p><a id="Wikipedia-PubSub"></a> Wikipedia: Publish-subscribe pattern (2023) <sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup></p>
+<p><a id="Wikipedia-PubSub"></a> Wikipedia: Publish-subscribe pattern (2023) <sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup></p>
 </li>
 <li>
-<p><a id="ITU-T50"></a> International Telecommunications Union (ITU): T.50 : International Reference Alphabet (IRA) (Formerly International Alphabet No. 5 or IA5) - Information technology - 7-bit coded character set for information interchange <sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnotedef_19" title="View footnote.">19</a>]</sup></p>
+<p><a id="ITU-T50"></a> International Telecommunications Union (ITU): T.50 : International Reference Alphabet (IRA) (Formerly International Alphabet No. 5 or IA5) - Information technology - 7-bit coded character set for information interchange <sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup></p>
 </li>
 </ul>
 </div>
@@ -1691,25 +1688,25 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="footnote" id="_footnotedef_13">
 <a href="#_footnoteref_13">13</a>. Resolution 1 (Cg-Ext(2021)) – WMO Unified Policy for the International Exchange of Earth System Data (World Meteorological Congress: Abridged Final Report of the Extraordinary Session (WMO-No. 1281))
 </div>
+<div class="footnote" id="_footnotedef_14">
+<a href="#_footnoteref_14">14</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
+</div>
 <div class="footnote" id="_footnotedef_15">
-<a href="#_footnoteref_15">15</a>. <a href="https://data.iana.org/TLD" class="bare">https://data.iana.org/TLD</a>
+<a href="#_footnoteref_15">15</a>. <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html" class="bare">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a>
 </div>
 <div class="footnote" id="_footnotedef_16">
-<a href="#_footnoteref_16">16</a>. <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html" class="bare">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a>
+<a href="#_footnoteref_16">16</a>. <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html" class="bare">http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html</a>
 </div>
 <div class="footnote" id="_footnotedef_17">
-<a href="#_footnoteref_17">17</a>. <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html" class="bare">http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html</a>
+<a href="#_footnoteref_17">17</a>. <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" class="bare">https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern</a>
 </div>
 <div class="footnote" id="_footnotedef_18">
-<a href="#_footnoteref_18">18</a>. <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" class="bare">https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern</a>
-</div>
-<div class="footnote" id="_footnotedef_19">
-<a href="#_footnoteref_19">19</a>. <a href="https://www.itu.int/rec/T-REC-T.50" class="bare">https://www.itu.int/rec/T-REC-T.50</a>
+<a href="#_footnoteref_18">18</a>. <a href="https://www.itu.int/rec/T-REC-T.50" class="bare">https://www.itu.int/rec/T-REC-T.50</a>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-10-21 08:54:15 UTC
+Last updated 2024-10-23 13:17:23 UTC
 </div>
 </div>
 </body>

@@ -948,7 +948,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="sect3">
 <h4 id="_1_2_publishing"><a class="anchor" href="#_1_2_publishing"></a>1.2 Publishing</h4>
 <div class="paragraph">
-<p>For maximum utility and efficient management of topics, it is recommended that <code>data</code> and <code>metadata</code> are published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of messages under the primary topics.</p>
+<p>For maximum utility and efficient management of topics, it is recommended that <code>data</code> is published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of data messages under the primary topics.</p>
 </div>
 <div class="paragraph">
 <p>Note: Each discipline has a sub-discipline topic named <code>experimental</code> for publication to provisional topics.</p>
@@ -980,7 +980,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">C</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>Metadata SHALL be published to at least the level of the notification type (<code>metadata</code>).</p>
+<p>Metadata SHALL be published to at exactly the level of the notification type (<code>metadata</code>).</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -1019,12 +1019,6 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
-<p>Metadata MAY be published at any level at or below the notification type (<code>metadata</code>).</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p>Data MAY be published with the <code>experimental</code> topic and include any sub-discipline topics which are not yet approved.</p>
 </div></div></td>
@@ -1587,7 +1581,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="listingblock">
 <div class="title">Example: WIS Node metadata publishing from Deutscher Wetterdienst</div>
 <div class="content">
-<pre class="highlight"><code class="language-text" data-lang="text">cache/a/wis2/de-dwd/metadata/core/wcmp2</code></pre>
+<pre class="highlight"><code class="language-text" data-lang="text">cache/a/wis2/de-dwd/metadata</code></pre>
 </div>
 </div>
 </div>
@@ -1706,7 +1700,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-10-23 13:17:23 UTC
+Last updated 2024-10-23 14:13:14 UTC
 </div>
 </div>
 </body>

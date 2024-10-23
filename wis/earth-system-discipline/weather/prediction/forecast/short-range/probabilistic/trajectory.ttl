@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<trajectory> a skos:Concept ;
+        rdfs:label "trajectory" ;
+        skos:notation "trajectory" ;
+        dct:description "Line in space representing the successive positions of (i) moving particles in the air, such as radioactive particles from a nuclear accident or (ii) the centre of a weather system, such as a tropical cyclone."@en .

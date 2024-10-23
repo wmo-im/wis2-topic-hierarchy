@@ -4,6 +4,6 @@
 ^|*Requirement {counter:req-id}* |*/req/core/publishing*
 ^|A |Data SHALL NOT be published with a topic that is not defined in the WTH.
 ^|B |Data SHALL be published to at least the level of the sub-discipline topic (level 8 or beyond).
-^|C |Metadata SHALL be published to at least the level of the notification type (``metadata``).
+^|C |Metadata SHALL be published to at exactly the level of the notification type (``metadata``).
 |===
 //req1

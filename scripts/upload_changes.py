@@ -22,6 +22,10 @@
 import argparse
 from pathlib import Path
 import requests
+import rdflib
+import rdflib.compare
+from enum import Enum
+
 
 HEADERS = {
     'Content-type': 'text/turtle; charset=UTF-8'
@@ -29,6 +33,14 @@ HEADERS = {
 
 PROD_REGISTRY = 'https://codes.wmo.int'
 TEST_REGISTRY = 'https://ci.codes.wmo.int'
+PUBLIC_ID_PREFIX = 'http://codes.wmo.int'
+
+
+# class syntax
+class CheckResult(Enum):
+    EQUAL = 1
+    CHANGED = 2
+    NEW = 3
 
 
 def authenticate(base_url: str, user_id: str,
@@ -142,45 +154,58 @@ def put(session: requests.Session, url: str, payload: str,
     return
 
 
-def upload(session: requests.Session, url: str, payload: str,
-           dry_run: bool, verbose: bool, status: str) -> None:
+def check_file(session: requests.Session, url: str, public_id: str,
+               local_ttl: str, verbose: bool) -> CheckResult:
     """
-    PUTs or POSTs given data depending if it already exists or not
+    Compares local file with the server version (if any) as graphs.
 
     :param session: API session
-    :param url: URL of HTTP POST
-    :param payload: HTTP POST payload
-    :param dry_run: whether to run as a dry run (simulates request only)
-    :param verbose: whether to provide verbose output
-    :param status: publication status (experimental, stable)
+    :param url: URL of the server resource to compare with.
+    :param local_ttl: Current local TTL representation.
+    :param verbose: Whether to provide verbose output
+    :param public_id: Id of the resource.
 
-    :returns: `None`
+    :returns: `True` if local TTL is subset of the the server's version.
     """
 
-    # to check existence adjust the URL
     url_to_check = url + '/'
+    headers_to_check = {
+        'Accept': 'text/turtle',
+        'Cache-Control': 'private, no-store, no-cache, max-age=0'
+    }
     if verbose:
         print(f'  Checking {url_to_check} - ', end=' ')
 
-    response = session.get(url_to_check)
+    response = session.get(url_to_check, headers=headers_to_check)
 
     if response.status_code == 200:
         if verbose:
-            print('Existing entry, using PUT')
-        put(session, url, payload, dry_run, verbose, status)
+            print('Existing entry, going to compare:', end=' ')
+        server_rdf = rdflib.Graph()
+        server_rdf.parse(data=response.text, format='n3')
+
+        local_rdf = rdflib.Graph()
+        local_rdf.parse(data=local_ttl, format='n3', publicID=public_id)
+        in_both, in_local, in_server = rdflib.compare.graph_diff(local_rdf,
+                                                                 server_rdf)
+        if len(in_local) == 0:
+            if verbose:
+                print("Equal.")
+            return CheckResult.EQUAL
+        else:
+            return CheckResult.CHANGED
     elif response.status_code == 404:
         if verbose:
-            print('New entry, using POST')
-        url = '/'.join(url.split('/')[:-1])
-        post(session, url, payload, dry_run, verbose, status)
+            print('New.')
+        return CheckResult.NEW
     else:
         raise ValueError(
             f'Cannot upload to {url}: {response.status_code} {response.reason}: {response.content.decode("utf-8")}'  # noqa
         )
 
 
-def upload_file(session: requests.Session, url: str, filepath: Path,
-                dry_run: bool, verbose: bool, status: str) -> None:
+def process_file(session: requests.Session, url: str, filepath: Path,
+                 dry_run: bool, verbose: bool, status: str) -> None:
     """
     Uploads given TTL file to the registry
 
@@ -200,9 +225,20 @@ def upload_file(session: requests.Session, url: str, filepath: Path,
         if filepath.stem == 'wis':
             rel_id = filepath.stem
         url = f'{url}/{rel_id}'
+        public_id = f'{PUBLIC_ID_PREFIX}/{rel_id}'
 
-        print(f'Uploading {filepath} to {url}')
-        upload(session, url, ttl_data, dry_run, verbose, status)
+        print(f'Processing {filepath}')
+
+        result = check_file(session, url, public_id, ttl_data, verbose)
+        if result == CheckResult.CHANGED:
+            put(session, url, ttl_data, dry_run, verbose, status)
+        elif result == CheckResult.NEW:
+            if verbose:
+                print('New entry, using POST')
+            url = '/'.join(url.split('/')[:-1])
+            post(session, url, ttl_data, dry_run, verbose, status)
+        else:
+            print("  Unchanged entry, nothing to do.")
 
     return
 
@@ -249,7 +285,7 @@ if __name__ == '__main__':
     # session.delete('https://ci.codes.wmo.int/wis')
 
     for filename in Path(args.directory).rglob('*.ttl'):
-        upload_file(session, REGISTRY, filename, args.dry_run,
-                    args.verbose, args.status)
+        process_file(session, REGISTRY, filename, args.dry_run,
+                     args.verbose, args.status)
 
     print('Done')

@@ -1,6 +1,8 @@
 Name,Description,Source
 synop,Surface observations,
 temp,Upper air observations,
+ship,Ship based weather observations,
+fixed-marine-platforms,"Weather observations from fixed marine platforms, e.g. rigs and offshore platforms",
 temp-ship,Radiosonde measurements from ships,
 wind-profile,Wind profile measurements using PILOT balloons,
 wind-profile-ship,Wind profile measurements using PILOT balloons from ships,

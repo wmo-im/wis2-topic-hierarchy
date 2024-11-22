@@ -107,8 +107,9 @@ def post(session: requests.Session, url: str, payload: str,
             print(f'  POST succeeded with {res.status_code} {res.reason}')
     else:
         print(f'  HTTP POST (dry run) to: {url}')
-        print(f'    headers: {HEADERS}')
-        print(f'    params: {params}')
+        if verbose:
+            print(f'    headers: {HEADERS}')
+            print(f'    params: {params}')
 
     return
 
@@ -148,8 +149,9 @@ def put(session: requests.Session, url: str, payload: str,
             print(f'  PUT succeeded with {res.status_code} {res.reason}')
     else:
         print(f'  HTTP PUT (dry run) to {url}')
-        print(f'    headers: {HEADERS}')
-        print(f'    params: {params}')
+        if verbose:
+            print(f'    headers: {HEADERS}')
+            print(f'    params: {params}')
 
     return
 
@@ -190,9 +192,13 @@ def check_file(session: requests.Session, url: str, public_id: str,
                                                                  server_rdf)
         if len(in_local) == 0:
             if verbose:
-                print("Equal.")
+                print('Equal.')
             return CheckResult.EQUAL
         else:
+            if verbose:
+                print('Changed.')
+                for s, p, o in in_local:
+                    print(f'    {p}: {o}')
             return CheckResult.CHANGED
     elif response.status_code == 404:
         if verbose:
@@ -231,10 +237,10 @@ def process_file(session: requests.Session, url: str, filepath: Path,
 
         result = check_file(session, url, public_id, ttl_data, verbose)
         if result == CheckResult.CHANGED:
+            print('  Changed entry, will upload.')
             put(session, url, ttl_data, dry_run, verbose, status)
         elif result == CheckResult.NEW:
-            if verbose:
-                print('New entry, using POST')
+            print('  New entry, will upload.')
             url = '/'.join(url.split('/')[:-1])
             post(session, url, ttl_data, dry_run, verbose, status)
         else:

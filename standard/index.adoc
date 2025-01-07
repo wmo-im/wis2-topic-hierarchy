@@ -22,6 +22,7 @@
 |[big]*World Meteorological Organization*
 |Date: {date}
 |Version: {version}
+|Document status: APPROVED
 |Document location: https://community.wmo.int/wis2-topic-hierarchy
 |Task Team on WIS Metadata (TT-WISMD)footnote:[https://community.wmo.int/governance/commission-membership/commission-observation-infrastructures-and-information-systems-infcom/commission-infrastructure-officers/infcom-management-group/standing-committee-information-management-and-technology-sc-imt/expert-team-metadata-0]
 |Expert Team on Metadata Standards (ET-Metadata)footnote:[https://community.wmo.int/governance/commission-membership/commission-observation-infrastructures-and-information-systems-infcom/commission-infrastructure-national-representatives/infcom-management-group/standing-committee-information-management-and-technology-sc-imt/et-metadata]

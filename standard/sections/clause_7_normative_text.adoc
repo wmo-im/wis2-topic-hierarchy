@@ -1,5 +1,5 @@
 == WIS2 Topic Hierarchy
-Note: This section of the document is the same as Appendix D in the https://library.wmo.int/idurl/4/68731[_Manual on the WMO Information System_] (WMO-No. 1060), Volume II.
+Note: This section of this working draft document is the same as Appendix F in the https://library.wmo.int/idurl/4/68731[_Manual on the WMO Information System_] (WMO-No. 1060), Volume II as approved by EC-78.
 
 The WIS2 Topic Hierarchy (WTH) provides a mechanism for users to subscribe to and receive data or metadata notifications. It is documented in discovery metadata records and leveraged by WIS2 brokers.
 

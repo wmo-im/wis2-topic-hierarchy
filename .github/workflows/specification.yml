@@ -8,7 +8,7 @@ on:
     - 'standard/**'
 
 env:
-  FILE_BASENAME: wis2-topic-hierarchy-APPROVED
+  FILE_BASENAME: wis2-topic-hierarchy-STABLE
 
 jobs:
   build-wis2-topic-hierarchy:

@@ -14,7 +14,7 @@ _(The exact changes proposed. Enter TBD if the details are unknown. This content
 # Requestor(s)*
 _(Name of individuals, groups, or organizations that are requesting the amendment. Include relevant affiliations and GitHub user names, as applicable.)_
 
-# Consulations
-_(Individuals, groups,or organizations that are consulted. Also cite publications or other documents that as references.)_
+# Consultations
+_(Individuals, groups,or organizations that are consulted. Also cite publications or other documents as references.)_
 
 # Comments

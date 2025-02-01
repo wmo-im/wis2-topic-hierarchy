@@ -1,0 +1,8 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<sa-ncm> a skos:Concept ;
+        rdfs:label "sa-ncm" ;
+        skos:notation "sa-ncm" ;
+        dct:description "National Center for Meteorology (Saudi Arabia)"@en .

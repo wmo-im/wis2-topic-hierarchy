@@ -3,5 +3,6 @@
 |===
 ^|*Recommendation {counter:rec-id}* |*/rec/core/publishing*
 ^|A |The topic ``experimental`` SHOULD be used as a temporary approach until a given sub-discipline topic is approved.
+^|B |Data SHOULD be published to a leaf topic.
 |===
 //rec1

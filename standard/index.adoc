@@ -23,6 +23,7 @@
 |Date: {date}
 |Version: {version}
 |Document status: STABLE
+|Document location: https://wmo-im.github.io/wis2-topic-hierarchy/standard/wis2-topic-hierarchy-STABLE.html
 |WMO publication location: https://library.wmo.int/idurl/4/68731
 |Task Team on WIS Metadata (TT-WISMD)footnote:[https://community.wmo.int/governance/commission-membership/commission-observation-infrastructures-and-information-systems-infcom/commission-infrastructure-officers/infcom-management-group/standing-committee-information-management-and-technology-sc-imt/expert-team-metadata-0]
 |Expert Team on Metadata Standards (ET-Metadata)footnote:[https://community.wmo.int/governance/commission-membership/commission-observation-infrastructures-and-information-systems-infcom/commission-infrastructure-national-representatives/infcom-management-group/standing-committee-information-management-and-technology-sc-imt/et-metadata]

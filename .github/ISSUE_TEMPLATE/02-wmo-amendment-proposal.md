@@ -18,6 +18,6 @@ _(Name of individuals, groups, or organizations that are requesting the amendmen
 _(Individuals, groups,or organizations that are consulted. Also cite publications or other documents as references.)_
 
 # Describe WIS2 data publication plans associated with the proposal
-_(identify relevant datasets, WIS2Nodes, metadata publication)_
+_(identify relevant datasets, WIS2 Nodes, discovery metadata publication)_
 
 # Comments

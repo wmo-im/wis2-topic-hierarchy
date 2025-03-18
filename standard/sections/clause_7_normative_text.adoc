@@ -68,10 +68,18 @@ Table 1 provides an overview of the primary topic levels.
 
 ==== 1.2 Publishing
 
-For maximum utility and efficient management of topics, it is recommended that ``data`` is published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of data messages under the primary topics.  
+For maximum utility and efficient management of topics, it is recommended that ``data`` are published to a detailed level of the topic hierarchy. This helps avoid the "pollution" of data messages under the primary topics.  Publishing to a detailed level is realized by selecting a "leaf" topic, which is a topic with no additional subtopics.
+
+
+_Examples_:
+
+Leaf topic: ``origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop``
+
+Non-leaf topic: ``origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations``
+
+Experimental topic: ``origin/a/wis2/ca-eccc-msc/data/core/hydrology/experimental/surface-based-observations/water-quantity/water-level``
 
 Note: Each discipline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
-
 include::../requirements/core/REQ_publishing.adoc[]
 include::../recommendations/core/REC_publishing.adoc[]
 include::../recommendations/core/PER_publishing.adoc[]

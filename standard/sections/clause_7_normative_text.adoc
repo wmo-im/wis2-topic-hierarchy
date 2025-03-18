@@ -79,6 +79,7 @@ Non-leaf topic: ``origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-obse
 
 Experimental topic: ``origin/a/wis2/ca-eccc-msc/data/core/hydrology/experimental/surface-based-observations/water-quantity/water-level``
 
+Note: Each discipline has a sub-discipline topic named ``experimental`` for publication to provisional topics.
 include::../requirements/core/REQ_publishing.adoc[]
 include::../recommendations/core/REC_publishing.adoc[]
 include::../recommendations/core/PER_publishing.adoc[]

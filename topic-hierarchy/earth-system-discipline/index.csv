@@ -1,8 +1,8 @@
-Name,Description,Source
-weather,Weather,
-climate,Climate,
-hydrology,Hydrology,
-atmospheric-composition,Atmospheric Composition,
-cryosphere,Cryosphere,
-ocean,Ocean,
-space-weather,Space Weather,
+Name,Description,Source,Status
+weather,Weather,Operational,
+climate,Climate,Operational,
+hydrology,Hydrology,Operational,
+atmospheric-composition,Atmospheric Composition,Operational,
+cryosphere,Cryosphere,Operational,
+ocean,Ocean,Operational,
+space-weather,Space Weather,Operational,

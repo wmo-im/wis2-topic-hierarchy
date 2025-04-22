@@ -1,4 +1,4 @@
-Name,Description,Source
-monthly,"Monthly values from land stations, e.g. CLIMAT",
-daily,"Daily values from land stations, e.g. DAYCLI",
-sub-daily,Reprocessed hourly and other sub-daily observations from land stations,
+Name,Description,Source,Status
+monthly,"Monthly values from land stations, e.g. CLIMAT",Operational,
+daily,"Daily values from land stations, e.g. DAYCLI",Operational,
+sub-daily,Reprocessed hourly and other sub-daily observations from land stations,Operational,

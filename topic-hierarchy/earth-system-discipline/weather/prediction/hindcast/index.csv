@@ -1,5 +1,5 @@
-Name,Description,Source
-medium-range,A prediction system up to the order of 240 hours ahead,
-seasonal,A prediction system up to the order of 6 months ahead,
-short-range,A prediction system up to the order of 72 hours ahead,
-subseasonal,A prediction system up to the order of 30 days ahead,
+Name,Description,Source,Status
+medium-range,A prediction system up to the order of 240 hours ahead,Operational,
+seasonal,A prediction system up to the order of 6 months ahead,Operational,
+short-range,A prediction system up to the order of 72 hours ahead,Operational,
+subseasonal,A prediction system up to the order of 30 days ahead,Operational,

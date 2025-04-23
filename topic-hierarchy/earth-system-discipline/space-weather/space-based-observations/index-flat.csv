@@ -1,347 +1,347 @@
-satellite,instrument,satellite-description,instrument-description
-ace,cris,Advanced Composition Explorer (ACE),Cosmic Ray Isotope Spectrometer (CRiS)
-ace,epam,Advanced Composition Explorer (ACE),"Electron, Proton, and Alpha-particle Monitor (EPAM)"
-ace,mag,Advanced Composition Explorer (ACE),Magnetic Field Monitor (MAG)
-ace,sepica,Advanced Composition Explorer (ACE),Solar Energetic Particle Ionic Charge Analyzer (SEPICA) 
-ace,sis,Advanced Composition Explorer (ACE),Solar Isotope Spectrometer (SIS)
-ace,swepam,Advanced Composition Explorer (ACE),"Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM)"
-ace,swics,Advanced Composition Explorer (ACE),Solar Wind Ion Composition Spectrometer (SWICS)
-ace,swims,Advanced Composition Explorer (ACE),Solar Wind Ion Mass Spectrometer (SWIMS)
-ace,uleis,Advanced Composition Explorer (ACE),Ultra-Low Energy Isotope Spectrometer (ULEIS)
-aditya-1,aspex,Aditya-1,Aditya Solar wind Particle Experiment (ASPEX)
-aditya-1,hel1os,Aditya-1,High Energy L1 Orbiting X-ray Spectrometer (HEL1OS)
-aditya-1,magnetometer,Aditya-1,Magnetometer
-aditya-1,papa,Aditya-1,Plasma Analyzer Package for Aditya (PAPA)
-aditya-1,solexs,Aditya-1,Solar Low Energy X-ray Spectrometer (SoLEXS)
-aditya-1,suit,Aditya-1,Solar Ultraviolet Imaging Telescope (SUIT)
-aditya-1,velc,Aditya-1,Visible Emission Line Coronagraph (VELC)
-arase-erg,hep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),High-energy electron experiments (HEP-e)
-arase-erg,lep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),Low-energy particle experiments - electron analyzer (LEP-e)
-arase-erg,lep-i,Exploration of energization and Radiation in Geospace (Arase (ERG)),Low-energy particle experiments - ion mass analyzer (LEP-i)
-arase-erg,mep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),Medium-energy particle experiments - electron analyzer (MEP-e)
-arase-erg,mep-i,Exploration of energization and Radiation in Geospace (Arase (ERG)),Medium-energy particle experiments - ion mass analyzer (MEP-i)
-arase-erg,mgf,Exploration of energization and Radiation in Geospace (Arase (ERG)),Magnetic field experiment (MGF)
-arase-erg,pwe,Exploration of energization and Radiation in Geospace (Arase (ERG)),Plasma Wave Experiment (PWE)
-arase-erg,xep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),Extremely high-energy electron experiments (XEP-e)
-arctica-m-n1,ggak-e-fm-e,Arctica-M N1,GGAK-E / Magnetometer instrument (GGAK-E/FM-E)
-arctica-m-n1,ggak-e-gals-e,Arctica-M N1,GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
-arctica-m-n1,ggak-e-skif-6,Arctica-M N1,GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
-arctica-m-n2,ggak-e-fm-e,Arctica-M N2,GGAK-E / Magnetometer instrument (GGAK-E/FM-E)
-arctica-m-n2,ggak-e-gals-e,Arctica-M N2,GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
-arctica-m-n2,ggak-e-skif-6,Arctica-M N2,GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
-artemis-p1,efi,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Electric Field Instrument (EFI)
-artemis-p1,esa,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Electrostatic Analyzer (ESA)
-artemis-p1,fgm,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Fluxgate Magnetometer (FGM)
-artemis-p1,scm,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Search Coil Magnetometer (SCM)
-artemis-p1,sst,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Solid State Telescope (SST)
-artemis-p2,efi,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Electric Field Instrument (EFI)
-artemis-p2,esa,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Electrostatic Analyzer (ESA)
-artemis-p2,fgm,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Fluxgate Magnetometer (FGM)
-artemis-p2,scm,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Search Coil Magnetometer (SCM)
-artemis-p2,sst,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Solid State Telescope (SST)
-aso-s,fmg,Advanced Space-based Solar Observatory (ASO-S (Kuafu-1)),Full-disk solar vector MagnetoGraph (FMG)
-aso-s,hxi,Advanced Space-based Solar Observatory (ASO-S (Kuafu-1)),Hard X-ray Imager (HXI)
-aso-s,lst,Advanced Space-based Solar Observatory (ASO-S (Kuafu-1)),Lyman-alpha Solar Telescope (LST)
-cluster-1,cis,CLUSTER-1,Cluster Ion Spectrometry experiment (CIS)
-cluster-1,edi,CLUSTER-1,Electron Drift Instrument (EDI)
-cluster-1,efw,CLUSTER-1,Electric Fields and Waves (EFW)
-cluster-1,fgm,CLUSTER-1,Fluxgate Magnetometer (FGM)
-cluster-1,peace,CLUSTER-1,Plasma Electron and Current Analyzer (PEACE)
-cluster-1,rapid,CLUSTER-1,Research with Adaptive Particle Imaging Detectors (RAPID)
-cluster-1,staff,CLUSTER-1,Spatio-Temporal Analysis of Field Fluctuations (STAFF)
-cluster-1,wbd,CLUSTER-1,Wide Band Data (WBD)
-cluster-1,whisper,CLUSTER-1,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER)
-cluster-2,cis,CLUSTER-2,Cluster Ion Spectrometry experiment (CIS)
-cluster-2,edi,CLUSTER-2,Electron Drift Instrument (EDI)
-cluster-2,efw,CLUSTER-2,Electric Fields and Waves (EFW)
-cluster-2,fgm,CLUSTER-2,Fluxgate Magnetometer (FGM)
-cluster-2,peace,CLUSTER-2,Plasma Electron and Current Analyzer (PEACE)
-cluster-2,rapid,CLUSTER-2,Research with Adaptive Particle Imaging Detectors (RAPID)
-cluster-2,staff,CLUSTER-2,Spatio-Temporal Analysis of Field Fluctuations (STAFF)
-cluster-2,wbd,CLUSTER-2,Wide Band Data (WBD)
-cluster-2,whisper,CLUSTER-2,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER)
-cluster-3,cis,CLUSTER-3,Cluster Ion Spectrometry experiment (CIS)
-cluster-3,edi,CLUSTER-3,Electron Drift Instrument (EDI)
-cluster-3,efw,CLUSTER-3,Electric Fields and Waves (EFW)
-cluster-3,fgm,CLUSTER-3,Fluxgate Magnetometer (FGM)
-cluster-3,peace,CLUSTER-3,Plasma Electron and Current Analyzer (PEACE)
-cluster-3,rapid,CLUSTER-3,Research with Adaptive Particle Imaging Detectors (RAPID)
-cluster-3,staff,CLUSTER-3,Spatio-Temporal Analysis of Field Fluctuations (STAFF)
-cluster-3,wbd,CLUSTER-3,Wide Band Data (WBD)
-cluster-3,whisper,CLUSTER-3,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER)
-cluster-4,cis,CLUSTER-4,Cluster Ion Spectrometry experiment (CIS)
-cluster-4,edi,CLUSTER-4,Electron Drift Instrument (EDI)
-cluster-4,efw,CLUSTER-4,Electric Fields and Waves (EFW)
-cluster-4,fgm,CLUSTER-4,Fluxgate Magnetometer (FGM)
-cluster-4,peace,CLUSTER-4,Plasma Electron and Current Analyzer (PEACE)
-cluster-4,rapid,CLUSTER-4,Research with Adaptive Particle Imaging Detectors (RAPID)
-cluster-4,staff,CLUSTER-4,Spatio-Temporal Analysis of Field Fluctuations (STAFF)
-cluster-4,wbd,CLUSTER-4,Wide Band Data (WBD)
-cluster-4,whisper,CLUSTER-4,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER)
-diademe-1,rra,Diademe-1,Retro-Reflector Array  (RRA)
-diademe-2,rra,Diademe-2,Retro-Reflector Array  (RRA)
-dmsp-17,sess-ssi-es-3,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Ionospheric Plasma Drift/Scintillation Monitor - 3 (SESS/SSI/ES-3)
-dmsp-17,sess-ssj5,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Precipitating Electron and Ion Spectrometer  (SESS/SSJ5 )
-dmsp-17,sess-ssm-boom,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Magnetometer - Boom (SESS/SSM-Boom)
-dmsp-17,sess-ssuli,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Ultraviolet Limb Imager (SESS/SSULI)
-dmsp-17,sess-ssusi,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Ultraviolet Spectrographic Imager (SESS/SSUSI)
-dmsp-18,sess-ssi-es-3,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Ionospheric Plasma Drift/Scintillation Monitor - 3 (SESS/SSI/ES-3)
-dmsp-18,sess-ssj5,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Precipitating Electron and Ion Spectrometer  (SESS/SSJ5 )
-dmsp-18,sess-ssm-boom,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Magnetometer - Boom (SESS/SSM-Boom)
-dmsp-18,sess-ssuli,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Ultraviolet Limb Imager (SESS/SSULI)
-dmsp-18,sess-ssusi,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Ultraviolet Spectrographic Imager (SESS/SSUSI)
-dscovr,es,Deep Space Climate Observatory (DSCOVR),Electron Spectrometer (ES)
-dscovr,fc,Deep Space Climate Observatory (DSCOVR),Faraday Cup (FC)
-dscovr,mag,Deep Space Climate Observatory (DSCOVR),Magnetometer (MAG)
-electro-l-n2,ggak-e-dir-e,Electro-L Number 2 (Electro-L N2),Solar X-ray radiation flux sensor (GGAK-E/DIR-E)
-electro-l-n2,ggak-e-gals-e,Electro-L Number 2 (Electro-L N2),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
-electro-l-n2,ggak-e-skif-6,Electro-L Number 2 (Electro-L N2),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
-electro-l-n2,ggak-e-skl-e,Electro-L Number 2 (Electro-L N2),GGAK-E / Solar cosmic rays spectrometer (GGAK-E/SKL-E)
-electro-l-n2,ggak-e-vuss-e,Electro-L Number 2 (Electro-L N2),GGAK-E / Solar UV radiation sensor (GGAK-E/VUSS-E)
-electro-l-n3,ggak-e-dir-e,Electro-L Number 3 (Electro-L N3),Solar X-ray radiation flux sensor (GGAK-E/DIR-E)
-electro-l-n3,ggak-e-gals-e,Electro-L Number 3 (Electro-L N3),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
-electro-l-n3,ggak-e-skif-6,Electro-L Number 3 (Electro-L N3),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
-electro-l-n3,ggak-e-skl-e,Electro-L Number 3 (Electro-L N3),GGAK-E / Solar cosmic rays spectrometer (GGAK-E/SKL-E)
-electro-l-n3,ggak-e-vuss-e,Electro-L Number 3 (Electro-L N3),GGAK-E / Solar UV radiation sensor (GGAK-E/VUSS-E)
-electro-l-n4,ggak-e-dir-e,Electro-L Number 4 (Electro-L N4),Solar X-ray radiation flux sensor (GGAK-E/DIR-E)
-electro-l-n4,ggak-e-fm-e,Electro-L Number 4 (Electro-L N4),GGAK-E / Magnetometer instrument (GGAK-E/FM-E)
-electro-l-n4,ggak-e-gals-e,Electro-L Number 4 (Electro-L N4),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
-electro-l-n4,ggak-e-isp-2m,Electro-L Number 4 (Electro-L N4),GGAK-L / Solar constant sensor (GGAK-E/ISP-2M)
-electro-l-n4,ggak-e-skif-6,Electro-L Number 4 (Electro-L N4),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
-electro-l-n4,ggak-e-skl-e,Electro-L Number 4 (Electro-L N4),GGAK-E / Solar cosmic rays spectrometer (GGAK-E/SKL-E)
-electro-l-n4,ggak-e-vuss-e,Electro-L Number 4 (Electro-L N4),GGAK-E / Solar UV radiation sensor (GGAK-E/VUSS-E)
-formosat-5,aip,FORMOSAT-5,Advanced Ionospheric Probe (AIP)
-fy-2g,sem,Feng-Yun - 2G (FY-2G),Space Environment Monitor (SEM)
-fy-2g,sxm,Feng-Yun - 2G (FY-2G),Solar X-ray monitor (SXM)
-fy-2h,sem,Feng-Yun - 2H (FY-2H),Space Environment Monitor (SEM)
-fy-2h,sxm,Feng-Yun - 2H (FY-2H),Solar X-ray monitor (SXM)
-fy-3c,sem-hepd,Feng-Yun 3C (FY-3C),Space Environment Monitor - High Energy Particle Detector (SEM/HEPD)
-fy-3c,sem-ims,Feng-Yun 3C (FY-3C),Space Environment Monitor - Ionosphere Measurement Sensor (SEM/IMS)
-fy-3d,sem-hepd,Feng-Yun 3D (FY-3D),Space Environment Monitor - High Energy Particle Detector (SEM/HEPD)
-fy-3d,sws-sem-ims,Feng-Yun 3D (FY-3D),Space Weather Suite / Space Environment Monitor / Ionosphere Measurement Sensor (SWS/SEM/IMS)
-fy-3d,sws-wai,Feng-Yun 3D (FY-3D),Space Weather Suite / Wide-field Auroral Imager (SWS/WAI)
-fy-3e,sws-sem-fgm,Feng-Yun 3E (FY-3E),Space Weather Suite / Space Environment Monitor / Flux Gate Magnetometer (SWS/SEM/FGM)
-fy-3e,sws-sem-hepd,Feng-Yun 3E (FY-3E),Space Weather Suite / Space Environment Monitor / High Energy Particle Detector (SWS/SEM/HEPD)
-fy-3e,sws-sem-ims,Feng-Yun 3E (FY-3E),Space Weather Suite / Space Environment Monitor / Ionosphere Measurement Sensor (SWS/SEM/IMS)
-fy-3e,sws-tri-ipm,Feng-Yun 3E (FY-3E),Space Weather Suite - Triple-angle Ionospheric PhotoMeter (SWS/Tri-IPM)
-fy-3e,xeuvi,Feng-Yun 3E (FY-3E),Solar X-ray and Extreme Ultraviolet Imager (XEUVI)
-fy-4a,sep-fields,Feng-Yun - 4A (FY-4A),Space Environment Package - fields (SEP-fields)
-fy-4a,sep-heps,Feng-Yun - 4A (FY-4A),Space Environment Package / High Energy Particles Sensor (SEP/HEPS)
-fy-4b,fgm,Feng-Yun - 4B (FY-4B),Fluxgate Magnetometer (FGM)
-fy-4b,sep-fields,Feng-Yun - 4B (FY-4B),Space Environment Package - fields (SEP-fields)
-fy-4b,sep-heps,Feng-Yun - 4B (FY-4B),Space Environment Package / High Energy Particles Sensor (SEP/HEPS)
-fy-4b,sep-leps,Feng-Yun - 4B (FY-4B),Space Environment Package / Low Energy Particles Sensor (SEP/LEPS)
-fy-4b,sep-meps,Feng-Yun - 4B (FY-4B),Space Environment Package / Medium Energy Particles Sensor (SEP/MEPS)
-fy-4c,sep-fields,Feng-Yun - 4C (FY-4C),Space Environment Package - fields (SEP-fields)
-fy-4c,sep-heps,Feng-Yun - 4C (FY-4C),Space Environment Package / High Energy Particles Sensor (SEP/HEPS)
-fy-4c,sep-leps,Feng-Yun - 4C (FY-4C),Space Environment Package / Low Energy Particles Sensor (SEP/LEPS)
-fy-4c,sep-meps,Feng-Yun - 4C (FY-4C),Space Environment Package / Medium Energy Particles Sensor (SEP/MEPS)
-fy-4c,suvi,Feng-Yun - 4C (FY-4C),Solar Extreme-UltraViolet Imager (SUVI)
-fy-4c,sxeuv,Feng-Yun - 4C (FY-4C),Solar X-EUV imaging telescope (SXEUV)
-fy-4c,sxus,Feng-Yun - 4C (FY-4C),Solar X-EUV Irradiance Sensor (SXUS)
-fy-4d,sep-fields,Feng-Yun - 4D (FY-4D),Space Environment Package - fields (SEP-fields)
-fy-4d,sep-heps,Feng-Yun - 4D (FY-4D),Space Environment Package / High Energy Particles Sensor (SEP/HEPS)
-fy-4d,sep-leps,Feng-Yun - 4D (FY-4D),Space Environment Package / Low Energy Particles Sensor (SEP/LEPS)
-fy-4d,sep-meps,Feng-Yun - 4D (FY-4D),Space Environment Package / Medium Energy Particles Sensor (SEP/MEPS)
-fy-4d,suvi,Feng-Yun - 4D (FY-4D),Solar Extreme-UltraViolet Imager (SUVI)
-fy-4d,sxeuv,Feng-Yun - 4D (FY-4D),Solar X-EUV imaging telescope (SXEUV)
-fy-4d,sxus,Feng-Yun - 4D (FY-4D),Solar X-EUV Irradiance Sensor (SXUS)
-fy-4e,sep-fields,Feng-Yun - 4E (FY-4E),Space Environment Package - fields (SEP-fields)
-fy-4e,sep-heps,Feng-Yun - 4E (FY-4E),Space Environment Package / High Energy Particles Sensor (SEP/HEPS)
-fy-4e,sep-leps,Feng-Yun - 4E (FY-4E),Space Environment Package / Low Energy Particles Sensor (SEP/LEPS)
-fy-4e,sep-meps,Feng-Yun - 4E (FY-4E),Space Environment Package / Medium Energy Particles Sensor (SEP/MEPS)
-fy-4e,suvi,Feng-Yun - 4E (FY-4E),Solar Extreme-UltraViolet Imager (SUVI)
-fy-4e,sxeuv,Feng-Yun - 4E (FY-4E),Solar X-EUV imaging telescope (SXEUV)
-fy-4e,sxus,Feng-Yun - 4E (FY-4E),Solar X-EUV Irradiance Sensor (SXUS)
-galileo,emu,Galileo,Environmental Monitor Unit (EMU)
-geo-kompsat-2a,ksem-cm,Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A),Korean Space wEather Monitor / Charging Monitor (KSEM/CM)
-geo-kompsat-2a,ksem-mag,Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A),Korean Space wEather Monitor / Magnetometer. ESA acronym is SOSMAG. (KSEM/MAG)
-geo-kompsat-2a,ksem-pd,Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A),Korea Space wEather Monitor / Particle Detector (KSEM/PD)
-goes-14,sem-eps,Geostationary Operational Environmental Satellite - 14 (GOES-14),SEM / Energetic Particles Sensor (SEM/EPS)
-goes-14,sem-hepad,Geostationary Operational Environmental Satellite - 14 (GOES-14),SEM / High Energy Proton and Alpha Particles Detector (SEM/HEPAD)
-goes-14,sem-mag,Geostationary Operational Environmental Satellite - 14 (GOES-14),SEM / Magnetometer (SEM/MAG)
-goes-14,sem-xrs-euv,Geostationary Operational Environmental Satellite - 14 (GOES-14),SEM / X-Ray Sensor - Extreme Ultra-Violet Sensor (SEM/XRS-EUV)
-goes-14,sxi,Geostationary Operational Environmental Satellite - 14 (GOES-14),Solar X-ray Imager (SXI)
-goes-16,exis,Geostationary Operational Environmental Satellite - 16 (GOES-16),Extreme Ultraviolet Sensor / X-Ray Sensor Irradiance Sensors (EXIS)
-goes-16,seiss-ehis,Geostationary Operational Environmental Satellite - 16 (GOES-16),SEISS / Energetic Heavy Ion Sensor (SEISS/EHIS)
-goes-16,seiss-mps,Geostationary Operational Environmental Satellite - 16 (GOES-16),SEISS / Magnetospheric Particle Sensor (SEISS/MPS)
-goes-16,seiss-sgps,Geostationary Operational Environmental Satellite - 16 (GOES-16),SEISS / Solar and Galactic Proton Sensor (SEISS/SGPS)
-goes-16,sem-mag,Geostationary Operational Environmental Satellite - 16 (GOES-16),SEM / Magnetometer (SEM/MAG)
-goes-16,suvi,Geostationary Operational Environmental Satellite - 16 (GOES-16),Solar Ultraviolet Imager (SUVI)
-goes-17,exis,Geostationary Operational Environmental Satellite - 17 (GOES-17),Extreme Ultraviolet Sensor / X-Ray Sensor Irradiance Sensors (EXIS)
-goes-17,seiss-ehis,Geostationary Operational Environmental Satellite - 17 (GOES-17),SEISS / Energetic Heavy Ion Sensor (SEISS/EHIS)
-goes-17,seiss-mps,Geostationary Operational Environmental Satellite - 17 (GOES-17),SEISS / Magnetospheric Particle Sensor (SEISS/MPS)
-goes-17,seiss-sgps,Geostationary Operational Environmental Satellite - 17 (GOES-17),SEISS / Solar and Galactic Proton Sensor (SEISS/SGPS)
-goes-17,sem-mag,Geostationary Operational Environmental Satellite - 17 (GOES-17),SEM / Magnetometer (SEM/MAG)
-goes-17,suvi,Geostationary Operational Environmental Satellite - 17 (GOES-17),Solar Ultraviolet Imager (SUVI)
-goes-18,exis,Geostationary Operational Environmental Satellite - 18 (GOES-18),Extreme Ultraviolet Sensor / X-Ray Sensor Irradiance Sensors (EXIS)
-goes-18,seiss-ehis,Geostationary Operational Environmental Satellite - 18 (GOES-18),SEISS / Energetic Heavy Ion Sensor (SEISS/EHIS)
-goes-18,seiss-mps,Geostationary Operational Environmental Satellite - 18 (GOES-18),SEISS / Magnetospheric Particle Sensor (SEISS/MPS)
-goes-18,seiss-sgps,Geostationary Operational Environmental Satellite - 18 (GOES-18),SEISS / Solar and Galactic Proton Sensor (SEISS/SGPS)
-goes-18,sem-mag,Geostationary Operational Environmental Satellite - 18 (GOES-18),SEM / Magnetometer (SEM/MAG)
-goes-18,suvi,Geostationary Operational Environmental Satellite - 18 (GOES-18),Solar Ultraviolet Imager (SUVI)
-grace-fo,superstar,Gravity Recovery and Climate Experiment - Follow-on (GRACE-FO (2 sats)),Super Space Three-axis Accelerometer for Research (SuperSTAR)
-icon,euv,Ionospheric Connection Explorer (ICON),Extreme Ultra Violet Imaging Spectrograph (EUV)
-icon,fuv,Ionospheric Connection Explorer (ICON),Far Ultra Violet Imaging Spectrograph (FUV)
-icon,ivm,Ionospheric Connection Explorer (ICON),In-situ Ion Velocity Meter (IVM)
-iris,iris,Interface Region Imaging Spectrograph (IRIS),Interface Region Imaging Spectrograph (IRIS)
-iss-gari,gari,The GAGG Radiation Instruments (GARI) (ISS GARI),The GAGG Radiation Instruments (GARI)
-jason-3,carmen,Joint Altimetry Satellite Oceanography Network - 3 (JASON-3),Environment Characterization and Modelisation (CARMEN)
-jason-3,lpt,Joint Altimetry Satellite Oceanography Network - 3 (JASON-3),Light Particle Telescope (LPT)
-lemur-2,stratos,Low Earth Multi-Use Receiver - 2 (Lemur-2),STRATOS (STRATOS)
-mats,mats,Mesospheric Airglow/Aerosol Tomography and Spectroscopy (MATS),Mesospheric Airglow/Aerosol Tomography and Spectroscopy (MATS)
-meteor-m-n2,ggak-e-gals-e,Meteor-M Number 2 (Meteor-M N2),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
-meteor-m-n2,ggak-e-skif-6,Meteor-M Number 2 (Meteor-M N2),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
-meteor-m-n2,ggak-m-rims-m,Meteor-M Number 2 (Meteor-M N2),Radio-frequency mass spectrometer - M (GGAK-M/RIMS-M)
-meteor-m-n2-2,ggak-e-gals-e,Meteor-M Number 2-2 (Meteor-M N2-2),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
-meteor-m-n2-2,ggak-e-skif-6,Meteor-M Number 2-2 (Meteor-M N2-2),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
-meteor-m-n2-2,ggak-m-rims-m,Meteor-M Number 2-2 (Meteor-M N2-2),Radio-frequency mass spectrometer - M (GGAK-M/RIMS-M)
-meteor-m-n2-3,ggak-e-gals-e,Meteor-M Number 2-3 (Meteor-M N2-3),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
-meteor-m-n2-3,ggak-e-skif-6,Meteor-M Number 2-3 (Meteor-M N2-3),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
-meteor-m-n2-3,ggak-m-rims-m,Meteor-M Number 2-3 (Meteor-M N2-3),Radio-frequency mass spectrometer - M (GGAK-M/RIMS-M)
-meteor-m-n2-4,ggak-e-gals-e,Meteor-M Number 2-4 (Meteor-M N2-4),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E)
-meteor-m-n2-4,ggak-e-skif-6,Meteor-M Number 2-4 (Meteor-M N2-4),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6)
-meteor-m-n2-4,ggak-m-rims-m,Meteor-M Number 2-4 (Meteor-M N2-4),Radio-frequency mass spectrometer - M (GGAK-M/RIMS-M)
-metop-b,sem-meped,Meteorological operational satellite - B (Metop-B),SEM / Medium energy proton detector (SEM/MEPED)
-metop-b,sem-ted,Meteorological operational satellite - B (Metop-B),SEM / Total Energy Detector (SEM/TED)
-metop-c,sem-meped,Meteorological operational satellite - C (Metop-C),SEM / Medium energy proton detector (SEM/MEPED)
-metop-c,sem-ted,Meteorological operational satellite - C (Metop-C),SEM / Total Energy Detector (SEM/TED)
-mms-a,afg,Magnetospheric MultiScale mission - A (MMS-A),Analog Fluxgate Magnetometer (AFG)
-mms-a,dfg,Magnetospheric MultiScale mission - A (MMS-A),Digital Fluxgate Magnetometer (DFG)
-mms-a,dp,Magnetospheric MultiScale mission - A (MMS-A),Digital Fluxgate Magnetometer (DFG)
-mms-a,edi,Magnetospheric MultiScale mission - A (MMS-A),Electron Drift Instrument (EDI)
-mms-a,eis,Magnetospheric MultiScale mission - A (MMS-A),Energetic Ion Spectrometer (EIS)
-mms-a,feeps,Magnetospheric MultiScale mission - A (MMS-A),Fly's Eye Energetic Particle Sensor (FEEPS)
-mms-a,fpi,Magnetospheric MultiScale mission - A (MMS-A),Fast Plasma Instrument (FPI)
-mms-a,hpca,Magnetospheric MultiScale mission - A (MMS-A),Hot Plasma Composition Analyzer (HPCA)
-mms-a,scm,Magnetospheric MultiScale mission - A (MMS-A),Search Coil Magnetometer (SCM)
-mms-b,afg,Magnetospheric MultiScale mission - B (MMS-B),Analog Fluxgate Magnetometer (AFG)
-mms-b,dfg,Magnetospheric MultiScale mission - B (MMS-B),Digital Fluxgate Magnetometer (DFG)
-mms-b,dp,Magnetospheric MultiScale mission - B (MMS-B),Digital Fluxgate Magnetometer (DFG)
-mms-b,edi,Magnetospheric MultiScale mission - B (MMS-B),Electron Drift Instrument (EDI)
-mms-b,eis,Magnetospheric MultiScale mission - B (MMS-B),Energetic Ion Spectrometer (EIS)
-mms-b,feeps,Magnetospheric MultiScale mission - B (MMS-B),Fly's Eye Energetic Particle Sensor (FEEPS)
-mms-b,fpi,Magnetospheric MultiScale mission - B (MMS-B),Fast Plasma Instrument (FPI)
-mms-b,hpca,Magnetospheric MultiScale mission - B (MMS-B),Hot Plasma Composition Analyzer (HPCA)
-mms-b,scm,Magnetospheric MultiScale mission - B (MMS-B),Search Coil Magnetometer (SCM)
-mms-c,afg,Magnetospheric MultiScale mission - C (MMS-C),Analog Fluxgate Magnetometer (AFG)
-mms-c,dfg,Magnetospheric MultiScale mission - C (MMS-C),Digital Fluxgate Magnetometer (DFG)
-mms-c,dp,Magnetospheric MultiScale mission - C (MMS-C),Digital Fluxgate Magnetometer (DFG)
-mms-c,edi,Magnetospheric MultiScale mission - C (MMS-C),Electron Drift Instrument (EDI)
-mms-c,eis,Magnetospheric MultiScale mission - C (MMS-C),Energetic Ion Spectrometer (EIS)
-mms-c,feeps,Magnetospheric MultiScale mission - C (MMS-C),Fly's Eye Energetic Particle Sensor (FEEPS)
-mms-c,fpi,Magnetospheric MultiScale mission - C (MMS-C),Fast Plasma Instrument (FPI)
-mms-c,hpca,Magnetospheric MultiScale mission - C (MMS-C),Hot Plasma Composition Analyzer (HPCA)
-mms-c,scm,Magnetospheric MultiScale mission - C (MMS-C),Search Coil Magnetometer (SCM)
-mms-d,afg,Magnetospheric MultiScale mission - D (MMS-D),Analog Fluxgate Magnetometer (AFG)
-mms-d,dfg,Magnetospheric MultiScale mission - D (MMS-D),Digital Fluxgate Magnetometer (DFG)
-mms-d,dp,Magnetospheric MultiScale mission - D (MMS-D),Digital Fluxgate Magnetometer (DFG)
-mms-d,edi,Magnetospheric MultiScale mission - D (MMS-D),Electron Drift Instrument (EDI)
-mms-d,eis,Magnetospheric MultiScale mission - D (MMS-D),Energetic Ion Spectrometer (EIS)
-mms-d,feeps,Magnetospheric MultiScale mission - D (MMS-D),Fly's Eye Energetic Particle Sensor (FEEPS)
-mms-d,fpi,Magnetospheric MultiScale mission - D (MMS-D),Fast Plasma Instrument (FPI)
-mms-d,hpca,Magnetospheric MultiScale mission - D (MMS-D),Hot Plasma Composition Analyzer (HPCA)
-mms-d,scm,Magnetospheric MultiScale mission - D (MMS-D),Search Coil Magnetometer (SCM)
-noaa-15,sem-meped,National Oceanic and Atmospheric Administration - 15 (NOAA-15),SEM / Medium energy proton detector (SEM/MEPED)
-noaa-15,sem-ted,National Oceanic and Atmospheric Administration - 15 (NOAA-15),SEM / Total Energy Detector (SEM/TED)
-noaa-18,sem-meped,National Oceanic and Atmospheric Administration - 18 (NOAA-18),SEM / Medium energy proton detector (SEM/MEPED)
-noaa-18,sem-ted,National Oceanic and Atmospheric Administration - 18 (NOAA-18),SEM / Total Energy Detector (SEM/TED)
-noaa-19,sem-meped,National Oceanic and Atmospheric Administration - 19 (NOAA-19),SEM / Medium energy proton detector (SEM/MEPED)
-noaa-19,sem-ted,National Oceanic and Atmospheric Administration - 19 (NOAA-19),SEM / Total Energy Detector (SEM/TED)
-parker-solar-probe,fields,Parker Solar Probe,Electromagnetic Fields Investigation (FIELDS)
-parker-solar-probe,isis-epi,Parker Solar Probe,Integrated Science Investigation of the Sun - Energetic Particle Instruments (ISIS-EPI)
-parker-solar-probe,sweapi,Parker Solar Probe,Solar Wind Electrons Alphas and Protons Investigation (SWEAPI)
-parker-solar-probe,wispr,Parker Solar Probe,Wide-field Imager for Solar Probe (WISPR)
-proba-2,dslp,Project for On-Board Autonomy - 2 (PROBA-2),Dual Segmented Langmuir Probe (DSLP)
-proba-2,lyra,Project for On-Board Autonomy - 2 (PROBA-2),LYman-alpha RAdiometer (LYRA)
-proba-2,swap,Project for On-Board Autonomy - 2 (PROBA-2),Sun Watcher using Active Pixel System detector and Image Processing (SWAP)
-proba-2,tpmu,Project for On-Board Autonomy - 2 (PROBA-2),Thermal Plasma Measurement Unit (TPMU)
-sdo,aia,Solar Dynamics Observatory (SDO),Atmospheric Imaging Assembly (AIA)
-sdo,eve,Solar Dynamics Observatory (SDO),EUV Variability Experiment (EVE)
-sdo,hmi,Solar Dynamics Observatory (SDO),Helioseismic and Magnetic Imager (HMI)
-sich-2-30,potential,SICH-2-30 (originally SICH-2-1),Potential
-soho,cds,Solar and Heliospheric Observatory (SOHO),Coronal Diagnostic Spectrometer (CDS)
-soho,celias,Solar and Heliospheric Observatory (SOHO),Charge (CELIAS)
-soho,costep,Solar and Heliospheric Observatory (SOHO),Suprathermal & Energetic Particle Analyzer (COSTEP)
-soho,eit,Solar and Heliospheric Observatory (SOHO),Extreme UV Imaging Telescope (EIT)
-soho,erne,Solar and Heliospheric Observatory (SOHO),Energetic and Relativistic Nuclei and Electron experiment (ERNE)
-soho,golf,Solar and Heliospheric Observatory (SOHO),Global Oscillations at Low Frequencies (GOLF)
-soho,lasco,Solar and Heliospheric Observatory (SOHO),Large Angle and Spectrometric Coronagraph (LASCO)
-soho,mdi,Solar and Heliospheric Observatory (SOHO),Michelson Doppler Imager (MDI)
-soho,sem,Solar and Heliospheric Observatory (SOHO),Solar EUV monitor (SEM)
-soho,sumer,Solar and Heliospheric Observatory (SOHO),Solar UV Measurement of Emitted Radiation (SUMER)
-soho,swan,Solar and Heliospheric Observatory (SOHO),Solar Wind Anisotropies (SWAN)
-soho,uvcs,Solar and Heliospheric Observatory (SOHO),UV Coronagraph and Spectrometer (UVCS)
-soho,virgo,Solar and Heliospheric Observatory (SOHO),Variability of Solar Irradiance (VIRGO )
-solar-b,eis,Solar-B (Hinode),EUV Imaging Spectrometer (EIS)
-solar-b,sot,Solar-B (Hinode),Solar Optical Telescope (SOT)
-solar-b,xrt,Solar-B (Hinode),X-Ray Telescope (XRT)
-solar-orbiter,epd,Solar Orbiter,Energetic Particle Detector (EPD)
-solar-orbiter,eui,Solar Orbiter,Extreme Ultraviolet Imager (EUI)
-solar-orbiter,mag,Solar Orbiter,Magnetometer (Solar Orbiter) (MAG)
-solar-orbiter,metis,Solar Orbiter,Multi Element Telescope for Imaging and Spectroscopy (METIS)
-solar-orbiter,phi,Solar Orbiter,Polarimetric and Helioseismic Imager (PHI)
-solar-orbiter,rpw,Solar Orbiter,Radio and Plasma Waves (RPW)
-solar-orbiter,solohi,Solar Orbiter,Solar Orbiter Heliospheric Imager (SoloHI)
-solar-orbiter,spice,Solar Orbiter,Spectral Imaging of the Coronal Environment (SPICE)
-solar-orbiter,stix,Solar Orbiter,X-ray Spectrometer/Telescope (STIX)
-solar-orbiter,swa,Solar Orbiter,Solar Wind Plasma Analyser (SWA)
-starlette,lr,Satellite de Taille Adaptee avec Reflecteurs Laser pour les Etudes de la Terre (STARLETTE),Laser Reflectors (LR)
-stella,lr,STELLA,Laser Reflectors (LR)
-stereo-a,impact-mag,Solar-TErrestrial RElations Observatory - A (STEREO-A),IMPACT / Magnetometer (IMPACT/MAG)
-stereo-a,impact-sep,Solar-TErrestrial RElations Observatory - A (STEREO-A),IMPACT / Solar Energetic Particles (IMPACT/SEP)
-stereo-a,impact-ste,Solar-TErrestrial RElations Observatory - A (STEREO-A),IMPACT / Suprathermal Electron Telescope (IMPACT/STE)
-stereo-a,impact-swea,Solar-TErrestrial RElations Observatory - A (STEREO-A),IMPACT / Solar Wind Electron Analyzer (IMPACT/SWEA)
-stereo-a,plastic,Solar-TErrestrial RElations Observatory - A (STEREO-A),PLAsma and SupraThermal Ion and Composition (PLASTIC)
-stereo-a,secchi-cor-1,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / Coronagraph imager 1 (SECCHI/COR-1)
-stereo-a,secchi-cor-2,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / Coronagraph imager 2 (SECCHI/COR-2)
-stereo-a,secchi-euvi,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / EUV Imager (SECCHI/EUVI)
-stereo-a,secchi-hi-1,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / Heliospheric Imager 1 (SECCHI/HI-1)
-stereo-a,secchi-hi-2,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / Heliospheric Imager 2 (SECCHI/HI-2)
-stereo-a,s-waves,Solar-TErrestrial RElations Observatory - A (STEREO-A),STEREO/WAVES (S/WAVES)
-swarm-a,acc,The Earth's Magnetic Field and Environment Explorers - A (SWARM-A),Accelerometer (ACC)
-swarm-a,asm,The Earth's Magnetic Field and Environment Explorers - A (SWARM-A),Absolute Scalar Magnetometer (ASM)
-swarm-a,efi,The Earth's Magnetic Field and Environment Explorers - A (SWARM-A),Electric Field Instrument (EFI)
-swarm-a,vfm,The Earth's Magnetic Field and Environment Explorers - A (SWARM-A),Electric Field Instrument (EFI)
-swarm-b,acc,The Earth's Magnetic Field and Environment Explorers - B (SWARM-B),Accelerometer (ACC)
-swarm-b,asm,The Earth's Magnetic Field and Environment Explorers - B (SWARM-B),Absolute Scalar Magnetometer (ASM)
-swarm-b,efi,The Earth's Magnetic Field and Environment Explorers - B (SWARM-B),Electric Field Instrument (EFI)
-swarm-b,vfm,The Earth's Magnetic Field and Environment Explorers - B (SWARM-B),Electric Field Instrument (EFI)
-swarm-c,acc,The Earth's Magnetic Field and Environment Explorers - C (SWARM-C),Accelerometer (ACC)
-swarm-c,asm,The Earth's Magnetic Field and Environment Explorers - C (SWARM-C),Absolute Scalar Magnetometer (ASM)
-swarm-c,efi,The Earth's Magnetic Field and Environment Explorers - C (SWARM-C),Electric Field Instrument (EFI)
-swarm-c,vfm,The Earth's Magnetic Field and Environment Explorers - C (SWARM-C),Electric Field Instrument (EFI)
-tempo,tempo,Tropospheric Emissions: Monitoring of Pollution,Tropospheric Emissions: Monitoring of Pollution
-themis-a,efi,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Electric Field Instrument (EFI)
-themis-a,esa,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Electrostatic Analyzer (ESA)
-themis-a,fgm,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Fluxgate Magnetometer (FGM)
-themis-a,scm,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Search Coil Magnetometer (SCM)
-themis-a,sst,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Solid State Telescope (SST)
-themis-d,efi,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Electric Field Instrument (EFI)
-themis-d,esa,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Electrostatic Analyzer (ESA)
-themis-d,fgm,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Fluxgate Magnetometer (FGM)
-themis-d,scm,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Search Coil Magnetometer (SCM)
-themis-d,sst,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Solid State Telescope (SST)
-themis-e,efi,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Electric Field Instrument (EFI)
-themis-e,esa,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Electrostatic Analyzer (ESA)
-themis-e,fgm,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Fluxgate Magnetometer (FGM)
-themis-e,scm,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Search Coil Magnetometer (SCM)
-themis-e,sst,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Solid State Telescope (SST)
-tianmu-1,tianmu-receiver,Tianmu-1,Tianmu-Receiver
-timed,guvi,"Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)",Global Ultra-Violet Imager (GUVI)
-timed,saber,"Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)",Sounding of the Atmosphere using Broadband Emission Radiometry (SABER)
-timed,see,"Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)",Solar Extreme Ultraviolet Experiment (SEE)
-timed,tidi,"Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)",TIMED Doppler Interferometer (TIDI)
-triton,gpsr,TRITON (also FORMOSAT-7R),GPS Reflection (GPSR)
-venus,vssc,Vegetation and Environment monitoring on a New Micro-Satellite (VENUS),VENuS SuperSpectral Camera (VSSC)
-wind,epact,WIND,Energetic Particles Acceleration (EPACT)
-wind,mfi,WIND,Magnetic Field Investigation (MFI)
-wind,plasma,WIND,3-D Plasma and Energetic Particles Experiment (PLASMA)
-wind,sms,WIND,Solar wind ion composition (SMS)
-wind,swe,WIND,Solar Wind Experiment (SWE)
-wind,tgrs,WIND,Transient Gamma Ray Spectrometer (TGRS)
-wind,waves,WIND,Radio and Plasma Wave Experiment (WAVES)
-worldview-3,wv110,WorldView-3,World View 110 camera (WV110)
-xmm-newton,epic,X-ray Multi-Mirror Mission Observatory - Newton (XMM-Newton),European Photon Imaging Camera (EPIC)
-xmm-newton,om,X-ray Multi-Mirror Mission Observatory - Newton (XMM-Newton),Optical Monitor (OM)
-xmm-newton,rgs,X-ray Multi-Mirror Mission Observatory - Newton (XMM-Newton),Reflection Grating Spectrometer (RGS)
+satellite,instrument,satellite-description,instrument-description,Status
+ace,cris,Advanced Composition Explorer (ACE),Cosmic Ray Isotope Spectrometer (CRiS),Operational
+ace,epam,Advanced Composition Explorer (ACE),"Electron, Proton, and Alpha-particle Monitor (EPAM)",Operational
+ace,mag,Advanced Composition Explorer (ACE),Magnetic Field Monitor (MAG),Operational
+ace,sepica,Advanced Composition Explorer (ACE),Solar Energetic Particle Ionic Charge Analyzer (SEPICA) ,Operational
+ace,sis,Advanced Composition Explorer (ACE),Solar Isotope Spectrometer (SIS),Operational
+ace,swepam,Advanced Composition Explorer (ACE),"Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM)",Operational
+ace,swics,Advanced Composition Explorer (ACE),Solar Wind Ion Composition Spectrometer (SWICS),Operational
+ace,swims,Advanced Composition Explorer (ACE),Solar Wind Ion Mass Spectrometer (SWIMS),Operational
+ace,uleis,Advanced Composition Explorer (ACE),Ultra-Low Energy Isotope Spectrometer (ULEIS),Operational
+aditya-1,aspex,Aditya-1,Aditya Solar wind Particle Experiment (ASPEX),Operational
+aditya-1,hel1os,Aditya-1,High Energy L1 Orbiting X-ray Spectrometer (HEL1OS),Operational
+aditya-1,magnetometer,Aditya-1,Magnetometer,Operational
+aditya-1,papa,Aditya-1,Plasma Analyzer Package for Aditya (PAPA),Operational
+aditya-1,solexs,Aditya-1,Solar Low Energy X-ray Spectrometer (SoLEXS),Operational
+aditya-1,suit,Aditya-1,Solar Ultraviolet Imaging Telescope (SUIT),Operational
+aditya-1,velc,Aditya-1,Visible Emission Line Coronagraph (VELC),Operational
+arase-erg,hep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),High-energy electron experiments (HEP-e),Operational
+arase-erg,lep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),Low-energy particle experiments - electron analyzer (LEP-e),Operational
+arase-erg,lep-i,Exploration of energization and Radiation in Geospace (Arase (ERG)),Low-energy particle experiments - ion mass analyzer (LEP-i),Operational
+arase-erg,mep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),Medium-energy particle experiments - electron analyzer (MEP-e),Operational
+arase-erg,mep-i,Exploration of energization and Radiation in Geospace (Arase (ERG)),Medium-energy particle experiments - ion mass analyzer (MEP-i),Operational
+arase-erg,mgf,Exploration of energization and Radiation in Geospace (Arase (ERG)),Magnetic field experiment (MGF),Operational
+arase-erg,pwe,Exploration of energization and Radiation in Geospace (Arase (ERG)),Plasma Wave Experiment (PWE),Operational
+arase-erg,xep-e,Exploration of energization and Radiation in Geospace (Arase (ERG)),Extremely high-energy electron experiments (XEP-e),Operational
+arctica-m-n1,ggak-e-fm-e,Arctica-M N1,GGAK-E / Magnetometer instrument (GGAK-E/FM-E),Operational
+arctica-m-n1,ggak-e-gals-e,Arctica-M N1,GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E),Operational
+arctica-m-n1,ggak-e-skif-6,Arctica-M N1,GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6),Operational
+arctica-m-n2,ggak-e-fm-e,Arctica-M N2,GGAK-E / Magnetometer instrument (GGAK-E/FM-E),Operational
+arctica-m-n2,ggak-e-gals-e,Arctica-M N2,GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E),Operational
+arctica-m-n2,ggak-e-skif-6,Arctica-M N2,GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6),Operational
+artemis-p1,efi,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Electric Field Instrument (EFI),Operational
+artemis-p1,esa,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Electrostatic Analyzer (ESA),Operational
+artemis-p1,fgm,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Fluxgate Magnetometer (FGM),Operational
+artemis-p1,scm,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Search Coil Magnetometer (SCM),Operational
+artemis-p1,sst,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)",Solid State Telescope (SST),Operational
+artemis-p2,efi,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Electric Field Instrument (EFI),Operational
+artemis-p2,esa,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Electrostatic Analyzer (ESA),Operational
+artemis-p2,fgm,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Fluxgate Magnetometer (FGM),Operational
+artemis-p2,scm,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Search Coil Magnetometer (SCM),Operational
+artemis-p2,sst,"Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P2 (ARTEMIS-P2)",Solid State Telescope (SST),Operational
+aso-s,fmg,Advanced Space-based Solar Observatory (ASO-S (Kuafu-1)),Full-disk solar vector MagnetoGraph (FMG),Operational
+aso-s,hxi,Advanced Space-based Solar Observatory (ASO-S (Kuafu-1)),Hard X-ray Imager (HXI),Operational
+aso-s,lst,Advanced Space-based Solar Observatory (ASO-S (Kuafu-1)),Lyman-alpha Solar Telescope (LST),Operational
+cluster-1,cis,CLUSTER-1,Cluster Ion Spectrometry experiment (CIS),Operational
+cluster-1,edi,CLUSTER-1,Electron Drift Instrument (EDI),Operational
+cluster-1,efw,CLUSTER-1,Electric Fields and Waves (EFW),Operational
+cluster-1,fgm,CLUSTER-1,Fluxgate Magnetometer (FGM),Operational
+cluster-1,peace,CLUSTER-1,Plasma Electron and Current Analyzer (PEACE),Operational
+cluster-1,rapid,CLUSTER-1,Research with Adaptive Particle Imaging Detectors (RAPID),Operational
+cluster-1,staff,CLUSTER-1,Spatio-Temporal Analysis of Field Fluctuations (STAFF),Operational
+cluster-1,wbd,CLUSTER-1,Wide Band Data (WBD),Operational
+cluster-1,whisper,CLUSTER-1,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER),Operational
+cluster-2,cis,CLUSTER-2,Cluster Ion Spectrometry experiment (CIS),Operational
+cluster-2,edi,CLUSTER-2,Electron Drift Instrument (EDI),Operational
+cluster-2,efw,CLUSTER-2,Electric Fields and Waves (EFW),Operational
+cluster-2,fgm,CLUSTER-2,Fluxgate Magnetometer (FGM),Operational
+cluster-2,peace,CLUSTER-2,Plasma Electron and Current Analyzer (PEACE),Operational
+cluster-2,rapid,CLUSTER-2,Research with Adaptive Particle Imaging Detectors (RAPID),Operational
+cluster-2,staff,CLUSTER-2,Spatio-Temporal Analysis of Field Fluctuations (STAFF),Operational
+cluster-2,wbd,CLUSTER-2,Wide Band Data (WBD),Operational
+cluster-2,whisper,CLUSTER-2,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER),Operational
+cluster-3,cis,CLUSTER-3,Cluster Ion Spectrometry experiment (CIS),Operational
+cluster-3,edi,CLUSTER-3,Electron Drift Instrument (EDI),Operational
+cluster-3,efw,CLUSTER-3,Electric Fields and Waves (EFW),Operational
+cluster-3,fgm,CLUSTER-3,Fluxgate Magnetometer (FGM),Operational
+cluster-3,peace,CLUSTER-3,Plasma Electron and Current Analyzer (PEACE),Operational
+cluster-3,rapid,CLUSTER-3,Research with Adaptive Particle Imaging Detectors (RAPID),Operational
+cluster-3,staff,CLUSTER-3,Spatio-Temporal Analysis of Field Fluctuations (STAFF),Operational
+cluster-3,wbd,CLUSTER-3,Wide Band Data (WBD),Operational
+cluster-3,whisper,CLUSTER-3,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER),Operational
+cluster-4,cis,CLUSTER-4,Cluster Ion Spectrometry experiment (CIS),Operational
+cluster-4,edi,CLUSTER-4,Electron Drift Instrument (EDI),Operational
+cluster-4,efw,CLUSTER-4,Electric Fields and Waves (EFW),Operational
+cluster-4,fgm,CLUSTER-4,Fluxgate Magnetometer (FGM),Operational
+cluster-4,peace,CLUSTER-4,Plasma Electron and Current Analyzer (PEACE),Operational
+cluster-4,rapid,CLUSTER-4,Research with Adaptive Particle Imaging Detectors (RAPID),Operational
+cluster-4,staff,CLUSTER-4,Spatio-Temporal Analysis of Field Fluctuations (STAFF),Operational
+cluster-4,wbd,CLUSTER-4,Wide Band Data (WBD),Operational
+cluster-4,whisper,CLUSTER-4,Waves of High Frequency and Sounder for Probing of Density by Relaxation (WHISPER),Operational
+diademe-1,rra,Diademe-1,Retro-Reflector Array  (RRA),Operational
+diademe-2,rra,Diademe-2,Retro-Reflector Array  (RRA),Operational
+dmsp-17,sess-ssi-es-3,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Ionospheric Plasma Drift/Scintillation Monitor - 3 (SESS/SSI/ES-3),Operational
+dmsp-17,sess-ssj5,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Precipitating Electron and Ion Spectrometer  (SESS/SSJ5 ),Operational
+dmsp-17,sess-ssm-boom,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Magnetometer - Boom (SESS/SSM-Boom),Operational
+dmsp-17,sess-ssuli,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Ultraviolet Limb Imager (SESS/SSULI),Operational
+dmsp-17,sess-ssusi,Defense Meteorological Satellite Program - F17 (DMSP-F17),SESS / Special Sensor Ultraviolet Spectrographic Imager (SESS/SSUSI),Operational
+dmsp-18,sess-ssi-es-3,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Ionospheric Plasma Drift/Scintillation Monitor - 3 (SESS/SSI/ES-3),Operational
+dmsp-18,sess-ssj5,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Precipitating Electron and Ion Spectrometer  (SESS/SSJ5 ),Operational
+dmsp-18,sess-ssm-boom,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Magnetometer - Boom (SESS/SSM-Boom),Operational
+dmsp-18,sess-ssuli,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Ultraviolet Limb Imager (SESS/SSULI),Operational
+dmsp-18,sess-ssusi,Defense Meteorological Satellite Program - F18 (DMSP-F18),SESS / Special Sensor Ultraviolet Spectrographic Imager (SESS/SSUSI),Operational
+dscovr,es,Deep Space Climate Observatory (DSCOVR),Electron Spectrometer (ES),Operational
+dscovr,fc,Deep Space Climate Observatory (DSCOVR),Faraday Cup (FC),Operational
+dscovr,mag,Deep Space Climate Observatory (DSCOVR),Magnetometer (MAG),Operational
+electro-l-n2,ggak-e-dir-e,Electro-L Number 2 (Electro-L N2),Solar X-ray radiation flux sensor (GGAK-E/DIR-E),Operational
+electro-l-n2,ggak-e-gals-e,Electro-L Number 2 (Electro-L N2),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E),Operational
+electro-l-n2,ggak-e-skif-6,Electro-L Number 2 (Electro-L N2),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6),Operational
+electro-l-n2,ggak-e-skl-e,Electro-L Number 2 (Electro-L N2),GGAK-E / Solar cosmic rays spectrometer (GGAK-E/SKL-E),Operational
+electro-l-n2,ggak-e-vuss-e,Electro-L Number 2 (Electro-L N2),GGAK-E / Solar UV radiation sensor (GGAK-E/VUSS-E),Operational
+electro-l-n3,ggak-e-dir-e,Electro-L Number 3 (Electro-L N3),Solar X-ray radiation flux sensor (GGAK-E/DIR-E),Operational
+electro-l-n3,ggak-e-gals-e,Electro-L Number 3 (Electro-L N3),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E),Operational
+electro-l-n3,ggak-e-skif-6,Electro-L Number 3 (Electro-L N3),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6),Operational
+electro-l-n3,ggak-e-skl-e,Electro-L Number 3 (Electro-L N3),GGAK-E / Solar cosmic rays spectrometer (GGAK-E/SKL-E),Operational
+electro-l-n3,ggak-e-vuss-e,Electro-L Number 3 (Electro-L N3),GGAK-E / Solar UV radiation sensor (GGAK-E/VUSS-E),Operational
+electro-l-n4,ggak-e-dir-e,Electro-L Number 4 (Electro-L N4),Solar X-ray radiation flux sensor (GGAK-E/DIR-E),Operational
+electro-l-n4,ggak-e-fm-e,Electro-L Number 4 (Electro-L N4),GGAK-E / Magnetometer instrument (GGAK-E/FM-E),Operational
+electro-l-n4,ggak-e-gals-e,Electro-L Number 4 (Electro-L N4),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E),Operational
+electro-l-n4,ggak-e-isp-2m,Electro-L Number 4 (Electro-L N4),GGAK-L / Solar constant sensor (GGAK-E/ISP-2M),Operational
+electro-l-n4,ggak-e-skif-6,Electro-L Number 4 (Electro-L N4),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6),Operational
+electro-l-n4,ggak-e-skl-e,Electro-L Number 4 (Electro-L N4),GGAK-E / Solar cosmic rays spectrometer (GGAK-E/SKL-E),Operational
+electro-l-n4,ggak-e-vuss-e,Electro-L Number 4 (Electro-L N4),GGAK-E / Solar UV radiation sensor (GGAK-E/VUSS-E),Operational
+formosat-5,aip,FORMOSAT-5,Advanced Ionospheric Probe (AIP),Operational
+fy-2g,sem,Feng-Yun - 2G (FY-2G),Space Environment Monitor (SEM),Operational
+fy-2g,sxm,Feng-Yun - 2G (FY-2G),Solar X-ray monitor (SXM),Operational
+fy-2h,sem,Feng-Yun - 2H (FY-2H),Space Environment Monitor (SEM),Operational
+fy-2h,sxm,Feng-Yun - 2H (FY-2H),Solar X-ray monitor (SXM),Operational
+fy-3c,sem-hepd,Feng-Yun 3C (FY-3C),Space Environment Monitor - High Energy Particle Detector (SEM/HEPD),Operational
+fy-3c,sem-ims,Feng-Yun 3C (FY-3C),Space Environment Monitor - Ionosphere Measurement Sensor (SEM/IMS),Operational
+fy-3d,sem-hepd,Feng-Yun 3D (FY-3D),Space Environment Monitor - High Energy Particle Detector (SEM/HEPD),Operational
+fy-3d,sws-sem-ims,Feng-Yun 3D (FY-3D),Space Weather Suite / Space Environment Monitor / Ionosphere Measurement Sensor (SWS/SEM/IMS),Operational
+fy-3d,sws-wai,Feng-Yun 3D (FY-3D),Space Weather Suite / Wide-field Auroral Imager (SWS/WAI),Operational
+fy-3e,sws-sem-fgm,Feng-Yun 3E (FY-3E),Space Weather Suite / Space Environment Monitor / Flux Gate Magnetometer (SWS/SEM/FGM),Operational
+fy-3e,sws-sem-hepd,Feng-Yun 3E (FY-3E),Space Weather Suite / Space Environment Monitor / High Energy Particle Detector (SWS/SEM/HEPD),Operational
+fy-3e,sws-sem-ims,Feng-Yun 3E (FY-3E),Space Weather Suite / Space Environment Monitor / Ionosphere Measurement Sensor (SWS/SEM/IMS),Operational
+fy-3e,sws-tri-ipm,Feng-Yun 3E (FY-3E),Space Weather Suite - Triple-angle Ionospheric PhotoMeter (SWS/Tri-IPM),Operational
+fy-3e,xeuvi,Feng-Yun 3E (FY-3E),Solar X-ray and Extreme Ultraviolet Imager (XEUVI),Operational
+fy-4a,sep-fields,Feng-Yun - 4A (FY-4A),Space Environment Package - fields (SEP-fields),Operational
+fy-4a,sep-heps,Feng-Yun - 4A (FY-4A),Space Environment Package / High Energy Particles Sensor (SEP/HEPS),Operational
+fy-4b,fgm,Feng-Yun - 4B (FY-4B),Fluxgate Magnetometer (FGM),Operational
+fy-4b,sep-fields,Feng-Yun - 4B (FY-4B),Space Environment Package - fields (SEP-fields),Operational
+fy-4b,sep-heps,Feng-Yun - 4B (FY-4B),Space Environment Package / High Energy Particles Sensor (SEP/HEPS),Operational
+fy-4b,sep-leps,Feng-Yun - 4B (FY-4B),Space Environment Package / Low Energy Particles Sensor (SEP/LEPS),Operational
+fy-4b,sep-meps,Feng-Yun - 4B (FY-4B),Space Environment Package / Medium Energy Particles Sensor (SEP/MEPS),Operational
+fy-4c,sep-fields,Feng-Yun - 4C (FY-4C),Space Environment Package - fields (SEP-fields),Operational
+fy-4c,sep-heps,Feng-Yun - 4C (FY-4C),Space Environment Package / High Energy Particles Sensor (SEP/HEPS),Operational
+fy-4c,sep-leps,Feng-Yun - 4C (FY-4C),Space Environment Package / Low Energy Particles Sensor (SEP/LEPS),Operational
+fy-4c,sep-meps,Feng-Yun - 4C (FY-4C),Space Environment Package / Medium Energy Particles Sensor (SEP/MEPS),Operational
+fy-4c,suvi,Feng-Yun - 4C (FY-4C),Solar Extreme-UltraViolet Imager (SUVI),Operational
+fy-4c,sxeuv,Feng-Yun - 4C (FY-4C),Solar X-EUV imaging telescope (SXEUV),Operational
+fy-4c,sxus,Feng-Yun - 4C (FY-4C),Solar X-EUV Irradiance Sensor (SXUS),Operational
+fy-4d,sep-fields,Feng-Yun - 4D (FY-4D),Space Environment Package - fields (SEP-fields),Operational
+fy-4d,sep-heps,Feng-Yun - 4D (FY-4D),Space Environment Package / High Energy Particles Sensor (SEP/HEPS),Operational
+fy-4d,sep-leps,Feng-Yun - 4D (FY-4D),Space Environment Package / Low Energy Particles Sensor (SEP/LEPS),Operational
+fy-4d,sep-meps,Feng-Yun - 4D (FY-4D),Space Environment Package / Medium Energy Particles Sensor (SEP/MEPS),Operational
+fy-4d,suvi,Feng-Yun - 4D (FY-4D),Solar Extreme-UltraViolet Imager (SUVI),Operational
+fy-4d,sxeuv,Feng-Yun - 4D (FY-4D),Solar X-EUV imaging telescope (SXEUV),Operational
+fy-4d,sxus,Feng-Yun - 4D (FY-4D),Solar X-EUV Irradiance Sensor (SXUS),Operational
+fy-4e,sep-fields,Feng-Yun - 4E (FY-4E),Space Environment Package - fields (SEP-fields),Operational
+fy-4e,sep-heps,Feng-Yun - 4E (FY-4E),Space Environment Package / High Energy Particles Sensor (SEP/HEPS),Operational
+fy-4e,sep-leps,Feng-Yun - 4E (FY-4E),Space Environment Package / Low Energy Particles Sensor (SEP/LEPS),Operational
+fy-4e,sep-meps,Feng-Yun - 4E (FY-4E),Space Environment Package / Medium Energy Particles Sensor (SEP/MEPS),Operational
+fy-4e,suvi,Feng-Yun - 4E (FY-4E),Solar Extreme-UltraViolet Imager (SUVI),Operational
+fy-4e,sxeuv,Feng-Yun - 4E (FY-4E),Solar X-EUV imaging telescope (SXEUV),Operational
+fy-4e,sxus,Feng-Yun - 4E (FY-4E),Solar X-EUV Irradiance Sensor (SXUS),Operational
+galileo,emu,Galileo,Environmental Monitor Unit (EMU),Operational
+geo-kompsat-2a,ksem-cm,Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A),Korean Space wEather Monitor / Charging Monitor (KSEM/CM),Operational
+geo-kompsat-2a,ksem-mag,Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A),Korean Space wEather Monitor / Magnetometer. ESA acronym is SOSMAG. (KSEM/MAG),Operational
+geo-kompsat-2a,ksem-pd,Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A),Korea Space wEather Monitor / Particle Detector (KSEM/PD),Operational
+goes-14,sem-eps,Geostationary Operational Environmental Satellite - 14 (GOES-14),SEM / Energetic Particles Sensor (SEM/EPS),Operational
+goes-14,sem-hepad,Geostationary Operational Environmental Satellite - 14 (GOES-14),SEM / High Energy Proton and Alpha Particles Detector (SEM/HEPAD),Operational
+goes-14,sem-mag,Geostationary Operational Environmental Satellite - 14 (GOES-14),SEM / Magnetometer (SEM/MAG),Operational
+goes-14,sem-xrs-euv,Geostationary Operational Environmental Satellite - 14 (GOES-14),SEM / X-Ray Sensor - Extreme Ultra-Violet Sensor (SEM/XRS-EUV),Operational
+goes-14,sxi,Geostationary Operational Environmental Satellite - 14 (GOES-14),Solar X-ray Imager (SXI),Operational
+goes-16,exis,Geostationary Operational Environmental Satellite - 16 (GOES-16),Extreme Ultraviolet Sensor / X-Ray Sensor Irradiance Sensors (EXIS),Operational
+goes-16,seiss-ehis,Geostationary Operational Environmental Satellite - 16 (GOES-16),SEISS / Energetic Heavy Ion Sensor (SEISS/EHIS),Operational
+goes-16,seiss-mps,Geostationary Operational Environmental Satellite - 16 (GOES-16),SEISS / Magnetospheric Particle Sensor (SEISS/MPS),Operational
+goes-16,seiss-sgps,Geostationary Operational Environmental Satellite - 16 (GOES-16),SEISS / Solar and Galactic Proton Sensor (SEISS/SGPS),Operational
+goes-16,sem-mag,Geostationary Operational Environmental Satellite - 16 (GOES-16),SEM / Magnetometer (SEM/MAG),Operational
+goes-16,suvi,Geostationary Operational Environmental Satellite - 16 (GOES-16),Solar Ultraviolet Imager (SUVI),Operational
+goes-17,exis,Geostationary Operational Environmental Satellite - 17 (GOES-17),Extreme Ultraviolet Sensor / X-Ray Sensor Irradiance Sensors (EXIS),Operational
+goes-17,seiss-ehis,Geostationary Operational Environmental Satellite - 17 (GOES-17),SEISS / Energetic Heavy Ion Sensor (SEISS/EHIS),Operational
+goes-17,seiss-mps,Geostationary Operational Environmental Satellite - 17 (GOES-17),SEISS / Magnetospheric Particle Sensor (SEISS/MPS),Operational
+goes-17,seiss-sgps,Geostationary Operational Environmental Satellite - 17 (GOES-17),SEISS / Solar and Galactic Proton Sensor (SEISS/SGPS),Operational
+goes-17,sem-mag,Geostationary Operational Environmental Satellite - 17 (GOES-17),SEM / Magnetometer (SEM/MAG),Operational
+goes-17,suvi,Geostationary Operational Environmental Satellite - 17 (GOES-17),Solar Ultraviolet Imager (SUVI),Operational
+goes-18,exis,Geostationary Operational Environmental Satellite - 18 (GOES-18),Extreme Ultraviolet Sensor / X-Ray Sensor Irradiance Sensors (EXIS),Operational
+goes-18,seiss-ehis,Geostationary Operational Environmental Satellite - 18 (GOES-18),SEISS / Energetic Heavy Ion Sensor (SEISS/EHIS),Operational
+goes-18,seiss-mps,Geostationary Operational Environmental Satellite - 18 (GOES-18),SEISS / Magnetospheric Particle Sensor (SEISS/MPS),Operational
+goes-18,seiss-sgps,Geostationary Operational Environmental Satellite - 18 (GOES-18),SEISS / Solar and Galactic Proton Sensor (SEISS/SGPS),Operational
+goes-18,sem-mag,Geostationary Operational Environmental Satellite - 18 (GOES-18),SEM / Magnetometer (SEM/MAG),Operational
+goes-18,suvi,Geostationary Operational Environmental Satellite - 18 (GOES-18),Solar Ultraviolet Imager (SUVI),Operational
+grace-fo,superstar,Gravity Recovery and Climate Experiment - Follow-on (GRACE-FO (2 sats)),Super Space Three-axis Accelerometer for Research (SuperSTAR),Operational
+icon,euv,Ionospheric Connection Explorer (ICON),Extreme Ultra Violet Imaging Spectrograph (EUV),Operational
+icon,fuv,Ionospheric Connection Explorer (ICON),Far Ultra Violet Imaging Spectrograph (FUV),Operational
+icon,ivm,Ionospheric Connection Explorer (ICON),In-situ Ion Velocity Meter (IVM),Operational
+iris,iris,Interface Region Imaging Spectrograph (IRIS),Interface Region Imaging Spectrograph (IRIS),Operational
+iss-gari,gari,The GAGG Radiation Instruments (GARI) (ISS GARI),The GAGG Radiation Instruments (GARI),Operational
+jason-3,carmen,Joint Altimetry Satellite Oceanography Network - 3 (JASON-3),Environment Characterization and Modelisation (CARMEN),Operational
+jason-3,lpt,Joint Altimetry Satellite Oceanography Network - 3 (JASON-3),Light Particle Telescope (LPT),Operational
+lemur-2,stratos,Low Earth Multi-Use Receiver - 2 (Lemur-2),STRATOS (STRATOS),Operational
+mats,mats,Mesospheric Airglow/Aerosol Tomography and Spectroscopy (MATS),Mesospheric Airglow/Aerosol Tomography and Spectroscopy (MATS),Operational
+meteor-m-n2,ggak-e-gals-e,Meteor-M Number 2 (Meteor-M N2),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E),Operational
+meteor-m-n2,ggak-e-skif-6,Meteor-M Number 2 (Meteor-M N2),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6),Operational
+meteor-m-n2,ggak-m-rims-m,Meteor-M Number 2 (Meteor-M N2),Radio-frequency mass spectrometer - M (GGAK-M/RIMS-M),Operational
+meteor-m-n2-2,ggak-e-gals-e,Meteor-M Number 2-2 (Meteor-M N2-2),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E),Operational
+meteor-m-n2-2,ggak-e-skif-6,Meteor-M Number 2-2 (Meteor-M N2-2),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6),Operational
+meteor-m-n2-2,ggak-m-rims-m,Meteor-M Number 2-2 (Meteor-M N2-2),Radio-frequency mass spectrometer - M (GGAK-M/RIMS-M),Operational
+meteor-m-n2-3,ggak-e-gals-e,Meteor-M Number 2-3 (Meteor-M N2-3),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E),Operational
+meteor-m-n2-3,ggak-e-skif-6,Meteor-M Number 2-3 (Meteor-M N2-3),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6),Operational
+meteor-m-n2-3,ggak-m-rims-m,Meteor-M Number 2-3 (Meteor-M N2-3),Radio-frequency mass spectrometer - M (GGAK-M/RIMS-M),Operational
+meteor-m-n2-4,ggak-e-gals-e,Meteor-M Number 2-4 (Meteor-M N2-4),GGAK-E / Detector of galactic cosmic rays (GGAK-E/GALS-E),Operational
+meteor-m-n2-4,ggak-e-skif-6,Meteor-M Number 2-4 (Meteor-M N2-4),GGAK-E / Corpuscular radiation spectrometer (GGAK-E/SKIF-6),Operational
+meteor-m-n2-4,ggak-m-rims-m,Meteor-M Number 2-4 (Meteor-M N2-4),Radio-frequency mass spectrometer - M (GGAK-M/RIMS-M),Operational
+metop-b,sem-meped,Meteorological operational satellite - B (Metop-B),SEM / Medium energy proton detector (SEM/MEPED),Operational
+metop-b,sem-ted,Meteorological operational satellite - B (Metop-B),SEM / Total Energy Detector (SEM/TED),Operational
+metop-c,sem-meped,Meteorological operational satellite - C (Metop-C),SEM / Medium energy proton detector (SEM/MEPED),Operational
+metop-c,sem-ted,Meteorological operational satellite - C (Metop-C),SEM / Total Energy Detector (SEM/TED),Operational
+mms-a,afg,Magnetospheric MultiScale mission - A (MMS-A),Analog Fluxgate Magnetometer (AFG),Operational
+mms-a,dfg,Magnetospheric MultiScale mission - A (MMS-A),Digital Fluxgate Magnetometer (DFG),Operational
+mms-a,dp,Magnetospheric MultiScale mission - A (MMS-A),Digital Fluxgate Magnetometer (DFG),Operational
+mms-a,edi,Magnetospheric MultiScale mission - A (MMS-A),Electron Drift Instrument (EDI),Operational
+mms-a,eis,Magnetospheric MultiScale mission - A (MMS-A),Energetic Ion Spectrometer (EIS),Operational
+mms-a,feeps,Magnetospheric MultiScale mission - A (MMS-A),Fly's Eye Energetic Particle Sensor (FEEPS),Operational
+mms-a,fpi,Magnetospheric MultiScale mission - A (MMS-A),Fast Plasma Instrument (FPI),Operational
+mms-a,hpca,Magnetospheric MultiScale mission - A (MMS-A),Hot Plasma Composition Analyzer (HPCA),Operational
+mms-a,scm,Magnetospheric MultiScale mission - A (MMS-A),Search Coil Magnetometer (SCM),Operational
+mms-b,afg,Magnetospheric MultiScale mission - B (MMS-B),Analog Fluxgate Magnetometer (AFG),Operational
+mms-b,dfg,Magnetospheric MultiScale mission - B (MMS-B),Digital Fluxgate Magnetometer (DFG),Operational
+mms-b,dp,Magnetospheric MultiScale mission - B (MMS-B),Digital Fluxgate Magnetometer (DFG),Operational
+mms-b,edi,Magnetospheric MultiScale mission - B (MMS-B),Electron Drift Instrument (EDI),Operational
+mms-b,eis,Magnetospheric MultiScale mission - B (MMS-B),Energetic Ion Spectrometer (EIS),Operational
+mms-b,feeps,Magnetospheric MultiScale mission - B (MMS-B),Fly's Eye Energetic Particle Sensor (FEEPS),Operational
+mms-b,fpi,Magnetospheric MultiScale mission - B (MMS-B),Fast Plasma Instrument (FPI),Operational
+mms-b,hpca,Magnetospheric MultiScale mission - B (MMS-B),Hot Plasma Composition Analyzer (HPCA),Operational
+mms-b,scm,Magnetospheric MultiScale mission - B (MMS-B),Search Coil Magnetometer (SCM),Operational
+mms-c,afg,Magnetospheric MultiScale mission - C (MMS-C),Analog Fluxgate Magnetometer (AFG),Operational
+mms-c,dfg,Magnetospheric MultiScale mission - C (MMS-C),Digital Fluxgate Magnetometer (DFG),Operational
+mms-c,dp,Magnetospheric MultiScale mission - C (MMS-C),Digital Fluxgate Magnetometer (DFG),Operational
+mms-c,edi,Magnetospheric MultiScale mission - C (MMS-C),Electron Drift Instrument (EDI),Operational
+mms-c,eis,Magnetospheric MultiScale mission - C (MMS-C),Energetic Ion Spectrometer (EIS),Operational
+mms-c,feeps,Magnetospheric MultiScale mission - C (MMS-C),Fly's Eye Energetic Particle Sensor (FEEPS),Operational
+mms-c,fpi,Magnetospheric MultiScale mission - C (MMS-C),Fast Plasma Instrument (FPI),Operational
+mms-c,hpca,Magnetospheric MultiScale mission - C (MMS-C),Hot Plasma Composition Analyzer (HPCA),Operational
+mms-c,scm,Magnetospheric MultiScale mission - C (MMS-C),Search Coil Magnetometer (SCM),Operational
+mms-d,afg,Magnetospheric MultiScale mission - D (MMS-D),Analog Fluxgate Magnetometer (AFG),Operational
+mms-d,dfg,Magnetospheric MultiScale mission - D (MMS-D),Digital Fluxgate Magnetometer (DFG),Operational
+mms-d,dp,Magnetospheric MultiScale mission - D (MMS-D),Digital Fluxgate Magnetometer (DFG),Operational
+mms-d,edi,Magnetospheric MultiScale mission - D (MMS-D),Electron Drift Instrument (EDI),Operational
+mms-d,eis,Magnetospheric MultiScale mission - D (MMS-D),Energetic Ion Spectrometer (EIS),Operational
+mms-d,feeps,Magnetospheric MultiScale mission - D (MMS-D),Fly's Eye Energetic Particle Sensor (FEEPS),Operational
+mms-d,fpi,Magnetospheric MultiScale mission - D (MMS-D),Fast Plasma Instrument (FPI),Operational
+mms-d,hpca,Magnetospheric MultiScale mission - D (MMS-D),Hot Plasma Composition Analyzer (HPCA),Operational
+mms-d,scm,Magnetospheric MultiScale mission - D (MMS-D),Search Coil Magnetometer (SCM),Operational
+noaa-15,sem-meped,National Oceanic and Atmospheric Administration - 15 (NOAA-15),SEM / Medium energy proton detector (SEM/MEPED),Operational
+noaa-15,sem-ted,National Oceanic and Atmospheric Administration - 15 (NOAA-15),SEM / Total Energy Detector (SEM/TED),Operational
+noaa-18,sem-meped,National Oceanic and Atmospheric Administration - 18 (NOAA-18),SEM / Medium energy proton detector (SEM/MEPED),Operational
+noaa-18,sem-ted,National Oceanic and Atmospheric Administration - 18 (NOAA-18),SEM / Total Energy Detector (SEM/TED),Operational
+noaa-19,sem-meped,National Oceanic and Atmospheric Administration - 19 (NOAA-19),SEM / Medium energy proton detector (SEM/MEPED),Operational
+noaa-19,sem-ted,National Oceanic and Atmospheric Administration - 19 (NOAA-19),SEM / Total Energy Detector (SEM/TED),Operational
+parker-solar-probe,fields,Parker Solar Probe,Electromagnetic Fields Investigation (FIELDS),Operational
+parker-solar-probe,isis-epi,Parker Solar Probe,Integrated Science Investigation of the Sun - Energetic Particle Instruments (ISIS-EPI),Operational
+parker-solar-probe,sweapi,Parker Solar Probe,Solar Wind Electrons Alphas and Protons Investigation (SWEAPI),Operational
+parker-solar-probe,wispr,Parker Solar Probe,Wide-field Imager for Solar Probe (WISPR),Operational
+proba-2,dslp,Project for On-Board Autonomy - 2 (PROBA-2),Dual Segmented Langmuir Probe (DSLP),Operational
+proba-2,lyra,Project for On-Board Autonomy - 2 (PROBA-2),LYman-alpha RAdiometer (LYRA),Operational
+proba-2,swap,Project for On-Board Autonomy - 2 (PROBA-2),Sun Watcher using Active Pixel System detector and Image Processing (SWAP),Operational
+proba-2,tpmu,Project for On-Board Autonomy - 2 (PROBA-2),Thermal Plasma Measurement Unit (TPMU),Operational
+sdo,aia,Solar Dynamics Observatory (SDO),Atmospheric Imaging Assembly (AIA),Operational
+sdo,eve,Solar Dynamics Observatory (SDO),EUV Variability Experiment (EVE),Operational
+sdo,hmi,Solar Dynamics Observatory (SDO),Helioseismic and Magnetic Imager (HMI),Operational
+sich-2-30,potential,SICH-2-30 (originally SICH-2-1),Potential,Operational
+soho,cds,Solar and Heliospheric Observatory (SOHO),Coronal Diagnostic Spectrometer (CDS),Operational
+soho,celias,Solar and Heliospheric Observatory (SOHO),Charge (CELIAS),Operational
+soho,costep,Solar and Heliospheric Observatory (SOHO),Suprathermal & Energetic Particle Analyzer (COSTEP),Operational
+soho,eit,Solar and Heliospheric Observatory (SOHO),Extreme UV Imaging Telescope (EIT),Operational
+soho,erne,Solar and Heliospheric Observatory (SOHO),Energetic and Relativistic Nuclei and Electron experiment (ERNE),Operational
+soho,golf,Solar and Heliospheric Observatory (SOHO),Global Oscillations at Low Frequencies (GOLF),Operational
+soho,lasco,Solar and Heliospheric Observatory (SOHO),Large Angle and Spectrometric Coronagraph (LASCO),Operational
+soho,mdi,Solar and Heliospheric Observatory (SOHO),Michelson Doppler Imager (MDI),Operational
+soho,sem,Solar and Heliospheric Observatory (SOHO),Solar EUV monitor (SEM),Operational
+soho,sumer,Solar and Heliospheric Observatory (SOHO),Solar UV Measurement of Emitted Radiation (SUMER),Operational
+soho,swan,Solar and Heliospheric Observatory (SOHO),Solar Wind Anisotropies (SWAN),Operational
+soho,uvcs,Solar and Heliospheric Observatory (SOHO),UV Coronagraph and Spectrometer (UVCS),Operational
+soho,virgo,Solar and Heliospheric Observatory (SOHO),Variability of Solar Irradiance (VIRGO ),Operational
+solar-b,eis,Solar-B (Hinode),EUV Imaging Spectrometer (EIS),Operational
+solar-b,sot,Solar-B (Hinode),Solar Optical Telescope (SOT),Operational
+solar-b,xrt,Solar-B (Hinode),X-Ray Telescope (XRT),Operational
+solar-orbiter,epd,Solar Orbiter,Energetic Particle Detector (EPD),Operational
+solar-orbiter,eui,Solar Orbiter,Extreme Ultraviolet Imager (EUI),Operational
+solar-orbiter,mag,Solar Orbiter,Magnetometer (Solar Orbiter) (MAG),Operational
+solar-orbiter,metis,Solar Orbiter,Multi Element Telescope for Imaging and Spectroscopy (METIS),Operational
+solar-orbiter,phi,Solar Orbiter,Polarimetric and Helioseismic Imager (PHI),Operational
+solar-orbiter,rpw,Solar Orbiter,Radio and Plasma Waves (RPW),Operational
+solar-orbiter,solohi,Solar Orbiter,Solar Orbiter Heliospheric Imager (SoloHI),Operational
+solar-orbiter,spice,Solar Orbiter,Spectral Imaging of the Coronal Environment (SPICE),Operational
+solar-orbiter,stix,Solar Orbiter,X-ray Spectrometer/Telescope (STIX),Operational
+solar-orbiter,swa,Solar Orbiter,Solar Wind Plasma Analyser (SWA),Operational
+starlette,lr,Satellite de Taille Adaptee avec Reflecteurs Laser pour les Etudes de la Terre (STARLETTE),Laser Reflectors (LR),Operational
+stella,lr,STELLA,Laser Reflectors (LR),Operational
+stereo-a,impact-mag,Solar-TErrestrial RElations Observatory - A (STEREO-A),IMPACT / Magnetometer (IMPACT/MAG),Operational
+stereo-a,impact-sep,Solar-TErrestrial RElations Observatory - A (STEREO-A),IMPACT / Solar Energetic Particles (IMPACT/SEP),Operational
+stereo-a,impact-ste,Solar-TErrestrial RElations Observatory - A (STEREO-A),IMPACT / Suprathermal Electron Telescope (IMPACT/STE),Operational
+stereo-a,impact-swea,Solar-TErrestrial RElations Observatory - A (STEREO-A),IMPACT / Solar Wind Electron Analyzer (IMPACT/SWEA),Operational
+stereo-a,plastic,Solar-TErrestrial RElations Observatory - A (STEREO-A),PLAsma and SupraThermal Ion and Composition (PLASTIC),Operational
+stereo-a,secchi-cor-1,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / Coronagraph imager 1 (SECCHI/COR-1),Operational
+stereo-a,secchi-cor-2,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / Coronagraph imager 2 (SECCHI/COR-2),Operational
+stereo-a,secchi-euvi,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / EUV Imager (SECCHI/EUVI),Operational
+stereo-a,secchi-hi-1,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / Heliospheric Imager 1 (SECCHI/HI-1),Operational
+stereo-a,secchi-hi-2,Solar-TErrestrial RElations Observatory - A (STEREO-A),SECCHI / Heliospheric Imager 2 (SECCHI/HI-2),Operational
+stereo-a,s-waves,Solar-TErrestrial RElations Observatory - A (STEREO-A),STEREO/WAVES (S/WAVES),Operational
+swarm-a,acc,The Earth's Magnetic Field and Environment Explorers - A (SWARM-A),Accelerometer (ACC),Operational
+swarm-a,asm,The Earth's Magnetic Field and Environment Explorers - A (SWARM-A),Absolute Scalar Magnetometer (ASM),Operational
+swarm-a,efi,The Earth's Magnetic Field and Environment Explorers - A (SWARM-A),Electric Field Instrument (EFI),Operational
+swarm-a,vfm,The Earth's Magnetic Field and Environment Explorers - A (SWARM-A),Electric Field Instrument (EFI),Operational
+swarm-b,acc,The Earth's Magnetic Field and Environment Explorers - B (SWARM-B),Accelerometer (ACC),Operational
+swarm-b,asm,The Earth's Magnetic Field and Environment Explorers - B (SWARM-B),Absolute Scalar Magnetometer (ASM),Operational
+swarm-b,efi,The Earth's Magnetic Field and Environment Explorers - B (SWARM-B),Electric Field Instrument (EFI),Operational
+swarm-b,vfm,The Earth's Magnetic Field and Environment Explorers - B (SWARM-B),Electric Field Instrument (EFI),Operational
+swarm-c,acc,The Earth's Magnetic Field and Environment Explorers - C (SWARM-C),Accelerometer (ACC),Operational
+swarm-c,asm,The Earth's Magnetic Field and Environment Explorers - C (SWARM-C),Absolute Scalar Magnetometer (ASM),Operational
+swarm-c,efi,The Earth's Magnetic Field and Environment Explorers - C (SWARM-C),Electric Field Instrument (EFI),Operational
+swarm-c,vfm,The Earth's Magnetic Field and Environment Explorers - C (SWARM-C),Electric Field Instrument (EFI),Operational
+tempo,tempo,Tropospheric Emissions: Monitoring of Pollution,Tropospheric Emissions: Monitoring of Pollution,Operational
+themis-a,efi,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Electric Field Instrument (EFI),Operational
+themis-a,esa,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Electrostatic Analyzer (ESA),Operational
+themis-a,fgm,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Fluxgate Magnetometer (FGM),Operational
+themis-a,scm,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Search Coil Magnetometer (SCM),Operational
+themis-a,sst,Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A),Solid State Telescope (SST),Operational
+themis-d,efi,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Electric Field Instrument (EFI),Operational
+themis-d,esa,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Electrostatic Analyzer (ESA),Operational
+themis-d,fgm,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Fluxgate Magnetometer (FGM),Operational
+themis-d,scm,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Search Coil Magnetometer (SCM),Operational
+themis-d,sst,Time History of Events and Macroscale Interactions during Substorms - D (THEMIS-D),Solid State Telescope (SST),Operational
+themis-e,efi,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Electric Field Instrument (EFI),Operational
+themis-e,esa,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Electrostatic Analyzer (ESA),Operational
+themis-e,fgm,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Fluxgate Magnetometer (FGM),Operational
+themis-e,scm,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Search Coil Magnetometer (SCM),Operational
+themis-e,sst,Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E),Solid State Telescope (SST),Operational
+tianmu-1,tianmu-receiver,Tianmu-1,Tianmu-Receiver,Operational
+timed,guvi,"Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)",Global Ultra-Violet Imager (GUVI),Operational
+timed,saber,"Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)",Sounding of the Atmosphere using Broadband Emission Radiometry (SABER),Operational
+timed,see,"Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)",Solar Extreme Ultraviolet Experiment (SEE),Operational
+timed,tidi,"Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)",TIMED Doppler Interferometer (TIDI),Operational
+triton,gpsr,TRITON (also FORMOSAT-7R),GPS Reflection (GPSR),Operational
+venus,vssc,Vegetation and Environment monitoring on a New Micro-Satellite (VENUS),VENuS SuperSpectral Camera (VSSC),Operational
+wind,epact,WIND,Energetic Particles Acceleration (EPACT),Operational
+wind,mfi,WIND,Magnetic Field Investigation (MFI),Operational
+wind,plasma,WIND,3-D Plasma and Energetic Particles Experiment (PLASMA),Operational
+wind,sms,WIND,Solar wind ion composition (SMS),Operational
+wind,swe,WIND,Solar Wind Experiment (SWE),Operational
+wind,tgrs,WIND,Transient Gamma Ray Spectrometer (TGRS),Operational
+wind,waves,WIND,Radio and Plasma Wave Experiment (WAVES),Operational
+worldview-3,wv110,WorldView-3,World View 110 camera (WV110),Operational
+xmm-newton,epic,X-ray Multi-Mirror Mission Observatory - Newton (XMM-Newton),European Photon Imaging Camera (EPIC),Operational
+xmm-newton,om,X-ray Multi-Mirror Mission Observatory - Newton (XMM-Newton),Optical Monitor (OM),Operational
+xmm-newton,rgs,X-ray Multi-Mirror Mission Observatory - Newton (XMM-Newton),Reflection Grating Spectrometer (RGS),Operational

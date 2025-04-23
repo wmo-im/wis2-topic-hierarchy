@@ -1,5 +1,5 @@
-Name,Description,Source
-analysis,Datasets of analyzed meteorological conditions for a specified time or period in the past,
-forecast,"Datasets of expected meteorological conditions for a specified time or period in the future, typically including the T+0 fields",
-hindcast,Datasets of retrospective forecast for a specified time or period in the past,
-reanalysis,Datasets constructing a record of past conditions,
+Name,Description,Source,Status
+analysis,Datasets of analyzed meteorological conditions for a specified time or period in the past,Operational,
+forecast,"Datasets of expected meteorological conditions for a specified time or period in the future, typically including the T+0 fields",Operational,
+hindcast,Datasets of retrospective forecast for a specified time or period in the past,Operational,
+reanalysis,Datasets constructing a record of past conditions,Operational,

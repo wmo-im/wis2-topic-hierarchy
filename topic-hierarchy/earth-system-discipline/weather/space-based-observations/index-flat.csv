@@ -1,394 +1,394 @@
-satellite,instrument,satellite-description,instrument-description
-alos-2,palsar-2,Advanced Land Observing Satellite - 2 (ALOS-2),Phased-Array L-band Synthetic Aperture Radar - 2 (PALSAR-2)
-alsat-2b,naomi,Algeria Satellite - 2B (AlSat-2B),New AstroSat Optical Modular Instrument (NAOMI)
-amazonia-1,awfi,Amazonia-1,Advanced Wide Field Imager (AWFI)
-aqua,airs,Earth Observation System - Aqua,Atmospheric Infra-Red Sounder (AIRS)
-aqua,amsr-e,Earth Observation System - Aqua,Advanced Microwave Scanning Radiometer for EOS (AMSR-E)
-aqua,amsu-a,Earth Observation System - Aqua,Advanced Microwave Sounding Unit - A (AMSU-A)
-aqua,ceres,Earth Observation System - Aqua,Clouds and the Earth's Radiant Energy System (CERES)
-aqua,hsb,Earth Observation System - Aqua,Humidity Sounder for Brazil (HSB)
-aqua,modis,Earth Observation System - Aqua,Moderate-resolution Imaging Spectro-radiometer (MODIS)
-arctica-m-n1,msu-gs-a,Arctica-M N1,Electro-L Imager for Arktika (MSU-GS/A)
-arctica-m-n2,msu-gs-a,Arctica-M N2,Electro-L Imager for Arktika (MSU-GS/A)
-asnaro-2,xsar,Advanced Satellite with new system ARchitecure for Observation - 2 (ASNARO-2),X-band Synthetic Aperture Radar (XSAR)
-aura,hirdls,Earth Observation System - Aura,High-Resolution Dynamics Limb Sounder (HIRDLS)
-aura,mls,Earth Observation System - Aura,Microwave Limb Sounder (MLS )
-aura,omi,Earth Observation System - Aura,Ozone Monitoring Instrument (OMI )
-aura,tes-limb,Earth Observation System - Aura,Tropospheric Emission Spectrometer (TES-limb)
-aura,tes-nadir,Earth Observation System - Aura,Tropospheric Emission Spectrometer (TES-nadir)
-aws1,eps-sterna-radiometer,Arctic Weather Satellite Proto-Flight Model (AWS PFM),EPS Sterna Radiometer
-cartosat-2c,hrmx,CartoSat-2C,High-Resolution Multi-Spectral (HRMX)
-cartosat-2d,hrmx,CartoSat-2D,High-Resolution Multi-Spectral (HRMX)
-cartosat-2e,hrmx,CartoSat-2E,High-Resolution Multi-Spectral (HRMX)
-cartosat-2f,hrmx,CartoSat-2F,High-Resolution Multi-Spectral (HRMX)
-cartosat-3,mx,CartoSat-3,Multispectral VNIR (MX)
-cas-500-1,aeiss-hr,Compact Advanced Satellite 500-1 (CAS 500-1),Advanced Electronic Image Scanning System - High Resolution (AEISS-HR)
-cbers-4,irmss-2,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Infrared Multispectral Scanner - 2 (IRMSS-2)
-cbers-4,muxcam,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Multispectral Camera (MUXCAM)
-cbers-4,panmux,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Panchromatic and Multispectral imager (PANMUX)
-cbers-4,wfi-2,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Wide Field Imager - 2 (WFI-2)
-cbers-4b,irmss-2,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Infrared Multispectral Scanner - 2 (IRMSS-2)
-cbers-4b,muxcam,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Multispectral Camera (MUXCAM)
-cbers-4b,panmux,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Panchromatic and Multispectral imager (PANMUX)
-cbers-4b,wfi-2,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Wide Field Imager - 2 (WFI-2)
-cfosat,cscat,Chinese-French Oceanography Satellite (CFOSAT),CFOSAT Scatterometer (CSCAT)
-cfosat,swim,Chinese-French Oceanography Satellite (CFOSAT),Surface Waves Investigation and Monitoring (SWIM)
-cicero,cion,Community Initiative for Continuing Earth Radio Occultation (CICERO),CICERO Instrument for GNSS-RO (CION)
-cicero-2,cion-2,Community Initiative for Continuing Earth Radio Occultation (CICERO-2),CICERO-2 Instrument for GNSS-RO (CION-2)
-cosmic-2,rfb,"Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)",Radio Frequency Beacon (RFB)
-cosmic-2,tgrs,"Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)",TriG (Tri-GNSS) GNSS Radio Occultation System (TGRS)
-cosmic-2,vidi,"Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)","Velocity, Ion Density and Irregularities (VIDI)"
-cryosat-2,siral,CryoSat-2,SAR Interferometer Radar Altimeter (SIRAL)
-csar-1,sar-c,C-Band Synthetic Aperture Radar 1 (CSAR-1),Synthetic Aperture Radar (SAR-C)
-csar-2,sar-c,C-Band Synthetic Aperture Radar 2 (CSAR-2),Synthetic Aperture Radar (SAR-C)
-csg-1,csg-sar,COSMO-SkyMed Second Generation - 1 (CSG-1),COSMO-SkyMed Second Generation Synthetic Aperture Radar (CSG-SAR)
-csg-2,csg-sar,COSMO-SkyMed Second Generation - 2 (CSG-2),COSMO-SkyMed Second Generation Synthetic Aperture Radar (CSG-SAR)
-csk-1,sar-2000,COSMO-SkyMed - 1 (CSK-1),Synthetic Aperture Radar 2000 (X-band) (SAR-2000)
-csk-2,sar-2000,COSMO-SkyMed - 2 (CSK-2),Synthetic Aperture Radar 2000 (X-band) (SAR-2000)
-csk-3,sar-2000,COSMO-SkyMed - 3 (CSK-3),Synthetic Aperture Radar 2000 (X-band) (SAR-2000)
-csk-4,sar-2000,COSMO-SkyMed - 4 (CSK-4),Synthetic Aperture Radar 2000 (X-band) (SAR-2000)
-ctim-fd,ctim-fd,Compact Total Irradiance Monitor-Flight Demonstration (CTIM-FD),Compact Total Irradiance Monitor-Flight Demonstration (CTIM-FD)
-cygnss,ddmi,Cyclone Global Navigation Satellite System (8 sats) (CYGNSS (8 sats)),Delay Doppler Mapping Instrument (DDMI)
-deimos-2,hirais,Deimos-2,High Resolution Advanced Imaging System (HiRAIS)
-dmsp-17,ols,Defense Meteorological Satellite Program - F17 (DMSP-F17),Operational Linescan Systerm (OLS)
-dmsp-17,ssmis,Defense Meteorological Satellite Program - F17 (DMSP-F17),Special Sensor Microwave - Imager/Sounder (SSMIS)
-dmsp-18,ols,Defense Meteorological Satellite Program - F18 (DMSP-F18),Operational Linescan Systerm (OLS)
-dmsp-18,ssmis,Defense Meteorological Satellite Program - F18 (DMSP-F18),Special Sensor Microwave - Imager/Sounder (SSMIS)
-dq-1,acdl,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Aerosol and Carbon Detection Lidar (ACDL)
-dq-1,dpc-2,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Directional Polarization Camera - 2 (DPC-2)
-dq-1,emi-2,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Environment Monitoring Instrument-2 (EMI-2)
-dq-1,posp,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Particulate Observing Scanning Polarimeter (POSP)
-dscovr,nistar,Deep Space Climate Observatory (DSCOVR),NIST Advanced Radiometer (NIST = National Institute of Standards and Technology Advanced Radiometer) (NISTAR)
-dubaisat-3,khcs,DubaiSat-3,KhalifaSat Camera System (KHCS)
-egyptsat-a,msi,EgyptSat-A,Multispectral imager (MSI)
-electro-l-n2,msu-gs,Electro-L Number 2 (Electro-L N2),Electro-L Imager (MSU-GS)
-electro-l-n3,msu-gs,Electro-L Number 3 (Electro-L N3),Electro-L Imager (MSU-GS)
-electro-l-n4,msu-gs,Electro-L Number 4 (Electro-L N4),Electro-L Imager (MSU-GS)
-enmap,hsi,Environmental Mapping and Analysis Programme (EnMAP),Hyper-Spectral Imager (HSI)
-eos-01,sar-x,Earth Observation Satellite - 01 (EOS-01),Synthetic Aperture Radar (X-band) (SAR-X)
-eos-04,sar-c,Earth Observation Satellite - 04 (also known as RISAT-1A) (EOS-04),Synthetic Aperture Radar (C-band) (SAR-C)
-eos-06,ocm,OceanSat-3 (EOS-06),Ocean Color Monitor (OCM)
-eos-06,oscat-3,OceanSat-3 (EOS-06),Scatterometer for Oceansat-3 (OSCAT-3)
-eos-07,mhs,EOS-07 (Microsat-2B) (EOS-07),Microwave Humidity Sounder (MHS)
-formosat-5,rsi,FORMOSAT-5,Remote Sensing Instrument (RSI)
-fy-2g,s-vissr,Feng-Yun - 2G (FY-2G),Stretched Visible and Infrared Spin Scan Radiometer (S-VISSR)
-fy-2h,s-vissr,Feng-Yun - 2H (FY-2H),Stretched Visible and Infrared Spin Scan Radiometer (S-VISSR)
-fy-3c,erm-1,Feng-Yun 3C (FY-3C),Earth Radiation Measurement - 1 (ERM-1)
-fy-3c,gnos,Feng-Yun 3C (FY-3C),GNSS Radio Occultation Sounder (GNOS)
-fy-3c,mersi-1,Feng-Yun 3C (FY-3C),Medium Resolution Spectral Imager -1 (MERSI-1)
-fy-3c,mwhs-2,Feng-Yun 3C (FY-3C),Micro-Wave Humidity Sounder -2 (MWHS-2)
-fy-3c,mwri-1,Feng-Yun 3C (FY-3C),Micro-Wave Radiation Imager 1 (MWRI-1)
-fy-3c,mwts-2,Feng-Yun 3C (FY-3C),Micro-Wave Temperature Sounder - 2 (MWTS-2)
-fy-3c,sbus,Feng-Yun 3C (FY-3C),Solar Backscatter Ultraviolet Sounder (SBUS)
-fy-3c,sim-1,Feng-Yun 3C (FY-3C),Solar Irradiance Monitor - 1 (SIM-1)
-fy-3c,tou,Feng-Yun 3C (FY-3C),Total Ozone Unit (TOU)
-fy-3c,virr,Feng-Yun 3C (FY-3C),Visible and Infra-Red Radiometer (VIRR)
-fy-3d,gas,Feng-Yun 3D (FY-3D),Greenhouse-gases Absorption Spectrometer (GAS)
-fy-3d,gnos,Feng-Yun 3D (FY-3D),GNSS Radio Occultation Sounder (GNOS)
-fy-3d,hiras,Feng-Yun 3D (FY-3D),Hyperspectral Infrared Atmospheric Sounder (HIRAS)
-fy-3d,mersi-2,Feng-Yun 3D (FY-3D),Medium Resolution Spectral Imager -2 (MERSI-2)
-fy-3d,mwhs-2,Feng-Yun 3D (FY-3D),Micro-Wave Humidity Sounder -2 (MWHS-2)
-fy-3d,mwri-1,Feng-Yun 3D (FY-3D),Micro-Wave Radiation Imager 1 (MWRI-1)
-fy-3d,mwts-2,Feng-Yun 3D (FY-3D),Micro-Wave Temperature Sounder - 2 (MWTS-2)
-fy-3d,sws-ipm,Feng-Yun 3D (FY-3D),Space Weather Suite / Ionospheric PhotoMeter (SWS/IPM)
-fy-3e,gnos-2,Feng-Yun 3E (FY-3E),GNSS Radio Occultation Sounder - 2 (GNOS-2)
-fy-3e,hiras-2,Feng-Yun 3E (FY-3E),Hyperspectral Infrared Atmospheric Sounder - 2 (HIRAS-2)
-fy-3e,mersi-ll,Feng-Yun 3E (FY-3E),Medium Resolution Spectral Imager - Low-Light (MERSI-LL)
-fy-3e,mwhs-2,Feng-Yun 3E (FY-3E),Micro-Wave Humidity Sounder -2 (MWHS-2)
-fy-3e,mwts-3,Feng-Yun 3E (FY-3E),Micro-Wave Temperature Sounder - 3 (MWTS-3)
-fy-3e,sim-2,Feng-Yun 3E (FY-3E),Solar Irradiance Monitor - 2 (SIM-2)
-fy-3e,ssim,Feng-Yun 3E (FY-3E),Solar Spectral Irradiance Monitor (SSIM)
-fy-3e,windrad,Feng-Yun 3E (FY-3E),Wind Radar (WindRAD)
-fy-3f,erm-2,Feng-Yun 3F (FY-3F),Earth Radiation Measurement - 2 (ERM-2)
-fy-3f,gnos-2,Feng-Yun 3F (FY-3F),GNSS Radio Occultation Sounder - 2 (GNOS-2)
-fy-3f,hiras-2,Feng-Yun 3F (FY-3F),Hyperspectral Infrared Atmospheric Sounder - 2 (HIRAS-2)
-fy-3f,mersi-3,Feng-Yun 3F (FY-3F),Medium Resolution Spectral Imager - 3 (MERSI-3)
-fy-3f,mwhs-2,Feng-Yun 3F (FY-3F),Micro-Wave Humidity Sounder -2 (MWHS-2)
-fy-3f,mwri-2,Feng-Yun 3F (FY-3F),Micro-Wave Radiation Imager 2 (MWRI-2)
-fy-3f,mwts-3,Feng-Yun 3F (FY-3F),Micro-Wave Temperature Sounder - 3 (MWTS-3)
-fy-3f,oms-limb,Feng-Yun 3F (FY-3F),Ozone Monitoring Suite - limb scanning unit (OMS-limb)
-fy-3f,oms-nadir,Feng-Yun 3F (FY-3F),Ozone Monitoring Suite - nadir scanning unit (OMS-nadir)
-fy-3f,sim-2,Feng-Yun 3F (FY-3F),Solar Irradiance Monitor - 2 (SIM-2)
-fy-3f,windrad,Feng-Yun 3F (FY-3F),Wind Radar (WindRAD)
-fy-3g,gnos-2,Feng Yun 3G (FY-3G),GNSS Radio Occultation Sounder - 2 (GNOS-2)
-fy-3g,haoc,Feng Yun 3G (FY-3G),High Accuracy On-board Calibrator (HAOC)
-fy-3g,mwri-rm,Feng Yun 3G (FY-3G),Micro-Wave Radiation Imager for the Rainfall Mission (MWRI-RM)
-fy-3g,pmai,Feng Yun 3G (FY-3G),Short-wave Infrared Polarized Multi-Angle Imager (PMAI)
-fy-3g,pmr,Feng Yun 3G (FY-3G),Precipitation Measurement Radar (PMR)
-fy-4a,agri,Feng-Yun - 4A (FY-4A),Advanced Geostationary Radiation Imager (AGRI)
-fy-4a,giirs,Feng-Yun - 4A (FY-4A),Prototype Geostationary Interferometric Infrared Sounder (GIIRS)
-fy-4a,lmi,Feng-Yun - 4A (FY-4A),Lightning Mapping Imager (LMI)
-fy-4b,agri,Feng-Yun - 4B (FY-4B),Advanced Geostationary Radiation Imager (AGRI)
-fy-4b,ghi,Feng-Yun - 4B (FY-4B),Geostationary High-speed Imager (GHI)
-fy-4b,giirs-2,Feng-Yun - 4B (FY-4B),Geostationary Interferometric Infrared Sounder-2 (GIIRS-2)
-fy-4c,musi,Feng-Yun - 4C (FY-4C),Multiband Ionospheric Ultra-Violet Spectrum Imager (MUSI)
-fy-4d,musi,Feng-Yun - 4D (FY-4D),Multiband Ionospheric Ultra-Violet Spectrum Imager (MUSI)
-fy-4e,musi,Feng-Yun - 4E (FY-4E),Multiband Ionospheric Ultra-Violet Spectrum Imager (MUSI)
-gcom-c,sgli,Global Change Observation Mission for Climate (GCOM-C),Second-generation Global Imager (SGLI)
-gcom-w,amsr2,Global Change Observation Mission for Water (GCOM-W),Advanced Microwave Scanning Radiometer - 2 (AMSR2)
-geo-kompsat-2a,ami,Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A),Advanced Meteorological Imager (AMI)
-geo-kompsat-2b,gems,Geostationary Korea Multi-Purpose Satellite - 2B (GEO-KOMPSAT-2B),Geostationary Environmental Monitoring Spectrometer (GEMS)
-geo-kompsat-2b,goci-ii,Geostationary Korea Multi-Purpose Satellite - 2B (GEO-KOMPSAT-2B),Geostationary Ocean Color Imager: Follow-on (GOCI-II)
-gf-12,sar-c,Gao Fen - 12 (GF-12),Synthetic Aperture Radar (SAR-C)
-gf-12-02,sar-c,Gao Fen - 12-02 (GF-12-02),Synthetic Aperture Radar (SAR-C)
-gf-12-03,sar-c,Gao Fen - 12-03 (GF-12-03),Synthetic Aperture Radar (SAR-C)
-gf-12-04,sar-c,Gao Fen - 12-04 (GF-12-04),Synthetic Aperture Radar (SAR-C)
-gf-3,sar-c,Gao Fen - 3 (GF-3),Synthetic Aperture Radar (SAR-C)
-gf-5-01a,aius,Gao Fen - 5-01A (GF-5-01A),Atmospheric Infrared Ultra-spectral spectrometer (AIUS)
-gf-5-01a,dpc,Gao Fen - 5-01A (GF-5-01A),Directional Polarization Camera (DPC)
-gf-5-01a,emi,Gao Fen - 5-01A (GF-5-01A),Environment Monitoring Instrument (EMI)
-gf-5-01a,gmi,Gao Fen - 5-01A (GF-5-01A),Greenhouse-gases Monitoring Instrument (GMI)
-gf-5-02,aius,Gao Fen - 5-02 (GF-5-02),Atmospheric Infrared Ultra-spectral spectrometer (AIUS)
-gf-5-02,dpc,Gao Fen - 5-02 (GF-5-02),Directional Polarization Camera (DPC)
-gf-5-02,emi,Gao Fen - 5-02 (GF-5-02),Environment Monitoring Instrument (EMI)
-gf-5-02,gmi,Gao Fen - 5-02 (GF-5-02),Greenhouse-gases Monitoring Instrument (GMI)
-ghgsat,ghgsat-spectrometer,Greenhouse Gas Satellite (GHGSat),GHGSat Imaging Spectrometer (GHGSat-Spectrometer)
-gnomes-2,pyxis-ro,GNSS Navigation and Occultation Measurement Satellites (GNOMES-2),Pyxis-RO
-gnomes-3,pyxis-ro,GNSS Navigation and Occultation Measurement Satellites (GNOMES-3),Pyxis-RO
-gnomes-4,pyxis-ro,GNSS Navigation and Occultation Measurement Satellites (GNOMES-4),Pyxis-RO
-goes-14,imager,Geostationary Operational Environmental Satellite - 14 (GOES-14),GOES Imager
-goes-14,imager,Geostationary Operational Environmental Satellite - 14 (GOES-14),GOES Sounder
-goes-16,abi,Geostationary Operational Environmental Satellite - 16 (GOES-16),Advanced Baseline Imager (ABI)
-goes-16,glm,Geostationary Operational Environmental Satellite - 16 (GOES-16),Geostationary Lightning Mapper (GLM)
-goes-17,abi,Geostationary Operational Environmental Satellite - 17 (GOES-17),Advanced Baseline Imager (ABI)
-goes-17,glm,Geostationary Operational Environmental Satellite - 17 (GOES-17),Geostationary Lightning Mapper (GLM)
-goes-18,abi,Geostationary Operational Environmental Satellite - 18 (GOES-18),Advanced Baseline Imager (ABI)
-goes-18,glm,Geostationary Operational Environmental Satellite - 18 (GOES-18),Geostationary Lightning Mapper (GLM)
-gosat,tanso-cai,Green-house gas Observing Satellite (GOSAT),Thermal And Near infrared Sensor for carbon Observations - Cloud and Aerosol Imager (TANSO-CAI)
-gosat,tanso-fts,Green-house gas Observing Satellite (GOSAT),Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer (TANSO-FTS)
-gosat-2,tanso-cai2,Green-house gas Observing Satellite - 2 (GOSAT-2),Thermal And Near infrared Sensor for carbon Observations - Cloud and Aerosol Imager / 2 (TANSO-CAI2)
-gosat-2,tanso-fts2,Green-house gas Observing Satellite - 2 (GOSAT-2),Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer / 2 (TANSO-FTS2)
-gpm-core,dpr,Global Precipitation Measurement - Core Observatory (GPM Core Observatory),Dual-frequency Precipitation Radar (DPR)
-gpm-core,gmi,Global Precipitation Measurement - Core Observatory (GPM Core Observatory),GPM Microwave Imager (GMI)
-grace-fo,hairs,Gravity Recovery and Climate Experiment - Follow-on (GRACE-FO (2 sats)),High Accuracy Inter-satellite Ranging System (HAIRS)
-grace-fo,tri-g,Gravity Recovery and Climate Experiment - Follow-on (GRACE-FO (2 sats)),Triple G (GPS (Tri-G)
-hai-yang-1c,cocts,Hai Yang 1C (HY-1C),China Ocean Colour & Temperature Scanner (COCTS)
-hai-yang-1c,czi,Hai Yang 1C (HY-1C),Coastal Zone Imager (CZI)
-hai-yang-1c,uvi,Hai Yang 1C (HY-1C),HY Ultraviolet Imaging and calibration sensor (UVI)
-hai-yang-1d,cocts,Hai Yang 1D (HY-1D),China Ocean Colour & Temperature Scanner (COCTS)
-hai-yang-1d,czi,Hai Yang 1D (HY-1D),Coastal Zone Imager (CZI)
-hai-yang-1d,uvi,Hai Yang 1D (HY-1D),HY Ultraviolet Imaging and calibration sensor (UVI)
-hai-yang-1e,cocts2,Hai Yang 1E (HY-1E),China Ocean Colour & Temperature Scanner 2 (COCTS2)
-hai-yang-1e,czi2,Hai Yang 1E (HY-1E),Coastal Zone Imager 2 (CZI2)
-hai-yang-1e,pmris,Hai Yang 1E (HY-1E),Programmable Medium Resolution Imaging Spectrometer (PMRIS)
-hai-yang-2b,alt,Hai Yang 2B (HY-2B),Radar Altimeter (ALT)
-hai-yang-2b,hscat,Hai Yang 2B (HY-2B),HY Scatterometer (HSCAT)
-hai-yang-2b,lra,Hai Yang 2B (HY-2B),Laser Retroreflector Array (LRA)
-hai-yang-2b,mwri,Hai Yang 2B (HY-2B),Microwave Radiometer Imager (MWRI)
-hai-yang-2c,alt,Hai Yang 2C (HY-2C),Radar Altimeter (ALT)
-hai-yang-2c,hscat,Hai Yang 2C (HY-2C),HY Scatterometer (HSCAT)
-hai-yang-2c,lra,Hai Yang 2C (HY-2C),Laser Retroreflector Array (LRA)
-hai-yang-2d,alt,Hai Yang 2D (HY-2D),Radar Altimeter (ALT)
-hai-yang-2d,hscat,Hai Yang 2D (HY-2D),HY Scatterometer (HSCAT)
-hai-yang-2d,lra,Hai Yang 2D (HY-2D),Laser Retroreflector Array (LRA)
-himawari-8,ahi,Himawari-8,Advanced Himawari Imager (AHI)
-himawari-9,ahi,Himawari-9,Advanced Himawari Imager (AHI)
-hj-2a,hsi-2,Huan Jing 2A (HJ-2A),Hyper-Spectral Imager (HSI-2)
-hj-2a,irmss-2,Huan Jing 2A (HJ-2A),Infrared Multispectral Scanner - 2 (IRMSS-2)
-hj-2a,wvc-2,Huan Jing 2A (HJ-2A),Wide View CCD camera - 2 (WVC-2)
-hj-2b,hsi-2,Huan Jing 2B (HJ-2B),Hyper-Spectral Imager (HSI-2)
-hj-2b,irmss-2,Huan Jing 2B (HJ-2B),Infrared Multispectral Scanner - 2 (IRMSS-2)
-hj-2b,wvc-2,Huan Jing 2B (HJ-2B),Wide View CCD camera - 2 (WVC-2)
-hj-2e,sar-s,Huan Jing 2E (also known as S-SAR01) (HJ-2E),Synthetic Aperture Radar (S-band) (SAR-S)
-hj-2f,sar-s,Huan Jing 2F (also known as S-SAR02) (HJ-2F),Synthetic Aperture Radar (S-band) (SAR-S)
-hrmis,hrc,High Resolution Multi-mode Imaging Satellite (HRMIS),High Resolution Camera (HRC)
-hrmis,smac,High Resolution Multi-mode Imaging Satellite (HRMIS),Synchronous Monitoring Atmospheric Corrector (SMAC)
-hysis,hysis,Hyper Spectral Imaging Spectrometer (HySIS),Hyper Spectral Imaging Spectrometer (HySIS)
-icesat-2,atlas,"Ice, Cloud and land Elevation Satellite (ICESat-2)",Advanced Topographic Laser Altimeter System (ATLAS)
-icesat-2,lra,"Ice, Cloud and land Elevation Satellite (ICESat-2)",Laser Retroreflector Array (LRA)
-icon,mighti,Ionospheric Connection Explorer (ICON),Michelson Interferometer for Global High-resolution Thermospheric Imaging (MIGHTI)
-insat-3d,imager,Indian National Satellite - 3D (INSAT-3D),INSAT imager (IMAGER)
-insat-3dr,imager,Indian National Satellite - 3D repeat (INSAT-3DR),INSAT imager (IMAGER)
-insat-3ds,imager,Indian National Satellite - 3D second repeat (INSAT-3DS),INSAT imager (IMAGER)
-iss-asim,mxgs,Atmosphere-Space Interactions Monitor on the ISS (ISS ASIM),Modular X-ray and Gamma-ray Sensor (MXGS)
-iss-cowvr,cowvr,Compact Ocean Wind Vector Radiometer on the ISS (ISS COWVR),Compact Ocean Wind Vector Radiometer (COWVR)
-iss-desis,desis,DLR Earth Sensing Imaging Spectrometer on the ISS (ISS DESIS),DLR Earth Sensing Imaging Spectrometer (DESIS)
-iss-emit,emit,Earth Surface Mineral Dust Source Investigation on the ISS (ISS EMIT),Earth Surface Mineral Dust Source Investigation (EMIT)
-iss-hisui,hisui,Hyperspectral Imager Suite (ISS HISUI),Hyperspectral Imager Suite (HISUI)
-iss-oco-3,oco-iss-spectrometer,Orbiting Carbon Observatory 3 on the ISS (ISS OCO-3),Orbiting Carbon Observatory ISS spectrometer (OCO (ISS) spectrometer)
-iss-sage-iii,sage-iii,Stratospheric Aerosol and Gas Experiment III on the ISS (ISS SAGE-III),Stratospheric Aerosol and Gas Experiment - III (SAGE-III )
-iss-tempest-1,mm-radiometer,Temporal Experiment for Storms and Tropical Systems Technology - 1 on the ISS (ISS TEMPEST-1),Millimetre-wave Radiometer (MM Radiometer)
-iss-tsis-1,tsis,Total and Spectral Solar Irradiance Sensor - 1 (ISS TSIS-1),Total and Spectral Solar Irradiance Sensor (TSIS)
-jason-3,lra,Joint Altimetry Satellite Oceanography Network - 3 (JASON-3),Laser Retroreflector Array (LRA)
-jason-3,poseidon-3b,Joint Altimetry Satellite Oceanography Network - 3 (JASON-3),Poseidon 3B (Poseidon-3B)
-kanopus-v3,mss,KANOPUS-V3,Multispectral film-making system (MSS)
-kanopus-v4,mss,KANOPUS-V4,Multispectral film-making system (MSS)
-kanopus-v5,mss,KANOPUS-V5,Multispectral film-making system (MSS)
-kanopus-v6,mss,KANOPUS-V6,Multispectral film-making system (MSS)
-kanopus-v-ik-1,mss,Kanopus-Vulkan-Infra-Krasny-1 (KANOPUS-V-IK-1),Multispectral film-making system (MSS)
-kompsat-2,msc,Korea Multi-Purpose Satellite - 2 (KOMPSAT-2),Multi-Spectral Camera (MSC)
-kompsat-3,aeiss,Korea Multi-Purpose Satellite - 3 (KOMPSAT-3),Advanced Electronic Image Scanning System (AEISS)
-kompsat-3a,aeiss,Korea Multi-Purpose Satellite - 3A (KOMPSAT-3A),Advanced Electronic Image Scanning System (AEISS)
-kompsat-5,aopod,Korea Multi-Purpose Satellite - 5 (KOMPSAT-5),Atmosphere Occultation and Precision Orbit Determination (AOPOD)
-kompsat-5,cosi,Korea Multi-Purpose Satellite - 5 (KOMPSAT-5),Corea SAR Instrument (COSI)
-lageos-1,lra,Laser Geodynamics Satellite - 1 (LAGEOS-1),Laser Retroreflector Array (LRA)
-lageos-2,lra,Laser Geodynamics Satellite - 2 (LAGEOS-2),Laser Retroreflector Array (LRA)
-landsat-8,oli,Landsat-8,Operational Land Imager (OLI)
-landsat-8,tirs,Landsat-8,Thermal Infra-Red Sensor (TIRS)
-landsat-9,oli,Landsat-9,Operational Land Imager (OLI)
-landsat-9,tirs,Landsat-9,Thermal Infra-Red Sensor (TIRS)
-lares-1,lra,Laser RElativity Satellite - 1 (LARES-1),Laser Retroreflector Array (LRA)
-lares-2,lra,Laser RElativity Satellite - 2 (LARES-2),Laser Retroreflector Array (LRA)
-lemur-2,stratos,Low Earth Multi-Use Receiver - 2 (Lemur-2),STRATOS
-ludi-tance-1-01a,l-band-sar,L-band differential interferometric synthetic aperture radar satellite A (Ludi-Tance 1 01A),L-band differential interferometric synthetic aperture radar (L band SAR)
-ludi-tance-1-01b,l-band-sar,L-band differential interferometric synthetic aperture radar satellite A (Ludi-Tance 1 01B),L-band differential interferometric synthetic aperture radar (L band SAR)
-ludi-tance-4-01a,l-band-sar,L-band differential interferometric synthetic aperture radar satellite 4 01A (Ludi-Tance 4 01A),L-band differential interferometric synthetic aperture radar (L band SAR)
-meteor-m-n2,ikfs-2,Meteor-M Number 2 (Meteor-M N2),Infrared Fourier Spectrometer - 2 (IKFS-2)
-meteor-m-n2,ikor-m,Meteor-M Number 2 (Meteor-M N2),Broadband SW radiometer (IKOR-M)
-meteor-m-n2,kmss,Meteor-M Number 2 (Meteor-M N2),High-resolution VIS/IR Radiometer (KMSS)
-meteor-m-n2,msu-mr,Meteor-M Number 2 (Meteor-M N2),VIS/IR Imaging Radiometer (MSU-MR)
-meteor-m-n2,mtvza-gy,Meteor-M Number 2 (Meteor-M N2),Imaging/Sounding Microwave Radiometer - improved (MTVZA-GY)
-meteor-m-n2,severjanin-m,Meteor-M Number 2 (Meteor-M N2),X-band Synthetic Aperture Radar (Severjanin-M)
-meteor-m-n2-2,ikfs-2,Meteor-M Number 2-2 (Meteor-M N2-2),Infrared Fourier Spectrometer - 2 (IKFS-2)
-meteor-m-n2-2,ikor-m,Meteor-M Number 2-2 (Meteor-M N2-2),Broadband SW radiometer (IKOR-M)
-meteor-m-n2-2,kmss,Meteor-M Number 2-2 (Meteor-M N2-2),High-resolution VIS/IR Radiometer (KMSS)
-meteor-m-n2-2,msu-mr,Meteor-M Number 2-2 (Meteor-M N2-2),VIS/IR Imaging Radiometer (MSU-MR)
-meteor-m-n2-2,mtvza-gy,Meteor-M Number 2-2 (Meteor-M N2-2),Imaging/Sounding Microwave Radiometer - improved (MTVZA-GY)
-meteor-m-n2-2,severjanin-m,Meteor-M Number 2-2 (Meteor-M N2-2),X-band Synthetic Aperture Radar (Severjanin-M)
-meteor-m-n2-3,ikfs-2,Meteor-M Number 2-3 (Meteor-M N2-3),Infrared Fourier Spectrometer - 2 (IKFS-2)
-meteor-m-n2-3,kmss,Meteor-M Number 2-3 (Meteor-M N2-3),High-resolution VIS/IR Radiometer (KMSS)
-meteor-m-n2-3,msu-mr,Meteor-M Number 2-3 (Meteor-M N2-3),VIS/IR Imaging Radiometer (MSU-MR)
-meteor-m-n2-3,mtvza-gy,Meteor-M Number 2-3 (Meteor-M N2-3),Imaging/Sounding Microwave Radiometer - improved (MTVZA-GY)
-meteor-m-n2-3,severjanin-m,Meteor-M Number 2-3 (Meteor-M N2-3),X-band Synthetic Aperture Radar (Severjanin-M)
-meteor-m-n2-4,ikfs-2,Meteor-M Number 2-4 (Meteor-M N2-4),Infrared Fourier Spectrometer - 2 (IKFS-2)
-meteor-m-n2-4,ikor-m,Meteor-M Number 2-4 (Meteor-M N2-4),Broadband SW radiometer (IKOR-M)
-meteor-m-n2-4,kmss,Meteor-M Number 2-4 (Meteor-M N2-4),High-resolution VIS/IR Radiometer (KMSS)
-meteor-m-n2-4,meteosar,Meteor-M Number 2-4 (Meteor-M N2-4),Meteorological Synthetic Aperture Radar (MeteoSAR)
-meteor-m-n2-4,msu-mr,Meteor-M Number 2-4 (Meteor-M N2-4),VIS/IR Imaging Radiometer (MSU-MR)
-meteor-m-n2-4,mtvza-gy,Meteor-M Number 2-4 (Meteor-M N2-4),Imaging/Sounding Microwave Radiometer - improved (MTVZA-GY)
-meteosat-10,gerb,Meteosat-10,Geostationary Earth Radiation Budget (GERB)
-meteosat-10,seviri,Meteosat-10,Spinning Enhanced Visible Infra-Red Imager (SEVIRI)
-meteosat-11,gerb,Meteosat-11,Geostationary Earth Radiation Budget (GERB)
-meteosat-11,seviri,Meteosat-11,Spinning Enhanced Visible Infra-Red Imager (SEVIRI)
-meteosat-12,fci,Meteosat-12,Flexible Combined Imager (FCI)
-meteosat-12,li,Meteosat-12,Lightning Imager (LI)
-meteosat-9,gerb,Meteosat-9 (IODC),Geostationary Earth Radiation Budget (GERB)
-meteosat-9,seviri,Meteosat-9 (IODC),Spinning Enhanced Visible Infra-Red Imager (SEVIRI)
-metop-b,amsu-a,Meteorological operational satellite - B (Metop-B),Advanced Microwave Sounding Unit - A (AMSU-A)
-metop-b,ascat,Meteorological operational satellite - B (Metop-B),Advanced Scatterometer (ASCAT)
-metop-b,avhrr-3,Meteorological operational satellite - B (Metop-B),Advanced Very High Resolution Radiometer / 3 (AVHRR/3)
-metop-b,gome-2,Meteorological operational satellite - B (Metop-B),Global Ozone Monitoring Experiment - 2 (GOME-2)
-metop-b,gras,Meteorological operational satellite - B (Metop-B),GNSS Receiver for Atmospheric Sounding (GRAS)
-metop-b,hirs-4,Meteorological operational satellite - B (Metop-B),High-resolution Infra Red Sounder / 4 (HIRS/4)
-metop-b,iasi,Meteorological operational satellite - B (Metop-B),Infrared Atmospheric Sounding Interferometer (IASI)
-metop-b,mhs,Meteorological operational satellite - B (Metop-B),Microwave Humidity Sounding (MHS)
-metop-c,amsu-a,Meteorological operational satellite - C (Metop-C),Advanced Microwave Sounding Unit - A (AMSU-A)
-metop-c,ascat,Meteorological operational satellite - C (Metop-C),Advanced Scatterometer (ASCAT)
-metop-c,avhrr-3,Meteorological operational satellite - C (Metop-C),Advanced Very High Resolution Radiometer / 3 (AVHRR/3)
-metop-c,gome-2,Meteorological operational satellite - C (Metop-C),Global Ozone Monitoring Experiment - 2 (GOME-2)
-metop-c,gras,Meteorological operational satellite - C (Metop-C),GNSS Receiver for Atmospheric Sounding (GRAS)
-metop-c,iasi,Meteorological operational satellite - C (Metop-C),Infrared Atmospheric Sounding Interferometer (IASI)
-metop-c,mhs,Meteorological operational satellite - C (Metop-C),Microwave Humidity Sounding (MHS)
-nachos-1,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-1),NACHOS-Imager (NACHOS)
-nachos-2,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-2),NACHOS-Imager (NACHOS)
-noaa-15,amsu-a,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Microwave Sounding Unit - A (AMSU-A)
-noaa-15,amsu-b,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Microwave Sounding Unit - B (AMSU-B)
-noaa-15,avhrr-3,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Very High Resolution Radiometer / 3 (AVHRR/3)
-noaa-18,amsu-a,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Advanced Microwave Sounding Unit - A (AMSU-A)
-noaa-18,avhrr-3,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Advanced Very High Resolution Radiometer / 3 (AVHRR/3)
-noaa-18,mhs,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Microwave Humidity Sounding (MHS)
-noaa-18,sbuv-2,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Solar Backscatter Ultraviolet / 2 (SBUV/2)
-noaa-19,amsu-a,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Advanced Microwave Sounding Unit - A (AMSU-A)
-noaa-19,avhrr-3,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Advanced Very High Resolution Radiometer / 3 (AVHRR/3)
-noaa-19,mhs,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Microwave Humidity Sounding (MHS)
-noaa-19,sbuv-2,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Solar Backscatter Ultraviolet / 2 (SBUV/2)
-noaa-20,atms,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Advanced Technology Microwave Sounder (ATMS)
-noaa-20,ceres,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Clouds and the Earth's Radiant Energy System (CERES)
-noaa-20,cris,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Cross-track Infrared Sounder (CrIS)
-noaa-20,omps-nadir,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Ozone Mapping and Profiler Suite (OMPS-nadir)
-noaa-20,viirs,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Visible/Infrared Imager Radiometer Suite (VIIRS)
-noaa-21,atms,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Advanced Technology Microwave Sounder (ATMS)
-noaa-21,cris,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Cross-track Infrared Sounder (CrIS)
-noaa-21,omps-limb,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Ozone Mapping and Profiler Suite (OMPS-limb)
-noaa-21,omps-nadir,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Ozone Mapping and Profiler Suite (OMPS-nadir)
-noaa-21,viirs,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Visible/Infrared Imager Radiometer Suite (VIIRS)
-novasar-s,s-sar,NovaSAR-S,S-band Synthetic Aperture Radar (S-SAR)
-oco-2,oco-spectrometer,Orbiting Carbon Observatory - 2 (OCO-2),Orbiting Carbon Observatory Spectrometer (OCO spectrometer)
-odin,osiris,Odin,Optical Spectrograph and Infra-Red Imaging System (OSIRIS)
-odin,smr,Odin,Sub-Millimetre Radiometer (SMR)
-pace,harp2,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",Hyper Angular Research Polarimeter 2 (HARP2)
-pace,oci,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",Ocean Color Instrument (OCI)
-pace,spexone,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",SPEXone Polarimeter (SPEXone)
-pleiades-neo-3,pleiades-neo,Pleiades-Neo 3,Pleiades-Neo
-pleiades-neo-4,pleiades-neo,Pleiades-Neo 4,Pleiades-Neo
-pretty,gnss-r,Passive Reflectometry and Dosimetry (PRETTY),GNSS Reflectometer (GNSS-R)
-prisma,hyc,PRecursore IperSpettrale della Missione Applicativa (PRISMA),HYperspectral Camera (HYC)
-proba-1,chris,Project for On-Board Autonomy - 1 (PROBA-1),Compact High Resolution Imaging Spectrometer (CHRIS)
-proba-1,hrc,Project for On-Board Autonomy - 1 (PROBA-1),High Resolution Camera (HRC)
-proba-v-cc,vegetation-p,Project for On-Board Autonomy - Vegetation Companion Cubesat (PROBA-V-CC),Vegetation for PROBA (Vegetation-P)
-radarsat-2,sar,RadarSat-2,Synthetic Aperture Radar (C-band) (SAR)
-rcm-1,sar-rcm,RadarSat Constellation Mission - 1 (RCM-1),Synthetic Aperture Radar (C-band) for RadarSat constellation (SAR RCM)
-rcm-2,sar-rcm,RadarSat Constellation Mission - 2 (RCM-2),Synthetic Aperture Radar (C-band) for RadarSat constellation (SAR RCM)
-rcm-3,sar-rcm,RadarSat Constellation Mission - 3 (RCM-3),Synthetic Aperture Radar (C-band) for RadarSat constellation (SAR RCM)
-resourcesat-2,awifs,Satellite for Earth Resources - 2 (ResourceSat-2),Advanced Wide Field Sensor (AWiFS)
-resourcesat-2,liss-3,Satellite for Earth Resources - 2 (ResourceSat-2),Linear Imaging Self-Scanning Sensor - 3 (LISS-3)
-resourcesat-2,liss-4,Satellite for Earth Resources - 2 (ResourceSat-2),Linear Imaging Self-Scanning Sensor - 4 (LISS-4)
-resourcesat-2a,awifs,Satellite for Earth Resources - 2A (ResourceSat-2A),Advanced Wide Field Sensor (AWiFS)
-resourcesat-2a,liss-3,Satellite for Earth Resources - 2A (ResourceSat-2A),Linear Imaging Self-Scanning Sensor - 3 (LISS-3)
-resourcesat-2a,liss-4,Satellite for Earth Resources - 2A (ResourceSat-2A),Linear Imaging Self-Scanning Sensor - 4 (LISS-4)
-risat-2b,sar-x,Radar Imaging Satellite - 2B (RISAT-2B),Synthetic Aperture Radar (X-band) (SAR-X)
-risat-2br1,sar-x,Radar Imaging Satellite - 2BR-1 (RISAT-2BR1),Synthetic Aperture Radar (X-band) (SAR-X)
-saocom-1a,sar-l,SAtelite Argentino de Observacion COn Microondas - 1A (SAOCOM-1A),Synthetic Aperture Radar (L-band) (SAR-L)
-saocom-1b,sar-l,SAtelite Argentino de Observacion COn Microondas - 1B (SAOCOM-1B),Synthetic Aperture Radar (L-band) (SAR-L)
-saral,altika,Satellite with ARGOS and AltiKa (SARAL),Ka-band Altimeter (AltiKa)
-saral,lra,Satellite with ARGOS and AltiKa (SARAL),Laser Retroreflector Array (LRA)
-scisat-1,ace-fts,Scientific Satellite -1 (SCISAT-1),Atmospheric Chemistry Experiment - Fourier Transform Spectrometer (ACE-FTS)
-scisat-1,maestro,Scientific Satellite -1 (SCISAT-1),Measurements of Aerosol Extinction in the Stratosphere and Troposphere Retrieved by Occultation (MAESTRO)
-sdgsat-1,glimmer,Sustainable Development Science Satellite 1 (SDGSAT-1),GLIMMER Imager (GLIMMER)
-sdgsat-1,msi,Sustainable Development Science Satellite 1 (SDGSAT-1),Multispectral Imager on SDGSAT (MSI)
-sdgsat-1,tir,Sustainable Development Science Satellite 1 (SDGSAT-1),Thermal IR Spectrometer (TIR)
-sentinel-1a,sar-c,Sentinel-1A,Synthetic Aperture Radar (C-band) (SAR-C)
-sentinel-2a,msi,Sentinel-2A,Multi-Spectral Imager for Sentinel-2 (MSI)
-sentinel-2b,msi,Sentinel-2B,Multi-Spectral Imager for Sentinel-2 (MSI)
-sentinel-3a,olci,Sentinel-3A,Ocean and Land Colour Imager (OLCI )
-sentinel-3a,slstr,Sentinel-3A,Sea and Land Surface Temperature Radiometer (SLSTR)
-sentinel-3a,sral,Sentinel-3A,Synthetic aperture Radar Altimeter (SRAL)
-sentinel-3b,olci,Sentinel-3B,Ocean and Land Colour Imager (OLCI )
-sentinel-3b,slstr,Sentinel-3B,Sea and Land Surface Temperature Radiometer (SLSTR)
-sentinel-3b,sral,Sentinel-3B,Synthetic aperture Radar Altimeter (SRAL)
-sentinel-5p,tropomi,Sentinel-5 precursor (Sentinel-5P),Tropospheric Monitoring Instrument (TROPOMI)
-sentinel-6a,gnss-ro,Sentinel-6A,Global Navigation Satellite System - Radio Occultation (GNSS-RO)
-sentinel-6a,lra,Sentinel-6A,Laser Retroreflector Array (LRA)
-sentinel-6a,poseidon-4,Sentinel-6A,Poseidon-4
-seosar-paz,rohpp,Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz),Radio Occultations and Heavy Precipitation with PAZ (ROHPP)
-seosar-paz,sar-x,Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz),Synthetic Aperture Radar (X-band) (SAR-X)
-sich-2-30,mbei,SICH-2-30 (originally SICH-2-1) (SICH-2-30),Multi-Band Earth Imager (MBEI)
-smap,smap,Soil Moisture Active-Passive (SMAP),Soil Moisture Active-Passive (intended as payload) (SMAP)
-smos,miras,Soil Moisture and Ocean Salinity (SMOS),Microwave Imaging Radiometer using Aperture Synthesis (MIRAS)
-snpp,atms,Suomi National Polar-orbiting Partnership (SNPP),Advanced Technology Microwave Sounder (ATMS)
-snpp,ceres,Suomi National Polar-orbiting Partnership (SNPP),Clouds and the Earth's Radiant Energy System (CERES)
-snpp,cris,Suomi National Polar-orbiting Partnership (SNPP),Cross-track Infrared Sounder (CrIS)
-snpp,omps-limb,Suomi National Polar-orbiting Partnership (SNPP),Ozone Mapping and Profiler Suite (OMPS-limb)
-snpp,omps-nadir,Suomi National Polar-orbiting Partnership (SNPP),Ozone Mapping and Profiler Suite (OMPS-nadir)
-snpp,viirs,Suomi National Polar-orbiting Partnership (SNPP),Visible/Infrared Imager Radiometer Suite (VIIRS)
-spot-6,naomi,Satellite Pour l'Observation de la Terre - 6 (SPOT-6),New AstroSat Optical Modular Instrument (NAOMI)
-spot-7,naomi,Satellite Pour l'Observation de la Terre - 7 (SPOT-7),New AstroSat Optical Modular Instrument (NAOMI)
-sstl-s1-1,vhri-100,Surrey Satellite Technology Ltd - S1 1 (SSTL-S1 1),Very High Resolution Imager - 100 (VHRI-100)
-sstl-s1-2,vhri-100,Surrey Satellite Technology Ltd - S1 2 (SSTL-S1 2),Very High Resolution Imager - 100 (VHRI-100)
-sstl-s1-3,vhri-100,Surrey Satellite Technology Ltd - S1 3 (SSTL-S1 3),Very High Resolution Imager - 100 (VHRI-100)
-sstl-s1-4,vhri-100,Surrey Satellite Technology Ltd - S1 4 (SSTL-S1 4),Very High Resolution Imager - 100 (VHRI-100)
-swot,gps,Surface Water and Ocean Topography (SWOT),GPS Receiver (GPS)
-swot,karin,Surface Water and Ocean Topography (SWOT),Ka-band Radar Interferometer (KaRIN)
-swot,lra,Surface Water and Ocean Topography (SWOT),Laser Retroreflector Array (LRA)
-swot,poseidon-3c,Surface Water and Ocean Topography (SWOT),Poseidon-3C Altimeter (Poseidon-3C)
-tandem-x,sar-x,TerraSAR-X Add-oN for Digital Elevation Measurement (TanDEM-X),Synthetic Aperture Radar (X-band) (SAR-X)
-tandem-x,tor,TerraSAR-X Add-oN for Digital Elevation Measurement (TanDEM-X),Tracking (TOR)
-terra,aster,Earth Observation System - Terra,Advanced Spaceborne Thermal Emission and Reflection radiometer (ASTER)
-terra,ceres,Earth Observation System - Terra,Clouds and the Earth's Radiant Energy System (CERES)
-terra,misr,Earth Observation System - Terra,Multi-angle Imaging Spectro-Radiometer (MISR)
-terra,modis,Earth Observation System - Terra,Moderate-resolution Imaging Spectro-radiometer (MODIS)
-terra,mopitt,Earth Observation System - Terra,Measurement Of Pollution In The Troposphere (MOPITT)
-terrasar-x,sar-x,TerraSAR-X,Synthetic Aperture Radar (X-band) (SAR-X)
-terrasar-x,tor,TerraSAR-X,Tracking (TOR)
-th-1c,ms,Tian Hui - 1C (TH-1C),Multispectral imager (MS)
-theos-1,ms,Thailand Earth Observation System - 1 (THEOS-1),Multispectral imager (MS)
-theos-2-main,ms,Thailand Earth Observation System - 2 Main VHR Satellite (THEOS-2 Main),New Astrosat Optical Modular Imager (MS)
-tropics-01,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 01 (TROPICS-01 (Pathfinder)),TROPICS Millimeter-wave Sounder (TMS)
-tropics-03,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 03 (TROPICS-03),TROPICS Millimeter-wave Sounder (TMS)
-tropics-05,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 05 (TROPICS-05),TROPICS Millimeter-wave Sounder (TMS)
-tropics-06,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 06 (TROPICS-06),TROPICS Millimeter-wave Sounder (TMS)
-tropics-07,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 07 (TROPICS-07),TROPICS Millimeter-wave Sounder (TMS)
-wsf-m1,ecp,Weather System Follow-on Microwave (WSF-M1),Energetic Charged Particle sensor
-wsf-m1,mwi,Weather System Follow-on Microwave (WSF-M1),MicroWave Imager
-zy-3-02,msc,Zi Yuan - 3-02 (ZY-3-02),Multi-Spectral Camera (MSC)
-zy-3-03,msc,Zi Yuan - 3-03 (ZY-3-03),Multi-Spectral Camera (MSC)
+satellite,instrument,satellite-description,instrument-description,Status
+alos-2,palsar-2,Advanced Land Observing Satellite - 2 (ALOS-2),Phased-Array L-band Synthetic Aperture Radar - 2 (PALSAR-2),Operational
+alsat-2b,naomi,Algeria Satellite - 2B (AlSat-2B),New AstroSat Optical Modular Instrument (NAOMI),Operational
+amazonia-1,awfi,Amazonia-1,Advanced Wide Field Imager (AWFI),Operational
+aqua,airs,Earth Observation System - Aqua,Atmospheric Infra-Red Sounder (AIRS),Operational
+aqua,amsr-e,Earth Observation System - Aqua,Advanced Microwave Scanning Radiometer for EOS (AMSR-E),Operational
+aqua,amsu-a,Earth Observation System - Aqua,Advanced Microwave Sounding Unit - A (AMSU-A),Operational
+aqua,ceres,Earth Observation System - Aqua,Clouds and the Earth's Radiant Energy System (CERES),Operational
+aqua,hsb,Earth Observation System - Aqua,Humidity Sounder for Brazil (HSB),Operational
+aqua,modis,Earth Observation System - Aqua,Moderate-resolution Imaging Spectro-radiometer (MODIS),Operational
+arctica-m-n1,msu-gs-a,Arctica-M N1,Electro-L Imager for Arktika (MSU-GS/A),Operational
+arctica-m-n2,msu-gs-a,Arctica-M N2,Electro-L Imager for Arktika (MSU-GS/A),Operational
+asnaro-2,xsar,Advanced Satellite with new system ARchitecure for Observation - 2 (ASNARO-2),X-band Synthetic Aperture Radar (XSAR),Operational
+aura,hirdls,Earth Observation System - Aura,High-Resolution Dynamics Limb Sounder (HIRDLS),Operational
+aura,mls,Earth Observation System - Aura,Microwave Limb Sounder (MLS ),Operational
+aura,omi,Earth Observation System - Aura,Ozone Monitoring Instrument (OMI ),Operational
+aura,tes-limb,Earth Observation System - Aura,Tropospheric Emission Spectrometer (TES-limb),Operational
+aura,tes-nadir,Earth Observation System - Aura,Tropospheric Emission Spectrometer (TES-nadir),Operational
+aws1,eps-sterna-radiometer,Arctic Weather Satellite Proto-Flight Model (AWS PFM),EPS Sterna Radiometer,Operational
+cartosat-2c,hrmx,CartoSat-2C,High-Resolution Multi-Spectral (HRMX),Operational
+cartosat-2d,hrmx,CartoSat-2D,High-Resolution Multi-Spectral (HRMX),Operational
+cartosat-2e,hrmx,CartoSat-2E,High-Resolution Multi-Spectral (HRMX),Operational
+cartosat-2f,hrmx,CartoSat-2F,High-Resolution Multi-Spectral (HRMX),Operational
+cartosat-3,mx,CartoSat-3,Multispectral VNIR (MX),Operational
+cas-500-1,aeiss-hr,Compact Advanced Satellite 500-1 (CAS 500-1),Advanced Electronic Image Scanning System - High Resolution (AEISS-HR),Operational
+cbers-4,irmss-2,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Infrared Multispectral Scanner - 2 (IRMSS-2),Operational
+cbers-4,muxcam,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Multispectral Camera (MUXCAM),Operational
+cbers-4,panmux,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Panchromatic and Multispectral imager (PANMUX),Operational
+cbers-4,wfi-2,China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4),Wide Field Imager - 2 (WFI-2),Operational
+cbers-4b,irmss-2,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Infrared Multispectral Scanner - 2 (IRMSS-2),Operational
+cbers-4b,muxcam,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Multispectral Camera (MUXCAM),Operational
+cbers-4b,panmux,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Panchromatic and Multispectral imager (PANMUX),Operational
+cbers-4b,wfi-2,China-Brazil Earth Resources Satellite - 4B (ZY-1 FM4B) (CBERS-4B),Wide Field Imager - 2 (WFI-2),Operational
+cfosat,cscat,Chinese-French Oceanography Satellite (CFOSAT),CFOSAT Scatterometer (CSCAT),Operational
+cfosat,swim,Chinese-French Oceanography Satellite (CFOSAT),Surface Waves Investigation and Monitoring (SWIM),Operational
+cicero,cion,Community Initiative for Continuing Earth Radio Occultation (CICERO),CICERO Instrument for GNSS-RO (CION),Operational
+cicero-2,cion-2,Community Initiative for Continuing Earth Radio Occultation (CICERO-2),CICERO-2 Instrument for GNSS-RO (CION-2),Operational
+cosmic-2,rfb,"Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)",Radio Frequency Beacon (RFB),Operational
+cosmic-2,tgrs,"Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)",TriG (Tri-GNSS) GNSS Radio Occultation System (TGRS),Operational
+cosmic-2,vidi,"Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)","Velocity, Ion Density and Irregularities (VIDI)",Operational
+cryosat-2,siral,CryoSat-2,SAR Interferometer Radar Altimeter (SIRAL),Operational
+csar-1,sar-c,C-Band Synthetic Aperture Radar 1 (CSAR-1),Synthetic Aperture Radar (SAR-C),Operational
+csar-2,sar-c,C-Band Synthetic Aperture Radar 2 (CSAR-2),Synthetic Aperture Radar (SAR-C),Operational
+csg-1,csg-sar,COSMO-SkyMed Second Generation - 1 (CSG-1),COSMO-SkyMed Second Generation Synthetic Aperture Radar (CSG-SAR),Operational
+csg-2,csg-sar,COSMO-SkyMed Second Generation - 2 (CSG-2),COSMO-SkyMed Second Generation Synthetic Aperture Radar (CSG-SAR),Operational
+csk-1,sar-2000,COSMO-SkyMed - 1 (CSK-1),Synthetic Aperture Radar 2000 (X-band) (SAR-2000),Operational
+csk-2,sar-2000,COSMO-SkyMed - 2 (CSK-2),Synthetic Aperture Radar 2000 (X-band) (SAR-2000),Operational
+csk-3,sar-2000,COSMO-SkyMed - 3 (CSK-3),Synthetic Aperture Radar 2000 (X-band) (SAR-2000),Operational
+csk-4,sar-2000,COSMO-SkyMed - 4 (CSK-4),Synthetic Aperture Radar 2000 (X-band) (SAR-2000),Operational
+ctim-fd,ctim-fd,Compact Total Irradiance Monitor-Flight Demonstration (CTIM-FD),Compact Total Irradiance Monitor-Flight Demonstration (CTIM-FD),Operational
+cygnss,ddmi,Cyclone Global Navigation Satellite System (8 sats) (CYGNSS (8 sats)),Delay Doppler Mapping Instrument (DDMI),Operational
+deimos-2,hirais,Deimos-2,High Resolution Advanced Imaging System (HiRAIS),Operational
+dmsp-17,ols,Defense Meteorological Satellite Program - F17 (DMSP-F17),Operational Linescan Systerm (OLS),Operational
+dmsp-17,ssmis,Defense Meteorological Satellite Program - F17 (DMSP-F17),Special Sensor Microwave - Imager/Sounder (SSMIS),Operational
+dmsp-18,ols,Defense Meteorological Satellite Program - F18 (DMSP-F18),Operational Linescan Systerm (OLS),Operational
+dmsp-18,ssmis,Defense Meteorological Satellite Program - F18 (DMSP-F18),Special Sensor Microwave - Imager/Sounder (SSMIS),Operational
+dq-1,acdl,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Aerosol and Carbon Detection Lidar (ACDL),Operational
+dq-1,dpc-2,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Directional Polarization Camera - 2 (DPC-2),Operational
+dq-1,emi-2,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Environment Monitoring Instrument-2 (EMI-2),Operational
+dq-1,posp,DQ-1 also AEMS (Atmospheric Environment Monitoring Satellite) or Daqi-1 (DQ-1),Particulate Observing Scanning Polarimeter (POSP),Operational
+dscovr,nistar,Deep Space Climate Observatory (DSCOVR),NIST Advanced Radiometer (NIST = National Institute of Standards and Technology Advanced Radiometer) (NISTAR),Operational
+dubaisat-3,khcs,DubaiSat-3,KhalifaSat Camera System (KHCS),Operational
+egyptsat-a,msi,EgyptSat-A,Multispectral imager (MSI),Operational
+electro-l-n2,msu-gs,Electro-L Number 2 (Electro-L N2),Electro-L Imager (MSU-GS),Operational
+electro-l-n3,msu-gs,Electro-L Number 3 (Electro-L N3),Electro-L Imager (MSU-GS),Operational
+electro-l-n4,msu-gs,Electro-L Number 4 (Electro-L N4),Electro-L Imager (MSU-GS),Operational
+enmap,hsi,Environmental Mapping and Analysis Programme (EnMAP),Hyper-Spectral Imager (HSI),Operational
+eos-01,sar-x,Earth Observation Satellite - 01 (EOS-01),Synthetic Aperture Radar (X-band) (SAR-X),Operational
+eos-04,sar-c,Earth Observation Satellite - 04 (also known as RISAT-1A) (EOS-04),Synthetic Aperture Radar (C-band) (SAR-C),Operational
+eos-06,ocm,OceanSat-3 (EOS-06),Ocean Color Monitor (OCM),Operational
+eos-06,oscat-3,OceanSat-3 (EOS-06),Scatterometer for Oceansat-3 (OSCAT-3),Operational
+eos-07,mhs,EOS-07 (Microsat-2B) (EOS-07),Microwave Humidity Sounder (MHS),Operational
+formosat-5,rsi,FORMOSAT-5,Remote Sensing Instrument (RSI),Operational
+fy-2g,s-vissr,Feng-Yun - 2G (FY-2G),Stretched Visible and Infrared Spin Scan Radiometer (S-VISSR),Operational
+fy-2h,s-vissr,Feng-Yun - 2H (FY-2H),Stretched Visible and Infrared Spin Scan Radiometer (S-VISSR),Operational
+fy-3c,erm-1,Feng-Yun 3C (FY-3C),Earth Radiation Measurement - 1 (ERM-1),Operational
+fy-3c,gnos,Feng-Yun 3C (FY-3C),GNSS Radio Occultation Sounder (GNOS),Operational
+fy-3c,mersi-1,Feng-Yun 3C (FY-3C),Medium Resolution Spectral Imager -1 (MERSI-1),Operational
+fy-3c,mwhs-2,Feng-Yun 3C (FY-3C),Micro-Wave Humidity Sounder -2 (MWHS-2),Operational
+fy-3c,mwri-1,Feng-Yun 3C (FY-3C),Micro-Wave Radiation Imager 1 (MWRI-1),Operational
+fy-3c,mwts-2,Feng-Yun 3C (FY-3C),Micro-Wave Temperature Sounder - 2 (MWTS-2),Operational
+fy-3c,sbus,Feng-Yun 3C (FY-3C),Solar Backscatter Ultraviolet Sounder (SBUS),Operational
+fy-3c,sim-1,Feng-Yun 3C (FY-3C),Solar Irradiance Monitor - 1 (SIM-1),Operational
+fy-3c,tou,Feng-Yun 3C (FY-3C),Total Ozone Unit (TOU),Operational
+fy-3c,virr,Feng-Yun 3C (FY-3C),Visible and Infra-Red Radiometer (VIRR),Operational
+fy-3d,gas,Feng-Yun 3D (FY-3D),Greenhouse-gases Absorption Spectrometer (GAS),Operational
+fy-3d,gnos,Feng-Yun 3D (FY-3D),GNSS Radio Occultation Sounder (GNOS),Operational
+fy-3d,hiras,Feng-Yun 3D (FY-3D),Hyperspectral Infrared Atmospheric Sounder (HIRAS),Operational
+fy-3d,mersi-2,Feng-Yun 3D (FY-3D),Medium Resolution Spectral Imager -2 (MERSI-2),Operational
+fy-3d,mwhs-2,Feng-Yun 3D (FY-3D),Micro-Wave Humidity Sounder -2 (MWHS-2),Operational
+fy-3d,mwri-1,Feng-Yun 3D (FY-3D),Micro-Wave Radiation Imager 1 (MWRI-1),Operational
+fy-3d,mwts-2,Feng-Yun 3D (FY-3D),Micro-Wave Temperature Sounder - 2 (MWTS-2),Operational
+fy-3d,sws-ipm,Feng-Yun 3D (FY-3D),Space Weather Suite / Ionospheric PhotoMeter (SWS/IPM),Operational
+fy-3e,gnos-2,Feng-Yun 3E (FY-3E),GNSS Radio Occultation Sounder - 2 (GNOS-2),Operational
+fy-3e,hiras-2,Feng-Yun 3E (FY-3E),Hyperspectral Infrared Atmospheric Sounder - 2 (HIRAS-2),Operational
+fy-3e,mersi-ll,Feng-Yun 3E (FY-3E),Medium Resolution Spectral Imager - Low-Light (MERSI-LL),Operational
+fy-3e,mwhs-2,Feng-Yun 3E (FY-3E),Micro-Wave Humidity Sounder -2 (MWHS-2),Operational
+fy-3e,mwts-3,Feng-Yun 3E (FY-3E),Micro-Wave Temperature Sounder - 3 (MWTS-3),Operational
+fy-3e,sim-2,Feng-Yun 3E (FY-3E),Solar Irradiance Monitor - 2 (SIM-2),Operational
+fy-3e,ssim,Feng-Yun 3E (FY-3E),Solar Spectral Irradiance Monitor (SSIM),Operational
+fy-3e,windrad,Feng-Yun 3E (FY-3E),Wind Radar (WindRAD),Operational
+fy-3f,erm-2,Feng-Yun 3F (FY-3F),Earth Radiation Measurement - 2 (ERM-2),Operational
+fy-3f,gnos-2,Feng-Yun 3F (FY-3F),GNSS Radio Occultation Sounder - 2 (GNOS-2),Operational
+fy-3f,hiras-2,Feng-Yun 3F (FY-3F),Hyperspectral Infrared Atmospheric Sounder - 2 (HIRAS-2),Operational
+fy-3f,mersi-3,Feng-Yun 3F (FY-3F),Medium Resolution Spectral Imager - 3 (MERSI-3),Operational
+fy-3f,mwhs-2,Feng-Yun 3F (FY-3F),Micro-Wave Humidity Sounder -2 (MWHS-2),Operational
+fy-3f,mwri-2,Feng-Yun 3F (FY-3F),Micro-Wave Radiation Imager 2 (MWRI-2),Operational
+fy-3f,mwts-3,Feng-Yun 3F (FY-3F),Micro-Wave Temperature Sounder - 3 (MWTS-3),Operational
+fy-3f,oms-limb,Feng-Yun 3F (FY-3F),Ozone Monitoring Suite - limb scanning unit (OMS-limb),Operational
+fy-3f,oms-nadir,Feng-Yun 3F (FY-3F),Ozone Monitoring Suite - nadir scanning unit (OMS-nadir),Operational
+fy-3f,sim-2,Feng-Yun 3F (FY-3F),Solar Irradiance Monitor - 2 (SIM-2),Operational
+fy-3f,windrad,Feng-Yun 3F (FY-3F),Wind Radar (WindRAD),Operational
+fy-3g,gnos-2,Feng Yun 3G (FY-3G),GNSS Radio Occultation Sounder - 2 (GNOS-2),Operational
+fy-3g,haoc,Feng Yun 3G (FY-3G),High Accuracy On-board Calibrator (HAOC),Operational
+fy-3g,mwri-rm,Feng Yun 3G (FY-3G),Micro-Wave Radiation Imager for the Rainfall Mission (MWRI-RM),Operational
+fy-3g,pmai,Feng Yun 3G (FY-3G),Short-wave Infrared Polarized Multi-Angle Imager (PMAI),Operational
+fy-3g,pmr,Feng Yun 3G (FY-3G),Precipitation Measurement Radar (PMR),Operational
+fy-4a,agri,Feng-Yun - 4A (FY-4A),Advanced Geostationary Radiation Imager (AGRI),Operational
+fy-4a,giirs,Feng-Yun - 4A (FY-4A),Prototype Geostationary Interferometric Infrared Sounder (GIIRS),Operational
+fy-4a,lmi,Feng-Yun - 4A (FY-4A),Lightning Mapping Imager (LMI),Operational
+fy-4b,agri,Feng-Yun - 4B (FY-4B),Advanced Geostationary Radiation Imager (AGRI),Operational
+fy-4b,ghi,Feng-Yun - 4B (FY-4B),Geostationary High-speed Imager (GHI),Operational
+fy-4b,giirs-2,Feng-Yun - 4B (FY-4B),Geostationary Interferometric Infrared Sounder-2 (GIIRS-2),Operational
+fy-4c,musi,Feng-Yun - 4C (FY-4C),Multiband Ionospheric Ultra-Violet Spectrum Imager (MUSI),Operational
+fy-4d,musi,Feng-Yun - 4D (FY-4D),Multiband Ionospheric Ultra-Violet Spectrum Imager (MUSI),Operational
+fy-4e,musi,Feng-Yun - 4E (FY-4E),Multiband Ionospheric Ultra-Violet Spectrum Imager (MUSI),Operational
+gcom-c,sgli,Global Change Observation Mission for Climate (GCOM-C),Second-generation Global Imager (SGLI),Operational
+gcom-w,amsr2,Global Change Observation Mission for Water (GCOM-W),Advanced Microwave Scanning Radiometer - 2 (AMSR2),Operational
+geo-kompsat-2a,ami,Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A),Advanced Meteorological Imager (AMI),Operational
+geo-kompsat-2b,gems,Geostationary Korea Multi-Purpose Satellite - 2B (GEO-KOMPSAT-2B),Geostationary Environmental Monitoring Spectrometer (GEMS),Operational
+geo-kompsat-2b,goci-ii,Geostationary Korea Multi-Purpose Satellite - 2B (GEO-KOMPSAT-2B),Geostationary Ocean Color Imager: Follow-on (GOCI-II),Operational
+gf-12,sar-c,Gao Fen - 12 (GF-12),Synthetic Aperture Radar (SAR-C),Operational
+gf-12-02,sar-c,Gao Fen - 12-02 (GF-12-02),Synthetic Aperture Radar (SAR-C),Operational
+gf-12-03,sar-c,Gao Fen - 12-03 (GF-12-03),Synthetic Aperture Radar (SAR-C),Operational
+gf-12-04,sar-c,Gao Fen - 12-04 (GF-12-04),Synthetic Aperture Radar (SAR-C),Operational
+gf-3,sar-c,Gao Fen - 3 (GF-3),Synthetic Aperture Radar (SAR-C),Operational
+gf-5-01a,aius,Gao Fen - 5-01A (GF-5-01A),Atmospheric Infrared Ultra-spectral spectrometer (AIUS),Operational
+gf-5-01a,dpc,Gao Fen - 5-01A (GF-5-01A),Directional Polarization Camera (DPC),Operational
+gf-5-01a,emi,Gao Fen - 5-01A (GF-5-01A),Environment Monitoring Instrument (EMI),Operational
+gf-5-01a,gmi,Gao Fen - 5-01A (GF-5-01A),Greenhouse-gases Monitoring Instrument (GMI),Operational
+gf-5-02,aius,Gao Fen - 5-02 (GF-5-02),Atmospheric Infrared Ultra-spectral spectrometer (AIUS),Operational
+gf-5-02,dpc,Gao Fen - 5-02 (GF-5-02),Directional Polarization Camera (DPC),Operational
+gf-5-02,emi,Gao Fen - 5-02 (GF-5-02),Environment Monitoring Instrument (EMI),Operational
+gf-5-02,gmi,Gao Fen - 5-02 (GF-5-02),Greenhouse-gases Monitoring Instrument (GMI),Operational
+ghgsat,ghgsat-spectrometer,Greenhouse Gas Satellite (GHGSat),GHGSat Imaging Spectrometer (GHGSat-Spectrometer),Operational
+gnomes-2,pyxis-ro,GNSS Navigation and Occultation Measurement Satellites (GNOMES-2),Pyxis-RO,Operational
+gnomes-3,pyxis-ro,GNSS Navigation and Occultation Measurement Satellites (GNOMES-3),Pyxis-RO,Operational
+gnomes-4,pyxis-ro,GNSS Navigation and Occultation Measurement Satellites (GNOMES-4),Pyxis-RO,Operational
+goes-14,imager,Geostationary Operational Environmental Satellite - 14 (GOES-14),GOES Imager,Operational
+goes-14,imager,Geostationary Operational Environmental Satellite - 14 (GOES-14),GOES Sounder,Operational
+goes-16,abi,Geostationary Operational Environmental Satellite - 16 (GOES-16),Advanced Baseline Imager (ABI),Operational
+goes-16,glm,Geostationary Operational Environmental Satellite - 16 (GOES-16),Geostationary Lightning Mapper (GLM),Operational
+goes-17,abi,Geostationary Operational Environmental Satellite - 17 (GOES-17),Advanced Baseline Imager (ABI),Operational
+goes-17,glm,Geostationary Operational Environmental Satellite - 17 (GOES-17),Geostationary Lightning Mapper (GLM),Operational
+goes-18,abi,Geostationary Operational Environmental Satellite - 18 (GOES-18),Advanced Baseline Imager (ABI),Operational
+goes-18,glm,Geostationary Operational Environmental Satellite - 18 (GOES-18),Geostationary Lightning Mapper (GLM),Operational
+gosat,tanso-cai,Green-house gas Observing Satellite (GOSAT),Thermal And Near infrared Sensor for carbon Observations - Cloud and Aerosol Imager (TANSO-CAI),Operational
+gosat,tanso-fts,Green-house gas Observing Satellite (GOSAT),Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer (TANSO-FTS),Operational
+gosat-2,tanso-cai2,Green-house gas Observing Satellite - 2 (GOSAT-2),Thermal And Near infrared Sensor for carbon Observations - Cloud and Aerosol Imager / 2 (TANSO-CAI2),Operational
+gosat-2,tanso-fts2,Green-house gas Observing Satellite - 2 (GOSAT-2),Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer / 2 (TANSO-FTS2),Operational
+gpm-core,dpr,Global Precipitation Measurement - Core Observatory (GPM Core Observatory),Dual-frequency Precipitation Radar (DPR),Operational
+gpm-core,gmi,Global Precipitation Measurement - Core Observatory (GPM Core Observatory),GPM Microwave Imager (GMI),Operational
+grace-fo,hairs,Gravity Recovery and Climate Experiment - Follow-on (GRACE-FO (2 sats)),High Accuracy Inter-satellite Ranging System (HAIRS),Operational
+grace-fo,tri-g,Gravity Recovery and Climate Experiment - Follow-on (GRACE-FO (2 sats)),Triple G (GPS (Tri-G),Operational
+hai-yang-1c,cocts,Hai Yang 1C (HY-1C),China Ocean Colour & Temperature Scanner (COCTS),Operational
+hai-yang-1c,czi,Hai Yang 1C (HY-1C),Coastal Zone Imager (CZI),Operational
+hai-yang-1c,uvi,Hai Yang 1C (HY-1C),HY Ultraviolet Imaging and calibration sensor (UVI),Operational
+hai-yang-1d,cocts,Hai Yang 1D (HY-1D),China Ocean Colour & Temperature Scanner (COCTS),Operational
+hai-yang-1d,czi,Hai Yang 1D (HY-1D),Coastal Zone Imager (CZI),Operational
+hai-yang-1d,uvi,Hai Yang 1D (HY-1D),HY Ultraviolet Imaging and calibration sensor (UVI),Operational
+hai-yang-1e,cocts2,Hai Yang 1E (HY-1E),China Ocean Colour & Temperature Scanner 2 (COCTS2),Operational
+hai-yang-1e,czi2,Hai Yang 1E (HY-1E),Coastal Zone Imager 2 (CZI2),Operational
+hai-yang-1e,pmris,Hai Yang 1E (HY-1E),Programmable Medium Resolution Imaging Spectrometer (PMRIS),Operational
+hai-yang-2b,alt,Hai Yang 2B (HY-2B),Radar Altimeter (ALT),Operational
+hai-yang-2b,hscat,Hai Yang 2B (HY-2B),HY Scatterometer (HSCAT),Operational
+hai-yang-2b,lra,Hai Yang 2B (HY-2B),Laser Retroreflector Array (LRA),Operational
+hai-yang-2b,mwri,Hai Yang 2B (HY-2B),Microwave Radiometer Imager (MWRI),Operational
+hai-yang-2c,alt,Hai Yang 2C (HY-2C),Radar Altimeter (ALT),Operational
+hai-yang-2c,hscat,Hai Yang 2C (HY-2C),HY Scatterometer (HSCAT),Operational
+hai-yang-2c,lra,Hai Yang 2C (HY-2C),Laser Retroreflector Array (LRA),Operational
+hai-yang-2d,alt,Hai Yang 2D (HY-2D),Radar Altimeter (ALT),Operational
+hai-yang-2d,hscat,Hai Yang 2D (HY-2D),HY Scatterometer (HSCAT),Operational
+hai-yang-2d,lra,Hai Yang 2D (HY-2D),Laser Retroreflector Array (LRA),Operational
+himawari-8,ahi,Himawari-8,Advanced Himawari Imager (AHI),Operational
+himawari-9,ahi,Himawari-9,Advanced Himawari Imager (AHI),Operational
+hj-2a,hsi-2,Huan Jing 2A (HJ-2A),Hyper-Spectral Imager (HSI-2),Operational
+hj-2a,irmss-2,Huan Jing 2A (HJ-2A),Infrared Multispectral Scanner - 2 (IRMSS-2),Operational
+hj-2a,wvc-2,Huan Jing 2A (HJ-2A),Wide View CCD camera - 2 (WVC-2),Operational
+hj-2b,hsi-2,Huan Jing 2B (HJ-2B),Hyper-Spectral Imager (HSI-2),Operational
+hj-2b,irmss-2,Huan Jing 2B (HJ-2B),Infrared Multispectral Scanner - 2 (IRMSS-2),Operational
+hj-2b,wvc-2,Huan Jing 2B (HJ-2B),Wide View CCD camera - 2 (WVC-2),Operational
+hj-2e,sar-s,Huan Jing 2E (also known as S-SAR01) (HJ-2E),Synthetic Aperture Radar (S-band) (SAR-S),Operational
+hj-2f,sar-s,Huan Jing 2F (also known as S-SAR02) (HJ-2F),Synthetic Aperture Radar (S-band) (SAR-S),Operational
+hrmis,hrc,High Resolution Multi-mode Imaging Satellite (HRMIS),High Resolution Camera (HRC),Operational
+hrmis,smac,High Resolution Multi-mode Imaging Satellite (HRMIS),Synchronous Monitoring Atmospheric Corrector (SMAC),Operational
+hysis,hysis,Hyper Spectral Imaging Spectrometer (HySIS),Hyper Spectral Imaging Spectrometer (HySIS),Operational
+icesat-2,atlas,"Ice, Cloud and land Elevation Satellite (ICESat-2)",Advanced Topographic Laser Altimeter System (ATLAS),Operational
+icesat-2,lra,"Ice, Cloud and land Elevation Satellite (ICESat-2)",Laser Retroreflector Array (LRA),Operational
+icon,mighti,Ionospheric Connection Explorer (ICON),Michelson Interferometer for Global High-resolution Thermospheric Imaging (MIGHTI),Operational
+insat-3d,imager,Indian National Satellite - 3D (INSAT-3D),INSAT imager (IMAGER),Operational
+insat-3dr,imager,Indian National Satellite - 3D repeat (INSAT-3DR),INSAT imager (IMAGER),Operational
+insat-3ds,imager,Indian National Satellite - 3D second repeat (INSAT-3DS),INSAT imager (IMAGER),Operational
+iss-asim,mxgs,Atmosphere-Space Interactions Monitor on the ISS (ISS ASIM),Modular X-ray and Gamma-ray Sensor (MXGS),Operational
+iss-cowvr,cowvr,Compact Ocean Wind Vector Radiometer on the ISS (ISS COWVR),Compact Ocean Wind Vector Radiometer (COWVR),Operational
+iss-desis,desis,DLR Earth Sensing Imaging Spectrometer on the ISS (ISS DESIS),DLR Earth Sensing Imaging Spectrometer (DESIS),Operational
+iss-emit,emit,Earth Surface Mineral Dust Source Investigation on the ISS (ISS EMIT),Earth Surface Mineral Dust Source Investigation (EMIT),Operational
+iss-hisui,hisui,Hyperspectral Imager Suite (ISS HISUI),Hyperspectral Imager Suite (HISUI),Operational
+iss-oco-3,oco-iss-spectrometer,Orbiting Carbon Observatory 3 on the ISS (ISS OCO-3),Orbiting Carbon Observatory ISS spectrometer (OCO (ISS) spectrometer),Operational
+iss-sage-iii,sage-iii,Stratospheric Aerosol and Gas Experiment III on the ISS (ISS SAGE-III),Stratospheric Aerosol and Gas Experiment - III (SAGE-III ),Operational
+iss-tempest-1,mm-radiometer,Temporal Experiment for Storms and Tropical Systems Technology - 1 on the ISS (ISS TEMPEST-1),Millimetre-wave Radiometer (MM Radiometer),Operational
+iss-tsis-1,tsis,Total and Spectral Solar Irradiance Sensor - 1 (ISS TSIS-1),Total and Spectral Solar Irradiance Sensor (TSIS),Operational
+jason-3,lra,Joint Altimetry Satellite Oceanography Network - 3 (JASON-3),Laser Retroreflector Array (LRA),Operational
+jason-3,poseidon-3b,Joint Altimetry Satellite Oceanography Network - 3 (JASON-3),Poseidon 3B (Poseidon-3B),Operational
+kanopus-v3,mss,KANOPUS-V3,Multispectral film-making system (MSS),Operational
+kanopus-v4,mss,KANOPUS-V4,Multispectral film-making system (MSS),Operational
+kanopus-v5,mss,KANOPUS-V5,Multispectral film-making system (MSS),Operational
+kanopus-v6,mss,KANOPUS-V6,Multispectral film-making system (MSS),Operational
+kanopus-v-ik-1,mss,Kanopus-Vulkan-Infra-Krasny-1 (KANOPUS-V-IK-1),Multispectral film-making system (MSS),Operational
+kompsat-2,msc,Korea Multi-Purpose Satellite - 2 (KOMPSAT-2),Multi-Spectral Camera (MSC),Operational
+kompsat-3,aeiss,Korea Multi-Purpose Satellite - 3 (KOMPSAT-3),Advanced Electronic Image Scanning System (AEISS),Operational
+kompsat-3a,aeiss,Korea Multi-Purpose Satellite - 3A (KOMPSAT-3A),Advanced Electronic Image Scanning System (AEISS),Operational
+kompsat-5,aopod,Korea Multi-Purpose Satellite - 5 (KOMPSAT-5),Atmosphere Occultation and Precision Orbit Determination (AOPOD),Operational
+kompsat-5,cosi,Korea Multi-Purpose Satellite - 5 (KOMPSAT-5),Corea SAR Instrument (COSI),Operational
+lageos-1,lra,Laser Geodynamics Satellite - 1 (LAGEOS-1),Laser Retroreflector Array (LRA),Operational
+lageos-2,lra,Laser Geodynamics Satellite - 2 (LAGEOS-2),Laser Retroreflector Array (LRA),Operational
+landsat-8,oli,Landsat-8,Operational Land Imager (OLI),Operational
+landsat-8,tirs,Landsat-8,Thermal Infra-Red Sensor (TIRS),Operational
+landsat-9,oli,Landsat-9,Operational Land Imager (OLI),Operational
+landsat-9,tirs,Landsat-9,Thermal Infra-Red Sensor (TIRS),Operational
+lares-1,lra,Laser RElativity Satellite - 1 (LARES-1),Laser Retroreflector Array (LRA),Operational
+lares-2,lra,Laser RElativity Satellite - 2 (LARES-2),Laser Retroreflector Array (LRA),Operational
+lemur-2,stratos,Low Earth Multi-Use Receiver - 2 (Lemur-2),STRATOS,Operational
+ludi-tance-1-01a,l-band-sar,L-band differential interferometric synthetic aperture radar satellite A (Ludi-Tance 1 01A),L-band differential interferometric synthetic aperture radar (L band SAR),Operational
+ludi-tance-1-01b,l-band-sar,L-band differential interferometric synthetic aperture radar satellite A (Ludi-Tance 1 01B),L-band differential interferometric synthetic aperture radar (L band SAR),Operational
+ludi-tance-4-01a,l-band-sar,L-band differential interferometric synthetic aperture radar satellite 4 01A (Ludi-Tance 4 01A),L-band differential interferometric synthetic aperture radar (L band SAR),Operational
+meteor-m-n2,ikfs-2,Meteor-M Number 2 (Meteor-M N2),Infrared Fourier Spectrometer - 2 (IKFS-2),Operational
+meteor-m-n2,ikor-m,Meteor-M Number 2 (Meteor-M N2),Broadband SW radiometer (IKOR-M),Operational
+meteor-m-n2,kmss,Meteor-M Number 2 (Meteor-M N2),High-resolution VIS/IR Radiometer (KMSS),Operational
+meteor-m-n2,msu-mr,Meteor-M Number 2 (Meteor-M N2),VIS/IR Imaging Radiometer (MSU-MR),Operational
+meteor-m-n2,mtvza-gy,Meteor-M Number 2 (Meteor-M N2),Imaging/Sounding Microwave Radiometer - improved (MTVZA-GY),Operational
+meteor-m-n2,severjanin-m,Meteor-M Number 2 (Meteor-M N2),X-band Synthetic Aperture Radar (Severjanin-M),Operational
+meteor-m-n2-2,ikfs-2,Meteor-M Number 2-2 (Meteor-M N2-2),Infrared Fourier Spectrometer - 2 (IKFS-2),Operational
+meteor-m-n2-2,ikor-m,Meteor-M Number 2-2 (Meteor-M N2-2),Broadband SW radiometer (IKOR-M),Operational
+meteor-m-n2-2,kmss,Meteor-M Number 2-2 (Meteor-M N2-2),High-resolution VIS/IR Radiometer (KMSS),Operational
+meteor-m-n2-2,msu-mr,Meteor-M Number 2-2 (Meteor-M N2-2),VIS/IR Imaging Radiometer (MSU-MR),Operational
+meteor-m-n2-2,mtvza-gy,Meteor-M Number 2-2 (Meteor-M N2-2),Imaging/Sounding Microwave Radiometer - improved (MTVZA-GY),Operational
+meteor-m-n2-2,severjanin-m,Meteor-M Number 2-2 (Meteor-M N2-2),X-band Synthetic Aperture Radar (Severjanin-M),Operational
+meteor-m-n2-3,ikfs-2,Meteor-M Number 2-3 (Meteor-M N2-3),Infrared Fourier Spectrometer - 2 (IKFS-2),Operational
+meteor-m-n2-3,kmss,Meteor-M Number 2-3 (Meteor-M N2-3),High-resolution VIS/IR Radiometer (KMSS),Operational
+meteor-m-n2-3,msu-mr,Meteor-M Number 2-3 (Meteor-M N2-3),VIS/IR Imaging Radiometer (MSU-MR),Operational
+meteor-m-n2-3,mtvza-gy,Meteor-M Number 2-3 (Meteor-M N2-3),Imaging/Sounding Microwave Radiometer - improved (MTVZA-GY),Operational
+meteor-m-n2-3,severjanin-m,Meteor-M Number 2-3 (Meteor-M N2-3),X-band Synthetic Aperture Radar (Severjanin-M),Operational
+meteor-m-n2-4,ikfs-2,Meteor-M Number 2-4 (Meteor-M N2-4),Infrared Fourier Spectrometer - 2 (IKFS-2),Operational
+meteor-m-n2-4,ikor-m,Meteor-M Number 2-4 (Meteor-M N2-4),Broadband SW radiometer (IKOR-M),Operational
+meteor-m-n2-4,kmss,Meteor-M Number 2-4 (Meteor-M N2-4),High-resolution VIS/IR Radiometer (KMSS),Operational
+meteor-m-n2-4,meteosar,Meteor-M Number 2-4 (Meteor-M N2-4),Meteorological Synthetic Aperture Radar (MeteoSAR),Operational
+meteor-m-n2-4,msu-mr,Meteor-M Number 2-4 (Meteor-M N2-4),VIS/IR Imaging Radiometer (MSU-MR),Operational
+meteor-m-n2-4,mtvza-gy,Meteor-M Number 2-4 (Meteor-M N2-4),Imaging/Sounding Microwave Radiometer - improved (MTVZA-GY),Operational
+meteosat-10,gerb,Meteosat-10,Geostationary Earth Radiation Budget (GERB),Operational
+meteosat-10,seviri,Meteosat-10,Spinning Enhanced Visible Infra-Red Imager (SEVIRI),Operational
+meteosat-11,gerb,Meteosat-11,Geostationary Earth Radiation Budget (GERB),Operational
+meteosat-11,seviri,Meteosat-11,Spinning Enhanced Visible Infra-Red Imager (SEVIRI),Operational
+meteosat-12,fci,Meteosat-12,Flexible Combined Imager (FCI),Operational
+meteosat-12,li,Meteosat-12,Lightning Imager (LI),Operational
+meteosat-9,gerb,Meteosat-9 (IODC),Geostationary Earth Radiation Budget (GERB),Operational
+meteosat-9,seviri,Meteosat-9 (IODC),Spinning Enhanced Visible Infra-Red Imager (SEVIRI),Operational
+metop-b,amsu-a,Meteorological operational satellite - B (Metop-B),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
+metop-b,ascat,Meteorological operational satellite - B (Metop-B),Advanced Scatterometer (ASCAT),Operational
+metop-b,avhrr-3,Meteorological operational satellite - B (Metop-B),Advanced Very High Resolution Radiometer / 3 (AVHRR/3),Operational
+metop-b,gome-2,Meteorological operational satellite - B (Metop-B),Global Ozone Monitoring Experiment - 2 (GOME-2),Operational
+metop-b,gras,Meteorological operational satellite - B (Metop-B),GNSS Receiver for Atmospheric Sounding (GRAS),Operational
+metop-b,hirs-4,Meteorological operational satellite - B (Metop-B),High-resolution Infra Red Sounder / 4 (HIRS/4),Operational
+metop-b,iasi,Meteorological operational satellite - B (Metop-B),Infrared Atmospheric Sounding Interferometer (IASI),Operational
+metop-b,mhs,Meteorological operational satellite - B (Metop-B),Microwave Humidity Sounding (MHS),Operational
+metop-c,amsu-a,Meteorological operational satellite - C (Metop-C),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
+metop-c,ascat,Meteorological operational satellite - C (Metop-C),Advanced Scatterometer (ASCAT),Operational
+metop-c,avhrr-3,Meteorological operational satellite - C (Metop-C),Advanced Very High Resolution Radiometer / 3 (AVHRR/3),Operational
+metop-c,gome-2,Meteorological operational satellite - C (Metop-C),Global Ozone Monitoring Experiment - 2 (GOME-2),Operational
+metop-c,gras,Meteorological operational satellite - C (Metop-C),GNSS Receiver for Atmospheric Sounding (GRAS),Operational
+metop-c,iasi,Meteorological operational satellite - C (Metop-C),Infrared Atmospheric Sounding Interferometer (IASI),Operational
+metop-c,mhs,Meteorological operational satellite - C (Metop-C),Microwave Humidity Sounding (MHS),Operational
+nachos-1,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-1),NACHOS-Imager (NACHOS),Operational
+nachos-2,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-2),NACHOS-Imager (NACHOS),Operational
+noaa-15,amsu-a,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
+noaa-15,amsu-b,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Microwave Sounding Unit - B (AMSU-B),Operational
+noaa-15,avhrr-3,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Very High Resolution Radiometer / 3 (AVHRR/3),Operational
+noaa-18,amsu-a,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
+noaa-18,avhrr-3,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Advanced Very High Resolution Radiometer / 3 (AVHRR/3),Operational
+noaa-18,mhs,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Microwave Humidity Sounding (MHS),Operational
+noaa-18,sbuv-2,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Solar Backscatter Ultraviolet / 2 (SBUV/2),Operational
+noaa-19,amsu-a,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
+noaa-19,avhrr-3,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Advanced Very High Resolution Radiometer / 3 (AVHRR/3),Operational
+noaa-19,mhs,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Microwave Humidity Sounding (MHS),Operational
+noaa-19,sbuv-2,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Solar Backscatter Ultraviolet / 2 (SBUV/2),Operational
+noaa-20,atms,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Advanced Technology Microwave Sounder (ATMS),Operational
+noaa-20,ceres,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Clouds and the Earth's Radiant Energy System (CERES),Operational
+noaa-20,cris,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Cross-track Infrared Sounder (CrIS),Operational
+noaa-20,omps-nadir,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Ozone Mapping and Profiler Suite (OMPS-nadir),Operational
+noaa-20,viirs,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Visible/Infrared Imager Radiometer Suite (VIIRS),Operational
+noaa-21,atms,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Advanced Technology Microwave Sounder (ATMS),Operational
+noaa-21,cris,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Cross-track Infrared Sounder (CrIS),Operational
+noaa-21,omps-limb,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Ozone Mapping and Profiler Suite (OMPS-limb),Operational
+noaa-21,omps-nadir,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Ozone Mapping and Profiler Suite (OMPS-nadir),Operational
+noaa-21,viirs,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Visible/Infrared Imager Radiometer Suite (VIIRS),Operational
+novasar-s,s-sar,NovaSAR-S,S-band Synthetic Aperture Radar (S-SAR),Operational
+oco-2,oco-spectrometer,Orbiting Carbon Observatory - 2 (OCO-2),Orbiting Carbon Observatory Spectrometer (OCO spectrometer),Operational
+odin,osiris,Odin,Optical Spectrograph and Infra-Red Imaging System (OSIRIS),Operational
+odin,smr,Odin,Sub-Millimetre Radiometer (SMR),Operational
+pace,harp2,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",Hyper Angular Research Polarimeter 2 (HARP2),Operational
+pace,oci,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",Ocean Color Instrument (OCI),Operational
+pace,spexone,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",SPEXone Polarimeter (SPEXone),Operational
+pleiades-neo-3,pleiades-neo,Pleiades-Neo 3,Pleiades-Neo,Operational
+pleiades-neo-4,pleiades-neo,Pleiades-Neo 4,Pleiades-Neo,Operational
+pretty,gnss-r,Passive Reflectometry and Dosimetry (PRETTY),GNSS Reflectometer (GNSS-R),Operational
+prisma,hyc,PRecursore IperSpettrale della Missione Applicativa (PRISMA),HYperspectral Camera (HYC),Operational
+proba-1,chris,Project for On-Board Autonomy - 1 (PROBA-1),Compact High Resolution Imaging Spectrometer (CHRIS),Operational
+proba-1,hrc,Project for On-Board Autonomy - 1 (PROBA-1),High Resolution Camera (HRC),Operational
+proba-v-cc,vegetation-p,Project for On-Board Autonomy - Vegetation Companion Cubesat (PROBA-V-CC),Vegetation for PROBA (Vegetation-P),Operational
+radarsat-2,sar,RadarSat-2,Synthetic Aperture Radar (C-band) (SAR),Operational
+rcm-1,sar-rcm,RadarSat Constellation Mission - 1 (RCM-1),Synthetic Aperture Radar (C-band) for RadarSat constellation (SAR RCM),Operational
+rcm-2,sar-rcm,RadarSat Constellation Mission - 2 (RCM-2),Synthetic Aperture Radar (C-band) for RadarSat constellation (SAR RCM),Operational
+rcm-3,sar-rcm,RadarSat Constellation Mission - 3 (RCM-3),Synthetic Aperture Radar (C-band) for RadarSat constellation (SAR RCM),Operational
+resourcesat-2,awifs,Satellite for Earth Resources - 2 (ResourceSat-2),Advanced Wide Field Sensor (AWiFS),Operational
+resourcesat-2,liss-3,Satellite for Earth Resources - 2 (ResourceSat-2),Linear Imaging Self-Scanning Sensor - 3 (LISS-3),Operational
+resourcesat-2,liss-4,Satellite for Earth Resources - 2 (ResourceSat-2),Linear Imaging Self-Scanning Sensor - 4 (LISS-4),Operational
+resourcesat-2a,awifs,Satellite for Earth Resources - 2A (ResourceSat-2A),Advanced Wide Field Sensor (AWiFS),Operational
+resourcesat-2a,liss-3,Satellite for Earth Resources - 2A (ResourceSat-2A),Linear Imaging Self-Scanning Sensor - 3 (LISS-3),Operational
+resourcesat-2a,liss-4,Satellite for Earth Resources - 2A (ResourceSat-2A),Linear Imaging Self-Scanning Sensor - 4 (LISS-4),Operational
+risat-2b,sar-x,Radar Imaging Satellite - 2B (RISAT-2B),Synthetic Aperture Radar (X-band) (SAR-X),Operational
+risat-2br1,sar-x,Radar Imaging Satellite - 2BR-1 (RISAT-2BR1),Synthetic Aperture Radar (X-band) (SAR-X),Operational
+saocom-1a,sar-l,SAtelite Argentino de Observacion COn Microondas - 1A (SAOCOM-1A),Synthetic Aperture Radar (L-band) (SAR-L),Operational
+saocom-1b,sar-l,SAtelite Argentino de Observacion COn Microondas - 1B (SAOCOM-1B),Synthetic Aperture Radar (L-band) (SAR-L),Operational
+saral,altika,Satellite with ARGOS and AltiKa (SARAL),Ka-band Altimeter (AltiKa),Operational
+saral,lra,Satellite with ARGOS and AltiKa (SARAL),Laser Retroreflector Array (LRA),Operational
+scisat-1,ace-fts,Scientific Satellite -1 (SCISAT-1),Atmospheric Chemistry Experiment - Fourier Transform Spectrometer (ACE-FTS),Operational
+scisat-1,maestro,Scientific Satellite -1 (SCISAT-1),Measurements of Aerosol Extinction in the Stratosphere and Troposphere Retrieved by Occultation (MAESTRO),Operational
+sdgsat-1,glimmer,Sustainable Development Science Satellite 1 (SDGSAT-1),GLIMMER Imager (GLIMMER),Operational
+sdgsat-1,msi,Sustainable Development Science Satellite 1 (SDGSAT-1),Multispectral Imager on SDGSAT (MSI),Operational
+sdgsat-1,tir,Sustainable Development Science Satellite 1 (SDGSAT-1),Thermal IR Spectrometer (TIR),Operational
+sentinel-1a,sar-c,Sentinel-1A,Synthetic Aperture Radar (C-band) (SAR-C),Operational
+sentinel-2a,msi,Sentinel-2A,Multi-Spectral Imager for Sentinel-2 (MSI),Operational
+sentinel-2b,msi,Sentinel-2B,Multi-Spectral Imager for Sentinel-2 (MSI),Operational
+sentinel-3a,olci,Sentinel-3A,Ocean and Land Colour Imager (OLCI ),Operational
+sentinel-3a,slstr,Sentinel-3A,Sea and Land Surface Temperature Radiometer (SLSTR),Operational
+sentinel-3a,sral,Sentinel-3A,Synthetic aperture Radar Altimeter (SRAL),Operational
+sentinel-3b,olci,Sentinel-3B,Ocean and Land Colour Imager (OLCI ),Operational
+sentinel-3b,slstr,Sentinel-3B,Sea and Land Surface Temperature Radiometer (SLSTR),Operational
+sentinel-3b,sral,Sentinel-3B,Synthetic aperture Radar Altimeter (SRAL),Operational
+sentinel-5p,tropomi,Sentinel-5 precursor (Sentinel-5P),Tropospheric Monitoring Instrument (TROPOMI),Operational
+sentinel-6a,gnss-ro,Sentinel-6A,Global Navigation Satellite System - Radio Occultation (GNSS-RO),Operational
+sentinel-6a,lra,Sentinel-6A,Laser Retroreflector Array (LRA),Operational
+sentinel-6a,poseidon-4,Sentinel-6A,Poseidon-4,Operational
+seosar-paz,rohpp,Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz),Radio Occultations and Heavy Precipitation with PAZ (ROHPP),Operational
+seosar-paz,sar-x,Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz),Synthetic Aperture Radar (X-band) (SAR-X),Operational
+sich-2-30,mbei,SICH-2-30 (originally SICH-2-1) (SICH-2-30),Multi-Band Earth Imager (MBEI),Operational
+smap,smap,Soil Moisture Active-Passive (SMAP),Soil Moisture Active-Passive (intended as payload) (SMAP),Operational
+smos,miras,Soil Moisture and Ocean Salinity (SMOS),Microwave Imaging Radiometer using Aperture Synthesis (MIRAS),Operational
+snpp,atms,Suomi National Polar-orbiting Partnership (SNPP),Advanced Technology Microwave Sounder (ATMS),Operational
+snpp,ceres,Suomi National Polar-orbiting Partnership (SNPP),Clouds and the Earth's Radiant Energy System (CERES),Operational
+snpp,cris,Suomi National Polar-orbiting Partnership (SNPP),Cross-track Infrared Sounder (CrIS),Operational
+snpp,omps-limb,Suomi National Polar-orbiting Partnership (SNPP),Ozone Mapping and Profiler Suite (OMPS-limb),Operational
+snpp,omps-nadir,Suomi National Polar-orbiting Partnership (SNPP),Ozone Mapping and Profiler Suite (OMPS-nadir),Operational
+snpp,viirs,Suomi National Polar-orbiting Partnership (SNPP),Visible/Infrared Imager Radiometer Suite (VIIRS),Operational
+spot-6,naomi,Satellite Pour l'Observation de la Terre - 6 (SPOT-6),New AstroSat Optical Modular Instrument (NAOMI),Operational
+spot-7,naomi,Satellite Pour l'Observation de la Terre - 7 (SPOT-7),New AstroSat Optical Modular Instrument (NAOMI),Operational
+sstl-s1-1,vhri-100,Surrey Satellite Technology Ltd - S1 1 (SSTL-S1 1),Very High Resolution Imager - 100 (VHRI-100),Operational
+sstl-s1-2,vhri-100,Surrey Satellite Technology Ltd - S1 2 (SSTL-S1 2),Very High Resolution Imager - 100 (VHRI-100),Operational
+sstl-s1-3,vhri-100,Surrey Satellite Technology Ltd - S1 3 (SSTL-S1 3),Very High Resolution Imager - 100 (VHRI-100),Operational
+sstl-s1-4,vhri-100,Surrey Satellite Technology Ltd - S1 4 (SSTL-S1 4),Very High Resolution Imager - 100 (VHRI-100),Operational
+swot,gps,Surface Water and Ocean Topography (SWOT),GPS Receiver (GPS),Operational
+swot,karin,Surface Water and Ocean Topography (SWOT),Ka-band Radar Interferometer (KaRIN),Operational
+swot,lra,Surface Water and Ocean Topography (SWOT),Laser Retroreflector Array (LRA),Operational
+swot,poseidon-3c,Surface Water and Ocean Topography (SWOT),Poseidon-3C Altimeter (Poseidon-3C),Operational
+tandem-x,sar-x,TerraSAR-X Add-oN for Digital Elevation Measurement (TanDEM-X),Synthetic Aperture Radar (X-band) (SAR-X),Operational
+tandem-x,tor,TerraSAR-X Add-oN for Digital Elevation Measurement (TanDEM-X),Tracking (TOR),Operational
+terra,aster,Earth Observation System - Terra,Advanced Spaceborne Thermal Emission and Reflection radiometer (ASTER),Operational
+terra,ceres,Earth Observation System - Terra,Clouds and the Earth's Radiant Energy System (CERES),Operational
+terra,misr,Earth Observation System - Terra,Multi-angle Imaging Spectro-Radiometer (MISR),Operational
+terra,modis,Earth Observation System - Terra,Moderate-resolution Imaging Spectro-radiometer (MODIS),Operational
+terra,mopitt,Earth Observation System - Terra,Measurement Of Pollution In The Troposphere (MOPITT),Operational
+terrasar-x,sar-x,TerraSAR-X,Synthetic Aperture Radar (X-band) (SAR-X),Operational
+terrasar-x,tor,TerraSAR-X,Tracking (TOR),Operational
+th-1c,ms,Tian Hui - 1C (TH-1C),Multispectral imager (MS),Operational
+theos-1,ms,Thailand Earth Observation System - 1 (THEOS-1),Multispectral imager (MS),Operational
+theos-2-main,ms,Thailand Earth Observation System - 2 Main VHR Satellite (THEOS-2 Main),New Astrosat Optical Modular Imager (MS),Operational
+tropics-01,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 01 (TROPICS-01 (Pathfinder)),TROPICS Millimeter-wave Sounder (TMS),Operational
+tropics-03,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 03 (TROPICS-03),TROPICS Millimeter-wave Sounder (TMS),Operational
+tropics-05,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 05 (TROPICS-05),TROPICS Millimeter-wave Sounder (TMS),Operational
+tropics-06,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 06 (TROPICS-06),TROPICS Millimeter-wave Sounder (TMS),Operational
+tropics-07,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 07 (TROPICS-07),TROPICS Millimeter-wave Sounder (TMS),Operational
+wsf-m1,ecp,Weather System Follow-on Microwave (WSF-M1),Energetic Charged Particle sensor,Operational
+wsf-m1,mwi,Weather System Follow-on Microwave (WSF-M1),MicroWave Imager,Operational
+zy-3-02,msc,Zi Yuan - 3-02 (ZY-3-02),Multi-Spectral Camera (MSC),Operational
+zy-3-03,msc,Zi Yuan - 3-03 (ZY-3-03),Multi-Spectral Camera (MSC),Operational

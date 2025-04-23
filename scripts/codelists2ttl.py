@@ -221,7 +221,7 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path,
         with flat_index_file_path.open() as flat_index_file:
             csv_records = list(csv.reader(flat_index_file))
             (name_keys, description_keys) = read_flat_index_keys(
-                csv_records[0]
+                csv_records[0][:-1]
             )
             name_column = 0
             process_flat_subdomain_index(

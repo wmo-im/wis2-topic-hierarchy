@@ -5,5 +5,4 @@
 <fixed-marine-platforms> a skos:Concept ;
         rdfs:label "fixed-marine-platforms" ;
         skos:notation "fixed-marine-platforms" ;
-        dct:description "Data from fixed surface platforms"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Data from fixed surface platforms"@en .

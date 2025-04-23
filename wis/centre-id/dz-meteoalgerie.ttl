@@ -5,5 +5,4 @@
 <dz-meteoalgerie> a skos:Concept ;
         rdfs:label "dz-meteoalgerie" ;
         skos:notation "dz-meteoalgerie" ;
-        dct:description "Office National de la Météorologie (Algeria)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Office National de la Météorologie (Algeria)"@en .

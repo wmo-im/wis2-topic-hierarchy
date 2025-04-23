@@ -5,5 +5,4 @@
 <tt-trin-met> a skos:Concept ;
         rdfs:label "tt-trin-met" ;
         skos:notation "tt-trin-met" ;
-        dct:description "Meteorological Service (Trinidad and Tobago)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Meteorological Service (Trinidad and Tobago)"@en .

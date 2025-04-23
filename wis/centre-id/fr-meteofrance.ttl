@@ -5,5 +5,4 @@
 <fr-meteofrance> a skos:Concept ;
         rdfs:label "fr-meteofrance" ;
         skos:notation "fr-meteofrance" ;
-        dct:description "Météo-France (Toulouse)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Météo-France (Toulouse)"@en .

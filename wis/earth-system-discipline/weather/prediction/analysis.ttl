@@ -7,5 +7,4 @@
 <analysis> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "analysis" ;
-        dct:description "Datasets of analyzed meteorological conditions for a specified time or period in the past" ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Datasets of analyzed meteorological conditions for a specified time or period in the past" .

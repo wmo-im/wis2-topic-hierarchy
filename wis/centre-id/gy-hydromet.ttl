@@ -5,5 +5,4 @@
 <gy-hydromet> a skos:Concept ;
         rdfs:label "gy-hydromet" ;
         skos:notation "gy-hydromet" ;
-        dct:description "Hydrometeorological Service (Guyana)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Hydrometeorological Service (Guyana)"@en .

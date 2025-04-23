@@ -5,5 +5,4 @@
 <bg-nimh> a skos:Concept ;
         rdfs:label "bg-nimh" ;
         skos:notation "bg-nimh" ;
-        dct:description "National Institute of Meteorology and Hydrology (Bulgaria)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "National Institute of Meteorology and Hydrology (Bulgaria)"@en .

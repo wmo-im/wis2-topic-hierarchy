@@ -5,5 +5,4 @@
 <fixed-coastal-stations> a skos:Concept ;
         rdfs:label "fixed-coastal-stations" ;
         skos:notation "fixed-coastal-stations" ;
-        dct:description "Data from fixed coastal stations, e.g. sea level monitoring station, HF radars etc"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Data from fixed coastal stations, e.g. sea level monitoring station, HF radars etc"@en .

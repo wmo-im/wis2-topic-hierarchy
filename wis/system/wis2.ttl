@@ -5,5 +5,4 @@
 <wis2> a skos:Concept ;
         rdfs:label "wis2" ;
         skos:notation "wis2" ;
-        dct:description "WIS2 topic hierarchy"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "WIS2 topic hierarchy"@en .

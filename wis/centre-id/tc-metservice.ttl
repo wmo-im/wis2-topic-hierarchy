@@ -5,5 +5,4 @@
 <tc-metservice> a skos:Concept ;
         rdfs:label "tc-metservice" ;
         skos:notation "tc-metservice" ;
-        dct:description "Caribbean Meteorological Organization (Turks and Caicos Islands)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Caribbean Meteorological Organization (Turks and Caicos Islands)"@en .

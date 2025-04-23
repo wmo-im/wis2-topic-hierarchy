@@ -7,5 +7,4 @@
 <atmospheric-composition> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "atmospheric-composition" ;
-        dct:description "Atmospheric Composition" ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Atmospheric Composition" .

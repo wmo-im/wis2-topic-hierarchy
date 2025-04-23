@@ -5,5 +5,4 @@
 <recommended> a skos:Concept ;
         rdfs:label "recommended" ;
         skos:notation "recommended" ;
-        dct:description "Recommended data"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Recommended data"@en .

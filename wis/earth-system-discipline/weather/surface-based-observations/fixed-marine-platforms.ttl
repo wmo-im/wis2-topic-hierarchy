@@ -5,5 +5,4 @@
 <fixed-marine-platforms> a skos:Concept ;
         rdfs:label "fixed-marine-platforms" ;
         skos:notation "fixed-marine-platforms" ;
-        dct:description "Weather observations from fixed marine platforms, e.g. rigs and offshore platforms"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Weather observations from fixed marine platforms, e.g. rigs and offshore platforms"@en .

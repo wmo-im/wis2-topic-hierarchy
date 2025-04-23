@@ -5,5 +5,4 @@
 <ar-smn> a skos:Concept ;
         rdfs:label "ar-smn" ;
         skos:notation "ar-smn" ;
-        dct:description "Servicio Meteorológico Nacional (Argentina)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Servicio Meteorológico Nacional (Argentina)"@en .

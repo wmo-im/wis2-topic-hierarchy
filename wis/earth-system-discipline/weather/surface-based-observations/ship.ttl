@@ -5,5 +5,4 @@
 <ship> a skos:Concept ;
         rdfs:label "ship" ;
         skos:notation "ship" ;
-        dct:description "Ship based weather observations"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Ship based weather observations"@en .

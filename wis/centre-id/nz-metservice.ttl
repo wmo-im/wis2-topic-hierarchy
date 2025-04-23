@@ -5,5 +5,4 @@
 <nz-metservice> a skos:Concept ;
         rdfs:label "nz-metservice" ;
         skos:notation "nz-metservice" ;
-        dct:description "New Zealand National Meteorological Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "New Zealand National Meteorological Service"@en .

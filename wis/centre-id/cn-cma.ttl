@@ -5,5 +5,4 @@
 <cn-cma> a skos:Concept ;
         rdfs:label "cn-cma" ;
         skos:notation "cn-cma" ;
-        dct:description "China Meteorological Administration"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "China Meteorological Administration"@en .

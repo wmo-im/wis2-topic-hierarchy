@@ -5,5 +5,4 @@
 <cl-meteochile> a skos:Concept ;
         rdfs:label "cl-meteochile" ;
         skos:notation "cl-meteochile" ;
-        dct:description "Dirección Meteorológica de Chile"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Dirección Meteorológica de Chile"@en .

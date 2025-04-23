@@ -5,5 +5,4 @@
 <ma-marocmeteo> a skos:Concept ;
         rdfs:label "ma-marocmeteo" ;
         skos:notation "ma-marocmeteo" ;
-        dct:description "Direction de la Météorologie Nationale (Morocco)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Direction de la Météorologie Nationale (Morocco)"@en .

@@ -5,5 +5,4 @@
 <io-wis2dev1-test> a skos:Concept ;
         rdfs:label "io-wis2dev1-test" ;
         skos:notation "io-wis2dev1-test" ;
-        dct:description "Test WIS2 Node (for use in the WIS2 test environment, not for operations)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Test WIS2 Node (for use in the WIS2 test environment, not for operations)"@en .

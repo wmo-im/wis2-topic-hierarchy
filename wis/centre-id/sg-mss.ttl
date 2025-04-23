@@ -5,5 +5,4 @@
 <sg-mss> a skos:Concept ;
         rdfs:label "sg-mss" ;
         skos:notation "sg-mss" ;
-        dct:description "Meteorological Services Division (Singapore)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Meteorological Services Division (Singapore)"@en .

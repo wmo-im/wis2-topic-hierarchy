@@ -5,5 +5,4 @@
 <cr-imn> a skos:Concept ;
         rdfs:label "cr-imn" ;
         skos:notation "cr-imn" ;
-        dct:description "Instituto Meteorológico Nacional(Costa Rica)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Instituto Meteorológico Nacional(Costa Rica)"@en .

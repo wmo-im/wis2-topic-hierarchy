@@ -7,5 +7,4 @@
 <weather> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "weather" ;
-        dct:description "Weather" ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Weather" .

@@ -5,5 +5,4 @@
 <sa-ncm-global-cache> a skos:Concept ;
         rdfs:label "sa-ncm-global-cache" ;
         skos:notation "sa-ncm-global-cache" ;
-        dct:description "National Center for Meteorology (Saudi Arabia), Global Cache Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "National Center for Meteorology (Saudi Arabia), Global Cache Service"@en .

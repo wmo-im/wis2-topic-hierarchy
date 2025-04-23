@@ -5,5 +5,4 @@
 <advisories-warnings> a skos:Concept ;
         rdfs:label "advisories-warnings" ;
         skos:notation "advisories-warnings" ;
-        dct:description "Advisories and warnings"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Advisories and warnings"@en .

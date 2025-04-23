@@ -5,5 +5,4 @@
 <ng-nimet> a skos:Concept ;
         rdfs:label "ng-nimet" ;
         skos:notation "ng-nimet" ;
-        dct:description "Nigerian Meteorological Agency"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Nigerian Meteorological Agency"@en .

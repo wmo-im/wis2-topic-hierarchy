@@ -5,5 +5,4 @@
 <data-metoffice-noaa-global-cache> a skos:Concept ;
         rdfs:label "data-metoffice-noaa-global-cache" ;
         skos:notation "data-metoffice-noaa-global-cache" ;
-        dct:description "Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland) and National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Cache Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland) and National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Cache Service"@en .

@@ -5,5 +5,4 @@
 <drifting-buoys> a skos:Concept ;
         rdfs:label "drifting-buoys" ;
         skos:notation "drifting-buoys" ;
-        dct:description "Data from drifting buoys"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Data from drifting buoys"@en .

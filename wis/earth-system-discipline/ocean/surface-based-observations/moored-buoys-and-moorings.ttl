@@ -5,5 +5,4 @@
 <moored-buoys-and-moorings> a skos:Concept ;
         rdfs:label "moored-buoys-and-moorings" ;
         skos:notation "moored-buoys-and-moorings" ;
-        dct:description "Data from moored buoys and moorings"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Data from moored buoys and moorings"@en .

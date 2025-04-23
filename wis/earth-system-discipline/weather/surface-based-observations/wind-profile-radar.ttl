@@ -5,5 +5,4 @@
 <wind-profile-radar> a skos:Concept ;
         rdfs:label "wind-profile-radar" ;
         skos:notation "wind-profile-radar" ;
-        dct:description "Radar based wind profile measurements"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Radar based wind profile measurements"@en .

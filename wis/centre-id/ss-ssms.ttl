@@ -5,5 +5,4 @@
 <ss-ssms> a skos:Concept ;
         rdfs:label "ss-ssms" ;
         skos:notation "ss-ssms" ;
-        dct:description "South Sudan Meteorological Services"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "South Sudan Meteorological Services"@en .

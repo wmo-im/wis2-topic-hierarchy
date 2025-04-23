@@ -5,5 +5,4 @@
 <td-anam> a skos:Concept ;
         rdfs:label "td-anam" ;
         skos:notation "td-anam" ;
-        dct:description "Direction des Ressources en Eau et de la Météorologie (Chad)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Direction des Ressources en Eau et de la Météorologie (Chad)"@en .

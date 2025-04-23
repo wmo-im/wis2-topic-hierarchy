@@ -5,5 +5,4 @@
 <cu-insmet> a skos:Concept ;
         rdfs:label "cu-insmet" ;
         skos:notation "cu-insmet" ;
-        dct:description "Instituto de Meteorología (Cuba)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Instituto de Meteorología (Cuba)"@en .

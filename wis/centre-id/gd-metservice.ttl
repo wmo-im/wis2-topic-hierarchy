@@ -5,5 +5,4 @@
 <gd-metservice> a skos:Concept ;
         rdfs:label "gd-metservice" ;
         skos:notation "gd-metservice" ;
-        dct:description "CMO Member (Grenada)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "CMO Member (Grenada)"@en .

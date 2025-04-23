@@ -5,5 +5,4 @@
 <uy-inumet> a skos:Concept ;
         rdfs:label "uy-inumet" ;
         skos:notation "uy-inumet" ;
-        dct:description "Dirección Nacional de Meteorología (Uruguay)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Dirección Nacional de Meteorología (Uruguay)"@en .

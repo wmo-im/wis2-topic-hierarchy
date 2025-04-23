@@ -5,5 +5,4 @@
 <hk-hko> a skos:Concept ;
         rdfs:label "hk-hko" ;
         skos:notation "hk-hko" ;
-        dct:description "Hong Kong Observatory"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Hong Kong Observatory"@en .

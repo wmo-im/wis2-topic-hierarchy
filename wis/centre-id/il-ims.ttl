@@ -5,5 +5,4 @@
 <il-ims> a skos:Concept ;
         rdfs:label "il-ims" ;
         skos:notation "il-ims" ;
-        dct:description "Israel Meteorological Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Israel Meteorological Service"@en .

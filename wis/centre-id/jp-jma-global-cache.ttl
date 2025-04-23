@@ -5,5 +5,4 @@
 <jp-jma-global-cache> a skos:Concept ;
         rdfs:label "jp-jma-global-cache" ;
         skos:notation "jp-jma-global-cache" ;
-        dct:description "Japan Meteorological Agency, Global Cache Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Japan Meteorological Agency, Global Cache Service"@en .

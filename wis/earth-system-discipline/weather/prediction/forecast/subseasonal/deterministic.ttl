@@ -7,5 +7,4 @@
 <deterministic> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "deterministic" ;
-        dct:description "Outputs from a prediction system which provides one single scenario" ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Outputs from a prediction system which provides one single scenario" .

@@ -1,8 +1,0 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-
-<ma-meteomaroc-global-monitor> a skos:Concept ;
-        rdfs:label "ma-meteomaroc-global-monitor" ;
-        skos:notation "ma-meteomaroc-global-monitor" ;
-        dct:description "Direction de la Météorologie Nationale (Morocco), Global Monitor Service"@en .

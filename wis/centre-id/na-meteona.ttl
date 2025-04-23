@@ -5,5 +5,4 @@
 <na-meteona> a skos:Concept ;
         rdfs:label "na-meteona" ;
         skos:notation "na-meteona" ;
-        dct:description "Namibia Meteorological Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Namibia Meteorological Service"@en .

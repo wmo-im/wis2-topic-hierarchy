@@ -5,5 +5,4 @@
 <sea-ice> a skos:Concept ;
         rdfs:label "sea-ice" ;
         skos:notation "sea-ice" ;
-        dct:description "Sea ice observations"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Sea ice observations"@en .

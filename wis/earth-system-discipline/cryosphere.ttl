@@ -7,5 +7,4 @@
 <cryosphere> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cryosphere" ;
-        dct:description "Cryosphere" ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Cryosphere" .

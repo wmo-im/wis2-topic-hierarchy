@@ -5,5 +5,4 @@
 <bs-metservice> a skos:Concept ;
         rdfs:label "bs-metservice" ;
         skos:notation "bs-metservice" ;
-        dct:description "Department of Meteorology (Bahamas)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Department of Meteorology (Bahamas)"@en .

@@ -7,5 +7,4 @@
 <forecast> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "forecast" ;
-        dct:description "Datasets of expected meteorological conditions for a specified time or period in the future, typically including the T+0 fields" ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Datasets of expected meteorological conditions for a specified time or period in the future, typically including the T+0 fields" .

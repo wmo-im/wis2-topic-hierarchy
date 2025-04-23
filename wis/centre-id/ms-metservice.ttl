@@ -5,5 +5,4 @@
 <ms-metservice> a skos:Concept ;
         rdfs:label "ms-metservice" ;
         skos:notation "ms-metservice" ;
-        dct:description "Caribbean Meteorological Organization (Montserrat)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Caribbean Meteorological Organization (Montserrat)"@en .

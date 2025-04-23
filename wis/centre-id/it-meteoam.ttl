@@ -5,5 +5,4 @@
 <it-meteoam> a skos:Concept ;
         rdfs:label "it-meteoam" ;
         skos:notation "it-meteoam" ;
-        dct:description "Servizio Meteorológico (Italy)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Servizio Meteorológico (Italy)"@en .

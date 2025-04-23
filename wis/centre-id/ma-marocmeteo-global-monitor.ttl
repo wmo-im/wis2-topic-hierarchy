@@ -5,5 +5,4 @@
 <ma-marocmeteo-global-monitor> a skos:Concept ;
         rdfs:label "ma-marocmeteo-global-monitor" ;
         skos:notation "ma-marocmeteo-global-monitor" ;
-        dct:description "Direction de la Météorologie Nationale (Morocco), Global Monitor Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Direction de la Météorologie Nationale (Morocco), Global Monitor Service"@en .

@@ -5,5 +5,4 @@
 <lc-metservice> a skos:Concept ;
         rdfs:label "lc-metservice" ;
         skos:notation "lc-metservice" ;
-        dct:description "Saint Lucia Meteorological Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Saint Lucia Meteorological Service"@en .

@@ -5,5 +5,4 @@
 <ke-meteo> a skos:Concept ;
         rdfs:label "ke-meteo" ;
         skos:notation "ke-meteo" ;
-        dct:description "Kenya Meteorological Department"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Kenya Meteorological Department"@en .

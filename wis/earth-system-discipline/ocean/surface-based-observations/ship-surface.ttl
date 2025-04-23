@@ -5,5 +5,4 @@
 <ship-surface> a skos:Concept ;
         rdfs:label "ship-surface" ;
         skos:notation "ship-surface" ;
-        dct:description "Along track surface observations from ships"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Along track surface observations from ships"@en .

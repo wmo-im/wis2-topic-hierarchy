@@ -5,5 +5,4 @@
 <tsunami-buoys> a skos:Concept ;
         rdfs:label "tsunami-buoys" ;
         skos:notation "tsunami-buoys" ;
-        dct:description "Data from tsunami buoys, e.g. DART buoys"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Data from tsunami buoys, e.g. DART buoys"@en .

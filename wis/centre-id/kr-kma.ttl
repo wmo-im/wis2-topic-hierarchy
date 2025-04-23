@@ -5,5 +5,4 @@
 <kr-kma> a skos:Concept ;
         rdfs:label "kr-kma" ;
         skos:notation "kr-kma" ;
-        dct:description "Korea Meteorological Administration"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Korea Meteorological Administration"@en .

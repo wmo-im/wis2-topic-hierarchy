@@ -5,5 +5,4 @@
 <metadata> a skos:Concept ;
         rdfs:label "metadata" ;
         skos:notation "metadata" ;
-        dct:description "Metadata notification"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Metadata notification"@en .

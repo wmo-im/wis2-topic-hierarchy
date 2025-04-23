@@ -5,5 +5,4 @@
 <ly-lnmc> a skos:Concept ;
         rdfs:label "ly-lnmc" ;
         skos:notation "ly-lnmc" ;
-        dct:description "Libyan National Meteorological Centre"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Libyan National Meteorological Centre"@en .

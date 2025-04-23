@@ -5,5 +5,4 @@
 <br-inmet-global-broker> a skos:Concept ;
         rdfs:label "br-inmet-global-broker" ;
         skos:notation "br-inmet-global-broker" ;
-        dct:description "Instituto Nacional de Meteorología (Brazil), Global Broker Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Instituto Nacional de Meteorología (Brazil), Global Broker Service"@en .

@@ -7,5 +7,4 @@
 <prediction> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "prediction" ;
-        dct:description "Data sets produced by quantitative algorithms, such as numerical or statistical prediction models, describing the past, present and future meteorological states" ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Data sets produced by quantitative algorithms, such as numerical or statistical prediction models, describing the past, present and future meteorological states" .

@@ -5,5 +5,4 @@
 <sz-swazimet> a skos:Concept ;
         rdfs:label "sz-swazimet" ;
         skos:notation "sz-swazimet" ;
-        dct:description "Eswatini Meteorological Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Eswatini Meteorological Service"@en .

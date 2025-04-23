@@ -5,5 +5,4 @@
 <core> a skos:Concept ;
         rdfs:label "core" ;
         skos:notation "core" ;
-        dct:description "Core data"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Core data"@en .

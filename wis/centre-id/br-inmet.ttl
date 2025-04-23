@@ -5,5 +5,4 @@
 <br-inmet> a skos:Concept ;
         rdfs:label "br-inmet" ;
         skos:notation "br-inmet" ;
-        dct:description "Instituto Nacional de Meteorología (Brazil)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Instituto Nacional de Meteorología (Brazil)"@en .

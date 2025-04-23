@@ -5,5 +5,4 @@
 <in-imd> a skos:Concept ;
         rdfs:label "in-imd" ;
         skos:notation "in-imd" ;
-        dct:description "India Meteorological Department"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "India Meteorological Department"@en .

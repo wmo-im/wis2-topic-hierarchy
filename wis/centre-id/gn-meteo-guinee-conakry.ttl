@@ -5,5 +5,4 @@
 <gn-meteo-guinee-conakry> a skos:Concept ;
         rdfs:label "gn-meteo-guinee-conakry" ;
         skos:notation "gn-meteo-guinee-conakry" ;
-        dct:description "Direction Nationale de la Météorologie (Guinea)"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Direction Nationale de la Météorologie (Guinea)"@en .

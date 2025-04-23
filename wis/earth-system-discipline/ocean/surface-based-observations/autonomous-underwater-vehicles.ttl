@@ -5,5 +5,4 @@
 <autonomous-underwater-vehicles> a skos:Concept ;
         rdfs:label "autonomous-underwater-vehicles" ;
         skos:notation "autonomous-underwater-vehicles" ;
-        dct:description "Data from autonomous under water vehicles"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Data from autonomous under water vehicles"@en .

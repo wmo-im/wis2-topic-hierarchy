@@ -5,5 +5,4 @@
 <temp-ship> a skos:Concept ;
         rdfs:label "temp-ship" ;
         skos:notation "temp-ship" ;
-        dct:description "Radiosonde measurements from ships"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Radiosonde measurements from ships"@en .

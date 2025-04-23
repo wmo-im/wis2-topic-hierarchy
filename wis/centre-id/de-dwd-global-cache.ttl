@@ -5,5 +5,4 @@
 <de-dwd-global-cache> a skos:Concept ;
         rdfs:label "de-dwd-global-cache" ;
         skos:notation "de-dwd-global-cache" ;
-        dct:description "Deutscher Wetterdienst (Germany), Global Cache Service"@en ;
-        rdfs:isDefinedBy "Operational" .
+        dct:description "Deutscher Wetterdienst (Germany), Global Cache Service"@en .

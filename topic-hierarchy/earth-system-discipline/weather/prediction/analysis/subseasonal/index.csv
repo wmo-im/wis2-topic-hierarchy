@@ -1,3 +1,3 @@
 Name,Description,Source,Status
-deterministic,Outputs from a prediction system which provides one single scenario,Operational,
-probabilistic,"Outputs from a prediction system which provides multiple scenarios, including probability distribution and uncertainty information",Operational,
+deterministic,Outputs from a prediction system which provides one single scenario,,Operational
+probabilistic,"Outputs from a prediction system which provides multiple scenarios, including probability distribution and uncertainty information",,Operational

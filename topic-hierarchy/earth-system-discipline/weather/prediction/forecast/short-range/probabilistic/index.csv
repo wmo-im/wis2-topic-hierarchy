@@ -1,4 +1,4 @@
 Name,Description,Source,Status
-global,A prediction system that covers the entire globe,Operational,
-limited-area,A prediction system that does not cover the entire globe,Operational,
-trajectory,"Line in space representing the successive positions of (i) moving particles in the air, such as radioactive particles from a nuclear accident or (ii) the centre of a weather system, such as a tropical cyclone.",Operational,
+global,A prediction system that covers the entire globe,,Operational
+limited-area,A prediction system that does not cover the entire globe,,Operational
+trajectory,"Line in space representing the successive positions of (i) moving particles in the air, such as radioactive particles from a nuclear accident or (ii) the centre of a weather system, such as a tropical cyclone.",,Operational

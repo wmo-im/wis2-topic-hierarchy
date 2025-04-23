@@ -5,4 +5,5 @@
 <ship-sub-surface> a skos:Concept ;
         rdfs:label "ship-sub-surface" ;
         skos:notation "ship-sub-surface" ;
-        dct:description "Profile data measured from ships, e.g. XBT, CTD, etc."@en .
+        dct:description "Profile data measured from ships, e.g. XBT, CTD, etc."@en ;
+        rdfs:isDefinedBy "Operational" .

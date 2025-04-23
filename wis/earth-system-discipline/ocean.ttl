@@ -7,4 +7,5 @@
 <ocean> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "ocean" ;
-        dct:description "Ocean" .
+        dct:description "Ocean" ;
+        rdfs:isDefinedBy "Operational" .

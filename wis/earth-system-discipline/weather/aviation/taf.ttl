@@ -5,4 +5,5 @@
 <taf> a skos:Concept ;
         rdfs:label "taf" ;
         skos:notation "taf" ;
-        dct:description "Aerodrome forecast"@en .
+        dct:description "Aerodrome forecast"@en ;
+        rdfs:isDefinedBy "Operational" .

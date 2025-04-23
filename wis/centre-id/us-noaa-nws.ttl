@@ -5,4 +5,5 @@
 <us-noaa-nws> a skos:Concept ;
         rdfs:label "us-noaa-nws" ;
         skos:notation "us-noaa-nws" ;
-        dct:description "National Oceanic and Atmospheric Administration, National Weather Service (United States of America)"@en .
+        dct:description "National Oceanic and Atmospheric Administration, National Weather Service (United States of America)"@en ;
+        rdfs:isDefinedBy "Operational" .

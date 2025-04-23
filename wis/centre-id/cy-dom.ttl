@@ -5,4 +5,5 @@
 <cy-dom> a skos:Concept ;
         rdfs:label "cy-dom" ;
         skos:notation "cy-dom" ;
-        dct:description "Meteorological Service (Cyprus)"@en .
+        dct:description "Meteorological Service (Cyprus)"@en ;
+        rdfs:isDefinedBy "Operational" .

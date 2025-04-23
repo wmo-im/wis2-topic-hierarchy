@@ -5,4 +5,5 @@
 <au-bom> a skos:Concept ;
         rdfs:label "au-bom" ;
         skos:notation "au-bom" ;
-        dct:description "Bureau of Meteorology Water Division"@en .
+        dct:description "Bureau of Meteorology Water Division"@en ;
+        rdfs:isDefinedBy "Operational" .

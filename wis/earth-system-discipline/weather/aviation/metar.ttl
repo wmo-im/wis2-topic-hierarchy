@@ -5,4 +5,5 @@
 <metar> a skos:Concept ;
         rdfs:label "metar" ;
         skos:notation "metar" ;
-        dct:description "Aerodrome observation"@en .
+        dct:description "Aerodrome observation"@en ;
+        rdfs:isDefinedBy "Operational" .

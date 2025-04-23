@@ -5,4 +5,5 @@
 <limited-area> a skos:Concept ;
         rdfs:label "limited-area" ;
         skos:notation "limited-area" ;
-        dct:description "A prediction system that does not cover the entire globe"@en .
+        dct:description "A prediction system that does not cover the entire globe"@en ;
+        rdfs:isDefinedBy "Operational" .

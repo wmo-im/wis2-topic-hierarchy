@@ -5,4 +5,5 @@
 <jp-jma> a skos:Concept ;
         rdfs:label "jp-jma" ;
         skos:notation "jp-jma" ;
-        dct:description "Japan Meteorological Agency"@en .
+        dct:description "Japan Meteorological Agency"@en ;
+        rdfs:isDefinedBy "Operational" .

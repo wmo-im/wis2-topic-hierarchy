@@ -5,4 +5,5 @@
 <cn-cma-global-discovery-catalogue> a skos:Concept ;
         rdfs:label "cn-cma-global-discovery-catalogue" ;
         skos:notation "cn-cma-global-discovery-catalogue" ;
-        dct:description "China Meteorological Administration, Global Discovery Catalogue Service"@en .
+        dct:description "China Meteorological Administration, Global Discovery Catalogue Service"@en ;
+        rdfs:isDefinedBy "Operational" .

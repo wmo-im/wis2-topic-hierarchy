@@ -5,4 +5,5 @@
 <global> a skos:Concept ;
         rdfs:label "global" ;
         skos:notation "global" ;
-        dct:description "A prediction system that covers the entire globe"@en .
+        dct:description "A prediction system that covers the entire globe"@en ;
+        rdfs:isDefinedBy "Operational" .

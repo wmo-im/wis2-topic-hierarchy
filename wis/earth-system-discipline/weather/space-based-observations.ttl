@@ -7,4 +7,5 @@
 <space-based-observations> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "space-based-observations" ;
-        dct:description " Space based observations" .
+        dct:description " Space based observations" ;
+        rdfs:isDefinedBy "Operational" .

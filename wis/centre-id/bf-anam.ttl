@@ -5,4 +5,5 @@
 <bf-anam> a skos:Concept ;
         rdfs:label "bf-anam" ;
         skos:notation "bf-anam" ;
-        dct:description "Direction de la Météorologie (Burkina Faso)"@en .
+        dct:description "Direction de la Météorologie (Burkina Faso)"@en ;
+        rdfs:isDefinedBy "Operational" .

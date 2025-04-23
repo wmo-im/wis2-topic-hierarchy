@@ -5,4 +5,5 @@
 <zw-msd> a skos:Concept ;
         rdfs:label "zw-msd" ;
         skos:notation "zw-msd" ;
-        dct:description "Zimbabwe Meteorological Services Department"@en .
+        dct:description "Zimbabwe Meteorological Services Department"@en ;
+        rdfs:isDefinedBy "Operational" .

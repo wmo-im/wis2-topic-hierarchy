@@ -5,4 +5,5 @@
 <my-metmalaysia> a skos:Concept ;
         rdfs:label "my-metmalaysia" ;
         skos:notation "my-metmalaysia" ;
-        dct:description "Malaysian Meteorological Department"@en .
+        dct:description "Malaysian Meteorological Department"@en ;
+        rdfs:isDefinedBy "Operational" .

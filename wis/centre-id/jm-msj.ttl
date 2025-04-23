@@ -5,4 +5,5 @@
 <jm-msj> a skos:Concept ;
         rdfs:label "jm-msj" ;
         skos:notation "jm-msj" ;
-        dct:description "Meteorological Service (Jamaica)"@en .
+        dct:description "Meteorological Service (Jamaica)"@en ;
+        rdfs:isDefinedBy "Operational" .

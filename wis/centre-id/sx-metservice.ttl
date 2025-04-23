@@ -5,4 +5,5 @@
 <sx-metservice> a skos:Concept ;
         rdfs:label "sx-metservice" ;
         skos:notation "sx-metservice" ;
-        dct:description "Meteorological Department Curaçao (Curaçao and Sint Maarten)"@en .
+        dct:description "Meteorological Department Curaçao (Curaçao and Sint Maarten)"@en ;
+        rdfs:isDefinedBy "Operational" .

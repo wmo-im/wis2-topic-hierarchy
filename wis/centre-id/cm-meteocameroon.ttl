@@ -5,4 +5,5 @@
 <cm-meteocameroon> a skos:Concept ;
         rdfs:label "cm-meteocameroon" ;
         skos:notation "cm-meteocameroon" ;
-        dct:description "Direction de la Météorologie Nationale (Cameroon)"@en .
+        dct:description "Direction de la Météorologie Nationale (Cameroon)"@en ;
+        rdfs:isDefinedBy "Operational" .

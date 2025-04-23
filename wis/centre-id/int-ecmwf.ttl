@@ -5,4 +5,5 @@
 <int-ecmwf> a skos:Concept ;
         rdfs:label "int-ecmwf" ;
         skos:notation "int-ecmwf" ;
-        dct:description "European Centre for Medium-Range Weather Forecasts (ECMWF)"@en .
+        dct:description "European Centre for Medium-Range Weather Forecasts (ECMWF)"@en ;
+        rdfs:isDefinedBy "Operational" .

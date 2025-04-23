@@ -5,4 +5,5 @@
 <zm-zmd> a skos:Concept ;
         rdfs:label "zm-zmd" ;
         skos:notation "zm-zmd" ;
-        dct:description "Zambia Meteorological Department"@en .
+        dct:description "Zambia Meteorological Department"@en ;
+        rdfs:isDefinedBy "Operational" .

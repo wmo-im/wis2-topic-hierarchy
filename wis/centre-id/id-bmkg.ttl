@@ -5,4 +5,5 @@
 <id-bmkg> a skos:Concept ;
         rdfs:label "id-bmkg" ;
         skos:notation "id-bmkg" ;
-        dct:description "Agency for Meteorology,Climatology and Geophysics (Indonesia)"@en .
+        dct:description "Agency for Meteorology,Climatology and Geophysics (Indonesia)"@en ;
+        rdfs:isDefinedBy "Operational" .

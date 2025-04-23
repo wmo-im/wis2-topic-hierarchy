@@ -5,4 +5,5 @@
 <ca-eccc-msc-global-discovery-catalogue> a skos:Concept ;
         rdfs:label "ca-eccc-msc-global-discovery-catalogue" ;
         skos:notation "ca-eccc-msc-global-discovery-catalogue" ;
-        dct:description "Meteorological Service of Canada, Global Discovery Catalogue Service"@en .
+        dct:description "Meteorological Service of Canada, Global Discovery Catalogue Service"@en ;
+        rdfs:isDefinedBy "Operational" .

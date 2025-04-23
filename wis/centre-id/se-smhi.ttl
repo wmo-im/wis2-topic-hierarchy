@@ -5,4 +5,5 @@
 <se-smhi> a skos:Concept ;
         rdfs:label "se-smhi" ;
         skos:notation "se-smhi" ;
-        dct:description "Swedish Meteorological and Hydrological Institute"@en .
+        dct:description "Swedish Meteorological and Hydrological Institute"@en ;
+        rdfs:isDefinedBy "Operational" .

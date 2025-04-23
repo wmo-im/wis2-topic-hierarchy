@@ -5,4 +5,5 @@
 <wave-buoys> a skos:Concept ;
         rdfs:label "wave-buoys" ;
         skos:notation "wave-buoys" ;
-        dct:description "Data from wave buoys"@en .
+        dct:description "Data from wave buoys"@en ;
+        rdfs:isDefinedBy "Operational" .

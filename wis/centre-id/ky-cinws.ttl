@@ -5,4 +5,5 @@
 <ky-cinws> a skos:Concept ;
         rdfs:label "ky-cinws" ;
         skos:notation "ky-cinws" ;
-        dct:description "Caribbean Meteorological Organization (Cayman Islands)"@en .
+        dct:description "Caribbean Meteorological Organization (Cayman Islands)"@en ;
+        rdfs:isDefinedBy "Operational" .

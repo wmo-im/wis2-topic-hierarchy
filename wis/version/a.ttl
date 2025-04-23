@@ -5,4 +5,5 @@
 <a> a skos:Concept ;
         rdfs:label "a" ;
         skos:notation "a" ;
-        dct:description "Version of the topic hierarchy"@en .
+        dct:description "Version of the topic hierarchy"@en ;
+        rdfs:isDefinedBy "Operational" .

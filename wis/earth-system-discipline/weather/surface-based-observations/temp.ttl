@@ -5,4 +5,5 @@
 <temp> a skos:Concept ;
         rdfs:label "temp" ;
         skos:notation "temp" ;
-        dct:description "Upper air observations"@en .
+        dct:description "Upper air observations"@en ;
+        rdfs:isDefinedBy "Operational" .

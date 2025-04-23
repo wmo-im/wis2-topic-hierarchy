@@ -5,4 +5,5 @@
 <eu-eumetnet-femdi> a skos:Concept ;
         rdfs:label "eu-eumetnet-femdi" ;
         skos:notation "eu-eumetnet-femdi" ;
-        dct:description "WIS Centre (other)"@en .
+        dct:description "WIS Centre (other)"@en ;
+        rdfs:isDefinedBy "Operational" .

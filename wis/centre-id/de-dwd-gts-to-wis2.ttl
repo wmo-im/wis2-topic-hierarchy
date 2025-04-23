@@ -5,4 +5,5 @@
 <de-dwd-gts-to-wis2> a skos:Concept ;
         rdfs:label "de-dwd-gts-to-wis2" ;
         skos:notation "de-dwd-gts-to-wis2" ;
-        dct:description "Deutscher Wetterdienst, GTS to WIS2 Gateway (Germany)"@en .
+        dct:description "Deutscher Wetterdienst, GTS to WIS2 Gateway (Germany)"@en ;
+        rdfs:isDefinedBy "Operational" .

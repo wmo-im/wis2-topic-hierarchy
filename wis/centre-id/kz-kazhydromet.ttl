@@ -5,4 +5,5 @@
 <kz-kazhydromet> a skos:Concept ;
         rdfs:label "kz-kazhydromet" ;
         skos:notation "kz-kazhydromet" ;
-        dct:description "National Meteorological and Hydrological Service (Almaty) (Kazakhstan)"@en .
+        dct:description "National Meteorological and Hydrological Service (Almaty) (Kazakhstan)"@en ;
+        rdfs:isDefinedBy "Operational" .

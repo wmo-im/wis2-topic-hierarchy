@@ -5,4 +5,5 @@
 <za-weathersa> a skos:Concept ;
         rdfs:label "za-weathersa" ;
         skos:notation "za-weathersa" ;
-        dct:description "South African Weather Service"@en .
+        dct:description "South African Weather Service"@en ;
+        rdfs:isDefinedBy "Operational" .

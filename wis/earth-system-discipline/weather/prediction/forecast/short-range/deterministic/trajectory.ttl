@@ -5,4 +5,5 @@
 <trajectory> a skos:Concept ;
         rdfs:label "trajectory" ;
         skos:notation "trajectory" ;
-        dct:description "Line in space representing the successive positions of (i) moving particles in the air, such as radioactive particles from a nuclear accident or (ii) the centre of a weather system, such as a tropical cyclone."@en .
+        dct:description "Line in space representing the successive positions of (i) moving particles in the air, such as radioactive particles from a nuclear accident or (ii) the centre of a weather system, such as a tropical cyclone."@en ;
+        rdfs:isDefinedBy "Operational" .

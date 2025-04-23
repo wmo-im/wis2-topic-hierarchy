@@ -5,4 +5,5 @@
 <drifting-ocean-profilers> a skos:Concept ;
         rdfs:label "drifting-ocean-profilers" ;
         skos:notation "drifting-ocean-profilers" ;
-        dct:description "Data from drifting ocean profilers, e.g. Argo"@en .
+        dct:description "Data from drifting ocean profilers, e.g. Argo"@en ;
+        rdfs:isDefinedBy "Operational" .

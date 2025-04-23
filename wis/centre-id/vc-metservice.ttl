@@ -5,4 +5,5 @@
 <vc-metservice> a skos:Concept ;
         rdfs:label "vc-metservice" ;
         skos:notation "vc-metservice" ;
-        dct:description "CMO Member (St. Vincent and the Grenadines)"@en .
+        dct:description "CMO Member (St. Vincent and the Grenadines)"@en ;
+        rdfs:isDefinedBy "Operational" .

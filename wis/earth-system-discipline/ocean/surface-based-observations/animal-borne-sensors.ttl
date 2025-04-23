@@ -5,4 +5,5 @@
 <animal-borne-sensors> a skos:Concept ;
         rdfs:label "animal-borne-sensors" ;
         skos:notation "animal-borne-sensors" ;
-        dct:description "Data from animal borne sensors"@en .
+        dct:description "Data from animal borne sensors"@en ;
+        rdfs:isDefinedBy "Operational" .

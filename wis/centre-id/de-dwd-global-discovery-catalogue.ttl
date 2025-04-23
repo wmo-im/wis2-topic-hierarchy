@@ -5,4 +5,5 @@
 <de-dwd-global-discovery-catalogue> a skos:Concept ;
         rdfs:label "de-dwd-global-discovery-catalogue" ;
         skos:notation "de-dwd-global-discovery-catalogue" ;
-        dct:description "Deutscher Wetterdienst (Germany), Global Discovery Catalogue Service"@en .
+        dct:description "Deutscher Wetterdienst (Germany), Global Discovery Catalogue Service"@en ;
+        rdfs:isDefinedBy "Operational" .

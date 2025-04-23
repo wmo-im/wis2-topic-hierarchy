@@ -5,4 +5,5 @@
 <autonomous-surface-vehicles> a skos:Concept ;
         rdfs:label "autonomous-surface-vehicles" ;
         skos:notation "autonomous-surface-vehicles" ;
-        dct:description "Data from autonomous surface vehicles"@en .
+        dct:description "Data from autonomous surface vehicles"@en ;
+        rdfs:isDefinedBy "Operational" .

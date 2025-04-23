@@ -5,4 +5,5 @@
 <synop> a skos:Concept ;
         rdfs:label "synop" ;
         skos:notation "synop" ;
-        dct:description "Surface observations"@en .
+        dct:description "Surface observations"@en ;
+        rdfs:isDefinedBy "Operational" .

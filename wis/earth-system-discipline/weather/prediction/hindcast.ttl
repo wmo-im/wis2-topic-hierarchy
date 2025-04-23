@@ -7,4 +7,5 @@
 <hindcast> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "hindcast" ;
-        dct:description "Datasets of retrospective forecast for a specified time or period in the past" .
+        dct:description "Datasets of retrospective forecast for a specified time or period in the past" ;
+        rdfs:isDefinedBy "Operational" .

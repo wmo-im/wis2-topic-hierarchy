@@ -5,4 +5,5 @@
 <ag-antiguamet> a skos:Concept ;
         rdfs:label "ag-antiguamet" ;
         skos:notation "ag-antiguamet" ;
-        dct:description "Antigua and Barbuda Meteorological Services"@en .
+        dct:description "Antigua and Barbuda Meteorological Services"@en ;
+        rdfs:isDefinedBy "Operational" .

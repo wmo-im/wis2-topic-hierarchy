@@ -5,4 +5,5 @@
 <cn-cma-global-cache> a skos:Concept ;
         rdfs:label "cn-cma-global-cache" ;
         skos:notation "cn-cma-global-cache" ;
-        dct:description "China Meteorological Administration, Global Cache Service"@en .
+        dct:description "China Meteorological Administration, Global Cache Service"@en ;
+        rdfs:isDefinedBy "Operational" .

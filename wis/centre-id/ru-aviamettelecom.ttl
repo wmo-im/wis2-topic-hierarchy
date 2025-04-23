@@ -5,4 +5,5 @@
 <ru-aviamettelecom> a skos:Concept ;
         rdfs:label "ru-aviamettelecom" ;
         skos:notation "ru-aviamettelecom" ;
-        dct:description "Russian Federal Service for Hydrometeorology and Environmental Monitoring"@en .
+        dct:description "Russian Federal Service for Hydrometeorology and Environmental Monitoring"@en ;
+        rdfs:isDefinedBy "Operational" .

@@ -5,4 +5,5 @@
 <wind-profile> a skos:Concept ;
         rdfs:label "wind-profile" ;
         skos:notation "wind-profile" ;
-        dct:description "Wind profile measurements using PILOT balloons"@en .
+        dct:description "Wind profile measurements using PILOT balloons"@en ;
+        rdfs:isDefinedBy "Operational" .

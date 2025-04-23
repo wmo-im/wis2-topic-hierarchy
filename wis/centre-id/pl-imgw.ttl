@@ -5,4 +5,5 @@
 <pl-imgw> a skos:Concept ;
         rdfs:label "pl-imgw" ;
         skos:notation "pl-imgw" ;
-        dct:description "Institute of Meteorology and Water Management (Poland)"@en .
+        dct:description "Institute of Meteorology and Water Management (Poland)"@en ;
+        rdfs:isDefinedBy "Operational" .

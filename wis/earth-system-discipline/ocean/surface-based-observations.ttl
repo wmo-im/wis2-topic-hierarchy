@@ -7,4 +7,5 @@
 <surface-based-observations> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "surface-based-observations" ;
-        dct:description "Surface based observations" .
+        dct:description "Surface based observations" ;
+        rdfs:isDefinedBy "Operational" .

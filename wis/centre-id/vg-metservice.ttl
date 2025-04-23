@@ -5,4 +5,5 @@
 <vg-metservice> a skos:Concept ;
         rdfs:label "vg-metservice" ;
         skos:notation "vg-metservice" ;
-        dct:description "Caribbean Meteorological Organization (British Virgin Islands)"@en .
+        dct:description "Caribbean Meteorological Organization (British Virgin Islands)"@en ;
+        rdfs:isDefinedBy "Operational" .

@@ -5,4 +5,5 @@
 <ai-metservice> a skos:Concept ;
         rdfs:label "ai-metservice" ;
         skos:notation "ai-metservice" ;
-        dct:description "Caribbean Meteorological Organization (Anguilla)"@en .
+        dct:description "Caribbean Meteorological Organization (Anguilla)"@en ;
+        rdfs:isDefinedBy "Operational" .

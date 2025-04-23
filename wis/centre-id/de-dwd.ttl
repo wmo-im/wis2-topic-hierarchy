@@ -5,4 +5,5 @@
 <de-dwd> a skos:Concept ;
         rdfs:label "de-dwd" ;
         skos:notation "de-dwd" ;
-        dct:description "Deutscher Wetterdienst (Germany)"@en .
+        dct:description "Deutscher Wetterdienst (Germany)"@en ;
+        rdfs:isDefinedBy "Operational" .

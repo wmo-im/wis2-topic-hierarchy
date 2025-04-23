@@ -5,4 +5,5 @@
 <cg-met> a skos:Concept ;
         rdfs:label "cg-met" ;
         skos:notation "cg-met" ;
-        dct:description "Direction de la Météorologie Nationale (Congo)"@en .
+        dct:description "Direction de la Météorologie Nationale (Congo)"@en ;
+        rdfs:isDefinedBy "Operational" .

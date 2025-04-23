@@ -5,4 +5,5 @@
 <by-belgidromet> a skos:Concept ;
         rdfs:label "by-belgidromet" ;
         skos:notation "by-belgidromet" ;
-        dct:description "Department of Hydrometeorology (Belarus)"@en .
+        dct:description "Department of Hydrometeorology (Belarus)"@en ;
+        rdfs:isDefinedBy "Operational" .

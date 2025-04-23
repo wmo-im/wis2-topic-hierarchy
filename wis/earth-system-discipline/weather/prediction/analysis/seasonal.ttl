@@ -7,4 +7,5 @@
 <seasonal> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "seasonal" ;
-        dct:description "A prediction system up to the order of 6 months ahead" .
+        dct:description "A prediction system up to the order of 6 months ahead" ;
+        rdfs:isDefinedBy "Operational" .

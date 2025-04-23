@@ -7,4 +7,5 @@
 <hydrology> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "hydrology" ;
-        dct:description "Hydrology" .
+        dct:description "Hydrology" ;
+        rdfs:isDefinedBy "Operational" .

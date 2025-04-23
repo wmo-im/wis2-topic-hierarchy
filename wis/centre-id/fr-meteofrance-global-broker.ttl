@@ -5,4 +5,5 @@
 <fr-meteofrance-global-broker> a skos:Concept ;
         rdfs:label "fr-meteofrance-global-broker" ;
         skos:notation "fr-meteofrance-global-broker" ;
-        dct:description "Météo-France (Toulouse), Global Broker Service"@en .
+        dct:description "Météo-France (Toulouse), Global Broker Service"@en ;
+        rdfs:isDefinedBy "Operational" .

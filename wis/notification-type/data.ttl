@@ -5,4 +5,5 @@
 <data> a skos:Concept ;
         rdfs:label "data" ;
         skos:notation "data" ;
-        dct:description "Data notification"@en .
+        dct:description "Data notification"@en ;
+        rdfs:isDefinedBy "Operational" .

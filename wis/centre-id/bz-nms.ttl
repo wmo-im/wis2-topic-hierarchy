@@ -5,4 +5,5 @@
 <bz-nms> a skos:Concept ;
         rdfs:label "bz-nms" ;
         skos:notation "bz-nms" ;
-        dct:description "National Meteorological Service (Belize)"@en .
+        dct:description "National Meteorological Service (Belize)"@en ;
+        rdfs:isDefinedBy "Operational" .

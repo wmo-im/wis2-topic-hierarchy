@@ -5,4 +5,5 @@
 <sg-mss-asmc> a skos:Concept ;
         rdfs:label "sg-mss-asmc" ;
         skos:notation "sg-mss-asmc" ;
-        dct:description "ASEAN Specialized Meteorological Centre (ASMC) (Singapore)"@en .
+        dct:description "ASEAN Specialized Meteorological Centre (ASMC) (Singapore)"@en ;
+        rdfs:isDefinedBy "Operational" .

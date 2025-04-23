@@ -5,4 +5,5 @@
 <temperature-profile-radar> a skos:Concept ;
         rdfs:label "temperature-profile-radar" ;
         skos:notation "temperature-profile-radar" ;
-        dct:description "Radar based temperature profile measurements, e.g. RASS"@en .
+        dct:description "Radar based temperature profile measurements, e.g. RASS"@en ;
+        rdfs:isDefinedBy "Operational" .

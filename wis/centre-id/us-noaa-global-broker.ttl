@@ -5,4 +5,5 @@
 <us-noaa-global-broker> a skos:Concept ;
         rdfs:label "us-noaa-global-broker" ;
         skos:notation "us-noaa-global-broker" ;
-        dct:description "National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Broker Service"@en .
+        dct:description "National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Broker Service"@en ;
+        rdfs:isDefinedBy "Operational" .

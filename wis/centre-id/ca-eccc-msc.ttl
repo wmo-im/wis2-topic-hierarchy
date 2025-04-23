@@ -5,4 +5,5 @@
 <ca-eccc-msc> a skos:Concept ;
         rdfs:label "ca-eccc-msc" ;
         skos:notation "ca-eccc-msc" ;
-        dct:description "Meteorological Service of Canada"@en .
+        dct:description "Meteorological Service of Canada"@en ;
+        rdfs:isDefinedBy "Operational" .

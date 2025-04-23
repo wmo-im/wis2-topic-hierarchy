@@ -5,4 +5,5 @@
 <sa-ncm> a skos:Concept ;
         rdfs:label "sa-ncm" ;
         skos:notation "sa-ncm" ;
-        dct:description "National Center for Meteorology (Saudi Arabia)"@en .
+        dct:description "National Center for Meteorology (Saudi Arabia)"@en ;
+        rdfs:isDefinedBy "Operational" .

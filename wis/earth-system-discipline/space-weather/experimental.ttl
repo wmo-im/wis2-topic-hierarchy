@@ -5,4 +5,5 @@
 <experimental> a skos:Concept ;
         rdfs:label "experimental" ;
         skos:notation "experimental" ;
-        dct:description "Experimental topics"@en .
+        dct:description "Experimental topics"@en ;
+        rdfs:isDefinedBy "Operational" .

@@ -5,4 +5,5 @@
 <kr-kma-global-cache> a skos:Concept ;
         rdfs:label "kr-kma-global-cache" ;
         skos:notation "kr-kma-global-cache" ;
-        dct:description "Korea Meteorological Administration, Global Cache Service"@en .
+        dct:description "Korea Meteorological Administration, Global Cache Service"@en ;
+        rdfs:isDefinedBy "Operational" .

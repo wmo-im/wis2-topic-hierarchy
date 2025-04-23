@@ -5,4 +5,5 @@
 <hk-hko-swic> a skos:Concept ;
         rdfs:label "hk-hko-swic" ;
         skos:notation "hk-hko-swic" ;
-        dct:description "World Weather Information Service (WWIS) (Hong Kong, China)"@en .
+        dct:description "World Weather Information Service (WWIS) (Hong Kong, China)"@en ;
+        rdfs:isDefinedBy "Operational" .

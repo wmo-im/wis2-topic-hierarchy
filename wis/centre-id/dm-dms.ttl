@@ -5,4 +5,5 @@
 <dm-dms> a skos:Concept ;
         rdfs:label "dm-dms" ;
         skos:notation "dm-dms" ;
-        dct:description "Dominica Meteorological Services"@en .
+        dct:description "Dominica Meteorological Services"@en ;
+        rdfs:isDefinedBy "Operational" .

@@ -5,4 +5,5 @@
 <cn-cma-global-broker> a skos:Concept ;
         rdfs:label "cn-cma-global-broker" ;
         skos:notation "cn-cma-global-broker" ;
-        dct:description "China Meteorological Administration, Global Broker Service"@en .
+        dct:description "China Meteorological Administration, Global Broker Service"@en ;
+        rdfs:isDefinedBy "Operational" .

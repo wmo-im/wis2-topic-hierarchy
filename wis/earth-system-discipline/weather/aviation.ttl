@@ -7,4 +7,5 @@
 <aviation> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "aviation" ;
-        dct:description "Aviation" .
+        dct:description "Aviation" ;
+        rdfs:isDefinedBy "Operational" .

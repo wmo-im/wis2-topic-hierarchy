@@ -5,4 +5,5 @@
 <bb-barbadosmetservices> a skos:Concept ;
         rdfs:label "bb-barbadosmetservices" ;
         skos:notation "bb-barbadosmetservices" ;
-        dct:description "Meteorological Services (Barbados)"@en .
+        dct:description "Meteorological Services (Barbados)"@en ;
+        rdfs:isDefinedBy "Operational" .

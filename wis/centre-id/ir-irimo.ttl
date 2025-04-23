@@ -5,4 +5,5 @@
 <ir-irimo> a skos:Concept ;
         rdfs:label "ir-irimo" ;
         skos:notation "ir-irimo" ;
-        dct:description "Islamic Republic of Iran Meteorological Organization"@en .
+        dct:description "Islamic Republic of Iran Meteorological Organization"@en ;
+        rdfs:isDefinedBy "Operational" .

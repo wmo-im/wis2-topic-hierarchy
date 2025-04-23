@@ -5,4 +5,5 @@
 <kn-metservice> a skos:Concept ;
         rdfs:label "kn-metservice" ;
         skos:notation "kn-metservice" ;
-        dct:description "St Kitts and Nevis Meteorological Service"@en .
+        dct:description "St Kitts and Nevis Meteorological Service"@en ;
+        rdfs:isDefinedBy "Operational" .

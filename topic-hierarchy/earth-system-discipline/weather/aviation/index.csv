@@ -1,4 +1,4 @@
 Name,Description,Source,Status
-metar,Aerodrome observation,,Operational,
-taf,Aerodrome forecast,,Operational,
-qvaci,Quantitative volcanic ash concentration information,,Operational,
+metar,Aerodrome observation,,Operational
+taf,Aerodrome forecast,,Operational
+qvaci,Quantitative volcanic ash concentration information,,Operational

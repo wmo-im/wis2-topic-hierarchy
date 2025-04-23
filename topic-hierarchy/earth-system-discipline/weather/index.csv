@@ -1,7 +1,7 @@
 Name,Description,Source,Status
-advisories-warnings,Advisories and warnings,,Operational,
-aviation,Aviation,,Operational,
-prediction,"Data sets produced by quantitative algorithms, such as numerical or statistical prediction models, describing the past, present and future meteorological states",,Operational,
-space-based-observations, Space based observations,,Operational,
-surface-based-observations,Surface based observations,,Operational,
-experimental,Experimental topics,,Operational,
+advisories-warnings,Advisories and warnings,,Operational
+aviation,Aviation,,Operational
+prediction,"Data sets produced by quantitative algorithms, such as numerical or statistical prediction models, describing the past, present and future meteorological states",,Operational
+space-based-observations, Space based observations,,Operational
+surface-based-observations,Surface based observations,,Operational
+experimental,Experimental topics,,Operational

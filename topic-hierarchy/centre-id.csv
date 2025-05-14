@@ -1,95 +1,96 @@
-Name,Description,Source,Status
-ag-antiguamet,Antigua and Barbuda Meteorological Services,,Operational
-ai-metservice,Caribbean Meteorological Organization (Anguilla),,Operational
-ar-smn,Servicio Meteorológico Nacional (Argentina),,Operational
-au-bom,Bureau of Meteorology Water Division,,Retired
-bb-barbadosmetservices,Meteorological Services (Barbados),,Operational
-bf-anam,Direction de la Météorologie (Burkina Faso),,Operational
-bg-nimh,National Institute of Meteorology and Hydrology (Bulgaria),,Operational
-br-inmet,Instituto Nacional de Meteorología (Brazil),,Operational
-br-inmet-global-broker,"Instituto Nacional de Meteorología (Brazil), Global Broker Service",,Operational
-bs-metservice,Department of Meteorology (Bahamas),,Operational
-by-belgidromet,Department of Hydrometeorology (Belarus),,Operational
-bz-nms,National Meteorological Service (Belize),,Operational
-ca-eccc-msc,Meteorological Service of Canada,,Operational
-ca-eccc-msc-global-discovery-catalogue,"Meteorological Service of Canada, Global Discovery Catalogue Service",,Operational
-cg-met,Direction de la Météorologie Nationale (Congo),,Operational
-cl-meteochile,Dirección Meteorológica de Chile,,Operational
-cm-meteocameroon,Direction de la Météorologie Nationale (Cameroon),,Operational
-cn-cma,China Meteorological Administration,,Operational
-cn-cma-global-broker,"China Meteorological Administration, Global Broker Service",,Operational
-cn-cma-global-cache,"China Meteorological Administration, Global Cache Service",,Operational
-cn-cma-global-discovery-catalogue,"China Meteorological Administration, Global Discovery Catalogue Service",,Operational
-cn-cma-global-monitor,"China Meteorological Administration, Global Monitor Service",,Operational
-cr-imn,Instituto Meteorológico Nacional(Costa Rica),,Operational
-cu-insmet,Instituto de Meteorología (Cuba),,Operational
-cy-dom,Meteorological Service (Cyprus),,Operational
-data-metoffice-noaa-global-cache,"Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland) and National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Cache Service",,Operational
-de-dwd,Deutscher Wetterdienst (Germany),,Operational
-de-dwd-global-cache,"Deutscher Wetterdienst (Germany), Global Cache Service",,Operational
-de-dwd-global-discovery-catalogue,"Deutscher Wetterdienst (Germany), Global Discovery Catalogue Service",,Operational
-de-dwd-gts-to-wis2,"Deutscher Wetterdienst, GTS to WIS2 Gateway (Germany)",,Operational
-dk-dmi-opendata,Danish Meteorological Institute (Denmark),,Operational
-dm-dms,Dominica Meteorological Services,,Operational
-dz-meteoalgerie,Office National de la Météorologie (Algeria),,Operational
-eu-eumetnet-femdi,WIS Centre (other),,Operational
-fr-meteofrance,Météo-France (Toulouse),,Operational
-fr-meteofrance-global-broker,"Météo-France (Toulouse), Global Broker Service",,Operational
-gd-metservice,CMO Member (Grenada),,Operational
-gn-meteo-guinee-conakry,Direction Nationale de la Météorologie (Guinea),,Operational
-gy-hydromet,Hydrometeorological Service (Guyana),,Operational
-hk-hko,Hong Kong Observatory,,Operational
-hk-hko-swic,"World Weather Information Service (WWIS) (Hong Kong, China)",,Operational
-id-bmkg,"Agency for Meteorology,Climatology and Geophysics (Indonesia)",,Operational
-il-ims,Israel Meteorological Service,,Operational
-in-imd,India Meteorological Department,,Operational
-int-ecmwf,European Centre for Medium-Range Weather Forecasts (ECMWF),,Operational
-int-eumetsat,European Organization for the Exploitation of Meteorological Satellites (EUMETSAT),,Operational
-io-wis2dev1-test,"Test WIS2 Node (for use in the WIS2 test environment, not for operations)",,Operational
-ir-irimo,Islamic Republic of Iran Meteorological Organization,,Operational
-it-meteoam,Servizio Meteorológico (Italy),,Operational
-jm-msj,Meteorological Service (Jamaica),,Operational
-jp-jma,Japan Meteorological Agency,,Operational
-jp-jma-global-cache,"Japan Meteorological Agency, Global Cache Service",,Operational
-jp-jma-gts-to-wis2,"Japan Meteorological Agency, GTS to WIS2 Gateway (Japan)",,Operational
-ke-meteo,Kenya Meteorological Department,,Operational
-kn-metservice,St Kitts and Nevis Meteorological Service,,Operational
-kr-kma,Korea Meteorological Administration,,Operational
-kr-kma-global-cache,"Korea Meteorological Administration, Global Cache Service",,Operational
-ky-cinws,Caribbean Meteorological Organization (Cayman Islands),,Operational
-kz-kazhydromet,National Meteorological and Hydrological Service (Almaty) (Kazakhstan),,Operational
-lc-metservice,Saint Lucia Meteorological Service,,Operational
-ly-lnmc,Libyan National Meteorological Centre,,Operational
-ma-marocmeteo,Direction de la Météorologie Nationale (Morocco),,Operational
-ma-marocmeteo-global-monitor,"Direction de la Météorologie Nationale (Morocco), Global Monitor Service",,Operational
-ms-metservice,Caribbean Meteorological Organization (Montserrat),,Operational
-my-metmalaysia,Malaysian Meteorological Department,,Operational
-na-meteona,Namibia Meteorological Service,,Operational
-ng-nimet,Nigerian Meteorological Agency,,Operational
-nz-metservice,New Zealand National Meteorological Service,,Operational
-pl-imgw,Institute of Meteorology and Water Management (Poland),,Operational
-ru-aviamettelecom,Russian Federal Service for Hydrometeorology and Environmental Monitoring,,Operational
-sa-ncm,National Center for Meteorology (Saudi Arabia),,Operational
-sa-ncm-global-cache,"National Center for Meteorology (Saudi Arabia), Global Cache Service",,Operational
-se-smhi,Swedish Meteorological and Hydrological Institute,,Operational
-sg-mss,Meteorological Services Division (Singapore),,Operational
-sg-mss-asmc,ASEAN Specialized Meteorological Centre (ASMC) (Singapore),,Operational
-ss-ssms,South Sudan Meteorological Services,,Operational
-sx-metservice,Meteorological Department Curaçao (Curaçao and Sint Maarten),,Operational
-sz-swazimet,Eswatini Meteorological Service,,Operational
-tc-metservice,Caribbean Meteorological Organization (Turks and Caicos Islands),,Operational
-td-anam,Direction des Ressources en Eau et de la Météorologie (Chad),,Operational
-tt-trin-met,Meteorological Service (Trinidad and Tobago),,Operational
-uk-metoffice-nmc,Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland),,Operational
-us-cimss,"National Environmental Satellite, Data, and Information Service (NESDIS) (United States of America)",,Operational
-us-noaa-global-broker,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Broker Service",,Operational
-us-noaa-nws,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
-us-noaa-synoptic,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
-us-synoptic-uas,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
-us-ucsd-scripps-ldl,WIS Centre (other)/University of California San Diego (United States of America),,Operational
-uy-inumet,Dirección Nacional de Meteorología (Uruguay),,Operational
-vc-metservice,CMO Member (St. Vincent and the Grenadines),,Operational
-vg-metservice,Caribbean Meteorological Organization (British Virgin Islands),,Operational
-za-weathersa,South African Weather Service,,Operational
-zm-zmd,Zambia Meteorological Department,,Operational
-zw-msd,Zimbabwe Meteorological Services Department,,Operational
+ag-antiguamet,Antigua and Barbuda Meteorological Services,,Operational,
+ai-metservice,Caribbean Meteorological Organization (Anguilla),,Operational,
+ar-smn,Servicio Meteorológico Nacional (Argentina),,Operational,
+au-bom,Bureau of Meteorology Water Division,,Retired,
+bb-barbadosmetservices,Meteorological Services (Barbados),,Operational,
+bf-anam,Direction de la Météorologie (Burkina Faso),,Operational,
+bg-nimh,National Institute of Meteorology and Hydrology (Bulgaria),,Operational,
+br-inmet,Instituto Nacional de Meteorología (Brazil),,Operational,
+br-inmet-global-broker,"Instituto Nacional de Meteorología (Brazil),, Global Broker Service",Operational
+bs-metservice,Department of Meteorology (Bahamas),,Operational,
+by-belgidromet,Department of Hydrometeorology (Belarus),,Operational,
+bz-nms,National Meteorological Service (Belize),,Operational,
+ca-eccc-msc,Meteorological Service of Canada,,Operational,
+ca-eccc-msc-global-discovery-catalogue,"Meteorological Service of Canada,, Global Discovery Catalogue Service",Operational,
+cg-met,Direction de la Météorologie Nationale (Congo),,Operational,
+cl-meteochile,Dirección Meteorológica de Chile,,Operational,
+cm-meteocameroon,Direction de la Météorologie Nationale (Cameroon),,Operational,
+cn-cma,China Meteorological Administration,,Operational,
+cn-cma-global-broker,"China Meteorological Administration,, Global Broker Service",Operational,
+cn-cma-global-cache,"China Meteorological Administration,, Global Cache Service",Operational,
+cn-cma-global-discovery-catalogue,"China Meteorological Administration,, Global Discovery Catalogue Service",Operational,
+cn-cma-global-monitor,"China Meteorological Administration,, Global Monitor Service",Operational,
+cr-imn,Instituto Meteorológico Nacional(Costa Rica),,Operational,
+cu-insmet,Instituto de Meteorología (Cuba),,Operational,
+cy-dom,Meteorological Service (Cyprus),,Operational,
+data-metoffice-noaa-global-cache,"Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland) and National Oceanic and Atmospheric Administration,, National Weather Service (United States of America), Global Cache Service",Operational,
+de-dwd,Deutscher Wetterdienst (Germany),,Operational,
+de-dwd-global-cache,"Deutscher Wetterdienst (Germany),, Global Cache Service",Operational,
+de-dwd-global-discovery-catalogue,"Deutscher Wetterdienst (Germany),, Global Discovery Catalogue Service",Operational,
+de-dwd-gts-to-wis2,"Deutscher Wetterdienst,, GTS to WIS2 Gateway (Germany)",Operational,
+dk-dmi-opendata,Danish Meteorological Institute (Denmark),,Operational,
+dm-dms,Dominica Meteorological Services,,Operational,
+dz-meteoalgerie,Office National de la Météorologie (Algeria),,Operational,
+eu-eumetnet-femdi,WIS Centre (other),,Inactive,
+fr-meteofrance,Météo-France (Toulouse),,Operational,
+fr-meteofrance-global-broker,"Météo-France (Toulouse),, Global Broker Service",Operational,
+gd-metservice,CMO Member (Grenada),,Operational,
+gn-meteo-guinee-conakry,Direction Nationale de la Météorologie (Guinea),,Operational,
+gy-hydromet,Hydrometeorological Service (Guyana),,Operational,
+hk-hko,Hong Kong Observatory,,Operational,
+hk-hko-swic,"World Weather Information Service (WWIS) (Hong Kong,, China)",Operational,
+id-bmkg,"Agency for Meteorology,,Climatology and Geophysics (Indonesia)",Operational,
+il-ims,Israel Meteorological Service,,Operational,
+in-imd,India Meteorological Department,,Operational,
+int-ecmwf,European Centre for Medium-Range Weather Forecasts (ECMWF),,Operational,
+int-eumetsat,European Organization for the Exploitation of Meteorological Satellites (EUMETSAT),,Operational,
+io-wis2dev1-test,"Test WIS2 Node (for use in the WIS2 test environment,, not for operations)",,
+ir-irimo,Islamic Republic of Iran Meteorological Organization,,Operational,
+it-meteoam,Servizio Meteorológico (Italy),,Operational,
+jm-msj,Meteorological Service (Jamaica),,Operational,
+jp-jma,Japan Meteorological Agency,,Operational,
+jp-jma-global-cache,"Japan Meteorological Agency,, Global Cache Service",Operational,
+jp-jma-gts-to-wis2,"Japan Meteorological Agency,, GTS to WIS2 Gateway (Japan)",Operational,
+ke-meteo,Kenya Meteorological Department,,Operational,
+kn-metservice,St Kitts and Nevis Meteorological Service,,Operational,
+kr-kma,Korea Meteorological Administration,,Operational,
+kr-kma-global-cache,"Korea Meteorological Administration,, Global Cache Service",Operational,
+ky-cinws,Caribbean Meteorological Organization (Cayman Islands),,Operational,
+kz-kazhydromet,National Meteorological and Hydrological Service (Almaty) (Kazakhstan),,Operational,
+lc-metservice,Saint Lucia Meteorological Service,,Operational,
+ly-lnmc,Libyan National Meteorological Centre,,Operational,
+ma-marocmeteo,Direction de la Météorologie Nationale (Morocco),,Operational,
+ma-marocmeteo-global-monitor,"Direction de la Météorologie Nationale (Morocco),, Global Monitor Service",Operational,
+ms-metservice,Caribbean Meteorological Organization (Montserrat),,Operational,
+my-metmalaysia,Malaysian Meteorological Department,,Operational,
+na-meteona,Namibia Meteorological Service,,Operational,
+ng-nimet,Nigerian Meteorological Agency,,Operational,
+nz-metservice,New Zealand National Meteorological Service,,Operational,
+pl-imgw,Institute of Meteorology and Water Management (Poland),,Operational,
+ru-aviamettelecom,Russian Federal Service for Hydrometeorology and Environmental Monitoring,,Operational,
+sa-ncm,National Center for Meteorology (Saudi Arabia),,Operational,
+sa-ncm-global-cache,"National Center for Meteorology (Saudi Arabia),, Global Cache Service",Operational,
+sc-seychelles-met,Seychelles Meteorological Authority,,Operational,
+se-smhi,Swedish Meteorological and Hydrological Institute,,Operational,
+sg-mss,Meteorological Services Division (Singapore),,Operational,
+sg-mss-asmc,ASEAN Specialized Meteorological Centre (ASMC) (Singapore),,Operational,
+ss-ssms,South Sudan Meteorological Services,,Operational,
+sx-metservice,Meteorological Department Curaçao (Curaçao and Sint Maarten),,Operational,
+sz-swazimet,Eswatini Meteorological Service,,Operational,
+tc-metservice,Caribbean Meteorological Organization (Turks and Caicos Islands),,Operational,
+td-anam,Direction des Ressources en Eau et de la Météorologie (Chad),,Operational,
+tg-anamet,Agence Nationale de la Météorologie du Togo (ANAMET),,Operational,
+tt-trin-met,Meteorological Service (Trinidad and Tobago),,Operational,
+uk-metoffice-nmc,Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland),,Operational,
+us-cimss,"National Environmental Satellite,, Data, and Information Service (NESDIS) (United States of America)",Operational,
+us-noaa-global-broker,"National Oceanic and Atmospheric Administration,, National Weather Service (United States of America), Global Broker Service",Operational,
+us-noaa-nws,"National Oceanic and Atmospheric Administration,, National Weather Service (United States of America)",Operational,
+us-noaa-synoptic,"National Oceanic and Atmospheric Administration,, National Weather Service (United States of America)",Operational,
+us-synoptic-uas,"National Oceanic and Atmospheric Administration,, National Weather Service (United States of America)",Operational,
+us-ucsd-scripps-ldl,WIS Centre (other)/University of California San Diego (United States of America),,Inactive,
+uy-inumet,Dirección Nacional de Meteorología (Uruguay),,Operational,
+vc-metservice,CMO Member (St. Vincent and the Grenadines),,Operational,
+vg-metservice,Caribbean Meteorological Organization (British Virgin Islands),,Operational,
+za-weathersa,South African Weather Service,,Operational,
+zm-zmd,Zambia Meteorological Department,,Operational,
+zw-msd,Zimbabwe Meteorological Services Department,,Operational,

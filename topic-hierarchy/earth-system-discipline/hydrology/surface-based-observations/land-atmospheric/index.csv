@@ -1,0 +1,4 @@
+Name,Description,Source,Status
+air-temperature,Air temperature,https://codes.wmo.int/wmdr/ObservedVariableAtmosphere/_224,Operational
+snow-depth,Snow depth,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_629,Operational
+wind,Wind,https://codes.wmo.int/wmdr/ObservedVariableAtmosphere/_307,Operational

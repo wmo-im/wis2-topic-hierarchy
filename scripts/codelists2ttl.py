@@ -393,7 +393,6 @@ with topic_hierarchy_csv_path.open() as root_table_file:
         subregisters.append(f'<{subregister_url}>')
         register_ttl_file_name = Path(f'{row["Name"]}.ttl')
 
-        print(register_ttl_file_name)
         ttl = gen_skos_subregister(row['Name'], row['Description'])
         write_ttl_file(
             ttl, topic_hierarchy_ttl_dir, register_ttl_file_name, True

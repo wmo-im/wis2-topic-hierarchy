@@ -93,6 +93,7 @@ def gen_skos_concept(name: str, description: str, source: str = None,
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <$name> a skos:Concept ;
         rdfs:label "$name" ;

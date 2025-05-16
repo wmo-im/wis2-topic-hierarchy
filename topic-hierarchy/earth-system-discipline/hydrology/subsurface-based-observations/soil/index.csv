@@ -1,0 +1,9 @@
+Name,Description,Source,Status
+effective-porosity,Effective porosity,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12259,Operational
+infiltration-capacity,Infiltration capacity,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12262,Operational
+infiltration-rate,Infiltration rate,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12261,Operational
+land-surface-temperature,Land surface temperature,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_389,Operational
+percolation-rate,Percolation rate,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12253,Operational
+permafrost-temperature,Permafrost temperature,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12014,Operational
+porosity,Porosity,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12258,Operational
+soil temperature,Soil temperature,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_596,Operational

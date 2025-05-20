@@ -65,7 +65,7 @@ def gen_skos_subregister(
     }
 
     if status in STATUSES:
-        SUBREGISTER += ' ;\n        reg:status status$status'
+        SUBREGISTER += ' ;\n        reg:status reg:status$status'
         template_vars['status'] = STATUSES[status]
 
     if source not in ['', None]:
@@ -106,7 +106,7 @@ def gen_skos_concept(name: str, description: str, source: str = None,
     }
 
     if status in STATUSES:
-        CONCEPT += ' ;\n        reg:status status$status'
+        CONCEPT += ' ;\n        reg:status reg:status$status'
         template_vars['status'] = STATUSES[status]
 
     if source not in ['', None]:

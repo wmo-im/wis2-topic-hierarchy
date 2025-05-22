@@ -26,17 +26,23 @@ import re
 import shutil
 from string import Template
 
-description_suffix = '-description'
+DESCRIPTION_SUFFIX = '-description'
+
+STATUSES = {
+    'Operational': 'Stable',
+    'Retired': 'Retired'
+}
 
 
 def gen_skos_subregister(
-    name: str, description: str, source: str = None
-) -> str:
+    name: str, description: str, source: str = None,
+        status: str = 'Operational') -> str:
     """
     Generate SKOS Sub-register TTL
 
     :param name: identifier of collection
     :param description: label of collection
+    :param status: status, 'Operational', 'Retired', or 'Inactive'
 
     :returns: `str` of SKOS Sub-register TTL
     """
@@ -58,7 +64,11 @@ def gen_skos_subregister(
         'description': description
     }
 
-    if source != '':
+    if status in STATUSES:
+        SUBREGISTER += ' ;\n        reg:status reg:status$status'
+        template_vars['status'] = STATUSES[status]
+
+    if source not in ['', None]:
         SUBREGISTER += ' ;\n        rdfs:isDefinedBy "$source" .'
         template_vars['source'] = source
     else:
@@ -67,12 +77,14 @@ def gen_skos_subregister(
     return Template(SUBREGISTER).substitute(template_vars).strip()
 
 
-def gen_skos_concept(name: str, description: str, source: str = None) -> str:
+def gen_skos_concept(name: str, description: str, source: str = None,
+                     status: str = 'Operational') -> str:
     """
     Generate SKOS Concept TTL
 
     :param name: identifier of collection
     :param description: label of collection
+    :param status: status, 'Operational', 'Retired', or 'Inactive'
 
     :returns: `str` of SKOS Concept TTL
     """
@@ -81,6 +93,7 @@ def gen_skos_concept(name: str, description: str, source: str = None) -> str:
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <$name> a skos:Concept ;
         rdfs:label "$name" ;
@@ -92,7 +105,11 @@ def gen_skos_concept(name: str, description: str, source: str = None) -> str:
         'description': description
     }
 
-    if source != '':
+    if status in STATUSES:
+        CONCEPT += ' ;\n        reg:status reg:status$status'
+        template_vars['status'] = STATUSES[status]
+
+    if source not in ['', None]:
         CONCEPT += ' ;\n        rdfs:isDefinedBy "$source" .'
         template_vars['source'] = source
     else:
@@ -179,6 +196,7 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path,
                         csv_record['Name'],
                         csv_record['Description'],
                         csv_record['Source'],
+                        csv_record['Status']
                     )
                     write_ttl_file(
                         ttl, ttl_base_path, relative_path / file_name, verbose
@@ -203,6 +221,7 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path,
                         csv_record['Name'],
                         csv_record['Description'],
                         csv_record['Source'],
+                        csv_record['Status']
                     )
                     write_ttl_file(
                         ttl, ttl_base_path, relative_path / file_name, verbose
@@ -241,7 +260,7 @@ def process_subdomain_index(relative_path: Path, csv_base_path: Path,
 def read_flat_index_keys(keys: list[str]) -> list[str]:
     if len(keys) % 2 != 0 or len(keys) == 0:
         raise RuntimeError(f'Unexpected number of columns {len(keys)}')
-    description_regex = re.compile(r'\w+' + description_suffix)
+    description_regex = re.compile(r'\w+' + DESCRIPTION_SUFFIX)
     description_keys = [k for k in keys if description_regex.match(k)]
     name_keys = [k for k in keys if not description_regex.match(k)]
     if len(description_keys) != len(name_keys):
@@ -286,7 +305,7 @@ def process_flat_subdomain_index(csv_records: list[str], current_row: int,
         current_ttl_dir.mkdir()
 
     name_key = name_keys[name_column]
-    description_key = name_key + description_suffix
+    description_key = name_key + DESCRIPTION_SUFFIX
     column_names = csv_records[0]
     name_value_previous = ''
     parent_value_previous = (
@@ -396,7 +415,8 @@ with topic_hierarchy_csv_path.open() as root_table_file:
                         topic_hierarchy_ttl_dir
                     )
                     ttl = gen_skos_concept(
-                        row2['Name'], row2['Description'], row2['Source']
+                        row2['Name'], row2['Description'], row2['Source'],
+                        row2['Status']
                     )
                     write_ttl_file(
                         ttl,

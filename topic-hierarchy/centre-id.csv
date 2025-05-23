@@ -32,7 +32,7 @@ de-dwd-gts-to-wis2,"Deutscher Wetterdienst, GTS to WIS2 Gateway (Germany)",,Oper
 dk-dmi-opendata,Danish Meteorological Institute (Denmark),,Operational
 dm-dms,Dominica Meteorological Services,,Operational
 dz-meteoalgerie,Office National de la Météorologie (Algeria),,Operational
-eu-eumetnet-femdi,WIS Centre (other),,Operational
+eu-eumetnet-femdi,WIS Centre (other),,Inactive
 fr-meteofrance,Météo-France (Toulouse),,Operational
 fr-meteofrance-global-broker,"Météo-France (Toulouse), Global Broker Service",,Operational
 gd-metservice,CMO Member (Grenada),,Operational
@@ -45,7 +45,7 @@ il-ims,Israel Meteorological Service,,Operational
 in-imd,India Meteorological Department,,Operational
 int-ecmwf,European Centre for Medium-Range Weather Forecasts (ECMWF),,Operational
 int-eumetsat,European Organization for the Exploitation of Meteorological Satellites (EUMETSAT),,Operational
-io-wis2dev1-test,"Test WIS2 Node (for use in the WIS2 test environment, not for operations)",,Operational
+io-wis2dev1-test,"Test WIS2 Node (for use in the WIS2 test environment, not for operations)",,
 ir-irimo,Islamic Republic of Iran Meteorological Organization,,Operational
 it-meteoam,Servizio Meteorológico (Italy),,Operational
 jm-msj,Meteorological Service (Jamaica),,Operational
@@ -80,14 +80,16 @@ sx-metservice,Meteorological Department Curaçao (Curaçao and Sint Maarten),,Op
 sz-swazimet,Eswatini Meteorological Service,,Operational
 tc-metservice,Caribbean Meteorological Organization (Turks and Caicos Islands),,Operational
 td-anam,Direction des Ressources en Eau et de la Météorologie (Chad),,Operational
+tg-anamet,Agence Nationale de la Météorologie du Togo (ANAMET),,Operational
 tt-trin-met,Meteorological Service (Trinidad and Tobago),,Operational
-uk-metoffice-nmc,Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland),,Operational
+uk-metoffice,Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland),,Operational
+uk-metoffice-nmc,Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland),,Retired
 us-cimss,"National Environmental Satellite, Data, and Information Service (NESDIS) (United States of America)",,Operational
 us-noaa-global-broker,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Broker Service",,Operational
 us-noaa-nws,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
 us-noaa-synoptic,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
 us-synoptic-uas,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
-us-ucsd-scripps-ldl,WIS Centre (other)/University of California San Diego (United States of America),,Operational
+us-ucsd-scripps-ldl,WIS Centre (other)/University of California San Diego (United States of America),,Inactive
 uy-inumet,Dirección Nacional de Meteorología (Uruguay),,Operational
 vc-metservice,CMO Member (St. Vincent and the Grenadines),,Operational
 vg-metservice,Caribbean Meteorological Organization (British Virgin Islands),,Operational

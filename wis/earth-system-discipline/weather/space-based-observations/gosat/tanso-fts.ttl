@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <tanso-fts> a skos:Concept ;
         rdfs:label "tanso-fts" ;
         skos:notation "tanso-fts" ;
-        dct:description "Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer (TANSO-FTS)"@en .
+        dct:description "Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer (TANSO-FTS)"@en ;
+        reg:status reg:statusStable .

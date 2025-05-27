@@ -7,4 +7,5 @@
 <grace-fo> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "grace-fo" ;
-        dct:description "Gravity Recovery and Climate Experiment - Follow-on (GRACE-FO (2 sats))" .
+        dct:description "Gravity Recovery and Climate Experiment - Follow-on (GRACE-FO (2 sats))" ;
+        reg:status reg:statusStable .

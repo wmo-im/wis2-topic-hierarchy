@@ -7,4 +7,5 @@
 <artemis-p1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "artemis-p1" ;
-        dct:description "Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)" .
+        dct:description "Acceleration, Reconnection, Turbulence, and Electrodynamics of the Moon's Interaction with the Sun - P1 (ARTEMIS-P1)" ;
+        reg:status reg:statusStable .

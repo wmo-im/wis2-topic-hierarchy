@@ -7,4 +7,5 @@
 <tempo> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "tempo" ;
-        dct:description "Tropospheric Emissions: Monitoring of Pollution" .
+        dct:description "Tropospheric Emissions: Monitoring of Pollution" ;
+        reg:status reg:statusStable .

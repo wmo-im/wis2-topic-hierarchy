@@ -7,4 +7,5 @@
 <odin> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "odin" ;
-        dct:description "Odin" .
+        dct:description "Odin" ;
+        reg:status reg:statusStable .

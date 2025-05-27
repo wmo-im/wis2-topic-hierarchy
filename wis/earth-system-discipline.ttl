@@ -8,4 +8,4 @@
         ldp:hasMemberRelation skos:member ;
         rdfs:label "earth-system-discipline" ;
         dct:description "Seven high-level categories as defined by the WMO Unified Data Policy, Annex 1: 'atmospheric-composition', 'climate', 'cryosphere', 'hydrology', 'ocean', 'space-weather', or 'weather'" ;
-        rdfs:isDefinedBy "None" .
+        reg:status reg:statusStable .

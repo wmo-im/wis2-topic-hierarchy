@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <atms> a skos:Concept ;
         rdfs:label "atms" ;
         skos:notation "atms" ;
-        dct:description "Advanced Technology Microwave Sounder (ATMS)"@en .
+        dct:description "Advanced Technology Microwave Sounder (ATMS)"@en ;
+        reg:status reg:statusStable .

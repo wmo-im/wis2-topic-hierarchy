@@ -7,4 +7,5 @@
 <cryosat-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cryosat-2" ;
-        dct:description "CryoSat-2" .
+        dct:description "CryoSat-2" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <stella> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "stella" ;
-        dct:description "STELLA" .
+        dct:description "STELLA" ;
+        reg:status reg:statusStable .

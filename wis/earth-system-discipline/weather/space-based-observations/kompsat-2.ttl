@@ -7,4 +7,5 @@
 <kompsat-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "kompsat-2" ;
-        dct:description "Korea Multi-Purpose Satellite - 2 (KOMPSAT-2)" .
+        dct:description "Korea Multi-Purpose Satellite - 2 (KOMPSAT-2)" ;
+        reg:status reg:statusStable .

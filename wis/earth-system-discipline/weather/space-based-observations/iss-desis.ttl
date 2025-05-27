@@ -7,4 +7,5 @@
 <iss-desis> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iss-desis" ;
-        dct:description "DLR Earth Sensing Imaging Spectrometer on the ISS (ISS DESIS)" .
+        dct:description "DLR Earth Sensing Imaging Spectrometer on the ISS (ISS DESIS)" ;
+        reg:status reg:statusStable .

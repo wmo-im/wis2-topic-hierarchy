@@ -7,4 +7,5 @@
 <hai-yang-2b> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "hai-yang-2b" ;
-        dct:description "Hai Yang 2B (HY-2B)" .
+        dct:description "Hai Yang 2B (HY-2B)" ;
+        reg:status reg:statusStable .

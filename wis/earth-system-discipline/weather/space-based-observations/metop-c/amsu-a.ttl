@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <amsu-a> a skos:Concept ;
         rdfs:label "amsu-a" ;
         skos:notation "amsu-a" ;
-        dct:description "Advanced Microwave Sounding Unit - A (AMSU-A)"@en .
+        dct:description "Advanced Microwave Sounding Unit - A (AMSU-A)"@en ;
+        reg:status reg:statusStable .

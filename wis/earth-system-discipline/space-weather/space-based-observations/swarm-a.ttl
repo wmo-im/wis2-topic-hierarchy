@@ -7,4 +7,5 @@
 <swarm-a> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "swarm-a" ;
-        dct:description "The Earth's Magnetic Field and Environment Explorers - A (SWARM-A)" .
+        dct:description "The Earth's Magnetic Field and Environment Explorers - A (SWARM-A)" ;
+        reg:status reg:statusStable .

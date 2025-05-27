@@ -7,4 +7,5 @@
 <hj-2e> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "hj-2e" ;
-        dct:description "Huan Jing 2E (also known as S-SAR01) (HJ-2E)" .
+        dct:description "Huan Jing 2E (also known as S-SAR01) (HJ-2E)" ;
+        reg:status reg:statusStable .

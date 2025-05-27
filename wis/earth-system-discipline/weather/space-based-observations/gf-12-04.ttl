@@ -7,4 +7,5 @@
 <gf-12-04> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "gf-12-04" ;
-        dct:description "Gao Fen - 12-04 (GF-12-04)" .
+        dct:description "Gao Fen - 12-04 (GF-12-04)" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <saocom-1a> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "saocom-1a" ;
-        dct:description "SAtelite Argentino de Observacion COn Microondas - 1A (SAOCOM-1A)" .
+        dct:description "SAtelite Argentino de Observacion COn Microondas - 1A (SAOCOM-1A)" ;
+        reg:status reg:statusStable .

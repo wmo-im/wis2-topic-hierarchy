@@ -7,4 +7,5 @@
 <alos-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "alos-2" ;
-        dct:description "Advanced Land Observing Satellite - 2 (ALOS-2)" .
+        dct:description "Advanced Land Observing Satellite - 2 (ALOS-2)" ;
+        reg:status reg:statusStable .

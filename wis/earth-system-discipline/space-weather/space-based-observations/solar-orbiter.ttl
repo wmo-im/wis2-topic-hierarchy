@@ -7,4 +7,5 @@
 <solar-orbiter> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "solar-orbiter" ;
-        dct:description "Solar Orbiter" .
+        dct:description "Solar Orbiter" ;
+        reg:status reg:statusStable .

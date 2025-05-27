@@ -7,4 +7,5 @@
 <terra> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "terra" ;
-        dct:description "Earth Observation System - Terra" .
+        dct:description "Earth Observation System - Terra" ;
+        reg:status reg:statusStable .

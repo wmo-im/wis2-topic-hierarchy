@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <kr-kma-global-cache> a skos:Concept ;
         rdfs:label "kr-kma-global-cache" ;
         skos:notation "kr-kma-global-cache" ;
-        dct:description "Korea Meteorological Administration, Global Cache Service"@en .
+        dct:description "Korea Meteorological Administration, Global Cache Service"@en ;
+        reg:status reg:statusStable .

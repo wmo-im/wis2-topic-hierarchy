@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <drifting-buoys> a skos:Concept ;
         rdfs:label "drifting-buoys" ;
         skos:notation "drifting-buoys" ;
-        dct:description "Data from drifting buoys"@en .
+        dct:description "Data from drifting buoys"@en ;
+        reg:status reg:statusStable .

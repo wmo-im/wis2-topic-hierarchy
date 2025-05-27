@@ -7,4 +7,5 @@
 <fy-3d> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "fy-3d" ;
-        dct:description "Feng-Yun 3D (FY-3D)" .
+        dct:description "Feng-Yun 3D (FY-3D)" ;
+        reg:status reg:statusStable .

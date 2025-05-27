@@ -7,4 +7,5 @@
 <goes-14> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "goes-14" ;
-        dct:description "Geostationary Operational Environmental Satellite - 14 (GOES-14)" .
+        dct:description "Geostationary Operational Environmental Satellite - 14 (GOES-14)" ;
+        reg:status reg:statusStable .

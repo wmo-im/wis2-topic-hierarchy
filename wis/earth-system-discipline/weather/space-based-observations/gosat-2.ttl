@@ -7,4 +7,5 @@
 <gosat-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "gosat-2" ;
-        dct:description "Green-house gas Observing Satellite - 2 (GOSAT-2)" .
+        dct:description "Green-house gas Observing Satellite - 2 (GOSAT-2)" ;
+        reg:status reg:statusStable .

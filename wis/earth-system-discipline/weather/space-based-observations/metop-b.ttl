@@ -7,4 +7,5 @@
 <metop-b> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "metop-b" ;
-        dct:description "Meteorological operational satellite - B (Metop-B)" .
+        dct:description "Meteorological operational satellite - B (Metop-B)" ;
+        reg:status reg:statusStable .

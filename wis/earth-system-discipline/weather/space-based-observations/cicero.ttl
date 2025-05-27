@@ -7,4 +7,5 @@
 <cicero> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cicero" ;
-        dct:description "Community Initiative for Continuing Earth Radio Occultation (CICERO)" .
+        dct:description "Community Initiative for Continuing Earth Radio Occultation (CICERO)" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <eos-04> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "eos-04" ;
-        dct:description "Earth Observation Satellite - 04 (also known as RISAT-1A) (EOS-04)" .
+        dct:description "Earth Observation Satellite - 04 (also known as RISAT-1A) (EOS-04)" ;
+        reg:status reg:statusStable .

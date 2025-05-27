@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <csg-sar> a skos:Concept ;
         rdfs:label "csg-sar" ;
         skos:notation "csg-sar" ;
-        dct:description "COSMO-SkyMed Second Generation Synthetic Aperture Radar (CSG-SAR)"@en .
+        dct:description "COSMO-SkyMed Second Generation Synthetic Aperture Radar (CSG-SAR)"@en ;
+        reg:status reg:statusStable .

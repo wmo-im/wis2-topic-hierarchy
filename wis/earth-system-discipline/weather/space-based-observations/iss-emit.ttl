@@ -7,4 +7,5 @@
 <iss-emit> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iss-emit" ;
-        dct:description "Earth Surface Mineral Dust Source Investigation on the ISS (ISS EMIT)" .
+        dct:description "Earth Surface Mineral Dust Source Investigation on the ISS (ISS EMIT)" ;
+        reg:status reg:statusStable .

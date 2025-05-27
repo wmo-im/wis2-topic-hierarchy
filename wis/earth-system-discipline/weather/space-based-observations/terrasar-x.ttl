@@ -7,4 +7,5 @@
 <terrasar-x> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "terrasar-x" ;
-        dct:description "TerraSAR-X" .
+        dct:description "TerraSAR-X" ;
+        reg:status reg:statusStable .

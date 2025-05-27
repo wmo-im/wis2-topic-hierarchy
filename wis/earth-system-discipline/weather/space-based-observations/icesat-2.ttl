@@ -7,4 +7,5 @@
 <icesat-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "icesat-2" ;
-        dct:description "Ice, Cloud and land Elevation Satellite (ICESat-2)" .
+        dct:description "Ice, Cloud and land Elevation Satellite (ICESat-2)" ;
+        reg:status reg:statusStable .

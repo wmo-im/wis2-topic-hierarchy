@@ -7,4 +7,5 @@
 <ctim-fd> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "ctim-fd" ;
-        dct:description "Compact Total Irradiance Monitor-Flight Demonstration (CTIM-FD)" .
+        dct:description "Compact Total Irradiance Monitor-Flight Demonstration (CTIM-FD)" ;
+        reg:status reg:statusStable .

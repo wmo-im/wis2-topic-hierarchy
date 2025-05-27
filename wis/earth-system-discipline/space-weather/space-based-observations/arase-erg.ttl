@@ -7,4 +7,5 @@
 <arase-erg> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "arase-erg" ;
-        dct:description "Exploration of energization and Radiation in Geospace (Arase (ERG))" .
+        dct:description "Exploration of energization and Radiation in Geospace (Arase (ERG))" ;
+        reg:status reg:statusStable .

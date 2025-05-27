@@ -7,4 +7,5 @@
 <pace> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "pace" ;
-        dct:description "Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)" .
+        dct:description "Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)" ;
+        reg:status reg:statusStable .

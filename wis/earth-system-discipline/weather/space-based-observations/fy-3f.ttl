@@ -7,4 +7,5 @@
 <fy-3f> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "fy-3f" ;
-        dct:description "Feng-Yun 3F (FY-3F)" .
+        dct:description "Feng-Yun 3F (FY-3F)" ;
+        reg:status reg:statusStable .

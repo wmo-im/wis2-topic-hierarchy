@@ -8,4 +8,4 @@
         ldp:hasMemberRelation skos:member ;
         rdfs:label "version" ;
         dct:description "Alphabetical version of the topic hierarchy, currently 'a'" ;
-        rdfs:isDefinedBy "None" .
+        reg:status reg:statusStable .

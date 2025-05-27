@@ -7,4 +7,5 @@
 <soho> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "soho" ;
-        dct:description "Solar and Heliospheric Observatory (SOHO)" .
+        dct:description "Solar and Heliospheric Observatory (SOHO)" ;
+        reg:status reg:statusStable .

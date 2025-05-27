@@ -7,4 +7,5 @@
 <gcom-c> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "gcom-c" ;
-        dct:description "Global Change Observation Mission for Climate (GCOM-C)" .
+        dct:description "Global Change Observation Mission for Climate (GCOM-C)" ;
+        reg:status reg:statusStable .

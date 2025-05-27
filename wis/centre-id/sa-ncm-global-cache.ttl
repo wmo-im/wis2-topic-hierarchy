@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <sa-ncm-global-cache> a skos:Concept ;
         rdfs:label "sa-ncm-global-cache" ;
         skos:notation "sa-ncm-global-cache" ;
-        dct:description "National Center for Meteorology (Saudi Arabia), Global Cache Service"@en .
+        dct:description "National Center for Meteorology (Saudi Arabia), Global Cache Service"@en ;
+        reg:status reg:statusStable .

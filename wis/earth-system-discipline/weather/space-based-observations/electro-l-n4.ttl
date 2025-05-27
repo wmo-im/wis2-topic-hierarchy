@@ -7,4 +7,5 @@
 <electro-l-n4> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "electro-l-n4" ;
-        dct:description "Electro-L Number 4 (Electro-L N4)" .
+        dct:description "Electro-L Number 4 (Electro-L N4)" ;
+        reg:status reg:statusStable .

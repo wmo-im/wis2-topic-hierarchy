@@ -7,4 +7,5 @@
 <prisma> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "prisma" ;
-        dct:description "PRecursore IperSpettrale della Missione Applicativa (PRISMA)" .
+        dct:description "PRecursore IperSpettrale della Missione Applicativa (PRISMA)" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <spot-7> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "spot-7" ;
-        dct:description "Satellite Pour l'Observation de la Terre - 7 (SPOT-7)" .
+        dct:description "Satellite Pour l'Observation de la Terre - 7 (SPOT-7)" ;
+        reg:status reg:statusStable .

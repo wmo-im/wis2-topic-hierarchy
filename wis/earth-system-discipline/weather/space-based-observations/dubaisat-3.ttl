@@ -7,4 +7,5 @@
 <dubaisat-3> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "dubaisat-3" ;
-        dct:description "DubaiSat-3" .
+        dct:description "DubaiSat-3" ;
+        reg:status reg:statusStable .

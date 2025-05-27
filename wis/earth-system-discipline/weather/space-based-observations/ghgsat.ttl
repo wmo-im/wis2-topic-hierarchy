@@ -7,4 +7,5 @@
 <ghgsat> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "ghgsat" ;
-        dct:description "Greenhouse Gas Satellite (GHGSat)" .
+        dct:description "Greenhouse Gas Satellite (GHGSat)" ;
+        reg:status reg:statusStable .

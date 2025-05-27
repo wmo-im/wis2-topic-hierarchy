@@ -7,4 +7,5 @@
 <wsf-m1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "wsf-m1" ;
-        dct:description "Weather System Follow-on Microwave (WSF-M1)" .
+        dct:description "Weather System Follow-on Microwave (WSF-M1)" ;
+        reg:status reg:statusStable .

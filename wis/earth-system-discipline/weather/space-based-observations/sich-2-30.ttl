@@ -7,4 +7,5 @@
 <sich-2-30> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "sich-2-30" ;
-        dct:description "SICH-2-30 (originally SICH-2-1) (SICH-2-30)" .
+        dct:description "SICH-2-30 (originally SICH-2-1) (SICH-2-30)" ;
+        reg:status reg:statusStable .

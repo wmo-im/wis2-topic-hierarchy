@@ -7,4 +7,5 @@
 <gpm-core> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "gpm-core" ;
-        dct:description "Global Precipitation Measurement - Core Observatory (GPM Core Observatory)" .
+        dct:description "Global Precipitation Measurement - Core Observatory (GPM Core Observatory)" ;
+        reg:status reg:statusStable .

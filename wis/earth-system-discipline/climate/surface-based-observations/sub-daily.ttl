@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <sub-daily> a skos:Concept ;
         rdfs:label "sub-daily" ;
         skos:notation "sub-daily" ;
-        dct:description "Reprocessed hourly and other sub-daily observations from land stations"@en .
+        dct:description "Reprocessed hourly and other sub-daily observations from land stations"@en ;
+        reg:status reg:statusStable .

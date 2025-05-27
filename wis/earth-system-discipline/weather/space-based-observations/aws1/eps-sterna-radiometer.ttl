@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <eps-sterna-radiometer> a skos:Concept ;
         rdfs:label "eps-sterna-radiometer" ;
         skos:notation "eps-sterna-radiometer" ;
-        dct:description "EPS Sterna Radiometer"@en .
+        dct:description "EPS Sterna Radiometer"@en ;
+        reg:status reg:statusStable .

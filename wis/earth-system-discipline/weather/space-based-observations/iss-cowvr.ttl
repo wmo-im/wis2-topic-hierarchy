@@ -7,4 +7,5 @@
 <iss-cowvr> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iss-cowvr" ;
-        dct:description "Compact Ocean Wind Vector Radiometer on the ISS (ISS COWVR)" .
+        dct:description "Compact Ocean Wind Vector Radiometer on the ISS (ISS COWVR)" ;
+        reg:status reg:statusStable .

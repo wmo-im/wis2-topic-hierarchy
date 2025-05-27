@@ -7,4 +7,5 @@
 <landsat-9> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "landsat-9" ;
-        dct:description "Landsat-9" .
+        dct:description "Landsat-9" ;
+        reg:status reg:statusStable .

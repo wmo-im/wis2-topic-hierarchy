@@ -7,4 +7,5 @@
 <aso-s> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "aso-s" ;
-        dct:description "Advanced Space-based Solar Observatory (ASO-S (Kuafu-1))" .
+        dct:description "Advanced Space-based Solar Observatory (ASO-S (Kuafu-1))" ;
+        reg:status reg:statusStable .

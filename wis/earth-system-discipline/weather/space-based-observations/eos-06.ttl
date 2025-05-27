@@ -7,4 +7,5 @@
 <eos-06> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "eos-06" ;
-        dct:description "OceanSat-3 (EOS-06)" .
+        dct:description "OceanSat-3 (EOS-06)" ;
+        reg:status reg:statusStable .

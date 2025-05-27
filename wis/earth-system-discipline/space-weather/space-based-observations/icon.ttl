@@ -7,4 +7,5 @@
 <icon> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "icon" ;
-        dct:description "Ionospheric Connection Explorer (ICON)" .
+        dct:description "Ionospheric Connection Explorer (ICON)" ;
+        reg:status reg:statusStable .

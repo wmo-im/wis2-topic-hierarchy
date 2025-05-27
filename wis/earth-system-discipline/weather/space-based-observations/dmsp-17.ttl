@@ -7,4 +7,5 @@
 <dmsp-17> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "dmsp-17" ;
-        dct:description "Defense Meteorological Satellite Program - F17 (DMSP-F17)" .
+        dct:description "Defense Meteorological Satellite Program - F17 (DMSP-F17)" ;
+        reg:status reg:statusStable .

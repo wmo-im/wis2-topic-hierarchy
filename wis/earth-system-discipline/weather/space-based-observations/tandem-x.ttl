@@ -7,4 +7,5 @@
 <tandem-x> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "tandem-x" ;
-        dct:description "TerraSAR-X Add-oN for Digital Elevation Measurement (TanDEM-X)" .
+        dct:description "TerraSAR-X Add-oN for Digital Elevation Measurement (TanDEM-X)" ;
+        reg:status reg:statusStable .

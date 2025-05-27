@@ -7,4 +7,5 @@
 <sstl-s1-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "sstl-s1-1" ;
-        dct:description "Surrey Satellite Technology Ltd - S1 1 (SSTL-S1 1)" .
+        dct:description "Surrey Satellite Technology Ltd - S1 1 (SSTL-S1 1)" ;
+        reg:status reg:statusStable .

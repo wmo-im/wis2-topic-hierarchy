@@ -7,4 +7,5 @@
 <parker-solar-probe> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "parker-solar-probe" ;
-        dct:description "Parker Solar Probe" .
+        dct:description "Parker Solar Probe" ;
+        reg:status reg:statusStable .

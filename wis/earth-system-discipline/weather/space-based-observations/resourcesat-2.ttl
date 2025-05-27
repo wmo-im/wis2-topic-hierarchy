@@ -7,4 +7,5 @@
 <resourcesat-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "resourcesat-2" ;
-        dct:description "Satellite for Earth Resources - 2 (ResourceSat-2)" .
+        dct:description "Satellite for Earth Resources - 2 (ResourceSat-2)" ;
+        reg:status reg:statusStable .

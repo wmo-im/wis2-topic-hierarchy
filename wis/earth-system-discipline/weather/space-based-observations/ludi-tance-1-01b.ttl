@@ -7,4 +7,5 @@
 <ludi-tance-1-01b> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "ludi-tance-1-01b" ;
-        dct:description "L-band differential interferometric synthetic aperture radar satellite A (Ludi-Tance 1 01B)" .
+        dct:description "L-band differential interferometric synthetic aperture radar satellite A (Ludi-Tance 1 01B)" ;
+        reg:status reg:statusStable .

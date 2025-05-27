@@ -7,4 +7,5 @@
 <iris> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iris" ;
-        dct:description "Interface Region Imaging Spectrograph (IRIS)" .
+        dct:description "Interface Region Imaging Spectrograph (IRIS)" ;
+        reg:status reg:statusStable .

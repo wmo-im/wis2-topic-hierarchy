@@ -7,4 +7,5 @@
 <sdo> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "sdo" ;
-        dct:description "Solar Dynamics Observatory (SDO)" .
+        dct:description "Solar Dynamics Observatory (SDO)" ;
+        reg:status reg:statusStable .

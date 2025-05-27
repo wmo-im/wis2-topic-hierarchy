@@ -7,4 +7,5 @@
 <proba-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "proba-2" ;
-        dct:description "Project for On-Board Autonomy - 2 (PROBA-2)" .
+        dct:description "Project for On-Board Autonomy - 2 (PROBA-2)" ;
+        reg:status reg:statusStable .

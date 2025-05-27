@@ -7,4 +7,5 @@
 <starlette> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "starlette" ;
-        dct:description "Satellite de Taille Adaptee avec Reflecteurs Laser pour les Etudes de la Terre (STARLETTE)" .
+        dct:description "Satellite de Taille Adaptee avec Reflecteurs Laser pour les Etudes de la Terre (STARLETTE)" ;
+        reg:status reg:statusStable .

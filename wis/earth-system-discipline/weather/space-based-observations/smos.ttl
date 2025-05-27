@@ -7,4 +7,5 @@
 <smos> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "smos" ;
-        dct:description "Soil Moisture and Ocean Salinity (SMOS)" .
+        dct:description "Soil Moisture and Ocean Salinity (SMOS)" ;
+        reg:status reg:statusStable .

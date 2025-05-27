@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <ggak-e-vuss-e> a skos:Concept ;
         rdfs:label "ggak-e-vuss-e" ;
         skos:notation "ggak-e-vuss-e" ;
-        dct:description "GGAK-E / Solar UV radiation sensor (GGAK-E/VUSS-E)"@en .
+        dct:description "GGAK-E / Solar UV radiation sensor (GGAK-E/VUSS-E)"@en ;
+        reg:status reg:statusStable .

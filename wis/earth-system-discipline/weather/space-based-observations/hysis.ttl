@@ -7,4 +7,5 @@
 <hysis> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "hysis" ;
-        dct:description "Hyper Spectral Imaging Spectrometer (HySIS)" .
+        dct:description "Hyper Spectral Imaging Spectrometer (HySIS)" ;
+        reg:status reg:statusStable .

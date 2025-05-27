@@ -7,4 +7,5 @@
 <venus> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "venus" ;
-        dct:description "Vegetation and Environment monitoring on a New Micro-Satellite (VENUS)" .
+        dct:description "Vegetation and Environment monitoring on a New Micro-Satellite (VENUS)" ;
+        reg:status reg:statusStable .

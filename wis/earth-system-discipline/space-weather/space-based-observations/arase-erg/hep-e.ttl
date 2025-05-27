@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <hep-e> a skos:Concept ;
         rdfs:label "hep-e" ;
         skos:notation "hep-e" ;
-        dct:description "High-energy electron experiments (HEP-e)"@en .
+        dct:description "High-energy electron experiments (HEP-e)"@en ;
+        reg:status reg:statusStable .

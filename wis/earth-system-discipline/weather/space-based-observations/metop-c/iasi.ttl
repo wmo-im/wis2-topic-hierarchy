@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <iasi> a skos:Concept ;
         rdfs:label "iasi" ;
         skos:notation "iasi" ;
-        dct:description "Infrared Atmospheric Sounding Interferometer (IASI)"@en .
+        dct:description "Infrared Atmospheric Sounding Interferometer (IASI)"@en ;
+        reg:status reg:statusStable .

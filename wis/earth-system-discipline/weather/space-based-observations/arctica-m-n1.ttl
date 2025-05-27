@@ -7,4 +7,5 @@
 <arctica-m-n1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "arctica-m-n1" ;
-        dct:description "Arctica-M N1" .
+        dct:description "Arctica-M N1" ;
+        reg:status reg:statusStable .

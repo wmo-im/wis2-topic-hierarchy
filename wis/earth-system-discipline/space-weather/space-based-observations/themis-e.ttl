@@ -7,4 +7,5 @@
 <themis-e> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "themis-e" ;
-        dct:description "Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E)" .
+        dct:description "Time History of Events and Macroscale Interactions during Substorms - E (THEMIS-E)" ;
+        reg:status reg:statusStable .

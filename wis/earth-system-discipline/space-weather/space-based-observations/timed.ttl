@@ -7,4 +7,5 @@
 <timed> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "timed" ;
-        dct:description "Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)" .
+        dct:description "Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics mission (TIMED)" ;
+        reg:status reg:statusStable .

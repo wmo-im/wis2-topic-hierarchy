@@ -7,4 +7,5 @@
 <lageos-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "lageos-2" ;
-        dct:description "Laser Geodynamics Satellite - 2 (LAGEOS-2)" .
+        dct:description "Laser Geodynamics Satellite - 2 (LAGEOS-2)" ;
+        reg:status reg:statusStable .

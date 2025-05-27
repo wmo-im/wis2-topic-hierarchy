@@ -7,4 +7,5 @@
 <swot> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "swot" ;
-        dct:description "Surface Water and Ocean Topography (SWOT)" .
+        dct:description "Surface Water and Ocean Topography (SWOT)" ;
+        reg:status reg:statusStable .

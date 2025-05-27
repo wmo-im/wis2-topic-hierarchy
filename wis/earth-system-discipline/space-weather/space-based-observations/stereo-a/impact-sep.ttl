@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <impact-sep> a skos:Concept ;
         rdfs:label "impact-sep" ;
         skos:notation "impact-sep" ;
-        dct:description "IMPACT / Solar Energetic Particles (IMPACT/SEP)"@en .
+        dct:description "IMPACT / Solar Energetic Particles (IMPACT/SEP)"@en ;
+        reg:status reg:statusStable .

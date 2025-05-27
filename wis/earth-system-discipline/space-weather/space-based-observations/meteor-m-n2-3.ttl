@@ -7,4 +7,5 @@
 <meteor-m-n2-3> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "meteor-m-n2-3" ;
-        dct:description "Meteor-M Number 2-3 (Meteor-M N2-3)" .
+        dct:description "Meteor-M Number 2-3 (Meteor-M N2-3)" ;
+        reg:status reg:statusStable .

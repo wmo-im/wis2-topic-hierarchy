@@ -7,4 +7,5 @@
 <probabilistic> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "probabilistic" ;
-        dct:description "Outputs from a prediction system which provides multiple scenarios, including probability distribution and uncertainty information" .
+        dct:description "Outputs from a prediction system which provides multiple scenarios, including probability distribution and uncertainty information" ;
+        reg:status reg:statusStable .

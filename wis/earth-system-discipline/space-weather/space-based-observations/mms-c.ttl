@@ -7,4 +7,5 @@
 <mms-c> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "mms-c" ;
-        dct:description "Magnetospheric MultiScale mission - C (MMS-C)" .
+        dct:description "Magnetospheric MultiScale mission - C (MMS-C)" ;
+        reg:status reg:statusStable .

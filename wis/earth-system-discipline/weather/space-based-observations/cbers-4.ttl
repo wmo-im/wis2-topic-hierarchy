@@ -7,4 +7,5 @@
 <cbers-4> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cbers-4" ;
-        dct:description "China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4)" .
+        dct:description "China-Brazil Earth Resources Satellite - 4 (ZY-1 FM4) (CBERS-4)" ;
+        reg:status reg:statusStable .

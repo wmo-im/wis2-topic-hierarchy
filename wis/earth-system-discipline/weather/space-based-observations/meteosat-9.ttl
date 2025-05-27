@@ -7,4 +7,5 @@
 <meteosat-9> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "meteosat-9" ;
-        dct:description "Meteosat-9 (IODC)" .
+        dct:description "Meteosat-9 (IODC)" ;
+        reg:status reg:statusStable .

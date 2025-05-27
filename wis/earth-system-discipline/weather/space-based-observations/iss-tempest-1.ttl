@@ -7,4 +7,5 @@
 <iss-tempest-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iss-tempest-1" ;
-        dct:description "Temporal Experiment for Storms and Tropical Systems Technology - 1 on the ISS (ISS TEMPEST-1)" .
+        dct:description "Temporal Experiment for Storms and Tropical Systems Technology - 1 on the ISS (ISS TEMPEST-1)" ;
+        reg:status reg:statusStable .

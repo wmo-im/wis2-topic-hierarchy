@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <mersi-1> a skos:Concept ;
         rdfs:label "mersi-1" ;
         skos:notation "mersi-1" ;
-        dct:description "Medium Resolution Spectral Imager -1 (MERSI-1)"@en .
+        dct:description "Medium Resolution Spectral Imager -1 (MERSI-1)"@en ;
+        reg:status reg:statusStable .

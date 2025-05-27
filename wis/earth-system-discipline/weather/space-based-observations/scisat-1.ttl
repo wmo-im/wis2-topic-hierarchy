@@ -7,4 +7,5 @@
 <scisat-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "scisat-1" ;
-        dct:description "Scientific Satellite -1 (SCISAT-1)" .
+        dct:description "Scientific Satellite -1 (SCISAT-1)" ;
+        reg:status reg:statusStable .

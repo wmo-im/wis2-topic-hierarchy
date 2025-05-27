@@ -7,4 +7,5 @@
 <iss-asim> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iss-asim" ;
-        dct:description "Atmosphere-Space Interactions Monitor on the ISS (ISS ASIM)" .
+        dct:description "Atmosphere-Space Interactions Monitor on the ISS (ISS ASIM)" ;
+        reg:status reg:statusStable .

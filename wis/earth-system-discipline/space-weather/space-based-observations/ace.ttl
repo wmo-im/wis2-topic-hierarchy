@@ -7,4 +7,5 @@
 <ace> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "ace" ;
-        dct:description "Advanced Composition Explorer (ACE)" .
+        dct:description "Advanced Composition Explorer (ACE)" ;
+        reg:status reg:statusStable .

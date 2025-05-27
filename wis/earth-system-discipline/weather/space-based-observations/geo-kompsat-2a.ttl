@@ -7,4 +7,5 @@
 <geo-kompsat-2a> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "geo-kompsat-2a" ;
-        dct:description "Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A)" .
+        dct:description "Geostationary Korea Multi-Purpose Satellite - 2A (GEO-KOMPSAT-2A)" ;
+        reg:status reg:statusStable .

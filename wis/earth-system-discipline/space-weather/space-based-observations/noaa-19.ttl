@@ -7,4 +7,5 @@
 <noaa-19> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "noaa-19" ;
-        dct:description "National Oceanic and Atmospheric Administration - 19 (NOAA-19)" .
+        dct:description "National Oceanic and Atmospheric Administration - 19 (NOAA-19)" ;
+        reg:status reg:statusStable .

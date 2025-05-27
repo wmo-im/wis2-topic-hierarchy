@@ -7,4 +7,5 @@
 <novasar-s> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "novasar-s" ;
-        dct:description "NovaSAR-S" .
+        dct:description "NovaSAR-S" ;
+        reg:status reg:statusStable .

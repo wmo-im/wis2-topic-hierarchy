@@ -7,4 +7,5 @@
 <galileo> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "galileo" ;
-        dct:description "Galileo" .
+        dct:description "Galileo" ;
+        reg:status reg:statusStable .

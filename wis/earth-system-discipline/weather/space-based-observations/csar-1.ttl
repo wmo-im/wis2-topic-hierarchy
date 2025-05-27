@@ -7,4 +7,5 @@
 <csar-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "csar-1" ;
-        dct:description "C-Band Synthetic Aperture Radar 1 (CSAR-1)" .
+        dct:description "C-Band Synthetic Aperture Radar 1 (CSAR-1)" ;
+        reg:status reg:statusStable .

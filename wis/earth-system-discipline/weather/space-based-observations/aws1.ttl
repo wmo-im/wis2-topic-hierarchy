@@ -7,4 +7,5 @@
 <aws1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "aws1" ;
-        dct:description "Arctic Weather Satellite Proto-Flight Model (AWS PFM)" .
+        dct:description "Arctic Weather Satellite Proto-Flight Model (AWS PFM)" ;
+        reg:status reg:statusStable .

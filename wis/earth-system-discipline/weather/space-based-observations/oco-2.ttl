@@ -7,4 +7,5 @@
 <oco-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "oco-2" ;
-        dct:description "Orbiting Carbon Observatory - 2 (OCO-2)" .
+        dct:description "Orbiting Carbon Observatory - 2 (OCO-2)" ;
+        reg:status reg:statusStable .

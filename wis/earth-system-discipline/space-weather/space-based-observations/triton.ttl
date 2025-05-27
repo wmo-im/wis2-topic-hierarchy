@@ -7,4 +7,5 @@
 <triton> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "triton" ;
-        dct:description "TRITON (also FORMOSAT-7R)" .
+        dct:description "TRITON (also FORMOSAT-7R)" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <eos-01> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "eos-01" ;
-        dct:description "Earth Observation Satellite - 01 (EOS-01)" .
+        dct:description "Earth Observation Satellite - 01 (EOS-01)" ;
+        reg:status reg:statusStable .

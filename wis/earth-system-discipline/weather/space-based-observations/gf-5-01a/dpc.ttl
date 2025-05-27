@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <dpc> a skos:Concept ;
         rdfs:label "dpc" ;
         skos:notation "dpc" ;
-        dct:description "Directional Polarization Camera (DPC)"@en .
+        dct:description "Directional Polarization Camera (DPC)"@en ;
+        reg:status reg:statusStable .

@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <se-smhi> a skos:Concept ;
         rdfs:label "se-smhi" ;
         skos:notation "se-smhi" ;
-        dct:description "Swedish Meteorological and Hydrological Institute"@en .
+        dct:description "Swedish Meteorological and Hydrological Institute"@en ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <gnomes-4> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "gnomes-4" ;
-        dct:description "GNSS Navigation and Occultation Measurement Satellites (GNOMES-4)" .
+        dct:description "GNSS Navigation and Occultation Measurement Satellites (GNOMES-4)" ;
+        reg:status reg:statusStable .

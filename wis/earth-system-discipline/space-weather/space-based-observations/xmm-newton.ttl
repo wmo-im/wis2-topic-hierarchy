@@ -7,4 +7,5 @@
 <xmm-newton> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "xmm-newton" ;
-        dct:description "X-ray Multi-Mirror Mission Observatory - Newton (XMM-Newton)" .
+        dct:description "X-ray Multi-Mirror Mission Observatory - Newton (XMM-Newton)" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <deimos-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "deimos-2" ;
-        dct:description "Deimos-2" .
+        dct:description "Deimos-2" ;
+        reg:status reg:statusStable .

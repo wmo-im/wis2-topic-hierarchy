@@ -7,4 +7,5 @@
 <space-weather> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "space-weather" ;
-        dct:description "Space Weather" .
+        dct:description "Space Weather" ;
+        reg:status reg:statusStable .

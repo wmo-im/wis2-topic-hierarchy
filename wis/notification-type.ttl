@@ -8,4 +8,4 @@
         ldp:hasMemberRelation skos:member ;
         rdfs:label "notification-type" ;
         dct:description "WIS2 notification types ('data' or 'metadata')" ;
-        rdfs:isDefinedBy "None" .
+        reg:status reg:statusStable .

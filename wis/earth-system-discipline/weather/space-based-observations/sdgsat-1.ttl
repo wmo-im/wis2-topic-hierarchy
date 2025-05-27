@@ -7,4 +7,5 @@
 <sdgsat-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "sdgsat-1" ;
-        dct:description "Sustainable Development Science Satellite 1 (SDGSAT-1)" .
+        dct:description "Sustainable Development Science Satellite 1 (SDGSAT-1)" ;
+        reg:status reg:statusStable .

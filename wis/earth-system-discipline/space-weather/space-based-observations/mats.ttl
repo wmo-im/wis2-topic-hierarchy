@@ -7,4 +7,5 @@
 <mats> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "mats" ;
-        dct:description "Mesospheric Airglow/Aerosol Tomography and Spectroscopy (MATS)" .
+        dct:description "Mesospheric Airglow/Aerosol Tomography and Spectroscopy (MATS)" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <cluster-4> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cluster-4" ;
-        dct:description "CLUSTER-4" .
+        dct:description "CLUSTER-4" ;
+        reg:status reg:statusStable .

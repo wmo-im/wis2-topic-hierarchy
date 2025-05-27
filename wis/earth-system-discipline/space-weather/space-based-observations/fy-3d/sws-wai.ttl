@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <sws-wai> a skos:Concept ;
         rdfs:label "sws-wai" ;
         skos:notation "sws-wai" ;
-        dct:description "Space Weather Suite / Wide-field Auroral Imager (SWS/WAI)"@en .
+        dct:description "Space Weather Suite / Wide-field Auroral Imager (SWS/WAI)"@en ;
+        reg:status reg:statusStable .

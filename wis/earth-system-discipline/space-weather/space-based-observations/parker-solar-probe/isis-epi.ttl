@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <isis-epi> a skos:Concept ;
         rdfs:label "isis-epi" ;
         skos:notation "isis-epi" ;
-        dct:description "Integrated Science Investigation of the Sun - Energetic Particle Instruments (ISIS-EPI)"@en .
+        dct:description "Integrated Science Investigation of the Sun - Energetic Particle Instruments (ISIS-EPI)"@en ;
+        reg:status reg:statusStable .

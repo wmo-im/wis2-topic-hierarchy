@@ -7,4 +7,5 @@
 <kompsat-3a> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "kompsat-3a" ;
-        dct:description "Korea Multi-Purpose Satellite - 3A (KOMPSAT-3A)" .
+        dct:description "Korea Multi-Purpose Satellite - 3A (KOMPSAT-3A)" ;
+        reg:status reg:statusStable .

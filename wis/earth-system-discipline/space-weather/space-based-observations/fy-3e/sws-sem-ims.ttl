@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <sws-sem-ims> a skos:Concept ;
         rdfs:label "sws-sem-ims" ;
         skos:notation "sws-sem-ims" ;
-        dct:description "Space Weather Suite / Space Environment Monitor / Ionosphere Measurement Sensor (SWS/SEM/IMS)"@en .
+        dct:description "Space Weather Suite / Space Environment Monitor / Ionosphere Measurement Sensor (SWS/SEM/IMS)"@en ;
+        reg:status reg:statusStable .

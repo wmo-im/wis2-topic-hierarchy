@@ -7,4 +7,5 @@
 <snpp> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "snpp" ;
-        dct:description "Suomi National Polar-orbiting Partnership (SNPP)" .
+        dct:description "Suomi National Polar-orbiting Partnership (SNPP)" ;
+        reg:status reg:statusStable .

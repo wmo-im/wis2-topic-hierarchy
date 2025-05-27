@@ -8,4 +8,4 @@
         ldp:hasMemberRelation skos:member ;
         rdfs:label "data-policy" ;
         dct:description "Data policy as defined by the WMO Unified Data Policy ('core' and 'recommended')" ;
-        rdfs:isDefinedBy "None" .
+        reg:status reg:statusStable .

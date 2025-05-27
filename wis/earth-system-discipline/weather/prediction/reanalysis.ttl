@@ -7,4 +7,5 @@
 <reanalysis> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "reanalysis" ;
-        dct:description "Datasets constructing a record of past conditions" .
+        dct:description "Datasets constructing a record of past conditions" ;
+        reg:status reg:statusStable .

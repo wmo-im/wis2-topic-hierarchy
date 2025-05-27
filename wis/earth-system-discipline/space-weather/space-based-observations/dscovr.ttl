@@ -7,4 +7,5 @@
 <dscovr> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "dscovr" ;
-        dct:description "Deep Space Climate Observatory (DSCOVR)" .
+        dct:description "Deep Space Climate Observatory (DSCOVR)" ;
+        reg:status reg:statusStable .

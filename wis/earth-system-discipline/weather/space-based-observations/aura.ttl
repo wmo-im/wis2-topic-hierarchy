@@ -7,4 +7,5 @@
 <aura> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "aura" ;
-        dct:description "Earth Observation System - Aura" .
+        dct:description "Earth Observation System - Aura" ;
+        reg:status reg:statusStable .

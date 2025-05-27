@@ -7,4 +7,5 @@
 <aqua> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "aqua" ;
-        dct:description "Earth Observation System - Aqua" .
+        dct:description "Earth Observation System - Aqua" ;
+        reg:status reg:statusStable .

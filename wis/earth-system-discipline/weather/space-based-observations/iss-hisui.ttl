@@ -7,4 +7,5 @@
 <iss-hisui> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iss-hisui" ;
-        dct:description "Hyperspectral Imager Suite (ISS HISUI)" .
+        dct:description "Hyperspectral Imager Suite (ISS HISUI)" ;
+        reg:status reg:statusStable .

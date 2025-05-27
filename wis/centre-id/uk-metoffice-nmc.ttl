@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <uk-metoffice-nmc> a skos:Concept ;
         rdfs:label "uk-metoffice-nmc" ;
         skos:notation "uk-metoffice-nmc" ;
-        dct:description "Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland)"@en .
+        dct:description "Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland)"@en ;
+        reg:status reg:statusRetired .

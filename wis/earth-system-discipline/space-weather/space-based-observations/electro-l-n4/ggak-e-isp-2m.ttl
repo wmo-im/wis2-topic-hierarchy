@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <ggak-e-isp-2m> a skos:Concept ;
         rdfs:label "ggak-e-isp-2m" ;
         skos:notation "ggak-e-isp-2m" ;
-        dct:description "GGAK-L / Solar constant sensor (GGAK-E/ISP-2M)"@en .
+        dct:description "GGAK-L / Solar constant sensor (GGAK-E/ISP-2M)"@en ;
+        reg:status reg:statusStable .

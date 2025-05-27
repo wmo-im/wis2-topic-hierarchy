@@ -7,4 +7,5 @@
 <enmap> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "enmap" ;
-        dct:description "Environmental Mapping and Analysis Programme (EnMAP)" .
+        dct:description "Environmental Mapping and Analysis Programme (EnMAP)" ;
+        reg:status reg:statusStable .

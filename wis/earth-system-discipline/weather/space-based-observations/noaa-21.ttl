@@ -7,4 +7,5 @@
 <noaa-21> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "noaa-21" ;
-        dct:description "National Oceanic and Atmospheric Administration - 21 (NOAA-21)" .
+        dct:description "National Oceanic and Atmospheric Administration - 21 (NOAA-21)" ;
+        reg:status reg:statusStable .

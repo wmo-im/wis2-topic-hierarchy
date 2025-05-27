@@ -7,4 +7,5 @@
 <tropics-03> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "tropics-03" ;
-        dct:description "Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 03 (TROPICS-03)" .
+        dct:description "Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 03 (TROPICS-03)" ;
+        reg:status reg:statusStable .

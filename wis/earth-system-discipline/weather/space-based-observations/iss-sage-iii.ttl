@@ -7,4 +7,5 @@
 <iss-sage-iii> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iss-sage-iii" ;
-        dct:description "Stratospheric Aerosol and Gas Experiment III on the ISS (ISS SAGE-III)" .
+        dct:description "Stratospheric Aerosol and Gas Experiment III on the ISS (ISS SAGE-III)" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <saral> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "saral" ;
-        dct:description "Satellite with ARGOS and AltiKa (SARAL)" .
+        dct:description "Satellite with ARGOS and AltiKa (SARAL)" ;
+        reg:status reg:statusStable .

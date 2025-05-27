@@ -7,4 +7,5 @@
 <tianmu-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "tianmu-1" ;
-        dct:description "Tianmu-1" .
+        dct:description "Tianmu-1" ;
+        reg:status reg:statusStable .

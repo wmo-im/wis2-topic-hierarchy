@@ -8,4 +8,4 @@
         ldp:hasMemberRelation skos:member ;
         rdfs:label "channel" ;
         dct:description "Location of where the data originates from (data providers are 'origin' and global services are 'cache')" ;
-        rdfs:isDefinedBy "None" .
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <th-1c> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "th-1c" ;
-        dct:description "Tian Hui - 1C (TH-1C)" .
+        dct:description "Tian Hui - 1C (TH-1C)" ;
+        reg:status reg:statusStable .

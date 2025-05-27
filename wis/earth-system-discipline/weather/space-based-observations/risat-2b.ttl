@@ -7,4 +7,5 @@
 <risat-2b> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "risat-2b" ;
-        dct:description "Radar Imaging Satellite - 2B (RISAT-2B)" .
+        dct:description "Radar Imaging Satellite - 2B (RISAT-2B)" ;
+        reg:status reg:statusStable .

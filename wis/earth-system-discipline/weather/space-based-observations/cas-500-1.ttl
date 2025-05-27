@@ -7,4 +7,5 @@
 <cas-500-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cas-500-1" ;
-        dct:description "Compact Advanced Satellite 500-1 (CAS 500-1)" .
+        dct:description "Compact Advanced Satellite 500-1 (CAS 500-1)" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <iss-tsis-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iss-tsis-1" ;
-        dct:description "Total and Spectral Solar Irradiance Sensor - 1 (ISS TSIS-1)" .
+        dct:description "Total and Spectral Solar Irradiance Sensor - 1 (ISS TSIS-1)" ;
+        reg:status reg:statusStable .

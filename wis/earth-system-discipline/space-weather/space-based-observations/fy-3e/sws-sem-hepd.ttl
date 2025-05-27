@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <sws-sem-hepd> a skos:Concept ;
         rdfs:label "sws-sem-hepd" ;
         skos:notation "sws-sem-hepd" ;
-        dct:description "Space Weather Suite / Space Environment Monitor / High Energy Particle Detector (SWS/SEM/HEPD)"@en .
+        dct:description "Space Weather Suite / Space Environment Monitor / High Energy Particle Detector (SWS/SEM/HEPD)"@en ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <insat-3dr> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "insat-3dr" ;
-        dct:description "Indian National Satellite - 3D repeat (INSAT-3DR)" .
+        dct:description "Indian National Satellite - 3D repeat (INSAT-3DR)" ;
+        reg:status reg:statusStable .

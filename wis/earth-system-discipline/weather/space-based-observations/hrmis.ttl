@@ -7,4 +7,5 @@
 <hrmis> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "hrmis" ;
-        dct:description "High Resolution Multi-mode Imaging Satellite (HRMIS)" .
+        dct:description "High Resolution Multi-mode Imaging Satellite (HRMIS)" ;
+        reg:status reg:statusStable .

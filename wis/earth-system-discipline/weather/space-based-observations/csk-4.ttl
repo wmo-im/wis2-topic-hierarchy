@@ -7,4 +7,5 @@
 <csk-4> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "csk-4" ;
-        dct:description "COSMO-SkyMed - 4 (CSK-4)" .
+        dct:description "COSMO-SkyMed - 4 (CSK-4)" ;
+        reg:status reg:statusStable .

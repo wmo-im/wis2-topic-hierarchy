@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <by-belgidromet> a skos:Concept ;
         rdfs:label "by-belgidromet" ;
         skos:notation "by-belgidromet" ;
-        dct:description "Department of Hydrometeorology (Belarus)"@en .
+        dct:description "Department of Hydrometeorology (Belarus)"@en ;
+        reg:status reg:statusStable .

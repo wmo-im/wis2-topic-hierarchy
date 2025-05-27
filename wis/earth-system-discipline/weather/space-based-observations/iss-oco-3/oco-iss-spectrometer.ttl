@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <oco-iss-spectrometer> a skos:Concept ;
         rdfs:label "oco-iss-spectrometer" ;
         skos:notation "oco-iss-spectrometer" ;
-        dct:description "Orbiting Carbon Observatory ISS spectrometer (OCO (ISS) spectrometer)"@en .
+        dct:description "Orbiting Carbon Observatory ISS spectrometer (OCO (ISS) spectrometer)"@en ;
+        reg:status reg:statusStable .

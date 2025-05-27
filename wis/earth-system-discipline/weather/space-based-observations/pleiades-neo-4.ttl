@@ -7,4 +7,5 @@
 <pleiades-neo-4> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "pleiades-neo-4" ;
-        dct:description "Pleiades-Neo 4" .
+        dct:description "Pleiades-Neo 4" ;
+        reg:status reg:statusStable .

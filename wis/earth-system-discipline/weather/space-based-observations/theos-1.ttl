@@ -7,4 +7,5 @@
 <theos-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "theos-1" ;
-        dct:description "Thailand Earth Observation System - 1 (THEOS-1)" .
+        dct:description "Thailand Earth Observation System - 1 (THEOS-1)" ;
+        reg:status reg:statusStable .

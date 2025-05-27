@@ -7,4 +7,5 @@
 <iss-oco-3> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "iss-oco-3" ;
-        dct:description "Orbiting Carbon Observatory 3 on the ISS (ISS OCO-3)" .
+        dct:description "Orbiting Carbon Observatory 3 on the ISS (ISS OCO-3)" ;
+        reg:status reg:statusStable .

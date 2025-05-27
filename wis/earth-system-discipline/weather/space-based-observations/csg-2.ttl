@@ -7,4 +7,5 @@
 <csg-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "csg-2" ;
-        dct:description "COSMO-SkyMed Second Generation - 2 (CSG-2)" .
+        dct:description "COSMO-SkyMed Second Generation - 2 (CSG-2)" ;
+        reg:status reg:statusStable .

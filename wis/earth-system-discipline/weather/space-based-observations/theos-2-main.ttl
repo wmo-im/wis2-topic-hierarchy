@@ -7,4 +7,5 @@
 <theos-2-main> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "theos-2-main" ;
-        dct:description "Thailand Earth Observation System - 2 Main VHR Satellite (THEOS-2 Main)" .
+        dct:description "Thailand Earth Observation System - 2 Main VHR Satellite (THEOS-2 Main)" ;
+        reg:status reg:statusStable .

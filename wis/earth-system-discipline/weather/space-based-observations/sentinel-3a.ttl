@@ -7,4 +7,5 @@
 <sentinel-3a> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "sentinel-3a" ;
-        dct:description "Sentinel-3A" .
+        dct:description "Sentinel-3A" ;
+        reg:status reg:statusStable .

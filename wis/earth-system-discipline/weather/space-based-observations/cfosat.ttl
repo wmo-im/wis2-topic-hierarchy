@@ -7,4 +7,5 @@
 <cfosat> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cfosat" ;
-        dct:description "Chinese-French Oceanography Satellite (CFOSAT)" .
+        dct:description "Chinese-French Oceanography Satellite (CFOSAT)" ;
+        reg:status reg:statusStable .

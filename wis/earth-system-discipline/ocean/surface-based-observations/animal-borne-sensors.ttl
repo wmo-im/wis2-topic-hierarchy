@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <animal-borne-sensors> a skos:Concept ;
         rdfs:label "animal-borne-sensors" ;
         skos:notation "animal-borne-sensors" ;
-        dct:description "Data from animal borne sensors"@en .
+        dct:description "Data from animal borne sensors"@en ;
+        reg:status reg:statusStable .

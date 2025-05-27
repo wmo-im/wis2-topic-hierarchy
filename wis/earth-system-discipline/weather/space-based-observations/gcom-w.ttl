@@ -7,4 +7,5 @@
 <gcom-w> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "gcom-w" ;
-        dct:description "Global Change Observation Mission for Water (GCOM-W)" .
+        dct:description "Global Change Observation Mission for Water (GCOM-W)" ;
+        reg:status reg:statusStable .

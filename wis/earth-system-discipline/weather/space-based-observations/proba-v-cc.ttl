@@ -7,4 +7,5 @@
 <proba-v-cc> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "proba-v-cc" ;
-        dct:description "Project for On-Board Autonomy - Vegetation Companion Cubesat (PROBA-V-CC)" .
+        dct:description "Project for On-Board Autonomy - Vegetation Companion Cubesat (PROBA-V-CC)" ;
+        reg:status reg:statusStable .

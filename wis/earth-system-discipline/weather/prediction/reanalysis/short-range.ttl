@@ -7,4 +7,5 @@
 <short-range> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "short-range" ;
-        dct:description "A prediction system up to the order of 72 hours ahead" .
+        dct:description "A prediction system up to the order of 72 hours ahead" ;
+        reg:status reg:statusStable .

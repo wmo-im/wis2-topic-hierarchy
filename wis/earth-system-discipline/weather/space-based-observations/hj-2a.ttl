@@ -7,4 +7,5 @@
 <hj-2a> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "hj-2a" ;
-        dct:description "Huan Jing 2A (HJ-2A)" .
+        dct:description "Huan Jing 2A (HJ-2A)" ;
+        reg:status reg:statusStable .

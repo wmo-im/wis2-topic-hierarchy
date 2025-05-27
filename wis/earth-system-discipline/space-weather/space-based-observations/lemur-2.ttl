@@ -7,4 +7,5 @@
 <lemur-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "lemur-2" ;
-        dct:description "Low Earth Multi-Use Receiver - 2 (Lemur-2)" .
+        dct:description "Low Earth Multi-Use Receiver - 2 (Lemur-2)" ;
+        reg:status reg:statusStable .

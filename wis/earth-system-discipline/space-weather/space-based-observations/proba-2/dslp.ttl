@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <dslp> a skos:Concept ;
         rdfs:label "dslp" ;
         skos:notation "dslp" ;
-        dct:description "Dual Segmented Langmuir Probe (DSLP)"@en .
+        dct:description "Dual Segmented Langmuir Probe (DSLP)"@en ;
+        reg:status reg:statusStable .

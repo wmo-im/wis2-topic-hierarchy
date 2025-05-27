@@ -8,4 +8,4 @@
         ldp:hasMemberRelation skos:member ;
         rdfs:label "system" ;
         dct:description "Fixed value of 'wis2' for WIS2" ;
-        rdfs:isDefinedBy "None" .
+        reg:status reg:statusStable .

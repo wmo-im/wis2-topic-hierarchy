@@ -7,4 +7,5 @@
 <solar-b> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "solar-b" ;
-        dct:description "Solar-B (Hinode)" .
+        dct:description "Solar-B (Hinode)" ;
+        reg:status reg:statusStable .

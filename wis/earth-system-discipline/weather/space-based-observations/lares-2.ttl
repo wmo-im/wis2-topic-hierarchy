@@ -7,4 +7,5 @@
 <lares-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "lares-2" ;
-        dct:description "Laser RElativity Satellite - 2 (LARES-2)" .
+        dct:description "Laser RElativity Satellite - 2 (LARES-2)" ;
+        reg:status reg:statusStable .

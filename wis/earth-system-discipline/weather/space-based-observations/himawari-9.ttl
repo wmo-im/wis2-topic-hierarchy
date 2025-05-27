@@ -7,4 +7,5 @@
 <himawari-9> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "himawari-9" ;
-        dct:description "Himawari-9" .
+        dct:description "Himawari-9" ;
+        reg:status reg:statusStable .

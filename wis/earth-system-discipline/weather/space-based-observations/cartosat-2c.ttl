@@ -7,4 +7,5 @@
 <cartosat-2c> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cartosat-2c" ;
-        dct:description "CartoSat-2C" .
+        dct:description "CartoSat-2C" ;
+        reg:status reg:statusStable .

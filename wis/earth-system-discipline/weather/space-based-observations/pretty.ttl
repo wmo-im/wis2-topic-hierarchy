@@ -7,4 +7,5 @@
 <pretty> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "pretty" ;
-        dct:description "Passive Reflectometry and Dosimetry (PRETTY)" .
+        dct:description "Passive Reflectometry and Dosimetry (PRETTY)" ;
+        reg:status reg:statusStable .

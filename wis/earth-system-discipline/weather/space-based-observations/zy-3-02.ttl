@@ -7,4 +7,5 @@
 <zy-3-02> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "zy-3-02" ;
-        dct:description "Zi Yuan - 3-02 (ZY-3-02)" .
+        dct:description "Zi Yuan - 3-02 (ZY-3-02)" ;
+        reg:status reg:statusStable .

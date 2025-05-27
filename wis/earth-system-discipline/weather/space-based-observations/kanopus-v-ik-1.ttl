@@ -7,4 +7,5 @@
 <kanopus-v-ik-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "kanopus-v-ik-1" ;
-        dct:description "Kanopus-Vulkan-Infra-Krasny-1 (KANOPUS-V-IK-1)" .
+        dct:description "Kanopus-Vulkan-Infra-Krasny-1 (KANOPUS-V-IK-1)" ;
+        reg:status reg:statusStable .

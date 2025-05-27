@@ -7,4 +7,5 @@
 <cosmic-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cosmic-2" ;
-        dct:description "Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)" .
+        dct:description "Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)" ;
+        reg:status reg:statusStable .

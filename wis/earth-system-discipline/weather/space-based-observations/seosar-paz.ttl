@@ -7,4 +7,5 @@
 <seosar-paz> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "seosar-paz" ;
-        dct:description "Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz)" .
+        dct:description "Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz)" ;
+        reg:status reg:statusStable .

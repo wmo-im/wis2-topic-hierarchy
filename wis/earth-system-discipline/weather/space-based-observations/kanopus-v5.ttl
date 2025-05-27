@@ -7,4 +7,5 @@
 <kanopus-v5> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "kanopus-v5" ;
-        dct:description "KANOPUS-V5" .
+        dct:description "KANOPUS-V5" ;
+        reg:status reg:statusStable .

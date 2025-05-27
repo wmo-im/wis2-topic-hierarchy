@@ -7,4 +7,5 @@
 <gnomes-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "gnomes-2" ;
-        dct:description "GNSS Navigation and Occultation Measurement Satellites (GNOMES-2)" .
+        dct:description "GNSS Navigation and Occultation Measurement Satellites (GNOMES-2)" ;
+        reg:status reg:statusStable .

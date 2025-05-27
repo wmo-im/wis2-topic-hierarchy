@@ -7,4 +7,5 @@
 <themis-a> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "themis-a" ;
-        dct:description "Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A)" .
+        dct:description "Time History of Events and Macroscale Interactions during Substorms - A (THEMIS-A)" ;
+        reg:status reg:statusStable .

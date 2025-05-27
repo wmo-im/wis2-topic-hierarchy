@@ -7,4 +7,5 @@
 <asnaro-2> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "asnaro-2" ;
-        dct:description "Advanced Satellite with new system ARchitecure for Observation - 2 (ASNARO-2)" .
+        dct:description "Advanced Satellite with new system ARchitecure for Observation - 2 (ASNARO-2)" ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <cygnss> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "cygnss" ;
-        dct:description "Cyclone Global Navigation Satellite System (8 sats) (CYGNSS (8 sats))" .
+        dct:description "Cyclone Global Navigation Satellite System (8 sats) (CYGNSS (8 sats))" ;
+        reg:status reg:statusStable .

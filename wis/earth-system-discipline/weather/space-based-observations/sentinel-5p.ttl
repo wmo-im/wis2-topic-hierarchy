@@ -7,4 +7,5 @@
 <sentinel-5p> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "sentinel-5p" ;
-        dct:description "Sentinel-5 precursor (Sentinel-5P)" .
+        dct:description "Sentinel-5 precursor (Sentinel-5P)" ;
+        reg:status reg:statusStable .

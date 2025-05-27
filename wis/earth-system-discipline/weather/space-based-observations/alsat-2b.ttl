@@ -7,4 +7,5 @@
 <alsat-2b> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "alsat-2b" ;
-        dct:description "Algeria Satellite - 2B (AlSat-2B)" .
+        dct:description "Algeria Satellite - 2B (AlSat-2B)" ;
+        reg:status reg:statusStable .

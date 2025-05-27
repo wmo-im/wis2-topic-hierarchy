@@ -1,8 +1,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
 
 <epic> a skos:Concept ;
         rdfs:label "epic" ;
         skos:notation "epic" ;
-        dct:description "European Photon Imaging Camera (EPIC)"@en .
+        dct:description "European Photon Imaging Camera (EPIC)"@en ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <eos-07> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "eos-07" ;
-        dct:description "EOS-07 (Microsat-2B) (EOS-07)" .
+        dct:description "EOS-07 (Microsat-2B) (EOS-07)" ;
+        reg:status reg:statusStable .

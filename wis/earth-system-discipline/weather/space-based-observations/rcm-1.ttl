@@ -7,4 +7,5 @@
 <rcm-1> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "rcm-1" ;
-        dct:description "RadarSat Constellation Mission - 1 (RCM-1)" .
+        dct:description "RadarSat Constellation Mission - 1 (RCM-1)" ;
+        reg:status reg:statusStable .

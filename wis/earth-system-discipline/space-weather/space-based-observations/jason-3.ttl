@@ -7,4 +7,5 @@
 <jason-3> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "jason-3" ;
-        dct:description "Joint Altimetry Satellite Oceanography Network - 3 (JASON-3)" .
+        dct:description "Joint Altimetry Satellite Oceanography Network - 3 (JASON-3)" ;
+        reg:status reg:statusStable .

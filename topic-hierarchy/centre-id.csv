@@ -45,7 +45,6 @@ il-ims,Israel Meteorological Service,,Operational
 in-imd,India Meteorological Department,,Operational
 int-ecmwf,European Centre for Medium-Range Weather Forecasts (ECMWF),,Operational
 int-eumetsat,European Organization for the Exploitation of Meteorological Satellites (EUMETSAT),,Operational
-io-wis2dev1-test,"Test WIS2 Node (for use in the WIS2 test environment, not for operations)",,
 ir-irimo,Islamic Republic of Iran Meteorological Organization,,Operational
 it-meteoam,Servizio Meteorológico (Italy),,Operational
 jm-msj,Meteorological Service (Jamaica),,Operational
@@ -53,6 +52,7 @@ jp-jma,Japan Meteorological Agency,,Operational
 jp-jma-global-cache,"Japan Meteorological Agency, Global Cache Service",,Operational
 jp-jma-gts-to-wis2,"Japan Meteorological Agency, GTS to WIS2 Gateway (Japan)",,Operational
 ke-meteo,Kenya Meteorological Department,,Operational
+kg-kyrgyzhydromet,Hydrometeorological Service under the Ministry of Emergency Situations of the Kyrgyz Republic — Kyrgyzhydromet,,Operational
 kn-metservice,St Kitts and Nevis Meteorological Service,,Operational
 kr-kma,Korea Meteorological Administration,,Operational
 kr-kma-global-cache,"Korea Meteorological Administration, Global Cache Service",,Operational
@@ -63,6 +63,7 @@ ly-lnmc,Libyan National Meteorological Centre,,Operational
 ma-marocmeteo,Direction de la Météorologie Nationale (Morocco),,Operational
 ma-marocmeteo-global-monitor,"Direction de la Météorologie Nationale (Morocco), Global Monitor Service",,Operational
 ms-metservice,Caribbean Meteorological Organization (Montserrat),,Operational
+mw-dccms,Malawi Meteorological Services,,Operational
 my-metmalaysia,Malaysian Meteorological Department,,Operational
 na-meteona,Namibia Meteorological Service,,Operational
 ng-nimet,Nigerian Meteorological Agency,,Operational
@@ -89,7 +90,7 @@ us-noaa-global-broker,"National Oceanic and Atmospheric Administration, National
 us-noaa-nws,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
 us-noaa-synoptic,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
 us-synoptic-uas,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
-us-ucsd-scripps-ldl,WIS Centre (other)/University of California San Diego (United States of America),,Inactive
+us-ucsd-scripps-ldl,WIS Centre (other)/University of California San Diego (United States of America),,Operational
 uy-inumet,Dirección Nacional de Meteorología (Uruguay),,Operational
 vc-metservice,CMO Member (St. Vincent and the Grenadines),,Operational
 vg-metservice,Caribbean Meteorological Organization (British Virgin Islands),,Operational

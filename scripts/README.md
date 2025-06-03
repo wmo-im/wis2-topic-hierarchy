@@ -99,7 +99,7 @@ python3 scripts/upload_changes.py tomkralidis API_KEY prod wis --status experime
 python3 scripts/upload_changes.py tomkralidis API_KEY prod wis --status stable
 ```
 
-This will create/update all resources on the WMO Codes Registry. To only create/update a subset of all resources (e.g. only centre ids), then specify this the subdirectory when running the script:
+This will create/update all resources on the WMO Codes Registry. To only create/update a subset of all resources (e.g. only centre ids), then specify the subdirectory when running the script:
 
 ```bash
 python3 scripts/upload_changes.py tomkralidis API_KEY test wis/topic-hierarchy/centre-id/ --status stable

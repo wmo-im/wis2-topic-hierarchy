@@ -1,5 +1,3 @@
 Name,Description,Source,Status
-level,Level,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12252,Operational
-storage,Storage,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12266 ,Operational
-discharge,Discharge,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_171 ,Operational
-aquifer-volume,Aquifer volume,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12255,Operational
+groundwater-storage,Storage or aquifier volume,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12255,Operational
+groundwater-level,Groundwater level,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_166,Operational

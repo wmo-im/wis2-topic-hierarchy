@@ -1,0 +1,3 @@
+Name,Description,Source,Status
+soil-moisture,Soil moisture,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12277,Operational
+soil-type,Soil type,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_246,Operational

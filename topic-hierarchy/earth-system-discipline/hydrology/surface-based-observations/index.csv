@@ -1,4 +1,3 @@
 Name,Description,Source,Status
-land-atmospheric,Land atmospheric,,Operational
-sediment-surface-water,Sediment surface water,,Operational
+atmospheric,Atmospheric,,Operational
 water-quantity,Water quantity,,Operational

@@ -1,7 +1,7 @@
-Name,Description,Source
-sand-and-dust,Sand and dust,
-air-pollution,Air pollution,
-fires,Fires,
-ozone-and-ultraviolet-radiation,Ozone and ultraviolet radiation,
-nuclear-fallout,Nuclear fallout,
-volcanic-activity,Volcanic activity,
+Name,Description,Source,Status
+sand-and-dust,Sand and dust,,Operational
+air-pollution,Air pollution,,Operational
+fires,Fires,,Operational
+ozone-and-ultraviolet-radiation,Ozone and ultraviolet radiation,,Operational
+nuclear-fallout,Nuclear fallout,,Operational
+volcanic-activity,Volcanic activity,,Operational

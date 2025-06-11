@@ -1,7 +1,7 @@
-Name,Description,Source
-aerosol-particles-and-clouds,Aerosol particles and clouds,
-atmospheric-processes-and-kinetics,Atmospheric processes and kinetics,
-emissions,Emissions,
-gases,Gases,
-radiation-latent-heat,Radiation latent heat,
-surface-flux-densities,Surface-flux-densities,
+Name,Description,Source,Status
+aerosol-particles-and-clouds,Aerosol particles and clouds,,Operational
+atmospheric-processes-and-kinetics,Atmospheric processes and kinetics,,Operational
+emissions,Emissions,,Operational
+gases,Gases,,Operational
+radiation-latent-heat,Radiation latent heat,,Operational
+surface-flux-densities,Surface-flux-densities,,Operational

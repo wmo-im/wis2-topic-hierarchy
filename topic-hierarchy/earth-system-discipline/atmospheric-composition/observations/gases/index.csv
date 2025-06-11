@@ -1,4 +1,4 @@
-Name,Description,Source
-greenhouse-gases,Greenhouse gases,
-ozone,Ozone,
-reactive-gases,Reactive gases (excluding stratospheric ozone),
+Name,Description,Source,Status
+greenhouse-gases,Greenhouse gases,,Operational
+ozone,Ozone,,Operational
+reactive-gases,Reactive gases (excluding stratospheric ozone),,Operational

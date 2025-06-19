@@ -14,6 +14,6 @@ Examples provided in this specification are encoded as ``plain text strings``.
 
 === Codelists bundle
 
-The WIS2 Topic Hierarchy Notification codelist bundle can be found at https://schemas.wmo.int/wth/1.0/wth.zip.  This bundle can be used by tools and applications wishing to browse or validate topic structures.
+The WIS2 Topic Hierarchy Notification codelist bundle can be found at https://schemas.wmo.int/wth/a/wth.zip.  This bundle can be used by tools and applications wishing to browse or validate topic structures.
 
 A browseable codelist can be found at https://codes.wmo.int/wis/topic-hierarchy

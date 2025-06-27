@@ -3,8 +3,8 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<jp-jma-gts-to-wis2> a skos:Concept ;
-        rdfs:label "jp-jma-gts-to-wis2" ;
-        skos:notation "jp-jma-gts-to-wis2" ;
-        dct:description "Japan Meteorological Agency, GTS to WIS2 Gateway Service"@en ;
+<cn-cma-wis2-to-gts> a skos:Concept ;
+        rdfs:label "cn-cma-wis2-to-gts" ;
+        skos:notation "cn-cma-wis2-to-gts" ;
+        dct:description "China Meteorological Administration, WIS2 to GTS Gateway Service"@en ;
         reg:status reg:statusStable .

@@ -7,4 +7,4 @@
         rdfs:label "gn-meteo-guinee-conakry" ;
         skos:notation "gn-meteo-guinee-conakry" ;
         dct:description "Direction Nationale de la Météorologie (Guinea)"@en ;
-        reg:status reg:statusStable .
+        reg:status reg:statusRetired .

@@ -3,8 +3,8 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<jp-jma-gts-to-wis2> a skos:Concept ;
-        rdfs:label "jp-jma-gts-to-wis2" ;
-        skos:notation "jp-jma-gts-to-wis2" ;
-        dct:description "Japan Meteorological Agency, GTS to WIS2 Gateway Service"@en ;
+<gn-anm> a skos:Concept ;
+        rdfs:label "gn-anm" ;
+        skos:notation "gn-anm" ;
+        dct:description "Direction Nationale de la Météorologie (Guinea)"@en ;
         reg:status reg:statusStable .

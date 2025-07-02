@@ -42,5 +42,4 @@ jobs:
         with:
           args: |
             --user $INFOMANIAK_USER:$INFOMANIAK_PW
-            --upload-file /tmp/wis2-topic-hierarchy-a.zip
-            ftps://egji.ftp.infomaniak.com/wth/a/wis2-topic-hierarchy-a_test.zip
+            --upload-file /tmp/wis2-topic-hierarchy-a.zip ftp://egji.ftp.infomaniak.com/wth/a/wis2-topic-hierarchy-a_test.zip

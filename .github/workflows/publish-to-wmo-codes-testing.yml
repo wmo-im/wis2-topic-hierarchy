@@ -8,9 +8,7 @@ on:
   push:
     branches:
       - code-registry-pub-test
-      paths:
-      - '**.yml'
-      - 'topic-hierarchy/**.csv'
+
 
 jobs:
   main:

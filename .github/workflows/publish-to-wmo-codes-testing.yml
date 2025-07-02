@@ -32,7 +32,7 @@ jobs:
         run: |
           python3 scripts/codelists2ttl.py
           python3 scripts/upload_changes.py $WMO_CODES_TEST_USER_ID $WMO_CODES_TEST_API_KEY test wis/topic-hierarchy/centre-id/ --status experimental
-      - name: create bundle 
+      - name: create bundle   
         run: |
           python3 scripts/generate-bundle.py
           rm -rf /tmp/wis2-topic-hierarchy-a.zip
@@ -42,3 +42,4 @@ jobs:
         with:
           args: |
             -T /tmp/wis2-topic-hierarchy-a.zip -u "$INFOMANIAK_USER:$INFOMANIAK_PW" ftps://egji.ftp.infomaniak.com/wth/a/wis2-topic-hierarchy-a_test.zip
+      

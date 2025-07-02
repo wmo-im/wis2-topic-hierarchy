@@ -29,5 +29,5 @@ jobs:
       - name: create TTL and publish to codes registry
         run: |
           python3 scripts/codelists2ttl.py
-          python3 scripts/upload_changes.py $WMO_CODES_TEST_USER_ID $WMO_CODES_TEST_API_KEY test wis/topic-hierarchy/centre-id/ --status stable
+          python3 scripts/upload_changes.py $WMO_CODES_TEST_USER_ID $WMO_CODES_TEST_API_KEY test wis/topic-hierarchy/centre-id/ --status experimental
       

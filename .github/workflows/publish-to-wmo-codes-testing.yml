@@ -1,15 +1,13 @@
 name: Publish TTL files to WMO Codes Registry testing environment
 
 env:
-  WMO_CODES_TEST_USER_ID: ${{ secrets.WMO_CODES_TEST_USER_ID }}
-  WMO_CODES_TEST_API_KEY: ${{ secrets.WMO_CODES_TEST_API_KEY }}
+  WMO_CODES_TEST_USER_ID: ${{ secrets.CODES_REGISTRY_API_USER_ID }}
+  WMO_CODES_TEST_API_KEY: ${{ secrets.CODES_REGISTRY_API_SECRET_TEST }}
 
 on:
   push:
     branches:
-      - gh-pages
-    paths:
-      - 'wis/**.ttl'
+      - code-registry-pub-test
 
 jobs:
   main:
@@ -36,6 +34,8 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           pip3 install -r scripts/requirements.txt
-     # - name: update gh-pages branch and publish
-     #   run: |
-     #     python3 scripts/upload_changes.py {WMO_CODES_TEST_USER_ID} {WMO_CODES_TEST_API_KEY} test /tmp/wis --status experimental
+      - name: create TTL and publish to codes registry
+        run: |
+          python3 scripts/create_ttl.py
+          python3 scripts/upload_changes.py $WMO_CODES_TEST_USER_ID $WMO_CODES_TEST_API_KEY test wis/topic-hierarchy/centre-id/ --status stable
+      

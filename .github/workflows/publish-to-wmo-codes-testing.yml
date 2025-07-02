@@ -18,14 +18,11 @@ jobs:
     steps:
       - uses: actions/checkout@master
         with:
-          ref: code-registry-pub-test
+          ref: main
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - uses: actions/checkout@master
-        with:
-          ref: main
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip

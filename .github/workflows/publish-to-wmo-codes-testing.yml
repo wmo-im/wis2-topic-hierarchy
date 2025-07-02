@@ -37,9 +37,13 @@ jobs:
           python3 scripts/generate-bundle.py
           rm -rf /tmp/wis2-topic-hierarchy-a.zip
           zip /tmp/wis2-topic-hierarchy-a.zip topic-hierarchy/*.csv
+
       - name: upload bundle to Infomaniak
         uses: sozo-design/curl@v1.0.2
         with:
           args: |
             -T /tmp/wis2-topic-hierarchy-a.zip -u "$INFOMANIAK_USER:$INFOMANIAK_PW" ftps://egji.ftp.infomaniak.com/wth/a/wis2-topic-hierarchy-a_test.zip
+          run: |
+           ls -al /tmp/wth-bundle.zip .
+
       

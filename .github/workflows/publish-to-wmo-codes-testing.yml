@@ -3,6 +3,8 @@ name: Publish TTL files to WMO Codes Registry testing environment
 env:
   WMO_CODES_TEST_USER_ID: ${{ secrets.CODES_REGISTRY_API_USER_ID }}
   WMO_CODES_TEST_API_KEY: ${{ secrets.CODES_REGISTRY_API_SECRET_TEST }}
+  INFOMANIAK_USER: ${{ secrets.INFOMANIAK_SCHEMA_USER }}
+  INFOMANIAK_PW: ${{ secrets.INFOMANIAK_SCHEMA_PASSWORD }}
 
 on:
   push:
@@ -30,4 +32,15 @@ jobs:
         run: |
           python3 scripts/codelists2ttl.py
           python3 scripts/upload_changes.py $WMO_CODES_TEST_USER_ID $WMO_CODES_TEST_API_KEY test wis/topic-hierarchy/centre-id/ --status experimental
-      
+      - name: create bundle 
+        run: |
+          python3 scripts/generate-bundle.py
+          rm -rf /tmp/wis2-topic-hierarchy-a.zip
+          zip -j /tmp/wis2-topic-hierarchy-a.zip topic-hierarchy/*.csv
+      - name: upload bundle to Infomaniak
+        uses: sozo-design/curl@v1.0.2
+        with:
+          args: |
+            --user $INFOMANIAK_USER:$INFOMANIAK_PW
+            --upload-file /tmp/wis2-topic-hierarchy-a.zip
+            ftps://egji.ftp.infomaniak.com/wth/a/wis2-topic-hierarchy-a_test.zip

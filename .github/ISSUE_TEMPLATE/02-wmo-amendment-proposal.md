@@ -9,7 +9,30 @@ about: Proposals for amendments to this specification
 _(Description of the amendment(s) requested. Include as much relevant information as possible, such as rationale, purpose, and implementation plans.)_
 
 # Amendment details*
-_(The exact changes proposed. Do not include supplementary descriptive information. Enter TBD if the details are unknown. This content may evolve as the proposal is finalized.)_
+_(The exact changes proposed in the tables below. Do not include supplementary descriptive information. Enter TBD if the details are unknown. This content may evolve as the proposal is finalized.)_
+
+Add sub-disciplines (level 8) to one or many of the earth system disciplines (atmospheric-composition, climate, cryosphere, hydrology, ocean, space-weather or weather)
+
+|Earth system discipline |New sub-discipline name |Sub-discipline description |
+|---                     |---                     |---                        |
+|---                     |---                     |---                        |
+|---                     |---                     |---                        |
+
+
+Add topics (level 9) to the new sub-disciplines
+
+|Earth system discipline |Sub-discipline |New topic name |Topic description |
+|---                     |---            |---            |---               |
+|---                     |---            |---            |---               |
+|---                     |---            |---            |---               |
+
+Add leaf topics (level 10) to the new topics (optional)
+
+|Sub-discipline |Parent topic  |New leaf topic name |Topic description |
+|---            |---           |---                 |---               |
+|---            |---           |---                 |---               |
+|---            |---           |---                 |---               |
+
 
 # Requestor(s)*
 _(Name of individuals, groups, or organizations that are requesting the amendment. Include relevant affiliations and GitHub user names, as applicable.)_

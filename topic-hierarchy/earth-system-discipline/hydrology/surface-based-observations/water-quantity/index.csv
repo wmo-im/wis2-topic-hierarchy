@@ -1,14 +1,14 @@
 Name,Description,Source,Status
-stream-level,Stream level,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_172,Operational
-stream-discharge,Stream Discharge,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_171,Operational
-lake-level,Lake level,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_168,Operational
-lake-temperature,Lake surface temperature and lake temperature,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_410,Operational
-water-temperature,Water temperature,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_410,Operational
-reservoir-storage,Reservoir storage including lake volume,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12279,Operational
-water-level,Water level,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12252,Operational
-depth-snowfall,Depth of snowfall,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_627,Operational
-stream-index-velocity,Stream index velocity,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12282,Operational
-stream-velocity,Stream velocity and stream index velocity,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12322,Operational
-suspended-sediment-discharge,Suspended sediment discharge,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12281,Operational
-suspended-sediment-load,Suspended sediment load,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12272,Operational
-snow-water-equivalent,Water equivalent of snow cover or snowfall,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_631,Operational
+stream-level,Stream level,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/172,Operational
+stream-discharge,Stream Discharge,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/171,Operational
+lake-level,Lake level,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/168,Operational
+lake-temperature,Lake surface temperature and lake temperature,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/410,Operational
+water-temperature,Water temperature,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/410,Operational
+reservoir-storage,Reservoir storage including lake volume,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12279,Operational
+water-level,Water level,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12252,Operational
+depth-snowfall,Depth of snowfall,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/627,Operational
+stream-index-velocity,Stream index velocity,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12282,Operational
+stream-velocity,Stream velocity,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12322,Operational
+suspended-sediment-discharge,Suspended sediment discharge,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12281,Operational
+suspended-sediment-load,Suspended sediment load,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12272,Operational
+snow-water-equivalent,Water equivalent of snow cover or snowfall,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/631,Operational

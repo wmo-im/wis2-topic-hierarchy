@@ -1,4 +1,4 @@
 Name,Description,Source,Status
-infiltration-rate,Infiltration rate,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12261,Operational
-land-surface-temperature,Land surface temperature,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_389,Operational
-soil-moisture,Soil moisture,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/_12277,Operational
+infiltration-rate,Infiltration rate,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12261,Operational
+land-surface-temperature,Land surface temperature,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/389,Operational
+soil-moisture,Soil moisture,https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12277,Operational

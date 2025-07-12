@@ -1,2 +1,8 @@
 Name,Description,Source,Status
 experimental,Experimental topics,,Operational
+glacier-ice-sheet-ice-shelves,"Glacier, ice-sheets, and ice-shelves including moving parts on land",,Operational
+frozen-ground,"Frozen ground, including permafrost and seasonal frozen ground",,Operational
+sea-ice-icebergs,Sea ice and icebergs,,Operational
+lake-river-ice,Lake and river ice,,Operational
+snow,Snow,,Operational
+solid-precipitation,"Solid precipitation, including snowfall, hail, sleet, etc.",,Operational

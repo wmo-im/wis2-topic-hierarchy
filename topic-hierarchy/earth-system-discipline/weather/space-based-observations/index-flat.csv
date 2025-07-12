@@ -262,6 +262,8 @@ meteosat-11,gerb,Meteosat-11,Geostationary Earth Radiation Budget (GERB),Operati
 meteosat-11,seviri,Meteosat-11,Spinning Enhanced Visible Infra-Red Imager (SEVIRI),Operational
 meteosat-12,fci,Meteosat-12,Flexible Combined Imager (FCI),Operational
 meteosat-12,li,Meteosat-12,Lightning Imager (LI),Operational
+meteosat-13,irs,Meteosat-13,InfraRed Sounder (IRS),Operational
+meteosat-13,uvn,Meteosat-13,"Ultra-violet, Visible and Near-infrared sounder (UVN)",Operational
 meteosat-9,gerb,Meteosat-9 (IODC),Geostationary Earth Radiation Budget (GERB),Operational
 meteosat-9,seviri,Meteosat-9 (IODC),Spinning Enhanced Visible Infra-Red Imager (SEVIRI),Operational
 metop-b,amsu-a,Meteorological operational satellite - B (Metop-B),Advanced Microwave Sounding Unit - A (AMSU-A),Operational

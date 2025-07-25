@@ -3,3 +3,4 @@
 *.pdf
 .DS_Store
 topic-hierarchy/earth-system-discipline.csv
+wis2-topic-hierarchy.code-workspace

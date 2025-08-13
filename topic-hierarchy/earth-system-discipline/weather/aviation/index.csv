@@ -1,5 +1,4 @@
 Name,Description,Source,Status
-amdar,Aircraft Meteorological Data Relay,,Operational
 metar,Aerodrome observation,,Operational
-qvaci,Quantitative volcanic ash concentration information,,Operational
 taf,Aerodrome forecast,,Operational
+qvaci,Quantitative volcanic ash concentration information,,Operational

@@ -3,8 +3,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<bi-igebu> a skos:Concept ;
-        rdfs:label "bi-igebu" ;
-        skos:notation "bi-igebu" ;
-        dct:description "Institut Géographique du Burundi (IGEBU)"@en ;
-        reg:status reg:statusStable .
+<fr-ifremer-argo> a skos:Concept ;
+        rdfs:label "fr-ifremer-argo" ;
+        skos:notation "fr-ifremer-argo" ;
+        dct:description "French Research Institute for Exploitation of the Sea (Ifremer)"@en .

@@ -3,5 +3,6 @@
 |===
 ^|*Permission {counter:per-id}* |*/per/core/publishing*
 ^|A |Data MAY be published with the ``experimental`` topic and include any sub-discipline topics which are not yet approved.
+^|B |Data MAY be published to a non-leaf topic.
 |===
 //per1

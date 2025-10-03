@@ -1,3 +1,4 @@
 Name,Description,Source,Status
-air-temperature,Air temperature,https://codes.wmo.int/wmdr/ObservedVariableAtmosphere/224,Operational
-wind,Wind,https://codes.wmo.int/wmdr/ObservedVariableAtmosphere/307,Operational
+air,Air,,Operational
+precipitation,Precipitation,,Operational
+wind,Wind,,Operational

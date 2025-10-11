@@ -1,0 +1,4 @@
+Name,Description,Source,Status
+frozen-ground,"Frozen ground, including permafrost and seasonal frozen ground",,Operational
+snow,Snow,,Operational
+solid-precipitation,"Solid precipitation, including snowfall, hail, sleet, etc.",,Operational

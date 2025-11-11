@@ -6,4 +6,5 @@
 <org-woudc> a skos:Concept ;
         rdfs:label "org-woudc" ;
         skos:notation "org-woudc" ;
-        dct:description "World Ozone and Ultraviolet Radiation Data Centre (WOUDC)"@en .
+        dct:description "World Ozone and Ultraviolet Radiation Data Centre (WOUDC)"@en ;
+        reg:status reg:statusStable .

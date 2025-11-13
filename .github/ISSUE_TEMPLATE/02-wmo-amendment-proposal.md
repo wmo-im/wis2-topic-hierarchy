@@ -3,6 +3,8 @@ name: WMO amendment proposal
 about: Proposals for amendments to this specification
 ---
 
+> Note: [Chapter 4: Recipes for Earth system discipline domain experts](https://wmo-im.github.io/wis2-cookbook/cookbook/wis2-cookbook-DRAFT.html#_recipes_for_earth_system_discipline_domain_experts) of the WIS2 Cookbook provides guidelines to domain experts to ensure that Topic Hierarchy definitions are consistent and useful to address the needs of WIS2 users.  Please review this chapter before proposing new/updated topics.
+
 > Note: sections marked with * are required.
 
 # Overview of proposal*

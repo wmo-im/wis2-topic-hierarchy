@@ -1,0 +1,10 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<sn-anacim> a skos:Concept ;
+        rdfs:label "sn-anacim" ;
+        skos:notation "sn-anacim" ;
+        dct:description "Agence Nationale de l'Aviation Civile et de la Météorologie (ANACIM) (Senegal)"@en ;
+        reg:status reg:statusStable .

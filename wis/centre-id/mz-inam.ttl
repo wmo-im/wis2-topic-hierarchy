@@ -1,0 +1,10 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<mz-inam> a skos:Concept ;
+        rdfs:label "mz-inam" ;
+        skos:notation "mz-inam" ;
+        dct:description "Instituto Nacional de Meteorología (INAM) (Mozambique)"@en ;
+        reg:status reg:statusStable .

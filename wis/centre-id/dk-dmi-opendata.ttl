@@ -7,4 +7,4 @@
         rdfs:label "dk-dmi-opendata" ;
         skos:notation "dk-dmi-opendata" ;
         dct:description "Danish Meteorological Institute (Denmark)"@en ;
-        reg:status reg:statusStable .
+        reg:status reg:statusRetired .

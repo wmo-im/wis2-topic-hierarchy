@@ -1,2 +1,5 @@
 Name,Description,Source,Status
+analysis-prediction,Analysis and prediction,,Operational
+advisories-warnings,Advisories and warnings,,Operational
+observations,Observations,,Operational
 experimental,Experimental topics,,Operational

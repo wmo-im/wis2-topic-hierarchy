@@ -6,4 +6,5 @@
 <ve-inameh> a skos:Concept ;
         rdfs:label "ve-inameh" ;
         skos:notation "ve-inameh" ;
-        dct:description "Instituto Nacional de Meteorología e Hidrología (INAMEH), Venezuela (Bolivarian Republic of)"@en .
+        dct:description "Instituto Nacional de Meteorología e Hidrología (INAMEH), Venezuela (Bolivarian Republic of)"@en ;
+        reg:status reg:statusStable .

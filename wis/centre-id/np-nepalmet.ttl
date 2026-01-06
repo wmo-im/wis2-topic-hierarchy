@@ -6,4 +6,5 @@
 <np-nepalmet> a skos:Concept ;
         rdfs:label "np-nepalmet" ;
         skos:notation "np-nepalmet" ;
-        dct:description "Department of Hydrology and Meteorology (Nepal)"@en .
+        dct:description "Department of Hydrology and Meteorology (Nepal)"@en ;
+        reg:status reg:statusStable .

@@ -6,4 +6,5 @@
 <ru-roshydromet> a skos:Concept ;
         rdfs:label "ru-roshydromet" ;
         skos:notation "ru-roshydromet" ;
-        dct:description "Russian Federal Service for Hydrometeorology and Environmental Monitoring"@en .
+        dct:description "Russian Federal Service for Hydrometeorology and Environmental Monitoring"@en ;
+        reg:status reg:statusStable .

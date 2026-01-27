@@ -6,4 +6,5 @@
 <ph-pagasa> a skos:Concept ;
         rdfs:label "ph-pagasa" ;
         skos:notation "ph-pagasa" ;
-        dct:description "Philippine Atmospheric Geophysical and Astronomical Services Administration"@en .
+        dct:description "Philippine Atmospheric Geophysical and Astronomical Services Administration"@en ;
+        reg:status reg:statusStable .

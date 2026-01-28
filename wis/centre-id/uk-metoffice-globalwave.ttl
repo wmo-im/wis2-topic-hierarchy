@@ -1,0 +1,9 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<uk-metoffice-globalwave> a skos:Concept ;
+        rdfs:label "uk-metoffice-globalwave" ;
+        skos:notation "uk-metoffice-globalwave" ;
+        dct:description "Specialized Ocean & Wave Forecasting Centre (United Kingdom of Great Britain and Northern Ireland)"@en .

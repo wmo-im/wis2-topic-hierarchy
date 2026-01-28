@@ -6,5 +6,5 @@
 <uk-metoffice-wmc> a skos:Concept ;
         rdfs:label "uk-metoffice-wmc" ;
         skos:notation "uk-metoffice-wmc" ;
-        dct:description "RSMC–Numerical Weather Prediction (NWP)) (United Kingdom of Great Britain and Northern Ireland)"@en ;
+        dct:description "RSMC–Numerical Weather Prediction (NWP) (United Kingdom of Great Britain and Northern Ireland)"@en ;
         reg:status reg:statusStable .

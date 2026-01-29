@@ -7,4 +7,4 @@
         rdfs:label "ru-aviamettelecom" ;
         skos:notation "ru-aviamettelecom" ;
         dct:description "Russian Federal Service for Hydrometeorology and Environmental Monitoring"@en ;
-        reg:status reg:statusStable .
+        reg:status reg:statusRetired .

@@ -1,0 +1,1 @@
+This directory caches https://data.iana.org/TLD/tlds-alpha-by-domain.txt on an as-needed basis, in order for downstream tooling (such as [pywis-topics](https://github.com/World-Meteorological-Organization/pywis-topics)) to access and integrate.

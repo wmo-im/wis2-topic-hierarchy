@@ -350,6 +350,9 @@ sentinel-5p,tropomi,Sentinel-5 precursor (Sentinel-5P),Tropospheric Monitoring I
 sentinel-6a,gnss-ro,Sentinel-6A,Global Navigation Satellite System - Radio Occultation (GNSS-RO),Operational
 sentinel-6a,lra,Sentinel-6A,Laser Retroreflector Array (LRA),Operational
 sentinel-6a,poseidon-4,Sentinel-6A,Poseidon-4,Operational
+sentinel-6b,gnss-ro,Sentinel-6B,Global Navigation Satellite System - Radio Occultation (GNSS-RO),Operational
+sentinel-6b,lra,Sentinel-6B,Laser Retroreflector Array (LRA),Operational
+sentinel-6b,poseidon-4,Sentinel-6B,Poseidon-4,Operational
 seosar-paz,rohpp,Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz),Radio Occultations and Heavy Precipitation with PAZ (ROHPP),Operational
 seosar-paz,sar-x,Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz),Synthetic Aperture Radar (X-band) (SAR-X),Operational
 sich-2-30,mbei,SICH-2-30 (originally SICH-2-1) (SICH-2-30),Multi-Band Earth Imager (MBEI),Operational

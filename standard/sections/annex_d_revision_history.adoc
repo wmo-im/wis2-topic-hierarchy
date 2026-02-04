@@ -6,7 +6,7 @@
 |===
 |Date |Release |Editor | Primary clauses modified |Description
 |2023-09-25 | Template | Tom Kralidis |all | initial revision
-|June 2024| 1.0.0 | ET-Metadata | all | approved by EC-78
-|November 2024 | 1.1.0 | ET-Metadata |WTH standard and topics | fast-track 2024-2
-|February 2026 | 1.2.0 | ET-Metadata |WTH standard and topics | fast-track 2025-2|
+|June 2024| 1.0.0 | ET-Metadata | Clause 7 | approved by EC-78
+|November 2024 | 1.1.0 | ET-Metadata |Clause 7 | fast-track 2024-2
+|February 2026 | 1.2.0 | ET-Metadata |Clause 7 | fast-track 2025-2|
 ===

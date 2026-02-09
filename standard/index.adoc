@@ -1,7 +1,7 @@
 :title: WIS2 Topic Hierarchy
 :titletext: {title}
 :version: 1.2.0
-:date: {docdate} (of HTML, PDF and Word generations)
+:date: 2026-02-13
 :copyright: Copyright © 2024-2026 World Meteorological Organization (WMO)
 :doctype: book
 :encoding: utf-8
@@ -20,7 +20,7 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*World Meteorological Organization*
-|Date: {date}
+|Date: 2026-02-13
 |Version: {version}
 |Document status: STABLE
 |Document location: https://wmo-im.github.io/wis2-topic-hierarchy/standard/wis2-topic-hierarchy-STABLE.html

@@ -1,0 +1,10 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<poseidon-4> a skos:Concept ;
+        rdfs:label "poseidon-4" ;
+        skos:notation "poseidon-4" ;
+        dct:description "Poseidon-4"@en ;
+        reg:status reg:statusStable .

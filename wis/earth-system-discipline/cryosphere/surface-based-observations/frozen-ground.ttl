@@ -1,0 +1,10 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<frozen-ground> a skos:Concept ;
+        rdfs:label "frozen-ground" ;
+        skos:notation "frozen-ground" ;
+        dct:description "Frozen ground, including permafrost and seasonal frozen ground"@en ;
+        reg:status reg:statusStable .

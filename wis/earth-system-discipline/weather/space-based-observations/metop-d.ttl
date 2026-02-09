@@ -4,8 +4,8 @@
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<space-based-observations> a reg:Register , skos:Collection , ldp:Container ;
+<metop-d> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
-        rdfs:label "space-based-observations" ;
-        dct:description "Space based observations" ;
+        rdfs:label "metop-d" ;
+        dct:description "Meteorological operational satellite - D (Metop-D)" ;
         reg:status reg:statusStable .

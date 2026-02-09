@@ -1,0 +1,10 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<metimage> a skos:Concept ;
+        rdfs:label "metimage" ;
+        skos:notation "metimage" ;
+        dct:description "Meteorological Imager (Previous name: VII - Visible and Infrared Imager )"@en ;
+        reg:status reg:statusStable .

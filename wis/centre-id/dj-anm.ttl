@@ -6,4 +6,5 @@
 <dj-anm> a skos:Concept ;
         rdfs:label "dj-anm" ;
         skos:notation "dj-anm" ;
-        dct:description "Agence Nationale de la Météorologie de Djibouti"@en .
+        dct:description "Agence Nationale de la Météorologie de Djibouti"@en ;
+        reg:status reg:statusStable .

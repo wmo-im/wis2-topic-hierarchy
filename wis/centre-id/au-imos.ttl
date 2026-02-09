@@ -6,4 +6,5 @@
 <au-imos> a skos:Concept ;
         rdfs:label "au-imos" ;
         skos:notation "au-imos" ;
-        dct:description "Australia's Integrated Marine Observing System (IMOS)"@en .
+        dct:description "Australia's Integrated Marine Observing System (IMOS)"@en ;
+        reg:status reg:statusStable .

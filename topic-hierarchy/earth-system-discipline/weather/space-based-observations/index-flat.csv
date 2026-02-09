@@ -262,6 +262,8 @@ meteosat-11,gerb,Meteosat-11,Geostationary Earth Radiation Budget (GERB),Operati
 meteosat-11,seviri,Meteosat-11,Spinning Enhanced Visible Infra-Red Imager (SEVIRI),Operational
 meteosat-12,fci,Meteosat-12,Flexible Combined Imager (FCI),Operational
 meteosat-12,li,Meteosat-12,Lightning Imager (LI),Operational
+meteosat-13,irs,Meteosat-13,InfraRed Sounder (IRS),Operational
+meteosat-13,uvn,Meteosat-13,"Ultra-violet, Visible and Near-infrared sounder (UVN)",Operational
 meteosat-9,gerb,Meteosat-9 (IODC),Geostationary Earth Radiation Budget (GERB),Operational
 meteosat-9,seviri,Meteosat-9 (IODC),Spinning Enhanced Visible Infra-Red Imager (SEVIRI),Operational
 metop-b,amsu-a,Meteorological operational satellite - B (Metop-B),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
@@ -279,6 +281,11 @@ metop-c,gome-2,Meteorological operational satellite - C (Metop-C),Global Ozone M
 metop-c,gras,Meteorological operational satellite - C (Metop-C),GNSS Receiver for Atmospheric Sounding (GRAS),Operational
 metop-c,iasi,Meteorological operational satellite - C (Metop-C),Infrared Atmospheric Sounding Interferometer (IASI),Operational
 metop-c,mhs,Meteorological operational satellite - C (Metop-C),Microwave Humidity Sounding (MHS),Operational
+metop-d,3mi,Meteorological operational satellite - D (Metop-D),Multi-viewing Multi-channel Multi-polarisation Imager,Operational
+metop-d,iasi-ng,Meteorological operational satellite - D (Metop-D),Infrared Atmospheric Sounder Interferometer - New Generation,Operational
+metop-d,metimage,Meteorological operational satellite - D (Metop-D),Meteorological Imager (Previous name: VII - Visible and Infrared Imager ),Operational
+metop-d,ro,Meteorological operational satellite - D (Metop-D),Radio Occultation sounder,Operational
+metop-d,s5-uvns,Meteorological operational satellite - D (Metop-D),"Sentinel-5 UVNS: Ultra-violet, Visible and Near-infrared Sounder",Operational
 nachos-1,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-1),NACHOS-Imager (NACHOS),Operational
 nachos-2,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-2),NACHOS-Imager (NACHOS),Operational
 noaa-15,amsu-a,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
@@ -286,10 +293,12 @@ noaa-15,amsu-b,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Ad
 noaa-15,avhrr-3,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Very High Resolution Radiometer / 3 (AVHRR/3),Operational
 noaa-18,amsu-a,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
 noaa-18,avhrr-3,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Advanced Very High Resolution Radiometer / 3 (AVHRR/3),Operational
+noaa-18,hirs-4,National Oceanic and Atmospheric Administration - 18 (NOAA-18),High-resolution Infra Red Sounder / 4 (HIRS/4)
 noaa-18,mhs,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Microwave Humidity Sounding (MHS),Operational
 noaa-18,sbuv-2,National Oceanic and Atmospheric Administration - 18 (NOAA-18),Solar Backscatter Ultraviolet / 2 (SBUV/2),Operational
 noaa-19,amsu-a,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
 noaa-19,avhrr-3,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Advanced Very High Resolution Radiometer / 3 (AVHRR/3),Operational
+noaa-19,hirs-4,National Oceanic and Atmospheric Administration - 19 (NOAA-19),High-resolution Infra Red Sounder / 4 (HIRS/4)
 noaa-19,mhs,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Microwave Humidity Sounding (MHS),Operational
 noaa-19,sbuv-2,National Oceanic and Atmospheric Administration - 19 (NOAA-19),Solar Backscatter Ultraviolet / 2 (SBUV/2),Operational
 noaa-20,atms,National Oceanic and Atmospheric Administration - 20 (NOAA-20),Advanced Technology Microwave Sounder (ATMS),Operational
@@ -350,6 +359,9 @@ sentinel-5p,tropomi,Sentinel-5 precursor (Sentinel-5P),Tropospheric Monitoring I
 sentinel-6a,gnss-ro,Sentinel-6A,Global Navigation Satellite System - Radio Occultation (GNSS-RO),Operational
 sentinel-6a,lra,Sentinel-6A,Laser Retroreflector Array (LRA),Operational
 sentinel-6a,poseidon-4,Sentinel-6A,Poseidon-4,Operational
+sentinel-6b,gnss-ro,Sentinel-6B,Global Navigation Satellite System - Radio Occultation (GNSS-RO),Operational
+sentinel-6b,lra,Sentinel-6B,Laser Retroreflector Array (LRA),Operational
+sentinel-6b,poseidon-4,Sentinel-6B,Poseidon-4,Operational
 seosar-paz,rohpp,Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz),Radio Occultations and Heavy Precipitation with PAZ (ROHPP),Operational
 seosar-paz,sar-x,Satelite Espanol de Observacion SAR (also Paz) (SEOSAR/Paz),Synthetic Aperture Radar (X-band) (SAR-X),Operational
 sich-2-30,mbei,SICH-2-30 (originally SICH-2-1) (SICH-2-30),Multi-Band Earth Imager (MBEI),Operational

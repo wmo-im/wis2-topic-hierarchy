@@ -4,6 +4,8 @@
 
 [cols="12,18,12,12,46",options="header"]
 |===
-|Date |Release |Editor | Primary clauses modified |Description
-|2023-09-25 | Template | Tom Kralidis |all | initial revision
+|Date |Release |Proposed by | Primary clauses modified |Approved by
+|June 2024| 1.0.0 | ET-Metadata | Clause 7 | EC-78
+|November 2024 | 1.1.0 | ET-Metadata |Clause 7 (https://github.com/wmo-im/wis2-topic-hierarchy/milestone/5?closed=1[See GitHub])| Fast-track 2024-2
+|February 2026 | 1.2.0 | ET-Metadata |Clause 7 (https://github.com/wmo-im/wis2-topic-hierarchy/milestone/7?closed=1[See GitHub])| Fast-track 2025-2
 |===

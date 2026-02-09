@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.26">
-<meta name="copyright" content="Copyright © 2024-2025 World Meteorological Organization (WMO)">
+<meta name="copyright" content="Copyright © 2024-2026 World Meteorological Organization (WMO)">
 <title>WIS2 Topic Hierarchy</title>
 <style>
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";
@@ -96,10 +96,10 @@ body {
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong class="big">World Meteorological Organization</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2026-01-20</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2026-02-13</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: 1.1.0</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: 1.2.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Document status: STABLE</p></td>
@@ -123,7 +123,7 @@ body {
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Commission for Observation, Infrastructure and Information Systems (INFCOM)<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Copyright © 2024-2025 World Meteorological Organization (WMO)</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Copyright © 2024-2026 World Meteorological Organization (WMO)</p></td>
 </tr>
 </tbody>
 </table>
@@ -422,7 +422,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="sect2">
 <h3 id="_codelists_bundle"><a class="anchor" href="#_codelists_bundle"></a>5.3. Codelists bundle</h3>
 <div class="paragraph">
-<p>The WIS2 Topic Hierarchy Notification codelist bundle can be found at <a href="https://schemas.wmo.int/wth/1.0/wth.zip" class="bare">https://schemas.wmo.int/wth/1.0/wth.zip</a>.  This bundle can be used by tools and applications wishing to browse or validate topic structures.</p>
+<p>The WIS2 Topic Hierarchy Notification codelist bundle can be found at <a href="https://schemas.wmo.int/wth/a/wth.zip" class="bare">https://schemas.wmo.int/wth/a/wth.zip</a>.  This bundle can be used by tools and applications wishing to browse or validate topic structures.</p>
 </div>
 <div class="paragraph">
 <p>A browseable codelist can be found at <a href="https://codes.wmo.int/wis/topic-hierarchy" class="bare">https://codes.wmo.int/wis/topic-hierarchy</a></p>
@@ -595,7 +595,19 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <div class="sect3">
 <h4 id="_1_2_publishing"><a class="anchor" href="#_1_2_publishing"></a>1.2 Publishing</h4>
 <div class="paragraph">
-<p>For maximum utility and efficient management of topics, it is recommended that <code>data</code> is published to a detailed level of the topic hierarchy. This helps  avoid the "pollution" of data messages under the primary topics.</p>
+<p>For maximum utility and efficient management of topics, it is recommended that the <code>data</code> topic is published to a detailed level of the topic hierarchy. This helps avoid the "pollution" of data messages under the primary topics.  Publishing to a detailed level is realized by selecting a "leaf" topic, which is a topic with no additional subtopics.</p>
+</div>
+<div class="paragraph">
+<p><em>Examples</em>:</p>
+</div>
+<div class="paragraph">
+<p>Leaf topic: <code>origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations/synop</code></p>
+</div>
+<div class="paragraph">
+<p>Non-leaf topic: <code>origin/a/wis2/ca-eccc-msc/data/core/weather/surface-based-observations</code></p>
+</div>
+<div class="paragraph">
+<p>Experimental topic: <code>origin/a/wis2/ca-eccc-msc/data/core/hydrology/experimental/surface-based-observations/water-quantity/water-level</code></p>
 </div>
 <div class="paragraph">
 <p>Note: Each discipline has a sub-discipline topic named <code>experimental</code> for publication to provisional topics.</p>
@@ -650,6 +662,12 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <p>The topic <code>experimental</code> SHOULD be used as a temporary approach until a given sub-discipline topic is approved.</p>
 </div></div></td>
 </tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Data SHOULD be published to a leaf topic.</p>
+</div></div></td>
+</tr>
 </tbody>
 </table>
 <table id="per_core_publishing" class="tableblock frame-all grid-all" style="width: 90%;">
@@ -668,6 +686,12 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">A</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
 <p>Data MAY be published with the <code>experimental</code> topic and include any sub-discipline topics which are not yet approved.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><div class="content"><div class="paragraph">
+<p>Data MAY be published to a non-leaf topic.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -1270,18 +1294,32 @@ of providing MQP services in alignment with the defined topic structure.</p>
 <tr>
 <th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Date</th>
 <th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Release</th>
-<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Editor</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Proposed by</th>
 <th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Primary clauses modified</th>
-<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Description</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Approved by</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">2023-09-25</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Template</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Tom Kralidis</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">all</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">initial revision</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">June 2024</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">ET-Metadata</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Clause 7</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">EC-78</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">November 2024</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">1.1.0</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">ET-Metadata</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Clause 7 (<a href="https://github.com/wmo-im/wis2-topic-hierarchy/milestone/5?closed=1">See GitHub</a>)</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Fast-track 2024-2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">February 2026</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">1.2.0</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">ET-Metadata</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Clause 7 (<a href="https://github.com/wmo-im/wis2-topic-hierarchy/milestone/7?closed=1">See GitHub</a>)</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Fast-track 2025-2</p></td>
 </tr>
 </tbody>
 </table>
@@ -1347,7 +1385,7 @@ of providing MQP services in alignment with the defined topic structure.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-01-20 19:01:23 UTC
+Last updated 2026-02-09 17:09:12 UTC
 </div>
 </div>
 </body>

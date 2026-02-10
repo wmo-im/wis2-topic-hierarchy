@@ -6,4 +6,5 @@
 <ae-ncm> a skos:Concept ;
         rdfs:label "ae-ncm" ;
         skos:notation "ae-ncm" ;
-        dct:description "National Centre of Meteorology (NCM) (United Arab Emirates)"@en .
+        dct:description "National Centre of Meteorology (NCM) (United Arab Emirates)"@en ;
+        reg:status reg:statusStable .

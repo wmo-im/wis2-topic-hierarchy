@@ -347,6 +347,8 @@ sdgsat-1,glimmer,Sustainable Development Science Satellite 1 (SDGSAT-1),GLIMMER 
 sdgsat-1,msi,Sustainable Development Science Satellite 1 (SDGSAT-1),Multispectral Imager on SDGSAT (MSI),Operational
 sdgsat-1,tir,Sustainable Development Science Satellite 1 (SDGSAT-1),Thermal IR Spectrometer (TIR),Operational
 sentinel-1a,sar-c,Sentinel-1A,Synthetic Aperture Radar (C-band) (SAR-C),Operational
+sentinel-1c,sar-c,Sentinel-1C,Synthetic Aperture Radar (C-band) (SAR-C),Operational
+sentinel-1d,sar-c,Sentinel-1D,Synthetic Aperture Radar (C-band) (SAR-C),Operational
 sentinel-2a,msi,Sentinel-2A,Multi-Spectral Imager for Sentinel-2 (MSI),Operational
 sentinel-2b,msi,Sentinel-2B,Multi-Spectral Imager for Sentinel-2 (MSI),Operational
 sentinel-3a,olci,Sentinel-3A,Ocean and Land Colour Imager (OLCI ),Operational

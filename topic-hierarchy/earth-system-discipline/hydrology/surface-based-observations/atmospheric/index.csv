@@ -1,4 +1,4 @@
 Name,Description,Source,Status
-air,Air,,Operational
-precipitation,Precipitation,,Operational
-wind,Wind,,Operational
+air,Air,,Experimental
+precipitation,Precipitation,,Experimental
+wind,Wind,,Experimental

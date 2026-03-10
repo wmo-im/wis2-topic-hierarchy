@@ -8,3 +8,4 @@ wind-profile,Wind profile measurements using PILOT balloons,,Operational
 wind-profile-ship,Wind profile measurements using PILOT balloons from ships,,Operational
 wind-profile-radar,Radar based wind profile measurements,,Operational
 temperature-profile-radar,"Radar based temperature profile measurements, e.g. RASS",,Operational
+weather-radar,"Weather radar",,Experimental

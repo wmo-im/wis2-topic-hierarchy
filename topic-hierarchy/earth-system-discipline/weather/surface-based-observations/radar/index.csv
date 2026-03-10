@@ -1,0 +1,4 @@
+Name,Description,Source,Status
+composite,Composite or mosaic,,Operational
+radob,Report of ground radar weather observation,https://codes.wmo.int/wmdr/DataFormat/FM-20-radob,Operational
+volumetric,Volumetric,,Operational

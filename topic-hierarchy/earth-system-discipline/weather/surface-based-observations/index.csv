@@ -1,5 +1,5 @@
 Name,Description,Source,Status
-synop,Surface observations,,Operational
+synop,Surface observations from land surface stations,,Operational
 temp,Upper air observations,,Operational
 ship,Ship based weather observations,,Operational
 fixed-marine-platforms,"Weather observations from fixed marine platforms, e.g. rigs and offshore platforms",,Operational

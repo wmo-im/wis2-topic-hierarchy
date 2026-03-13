@@ -6,4 +6,5 @@
 <fr-ifremer-argo> a skos:Concept ;
         rdfs:label "fr-ifremer-argo" ;
         skos:notation "fr-ifremer-argo" ;
-        dct:description "French Research Institute for Exploitation of the Sea (Ifremer)"@en .
+        dct:description "French Research Institute for Exploitation of the Sea (Ifremer)"@en ;
+        reg:status reg:statusStable .

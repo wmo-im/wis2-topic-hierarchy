@@ -6,4 +6,5 @@
 <cv-inmg> a skos:Concept ;
         rdfs:label "cv-inmg" ;
         skos:notation "cv-inmg" ;
-        dct:description "Instituto Nacional de Meteorología e Geofísica (Cabo Verde)"@en .
+        dct:description "Instituto Nacional de Meteorología e Geofísica (Cabo Verde)"@en ;
+        reg:status reg:statusStable .

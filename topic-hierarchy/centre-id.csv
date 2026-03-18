@@ -1,5 +1,4 @@
 Name,Description,Source,Status
-Servicio Meteorológico Nacional (Mexico),Pre-operational,,23.2107595
 ae-ncm,National Centre of Meteorology (NCM) (United Arab Emirates),,Operational
 ag-antiguamet,Antigua and Barbuda Meteorological Services,,Operational
 ai-metservice,Caribbean Meteorological Organization (Anguilla),,Operational
@@ -89,6 +88,7 @@ ma-marocmeteo-global-monitor,"Direction de la Météorologie Nationale (Morocco)
 ml-malimeteo,"National Meteorological Agency (MALI METEO), Mali",,Operational
 ms-metservice,Caribbean Meteorological Organization (Montserrat),,Operational
 mw-dccms,Malawi Meteorological Services,,Operational
+mx-smn,Servicio Meteorológico Nacional (Mexico),,Pre-operational
 my-metmalaysia,Malaysian Meteorological Department,,Operational
 mz-inam,Instituto Nacional de Meteorología (INAM) (Mozambique),,Operational
 na-meteona,Namibia Meteorological Service,,Operational

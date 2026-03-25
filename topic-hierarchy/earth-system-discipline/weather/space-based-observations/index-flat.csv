@@ -1,6 +1,7 @@
 satellite,instrument,satellite-description,instrument-description,Status
 alos-2,palsar-2,Advanced Land Observing Satellite - 2 (ALOS-2),Phased-Array L-band Synthetic Aperture Radar - 2 (PALSAR-2),Operational
 alsat-2b,naomi,Algeria Satellite - 2B (AlSat-2B),New AstroSat Optical Modular Instrument (NAOMI),Operational
+altius,altius,Atmospheric Limb Tracker for Investigation of the Upcoming Stratosphere,Atmospheric Limb Tracker for Investigation of the Upcoming Stratosphere,Operational
 amazonia-1,awfi,Amazonia-1,Advanced Wide Field Imager (AWFI),Operational
 aqua,airs,Earth Observation System - Aqua,Atmospheric Infra-Red Sounder (AIRS),Operational
 aqua,amsr-e,Earth Observation System - Aqua,Advanced Microwave Scanning Radiometer for EOS (AMSR-E),Operational
@@ -35,6 +36,9 @@ cfosat,cscat,Chinese-French Oceanography Satellite (CFOSAT),CFOSAT Scatterometer
 cfosat,swim,Chinese-French Oceanography Satellite (CFOSAT),Surface Waves Investigation and Monitoring (SWIM),Operational
 cicero,cion,Community Initiative for Continuing Earth Radio Occultation (CICERO),CICERO Instrument for GNSS-RO (CION),Operational
 cicero-2,cion-2,Community Initiative for Continuing Earth Radio Occultation (CICERO-2),CICERO-2 Instrument for GNSS-RO (CION-2),Operational
+co2m-a,clim,Carbon Dioxide Monitoring mission-A,Cloud Imager,Planned
+co2m-a,co2i-no2i,Carbon Dioxide Monitoring mission-A,Combined Carbon Dioxide and Nitrogen Dioxide Imager,Planned
+co2m-a,map,Carbon Dioxide Monitoring mission-A,Multi-Angle Polarimeter,Planned
 cosmic-2,rfb,"Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)",Radio Frequency Beacon (RFB),Operational
 cosmic-2,tgrs,"Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)",TriG (Tri-GNSS) GNSS Radio Occultation System (TGRS),Operational
 cosmic-2,vidi,"Constellation Observing System for Meteorology, Ionosphere & Climate - 2a (COSMIC-2)","Velocity, Ion Density and Irregularities (VIDI)",Operational
@@ -287,6 +291,11 @@ metop-d,metimage,Meteorological operational satellite - D (Metop-D),Meteorologic
 metop-d,ro,Meteorological operational satellite - D (Metop-D),Radio Occultation sounder,Operational
 metop-d,s5-uvns,Meteorological operational satellite - D (Metop-D),"Sentinel-5 UVNS: Ultra-violet, Visible and Near-infrared Sounder",Operational
 microcarb,microcarb,MicroCarb,MicroCarb,Experimental
+metop-sg-b3,a-dcs,Meteorological operational satellite Second Generation B3,"Advanced Data Collection System (also called ""Argos-3"")",Planned
+metop-sg-b3,ici,Meteorological operational satellite Second Generation B3,Ice Cloud Imager,Planned
+metop-sg-b3,mwi-(metop-sg),Meteorological operational satellite Second Generation B3,Micro-Wave Imager,Planned
+metop-sg-b3,ro,Meteorological operational satellite Second Generation B3,Radio Occultation sounder,Planned
+metop-sg-b3,sca-(scatterometer),Meteorological operational satellite Second Generation B3,Scatterometer,Planned
 nachos-1,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-1),NACHOS-Imager (NACHOS),Operational
 nachos-2,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-2),NACHOS-Imager (NACHOS),Operational
 noaa-15,amsu-a,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Microwave Sounding Unit - A (AMSU-A),Operational
@@ -313,12 +322,18 @@ noaa-21,omps-limb,National Oceanic and Atmospheric Administration - 21 (NOAA-21)
 noaa-21,omps-nadir,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Ozone Mapping and Profiler Suite (OMPS-nadir),Operational
 noaa-21,viirs,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Visible/Infrared Imager Radiometer Suite (VIIRS),Operational
 novasar-s,s-sar,NovaSAR-S,S-band Synthetic Aperture Radar (S-SAR),Operational
+oceansat-3,argos-4,OceanSat-3 (EOS-06),"Advanced Data Collection System (called ""Argos-4"")",Operational
+oceansat-3,ocm,OceanSat-3 (EOS-06),Ocean Color Monitor,Operational
+oceansat-3,oscat-3,OceanSat-3 (EOS-06),Scatterometer for Oceansat-3,Operational
 oco-2,oco-spectrometer,Orbiting Carbon Observatory - 2 (OCO-2),Orbiting Carbon Observatory Spectrometer (OCO spectrometer),Operational
 odin,osiris,Odin,Optical Spectrograph and Infra-Red Imaging System (OSIRIS),Operational
 odin,smr,Odin,Sub-Millimetre Radiometer (SMR),Operational
 pace,harp2,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",Hyper Angular Research Polarimeter 2 (HARP2),Operational
 pace,oci,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",Ocean Color Instrument (OCI),Operational
 pace,spexone,"Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)",SPEXone Polarimeter (SPEXone),Operational
+paz,lrr,Satélite Español de Observación SAR (also Paz),Laser Retro-Reflector,Operational
+paz,rohpp,Satélite Español de Observación SAR (also Paz),Radio Occultations and Heavy Precipitation with PAZ,Operational
+paz,sar-x,Satélite Español de Observación SAR (also Paz),Synthetic Aperture Radar (X-band),Operational
 pleiades-neo-3,pleiades-neo,Pleiades-Neo 3,Pleiades-Neo,Operational
 pleiades-neo-4,pleiades-neo,Pleiades-Neo 4,Pleiades-Neo,Operational
 pretty,gnss-r,Passive Reflectometry and Dosimetry (PRETTY),GNSS Reflectometer (GNSS-R),Operational
@@ -326,6 +341,7 @@ prisma,hyc,PRecursore IperSpettrale della Missione Applicativa (PRISMA),HYperspe
 proba-1,chris,Project for On-Board Autonomy - 1 (PROBA-1),Compact High Resolution Imaging Spectrometer (CHRIS),Operational
 proba-1,hrc,Project for On-Board Autonomy - 1 (PROBA-1),High Resolution Camera (HRC),Operational
 proba-v-cc,vegetation-p,Project for On-Board Autonomy - Vegetation Companion Cubesat (PROBA-V-CC),Vegetation for PROBA (Vegetation-P),Operational
+quicksounder,atms,QuickSounder,Advanced Technology Microwave Sounder,Planned
 radarsat-2,sar,RadarSat-2,Synthetic Aperture Radar (C-band) (SAR),Operational
 rcm-1,sar-rcm,RadarSat Constellation Mission - 1 (RCM-1),Synthetic Aperture Radar (C-band) for RadarSat constellation (SAR RCM),Operational
 rcm-2,sar-rcm,RadarSat Constellation Mission - 2 (RCM-2),Synthetic Aperture Radar (C-band) for RadarSat constellation (SAR RCM),Operational
@@ -399,6 +415,7 @@ th-1c,ms,Tian Hui - 1C (TH-1C),Multispectral imager (MS),Operational
 theos-1,ms,Thailand Earth Observation System - 1 (THEOS-1),Multispectral imager (MS),Operational
 theos-2-main,ms,Thailand Earth Observation System - 2 Main VHR Satellite (THEOS-2 Main),New Astrosat Optical Modular Imager (MS),Operational
 tianmu-1,tgnos-m,Tianmu-1,Tianmu Global Navigation Satellite System Occultation Sounder,Experimental
+tomorrow,tms,Tomorrow Microwave Sounder,Tomorrow Microwave Sounder,Operational
 tropics-01,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 01 (TROPICS-01 (Pathfinder)),TROPICS Millimeter-wave Sounder (TMS),Operational
 tropics-03,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 03 (TROPICS-03),TROPICS Millimeter-wave Sounder (TMS),Operational
 tropics-05,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 05 (TROPICS-05),TROPICS Millimeter-wave Sounder (TMS),Operational

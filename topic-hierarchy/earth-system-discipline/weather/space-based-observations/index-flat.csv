@@ -290,6 +290,7 @@ metop-d,iasi-ng,Meteorological operational satellite - D (Metop-D),Infrared Atmo
 metop-d,metimage,Meteorological operational satellite - D (Metop-D),Meteorological Imager (Previous name: VII - Visible and Infrared Imager ),Operational
 metop-d,ro,Meteorological operational satellite - D (Metop-D),Radio Occultation sounder,Operational
 metop-d,s5-uvns,Meteorological operational satellite - D (Metop-D),"Sentinel-5 UVNS: Ultra-violet, Visible and Near-infrared Sounder",Operational
+microcarb,microcarb,MicroCarb,MicroCarb,Experimental
 metop-sg-b3,a-dcs,Meteorological operational satellite Second Generation B3,"Advanced Data Collection System (also called ""Argos-3"")",Planned
 metop-sg-b3,ici,Meteorological operational satellite Second Generation B3,Ice Cloud Imager,Planned
 metop-sg-b3,mwi-(metop-sg),Meteorological operational satellite Second Generation B3,Micro-Wave Imager,Planned
@@ -413,6 +414,7 @@ terrasar-x,tor,TerraSAR-X,Tracking (TOR),Operational
 th-1c,ms,Tian Hui - 1C (TH-1C),Multispectral imager (MS),Operational
 theos-1,ms,Thailand Earth Observation System - 1 (THEOS-1),Multispectral imager (MS),Operational
 theos-2-main,ms,Thailand Earth Observation System - 2 Main VHR Satellite (THEOS-2 Main),New Astrosat Optical Modular Imager (MS),Operational
+tianmu-1,tgnos-m,Tianmu-1,Tianmu Global Navigation Satellite System Occultation Sounder,Experimental
 tomorrow,tms,Tomorrow Microwave Sounder,Tomorrow Microwave Sounder,Operational
 tropics-01,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 01 (TROPICS-01 (Pathfinder)),TROPICS Millimeter-wave Sounder (TMS),Operational
 tropics-03,tms,Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats - 03 (TROPICS-03),TROPICS Millimeter-wave Sounder (TMS),Operational

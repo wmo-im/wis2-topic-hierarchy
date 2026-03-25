@@ -6,6 +6,7 @@ ar-smn,Servicio Meteorológico Nacional (Argentina),,Operational
 au-bom,Bureau of Meteorology Water Division,,Retired
 au-imos,Australia's Integrated Marine Observing System (IMOS),,Operational
 bb-barbadosmetservices,Meteorological Services (Barbados),,Operational
+be-rmib,Royal Meteorological Institute of Belgium,,Pre-operational
 bf-anam,Direction de la Météorologie (Burkina Faso),,Operational
 bg-nimh,National Institute of Meteorology and Hydrology (Bulgaria),,Operational
 bi-igebu,Institut Géographique du Burundi (IGEBU),,Operational
@@ -31,6 +32,7 @@ cn-cma-wis2-to-gts,"China Meteorological Administration, WIS2 to GTS Gateway Ser
 co-ideam,"Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM),Colombia",,Operational
 cr-imn,Instituto Meteorológico Nacional(Costa Rica),,Operational
 cu-insmet,Instituto de Meteorología (Cuba),,Operational
+cv-inmg,Instituto Nacional de Meteorología e Geofísica (Cabo Verde),,Operational
 cy-dom,Meteorological Service (Cyprus),,Operational
 data-metoffice-noaa-global-cache,"Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland) and National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Cache Service",,Operational
 de-dwd,Deutscher Wetterdienst (Germany),,Operational
@@ -49,7 +51,7 @@ eu-eumetnet-surface-observations,EUMETNET Surface Observations,,Pre-operational
 eu-eumetnet-warnings,MeteoAlarm,,Pre-operational
 eu-eumetnet-weather-radar,EUMETNET Weather Radar Network,,Pre-operational
 fi-fmi,Finnish Meteorological Institute,,Pre-operational
-fr-ifremer-argo,French Research Institute for Exploitation of the Sea (Ifremer),,pre-operational
+fr-ifremer-argo,French Research Institute for Exploitation of the Sea (Ifremer),,Operational
 fr-meteofrance,Météo-France (Toulouse),,Operational
 fr-meteofrance-global-broker,"Météo-France (Toulouse), Global Broker Service",,Operational
 gd-metservice,CMO Member (Grenada),,Operational
@@ -86,6 +88,7 @@ ma-marocmeteo-global-monitor,"Direction de la Météorologie Nationale (Morocco)
 ml-malimeteo,"National Meteorological Agency (MALI METEO), Mali",,Operational
 ms-metservice,Caribbean Meteorological Organization (Montserrat),,Operational
 mw-dccms,Malawi Meteorological Services,,Operational
+mx-smn,Servicio Meteorológico Nacional (Mexico),,Pre-operational
 my-metmalaysia,Malaysian Meteorological Department,,Operational
 mz-inam,Instituto Nacional de Meteorología (INAM) (Mozambique),,Operational
 na-meteona,Namibia Meteorological Service,,Operational

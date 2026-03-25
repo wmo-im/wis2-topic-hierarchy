@@ -206,6 +206,7 @@ metop-b,sem-meped,Meteorological operational satellite - B (Metop-B),SEM / Mediu
 metop-b,sem-ted,Meteorological operational satellite - B (Metop-B),SEM / Total Energy Detector (SEM/TED),Operational
 metop-c,sem-meped,Meteorological operational satellite - C (Metop-C),SEM / Medium energy proton detector (SEM/MEPED),Operational
 metop-c,sem-ted,Meteorological operational satellite - C (Metop-C),SEM / Total Energy Detector (SEM/TED),Operational
+metop-sg-b3,rmu,Meteorological operational satellite Second Generation B3,Radiation Monitor Unit (also referred to as NGRM),Planned
 mms-a,afg,Magnetospheric MultiScale mission - A (MMS-A),Analog Fluxgate Magnetometer (AFG),Operational
 mms-a,dfg,Magnetospheric MultiScale mission - A (MMS-A),Digital Fluxgate Magnetometer (DFG),Operational
 mms-a,dp,Magnetospheric MultiScale mission - A (MMS-A),Digital Fluxgate Magnetometer (DFG),Operational

@@ -9,4 +9,5 @@ wind-profile-ship,Wind profile measurements using PILOT balloons from ships,,Ope
 wind-profile-radar,Radar based wind profile measurements,,Operational
 temperature-profile-radar,"Radar based temperature profile measurements, e.g. RASS",,Operational
 weather-radar,"Weather radar",,Experimental
+vertical-profilers,"Vertical profilers, such as wind profilers, lidar, VAD radar, microwave radiometers, etc.",,Experimental
 gnss-iwv,Integrated water vapour observations derived from GNSS satellite delay,Experimental

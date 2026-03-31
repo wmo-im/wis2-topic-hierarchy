@@ -3,8 +3,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<cr-imn> a skos:Concept ;
-        rdfs:label "cr-imn" ;
-        skos:notation "cr-imn" ;
-        dct:description "Instituto Meteorológico Nacional (Costa Rica)"@en ;
-        reg:status reg:statusStable .
+<ci-sodexam> a skos:Concept ;
+        rdfs:label "ci-sodexam" ;
+        skos:notation "ci-sodexam" ;
+        dct:description "Direction de la Météorologie Nationale (Côte d’Ivoire)"@en .

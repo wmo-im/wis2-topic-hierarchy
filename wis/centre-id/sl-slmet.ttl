@@ -3,8 +3,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<cr-imn> a skos:Concept ;
-        rdfs:label "cr-imn" ;
-        skos:notation "cr-imn" ;
-        dct:description "Instituto Meteorológico Nacional (Costa Rica)"@en ;
-        reg:status reg:statusStable .
+<sl-slmet> a skos:Concept ;
+        rdfs:label "sl-slmet" ;
+        skos:notation "sl-slmet" ;
+        dct:description "Sierra Leone Meteorological Agency (SLMet)"@en .

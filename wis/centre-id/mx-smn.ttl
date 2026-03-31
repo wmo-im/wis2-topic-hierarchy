@@ -6,4 +6,5 @@
 <mx-smn> a skos:Concept ;
         rdfs:label "mx-smn" ;
         skos:notation "mx-smn" ;
-        dct:description "Servicio Meteorológico Nacional (Mexico)"@en .
+        dct:description "Servicio Meteorológico Nacional (Mexico)"@en ;
+        reg:status reg:statusStable .

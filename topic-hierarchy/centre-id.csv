@@ -21,6 +21,7 @@ ca-eccc-msc,Meteorological Service of Canada,,Operational
 ca-eccc-msc-global-discovery-catalogue,"Meteorological Service of Canada, Global Discovery Catalogue Service",,Operational
 cg-met,Direction de la Météorologie Nationale (Congo),,Operational
 ch-meteoswiss,MeteoSwiss,,Pre-operational
+ci-sodexam,Direction de la Météorologie Nationale (Côte d’Ivoire),,Pre-operational
 cl-meteochile,Dirección Meteorológica de Chile,,Operational
 cm-meteocameroon,Direction de la Météorologie Nationale (Cameroon),,Operational
 cn-cma,China Meteorological Administration,,Operational
@@ -30,7 +31,7 @@ cn-cma-global-discovery-catalogue,"China Meteorological Administration, Global D
 cn-cma-global-monitor,"China Meteorological Administration, Global Monitor Service",,Operational
 cn-cma-wis2-to-gts,"China Meteorological Administration, WIS2 to GTS Gateway Service",,Operational
 co-ideam,"Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM),Colombia",,Operational
-cr-imn,Instituto Meteorológico Nacional(Costa Rica),,Operational
+cr-imn,Instituto Meteorológico Nacional (Costa Rica),,Operational
 cu-insmet,Instituto de Meteorología (Cuba),,Operational
 cv-inmg,Instituto Nacional de Meteorología e Geofísica (Cabo Verde),,Operational
 cy-dom,Meteorological Service (Cyprus),,Operational

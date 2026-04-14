@@ -6,4 +6,5 @@
 <sl-slmet> a skos:Concept ;
         rdfs:label "sl-slmet" ;
         skos:notation "sl-slmet" ;
-        dct:description "Sierra Leone Meteorological Agency (SLMet)"@en .
+        dct:description "Sierra Leone Meteorological Agency (SLMet)"@en ;
+        reg:status reg:statusStable .

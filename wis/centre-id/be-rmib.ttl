@@ -6,4 +6,5 @@
 <be-rmib> a skos:Concept ;
         rdfs:label "be-rmib" ;
         skos:notation "be-rmib" ;
-        dct:description "Royal Meteorological Institute of Belgium"@en .
+        dct:description "Royal Meteorological Institute of Belgium"@en ;
+        reg:status reg:statusStable .

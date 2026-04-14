@@ -6,4 +6,5 @@
 <ci-sodexam> a skos:Concept ;
         rdfs:label "ci-sodexam" ;
         skos:notation "ci-sodexam" ;
-        dct:description "Direction de la Météorologie Nationale (Côte d’Ivoire)"@en .
+        dct:description "Direction de la Météorologie Nationale (Côte d’Ivoire)"@en ;
+        reg:status reg:statusStable .

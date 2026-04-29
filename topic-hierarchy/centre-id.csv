@@ -124,7 +124,7 @@ tt-trin-met,Meteorological Service (Trinidad and Tobago),,Operational
 tz-tma,Tanzania Meteorological Agency,,Operational
 uk-bas,British Antarctic Survey (BAS) (United Kingdom of Great Britain and Northern Ireland),,Pre-operational
 uk-metoffice,Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland),,Operational
-uk-metoffice-globalwave,Specialized Ocean & Wave Forecasting Centre (United Kingdom of Great Britain and Northern Ireland),,Pre-operational
+uk-metoffice-globalwave,Specialized Ocean & Wave Forecasting Centre (United Kingdom of Great Britain and Northern Ireland),,Operational
 uk-metoffice-nmc,Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland),,Retired
 uk-metoffice-wis2-to-gts,"Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland), WIS2 to GTS Gateway Service",,Operational
 uk-metoffice-wmc,RSMC–Numerical Weather Prediction (NWP) (United Kingdom of Great Britain and Northern Ireland),,Operational
@@ -133,7 +133,7 @@ us-noaa-global-broker,"National Oceanic and Atmospheric Administration, National
 us-noaa-nws,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
 us-noaa-synoptic,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
 us-synoptic-uas,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
-us-ucsd-scripps-ldl,WIS Centre (other)/University of California San Diego (United States of America),,Operational
+us-ucsd-scripps-ldl,Lagrangian Drifter Laboratory at Scripps Institution of Oceanography,,Operational
 uy-inumet,Dirección Nacional de Meteorología (Uruguay),,Operational
 vc-metservice,CMO Member (St. Vincent and the Grenadines),,Operational
 ve-inameh,"Instituto Nacional de Meteorología e Hidrología (INAMEH), Venezuela (Bolivarian Republic of)",,Operational

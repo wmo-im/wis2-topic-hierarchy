@@ -6,5 +6,5 @@
 <us-ucsd-scripps-ldl> a skos:Concept ;
         rdfs:label "us-ucsd-scripps-ldl" ;
         skos:notation "us-ucsd-scripps-ldl" ;
-        dct:description "WIS Centre (other)/University of California San Diego (United States of America)"@en ;
+        dct:description "Lagrangian Drifter Laboratory at Scripps Institution of Oceanography"@en ;
         reg:status reg:statusStable .

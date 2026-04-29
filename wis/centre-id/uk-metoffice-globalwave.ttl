@@ -6,4 +6,5 @@
 <uk-metoffice-globalwave> a skos:Concept ;
         rdfs:label "uk-metoffice-globalwave" ;
         skos:notation "uk-metoffice-globalwave" ;
-        dct:description "Specialized Ocean & Wave Forecasting Centre (United Kingdom of Great Britain and Northern Ireland)"@en .
+        dct:description "Specialized Ocean & Wave Forecasting Centre (United Kingdom of Great Britain and Northern Ireland)"@en ;
+        reg:status reg:statusStable .

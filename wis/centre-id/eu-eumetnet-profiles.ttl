@@ -6,4 +6,5 @@
 <eu-eumetnet-profiles> a skos:Concept ;
         rdfs:label "eu-eumetnet-profiles" ;
         skos:notation "eu-eumetnet-profiles" ;
-        dct:description "EUMETNET Vertical Profile Observations"@en .
+        dct:description "EUMETNET Vertical Profile Observations"@en ;
+        reg:status reg:statusStable .

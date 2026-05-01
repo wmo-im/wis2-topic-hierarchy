@@ -6,4 +6,5 @@
 <eu-eumetnet-amdar> a skos:Concept ;
         rdfs:label "eu-eumetnet-amdar" ;
         skos:notation "eu-eumetnet-amdar" ;
-        dct:description "EUMETNET AMDAR (Aircraft Meteorological Data Relay)"@en .
+        dct:description "EUMETNET AMDAR (Aircraft Meteorological Data Relay)"@en ;
+        reg:status reg:statusStable .

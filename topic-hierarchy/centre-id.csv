@@ -45,10 +45,10 @@ dk-dmi-opendata,Danish Meteorological Institute (Denmark),,Retired
 dm-dms,Dominica Meteorological Services,,Operational
 do-indomet,Instituto Dominicano de Meteorología (INDOMET),,Pre-operational
 dz-meteoalgerie,Office National de la Météorologie (Algeria),,Operational
-eu-eumetnet-amdar,EUMETNET AMDAR (Aircraft Meteorological Data Relay),,Pre-operational
+eu-eumetnet-amdar,EUMETNET AMDAR (Aircraft Meteorological Data Relay),,Operational
 eu-eumetnet-femdi,WIS Centre (other),,Inactive
-eu-eumetnet-gnss,EUMETNET Global Navigation Satellite System (GNSS) Water Vapour Observations,,Pre-operational
-eu-eumetnet-profiles,EUMETNET Vertical Profile Observations,,Pre-operational
+eu-eumetnet-gnss,EUMETNET Global Navigation Satellite System (GNSS) Water Vapour Observations,,Operational
+eu-eumetnet-profiles,EUMETNET Vertical Profile Observations,,Operational
 eu-eumetnet-surface-observations,EUMETNET Surface Observations,,Pre-operational
 eu-eumetnet-warnings,MeteoAlarm,,Pre-operational
 eu-eumetnet-weather-radar,EUMETNET Weather Radar Network,,Pre-operational

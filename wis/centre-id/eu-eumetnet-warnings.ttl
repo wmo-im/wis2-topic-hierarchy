@@ -6,4 +6,5 @@
 <eu-eumetnet-warnings> a skos:Concept ;
         rdfs:label "eu-eumetnet-warnings" ;
         skos:notation "eu-eumetnet-warnings" ;
-        dct:description "MeteoAlarm"@en .
+        dct:description "MeteoAlarm"@en ;
+        reg:status reg:statusStable .

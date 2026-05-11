@@ -6,4 +6,5 @@
 <do-indomet> a skos:Concept ;
         rdfs:label "do-indomet" ;
         skos:notation "do-indomet" ;
-        dct:description "Instituto Dominicano de Meteorología (INDOMET)"@en .
+        dct:description "Instituto Dominicano de Meteorología (INDOMET)"@en ;
+        reg:status reg:statusStable .

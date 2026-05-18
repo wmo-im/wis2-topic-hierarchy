@@ -37,6 +37,7 @@ cv-inmg,Instituto Nacional de Meteorología e Geofísica (Cabo Verde),,Operation
 cy-dom,Meteorological Service (Cyprus),,Operational
 data-metoffice-noaa-global-cache,"Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland) and National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Cache Service",,Operational
 de-bafg-grdc,Global Runoff Data Centre (GRDC) (Germany),,Pre-operational
+de-bafg-ismn,International Soil Moisture Network,,Pre-operational
 de-dwd,Deutscher Wetterdienst (Germany),,Operational
 de-dwd-global-cache,"Deutscher Wetterdienst (Germany), Global Cache Service",,Operational
 de-dwd-global-discovery-catalogue,"Deutscher Wetterdienst (Germany), Global Discovery Catalogue Service",,Operational

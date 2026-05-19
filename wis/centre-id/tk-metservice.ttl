@@ -6,4 +6,5 @@
 <tk-metservice> a skos:Concept ;
         rdfs:label "tk-metservice" ;
         skos:notation "tk-metservice" ;
-        dct:description "Tokelau Meteorological Service"@en .
+        dct:description "Tokelau Meteorological Service"@en ;
+        reg:status reg:statusStable .

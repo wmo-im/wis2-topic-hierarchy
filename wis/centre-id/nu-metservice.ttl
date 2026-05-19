@@ -6,4 +6,5 @@
 <nu-metservice> a skos:Concept ;
         rdfs:label "nu-metservice" ;
         skos:notation "nu-metservice" ;
-        dct:description "Niue Meteorological Service"@en .
+        dct:description "Niue Meteorological Service"@en ;
+        reg:status reg:statusStable .

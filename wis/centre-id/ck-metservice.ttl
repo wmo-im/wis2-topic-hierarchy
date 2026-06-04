@@ -6,4 +6,5 @@
 <ck-metservice> a skos:Concept ;
         rdfs:label "ck-metservice" ;
         skos:notation "ck-metservice" ;
-        dct:description "Cook Islands Meteorological Service"@en .
+        dct:description "Cook Islands Meteorological Service"@en ;
+        reg:status reg:statusStable .

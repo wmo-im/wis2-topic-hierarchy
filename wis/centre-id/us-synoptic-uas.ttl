@@ -7,4 +7,4 @@
         rdfs:label "us-synoptic-uas" ;
         skos:notation "us-synoptic-uas" ;
         dct:description "National Oceanic and Atmospheric Administration, National Weather Service (United States of America)"@en ;
-        reg:status reg:statusStable .
+        reg:status reg:statusRetired .

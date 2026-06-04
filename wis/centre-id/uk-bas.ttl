@@ -6,4 +6,5 @@
 <uk-bas> a skos:Concept ;
         rdfs:label "uk-bas" ;
         skos:notation "uk-bas" ;
-        dct:description "British Antarctic Survey (BAS) (United Kingdom of Great Britain and Northern Ireland)"@en .
+        dct:description "British Antarctic Survey (BAS) (United Kingdom of Great Britain and Northern Ireland)"@en ;
+        reg:status reg:statusStable .

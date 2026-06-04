@@ -6,4 +6,5 @@
 <py-dinac-dmh> a skos:Concept ;
         rdfs:label "py-dinac-dmh" ;
         skos:notation "py-dinac-dmh" ;
-        dct:description "Dirección de Meteorología et Hidrología (Paraguay)"@en .
+        dct:description "Dirección de Meteorología et Hidrología (Paraguay)"@en ;
+        reg:status reg:statusStable .

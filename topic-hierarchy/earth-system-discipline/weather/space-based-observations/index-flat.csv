@@ -286,11 +286,11 @@ metop-d,iasi-ng,Meteorological operational satellite - D (Metop-D),Infrared Atmo
 metop-d,metimage,Meteorological operational satellite - D (Metop-D),Meteorological Imager (Previous name: VII - Visible and Infrared Imager ),Operational
 metop-d,ro,Meteorological operational satellite - D (Metop-D),Radio Occultation sounder,Operational
 metop-d,s5-uvns,Meteorological operational satellite - D (Metop-D),"Sentinel-5 UVNS: Ultra-violet, Visible and Near-infrared Sounder",Operational
-metop-sg-a1,3mi,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),Multi-viewing Multi-channel Multi-polarisation Imager,Operational
-metop-sg-a1,iasi-ng,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),Infrared Atmospheric Sounder Interferometer - New Generation,Operational
-metop-sg-a1,metimage,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),Meteorological Imager (Previous name: VII - Visible and Infrared Imager ),Operational
-metop-sg-a1,ro,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),Radio Occultation sounder,Operational
-metop-sg-a1,s5-uvns,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),"Sentinel-5 UVNS: Ultra-violet, Visible and Near-infrared Sounder",Operational
+metop-sga1,3mi,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),Multi-viewing Multi-channel Multi-polarisation Imager,Operational
+metop-sga1,iasi-ng,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),Infrared Atmospheric Sounder Interferometer - New Generation,Operational
+metop-sga1,metimage,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),Meteorological Imager (Previous name: VII - Visible and Infrared Imager ),Operational
+metop-sga1,ro,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),Radio Occultation sounder,Operational
+metop-sga1,s5-uvns,Meteorological operational satellite - Second Generation A1 (to be renamed Metop-D),"Sentinel-5 UVNS: Ultra-violet, Visible and Near-infrared Sounder",Operational
 nachos-1,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-1),NACHOS-Imager (NACHOS),Operational
 nachos-2,nachos,Nano-satellite Atmospheric Chemistry Hyperspectral Observation System-1 (NACHOS-2),NACHOS-Imager (NACHOS),Operational
 noaa-15,amsu-a,National Oceanic and Atmospheric Administration - 15 (NOAA-15),Advanced Microwave Sounding Unit - A (AMSU-A),Operational

@@ -1,2 +1,5 @@
 Name,Description,Source,Status
 experimental,Experimental topics,,Operational
+space-based-observations,Space based observations,,Experimental
+surface-based-observations,Surface based observations,,Experimental
+subsurface-based-observations,Subsurface based observations,,Experimental

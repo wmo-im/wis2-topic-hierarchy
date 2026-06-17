@@ -1,2 +1,4 @@
 Name,Description,Source,Status
+advisories-warnings,Advisories and warnings,,Experimental
+observations,Observations,,Experimental
 experimental,Experimental topics,,Operational

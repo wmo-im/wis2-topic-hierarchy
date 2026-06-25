@@ -1,0 +1,9 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<reactive-gases> a skos:Concept ;
+        rdfs:label "reactive-gases" ;
+        skos:notation "reactive-gases" ;
+        dct:description "Reactive gases (excluding stratospheric ozone)"@en .

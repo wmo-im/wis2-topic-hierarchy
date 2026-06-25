@@ -1,0 +1,10 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<sea-ice-information> a skos:Concept ;
+        rdfs:label "sea-ice-information" ;
+        skos:notation "sea-ice-information" ;
+        dct:description "Sea-ice information"@en ;
+        rdfs:isDefinedBy "Experimental" .

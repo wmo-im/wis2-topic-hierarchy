@@ -322,7 +322,7 @@ noaa-21,omps-limb,National Oceanic and Atmospheric Administration - 21 (NOAA-21)
 noaa-21,omps-nadir,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Ozone Mapping and Profiler Suite (OMPS-nadir),Operational
 noaa-21,viirs,National Oceanic and Atmospheric Administration - 21 (NOAA-21),Visible/Infrared Imager Radiometer Suite (VIIRS),Operational
 novasar-s,s-sar,NovaSAR-S,S-band Synthetic Aperture Radar (S-SAR),Operational
-oceansat-3,argos-4,OceanSat-3 (EOS-06),"Advanced Data Collection System (called ""Argos-4"")",Operational
+oceansat-3,argos-4,OceanSat-3 (EOS-06),Advanced Data Collection System (Argos-4),Operational
 oceansat-3,ocm,OceanSat-3 (EOS-06),Ocean Color Monitor,Operational
 oceansat-3,oscat-3,OceanSat-3 (EOS-06),Scatterometer for Oceansat-3,Operational
 oco-2,oco-spectrometer,Orbiting Carbon Observatory - 2 (OCO-2),Orbiting Carbon Observatory Spectrometer (OCO spectrometer),Operational

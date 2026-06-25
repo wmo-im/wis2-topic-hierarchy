@@ -6,5 +6,5 @@
 <argos-4> a skos:Concept ;
         rdfs:label "argos-4" ;
         skos:notation "argos-4" ;
-        dct:description "Advanced Data Collection System (called "Argos-4")"@en ;
+        dct:description "Advanced Data Collection System (Argos-4)"@en ;
         reg:status reg:statusStable .

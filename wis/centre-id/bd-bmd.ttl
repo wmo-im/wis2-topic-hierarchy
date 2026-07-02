@@ -3,7 +3,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<ec-inamhi> a skos:Concept ;
-        rdfs:label "ec-inamhi" ;
-        skos:notation "ec-inamhi" ;
-        dct:description "Instituto Nacional de Meteorología e Hidrología (INAMHI)(Ecuador)"@en .
+<bd-bmd> a skos:Concept ;
+        rdfs:label "bd-bmd" ;
+        skos:notation "bd-bmd" ;
+        dct:description "Bangladesh Meteorological Department"@en .

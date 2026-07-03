@@ -6,4 +6,5 @@
 <rs-rhmz> a skos:Concept ;
         rdfs:label "rs-rhmz" ;
         skos:notation "rs-rhmz" ;
-        dct:description "Republic Hydrometeorological Service of Serbia"@en .
+        dct:description "Republic Hydrometeorological Service of Serbia"@en ;
+        reg:status reg:statusStable .

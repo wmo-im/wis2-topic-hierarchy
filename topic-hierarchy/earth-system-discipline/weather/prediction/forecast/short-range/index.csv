@@ -1,3 +1,4 @@
 Name,Description,Source,Status
 deterministic,Outputs from a prediction system which provides one single scenario,,Operational
+human-generated,Human generated,,Experimental
 probabilistic,"Outputs from a prediction system which provides multiple scenarios, including probability distribution and uncertainty information",,Operational

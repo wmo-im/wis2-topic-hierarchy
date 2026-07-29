@@ -6,4 +6,5 @@
 <ec-inamhi> a skos:Concept ;
         rdfs:label "ec-inamhi" ;
         skos:notation "ec-inamhi" ;
-        dct:description "Instituto Nacional de Meteorología e Hidrología (INAMHI)(Ecuador)"@en .
+        dct:description "Instituto Nacional de Meteorología e Hidrología (INAMHI) (Ecuador)"@en ;
+        reg:status reg:statusStable .

@@ -78,6 +78,7 @@ in-imd,India Meteorological Department,,Operational
 in-ncmrwf,National Centre for Medium Range Weather Forecasting (NCMRWF) (India),,Pre-operational
 int-ecmwf,European Centre for Medium-Range Weather Forecasts (ECMWF),,Operational
 int-eumetsat,European Organization for the Exploitation of Meteorological Satellites (EUMETSAT),,Operational
+int-eumetsat-dcs,European Organization for the Exploitation of Meteorological Satellites (EUMETSAT),,Pre-operational
 int-spc,Pacific Community (SPC),,Pre-operational
 ir-irimo,Islamic Republic of Iran Meteorological Organization,,Operational
 it-meteoam,Servizio Meteorológico (Italy),,Operational

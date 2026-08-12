@@ -3,8 +3,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<sr-metservice> a skos:Concept ;
-        rdfs:label "sr-metservice" ;
-        skos:notation "sr-metservice" ;
-        dct:description "Meteorological Service Suriname"@en ;
-        reg:status reg:statusStable .
+<ie-meteireann> a skos:Concept ;
+        rdfs:label "ie-meteireann" ;
+        skos:notation "ie-meteireann" ;
+        dct:description "Met Éireann"@en .

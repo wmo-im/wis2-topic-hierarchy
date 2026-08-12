@@ -6,4 +6,5 @@
 <pa-imhpa> a skos:Concept ;
         rdfs:label "pa-imhpa" ;
         skos:notation "pa-imhpa" ;
-        dct:description "Instituto de Meteorología e Hidrología de Panamá (IMHPA)"@en .
+        dct:description "Instituto de Meteorología e Hidrología de Panamá (IMHPA)"@en ;
+        reg:status reg:statusStable .

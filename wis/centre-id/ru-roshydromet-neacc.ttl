@@ -1,0 +1,9 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<ru-roshydromet-neacc> a skos:Concept ;
+        rdfs:label "ru-roshydromet-neacc" ;
+        skos:notation "ru-roshydromet-neacc" ;
+        dct:description "RCC Moscow - North Eurasian Climate Centre"@en .

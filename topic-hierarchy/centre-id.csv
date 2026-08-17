@@ -1,5 +1,4 @@
 Name,Description,Source,Status
-Icelandic Meteorological Office,Pre-operational,,Exeter
 ae-ncm,National Centre of Meteorology (NCM) (United Arab Emirates),,Operational
 ag-antiguamet,Antigua and Barbuda Meteorological Services,,Operational
 ai-metservice,Caribbean Meteorological Organization (Anguilla),,Operational
@@ -83,6 +82,7 @@ int-eumetsat,European Organization for the Exploitation of Meteorological Satell
 int-eumetsat-dcs,European Organization for the Exploitation of Meteorological Satellites (EUMETSAT),,Pre-operational
 int-spc,Pacific Community (SPC),,Pre-operational
 ir-irimo,Islamic Republic of Iran Meteorological Organization,,Operational
+is-metoffice,Icelandic Meteorological Office,,Pre-operational
 it-meteoam,Servizio Meteorológico (Italy),,Operational
 jm-msj,Meteorological Service (Jamaica),,Operational
 jp-jma,Japan Meteorological Agency,,Operational

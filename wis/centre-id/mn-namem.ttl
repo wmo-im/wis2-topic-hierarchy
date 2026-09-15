@@ -3,8 +3,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<pg-pngnws> a skos:Concept ;
-        rdfs:label "pg-pngnws" ;
-        skos:notation "pg-pngnws" ;
-        dct:description "Papua New Guinea National Weather Service"@en ;
-        reg:status reg:statusStable .
+<mn-namem> a skos:Concept ;
+        rdfs:label "mn-namem" ;
+        skos:notation "mn-namem" ;
+        dct:description "National Agency for Meteorology and Environmental Monitoring (NAMEM) (Mongolia)"@en .

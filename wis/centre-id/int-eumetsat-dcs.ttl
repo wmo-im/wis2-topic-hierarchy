@@ -6,4 +6,5 @@
 <int-eumetsat-dcs> a skos:Concept ;
         rdfs:label "int-eumetsat-dcs" ;
         skos:notation "int-eumetsat-dcs" ;
-        dct:description "European Organization for the Exploitation of Meteorological Satellites (EUMETSAT)"@en .
+        dct:description "European Organization for the Exploitation of Meteorological Satellites (EUMETSAT)"@en ;
+        reg:status reg:statusStable .

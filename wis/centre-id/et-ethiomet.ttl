@@ -3,8 +3,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<pg-pngnws> a skos:Concept ;
-        rdfs:label "pg-pngnws" ;
-        skos:notation "pg-pngnws" ;
-        dct:description "Papua New Guinea National Weather Service"@en ;
-        reg:status reg:statusStable .
+<et-ethiomet> a skos:Concept ;
+        rdfs:label "et-ethiomet" ;
+        skos:notation "et-ethiomet" ;
+        dct:description "Ethiopian Meteorological Institute (EMI)"@en .

@@ -6,4 +6,5 @@
 <at-geosphere> a skos:Concept ;
         rdfs:label "at-geosphere" ;
         skos:notation "at-geosphere" ;
-        dct:description "GeoSphere Austria"@en .
+        dct:description "GeoSphere Austria"@en ;
+        reg:status reg:statusStable .

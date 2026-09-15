@@ -1,4 +1,4 @@
 Name,Description,Source,Status
-warnings,Warnings,Operational
-forecasts,Forecasts,Operational
-sea-ice-information,Sea-ice information,Operational
+warnings,Warnings,,Operational
+forecasts,Forecasts,,Operational
+sea-ice-information,Sea-ice information,,Operational

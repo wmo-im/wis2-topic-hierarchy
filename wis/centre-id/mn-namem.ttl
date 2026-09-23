@@ -6,4 +6,5 @@
 <mn-namem> a skos:Concept ;
         rdfs:label "mn-namem" ;
         skos:notation "mn-namem" ;
-        dct:description "National Agency for Meteorology and Environmental Monitoring (NAMEM) (Mongolia)"@en .
+        dct:description "National Agency for Meteorology and Environmental Monitoring (NAMEM) (Mongolia)"@en ;
+        reg:status reg:statusStable .

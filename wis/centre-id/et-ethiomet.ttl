@@ -6,4 +6,5 @@
 <et-ethiomet> a skos:Concept ;
         rdfs:label "et-ethiomet" ;
         skos:notation "et-ethiomet" ;
-        dct:description "Ethiopian Meteorological Institute (EMI)"@en .
+        dct:description "Ethiopian Meteorological Institute (EMI)"@en ;
+        reg:status reg:statusStable .

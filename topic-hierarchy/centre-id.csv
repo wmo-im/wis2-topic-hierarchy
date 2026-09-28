@@ -33,7 +33,7 @@ cn-cma-global-cache,"China Meteorological Administration, Global Cache Service",
 cn-cma-global-discovery-catalogue,"China Meteorological Administration, Global Discovery Catalogue Service",,Operational
 cn-cma-global-monitor,"China Meteorological Administration, Global Monitor Service",,Operational
 cn-cma-wis2-to-gts,"China Meteorological Administration, WIS2 to GTS Gateway Service",,Operational
-co-ideam,"Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM),Colombia",,Operational
+co-ideam,"Instituto de Hidrología,Meteorología y Estudios Ambientales (IDEAM) (Colombia)",,Operational
 cr-imn,Instituto Meteorológico Nacional (Costa Rica),,Operational
 cu-insmet,Instituto de Meteorología (Cuba),,Operational
 cv-inmg,Instituto Nacional de Meteorología e Geofísica (Cabo Verde),,Operational
@@ -71,7 +71,7 @@ gn-anm,Direction Nationale de la Météorologie (Guinea),,Operational
 gn-meteo-guinee-conakry,Direction Nationale de la Météorologie (Guinea),,Retired
 gy-hydromet,Hydrometeorological Service (Guyana),,Operational
 hk-hko,Hong Kong Observatory,,Operational
-hk-hko-swic,"Severe Weather Information Service (SWIC) (Hong Kong, China)",,Operational
+hk-hko-swic,"Severe Weather Information Service (SWIC) (Hong Kong,China)",,Operational
 hn-cenaos,Centro de Estudios Atmosféricos Oceanográficos y Sísmicos (CENAOS),,Operational
 id-bmkg,"Agency for Meteorology,Climatology and Geophysics (Indonesia)",,Operational
 ie-meteireann,Met Éireann,,Pre-operational
@@ -102,10 +102,9 @@ lu-meteolux,"MeteoLux, Administration de la navigation aérienne",,Pre-operation
 ly-lnmc,Libyan National Meteorological Centre,,Operational
 ma-marocmeteo,Direction de la Météorologie Nationale (Morocco),,Operational
 ma-marocmeteo-global-monitor,"Direction de la Météorologie Nationale (Morocco), Global Monitor Service",,Operational
-ml-malimeteo,"National Meteorological Agency (MALI METEO), Mali",,Operational
+ml-malimeteo,National Meteorological Agency (MALI METEO) (Mali),,Operational
 mn-namem,National Agency for Meteorology and Environmental Monitoring (NAMEM) (Mongolia),,Operational
 ms-metservice,Caribbean Meteorological Organization (Montserrat),,Operational
-mv-mms,Maldives Meteorological Service,,Pre-operational
 mw-dccms,Malawi Meteorological Services,,Operational
 mx-smn,Servicio Meteorológico Nacional (Mexico),,Operational
 my-metmalaysia,Malaysian Meteorological Department,,Operational
@@ -158,15 +157,15 @@ uk-metoffice-globalwave,Specialized Ocean & Wave Forecasting Centre (United King
 uk-metoffice-nmc,Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland),,Retired
 uk-metoffice-wis2-to-gts,"Met Office (Exeter) (United Kingdom of Great Britain and Northern Ireland), WIS2 to GTS Gateway Service",,Operational
 uk-metoffice-wmc,RSMC–Numerical Weather Prediction (NWP) (United Kingdom of Great Britain and Northern Ireland),,Operational
-us-cimss,"National Environmental Satellite, Data, and Information Service (NESDIS) (United States of America)",,Operational
+us-cimss,Cooperative Institute for Meteorological Satellite Studies (CIMSS),,Operational
 us-noaa-global-broker,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America), Global Broker Service",,Operational
-us-noaa-nws,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
-us-noaa-synoptic,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Operational
-us-synoptic-uas,"National Oceanic and Atmospheric Administration, National Weather Service (United States of America)",,Retired
+us-noaa-nws,"National Oceanic and Atmospheric Administration,National Weather Service (United States of America)",,Operational
+us-noaa-synoptic,"National Oceanic and Atmospheric Administration,National Weather Service (United States of America)",,Operational
+us-synoptic-uas,"National Oceanic and Atmospheric Administration,National Weather Service (United States of America)",,Retired
 us-ucsd-scripps-ldl,Lagrangian Drifter Laboratory at Scripps Institution of Oceanography,,Operational
 uy-inumet,Dirección Nacional de Meteorología (Uruguay),,Operational
 vc-metservice,CMO Member (St. Vincent and the Grenadines),,Operational
-ve-inameh,"Instituto Nacional de Meteorología e Hidrología (INAMEH), Venezuela (Bolivarian Republic of)",,Operational
+ve-inameh,Instituto Nacional de Meteorología e Hidrología (INAMEH) (Venezuela (Bolivarian Republic of)),,Operational
 vg-metservice,Caribbean Meteorological Organization (British Virgin Islands),,Operational
 za-weathersa,South African Weather Service,,Operational
 zm-zmd,Zambia Meteorological Department,,Operational

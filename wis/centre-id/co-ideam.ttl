@@ -6,5 +6,5 @@
 <co-ideam> a skos:Concept ;
         rdfs:label "co-ideam" ;
         skos:notation "co-ideam" ;
-        dct:description "Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM),Colombia"@en ;
+        dct:description "Instituto de Hidrología,Meteorología y Estudios Ambientales (IDEAM) (Colombia)"@en ;
         reg:status reg:statusStable .

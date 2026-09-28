@@ -6,5 +6,5 @@
 <ml-malimeteo> a skos:Concept ;
         rdfs:label "ml-malimeteo" ;
         skos:notation "ml-malimeteo" ;
-        dct:description "National Meteorological Agency (MALI METEO), Mali"@en ;
+        dct:description "National Meteorological Agency (MALI METEO) (Mali)"@en ;
         reg:status reg:statusStable .

@@ -6,5 +6,5 @@
 <us-cimss> a skos:Concept ;
         rdfs:label "us-cimss" ;
         skos:notation "us-cimss" ;
-        dct:description "National Environmental Satellite, Data, and Information Service (NESDIS) (United States of America)"@en ;
+        dct:description "Cooperative Institute for Meteorological Satellite Studies (CIMSS)"@en ;
         reg:status reg:statusStable .

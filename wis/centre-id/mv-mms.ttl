@@ -6,4 +6,5 @@
 <mv-mms> a skos:Concept ;
         rdfs:label "mv-mms" ;
         skos:notation "mv-mms" ;
-        dct:description "Maldives Meteorological Service"@en .
+        dct:description "Maldives Meteorological Service"@en ;
+        reg:status reg:statusStable .

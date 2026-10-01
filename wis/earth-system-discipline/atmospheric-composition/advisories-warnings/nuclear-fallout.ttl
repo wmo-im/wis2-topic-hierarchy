@@ -6,4 +6,5 @@
 <nuclear-fallout> a skos:Concept ;
         rdfs:label "nuclear-fallout" ;
         skos:notation "nuclear-fallout" ;
-        dct:description "Nuclear fallout"@en .
+        dct:description "Nuclear fallout"@en ;
+        reg:status reg:statusStable .

@@ -7,4 +7,4 @@
         rdfs:label "forecasts" ;
         skos:notation "forecasts" ;
         dct:description "Forecasts"@en ;
-        rdfs:isDefinedBy "Experimental" .
+        reg:status reg:statusStable .

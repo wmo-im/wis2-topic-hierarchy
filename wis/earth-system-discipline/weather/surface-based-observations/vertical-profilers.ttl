@@ -6,4 +6,5 @@
 <vertical-profilers> a skos:Concept ;
         rdfs:label "vertical-profilers" ;
         skos:notation "vertical-profilers" ;
-        dct:description "Vertical profilers, such as wind profilers, lidar, VAD radar, microwave radiometers, etc."@en .
+        dct:description "Vertical profilers, such as wind profilers, lidar, VAD radar, microwave radiometers, etc."@en ;
+        reg:status reg:statusStable .

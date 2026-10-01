@@ -6,4 +6,5 @@
 <ultraviolet-radiation> a skos:Concept ;
         rdfs:label "ultraviolet-radiation" ;
         skos:notation "ultraviolet-radiation" ;
-        dct:description "Ultraviolet radiation"@en .
+        dct:description "Ultraviolet radiation"@en ;
+        reg:status reg:statusStable .

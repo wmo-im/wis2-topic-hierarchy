@@ -6,4 +6,5 @@
 <greenhouse-gases> a skos:Concept ;
         rdfs:label "greenhouse-gases" ;
         skos:notation "greenhouse-gases" ;
-        dct:description "Greenhouse gases"@en .
+        dct:description "Greenhouse gases"@en ;
+        reg:status reg:statusStable .

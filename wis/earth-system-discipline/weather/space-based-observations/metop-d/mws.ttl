@@ -3,8 +3,8 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<warnings> a skos:Concept ;
-        rdfs:label "warnings" ;
-        skos:notation "warnings" ;
-        dct:description "Warnings"@en ;
+<mws> a skos:Concept ;
+        rdfs:label "mws" ;
+        skos:notation "mws" ;
+        dct:description "Micro-Wave Sounder"@en ;
         reg:status reg:statusStable .

@@ -6,4 +6,5 @@
 <fires> a skos:Concept ;
         rdfs:label "fires" ;
         skos:notation "fires" ;
-        dct:description "Fires"@en .
+        dct:description "Fires"@en ;
+        reg:status reg:statusStable .

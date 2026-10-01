@@ -6,4 +6,5 @@
 <atmospheric-processes-and-kinetics> a skos:Concept ;
         rdfs:label "atmospheric-processes-and-kinetics" ;
         skos:notation "atmospheric-processes-and-kinetics" ;
-        dct:description "Atmospheric processes and kinetics"@en .
+        dct:description "Atmospheric processes and kinetics"@en ;
+        reg:status reg:statusStable .

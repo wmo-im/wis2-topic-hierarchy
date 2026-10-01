@@ -6,4 +6,5 @@
 <weather-radar> a skos:Concept ;
         rdfs:label "weather-radar" ;
         skos:notation "weather-radar" ;
-        dct:description "Weather radar"@en .
+        dct:description "Weather radar"@en ;
+        reg:status reg:statusStable .

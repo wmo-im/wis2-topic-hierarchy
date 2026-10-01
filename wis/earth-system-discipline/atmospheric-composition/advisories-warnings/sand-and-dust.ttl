@@ -6,4 +6,5 @@
 <sand-and-dust> a skos:Concept ;
         rdfs:label "sand-and-dust" ;
         skos:notation "sand-and-dust" ;
-        dct:description "Sand and dust"@en .
+        dct:description "Sand and dust"@en ;
+        reg:status reg:statusStable .

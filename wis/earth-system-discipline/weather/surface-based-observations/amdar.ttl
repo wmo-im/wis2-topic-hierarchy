@@ -6,4 +6,5 @@
 <amdar> a skos:Concept ;
         rdfs:label "amdar" ;
         skos:notation "amdar" ;
-        dct:description "Aircraft meteorological data relay"@en .
+        dct:description "Aircraft meteorological data relay"@en ;
+        reg:status reg:statusStable .

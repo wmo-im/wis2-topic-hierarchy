@@ -6,4 +6,5 @@
 <stream> a skos:Concept ;
         rdfs:label "stream" ;
         skos:notation "stream" ;
-        dct:description "Stream"@en .
+        dct:description "Stream"@en ;
+        reg:status reg:statusStable .

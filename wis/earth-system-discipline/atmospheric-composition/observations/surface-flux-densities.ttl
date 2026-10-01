@@ -7,4 +7,5 @@
 <surface-flux-densities> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "surface-flux-densities" ;
-        dct:description "Surface-flux-densities" .
+        dct:description "Surface-flux-densities" ;
+        reg:status reg:statusStable .

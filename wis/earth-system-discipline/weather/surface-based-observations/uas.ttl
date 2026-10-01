@@ -6,4 +6,5 @@
 <uas> a skos:Concept ;
         rdfs:label "uas" ;
         skos:notation "uas" ;
-        dct:description "Uncrewed aerial systems"@en .
+        dct:description "Uncrewed aerial systems"@en ;
+        reg:status reg:statusStable .

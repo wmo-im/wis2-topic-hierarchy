@@ -6,4 +6,5 @@
 <gnss-iwv> a skos:Concept ;
         rdfs:label "gnss-iwv" ;
         skos:notation "gnss-iwv" ;
-        dct:description "Integrated water vapour observations derived from GNSS satellite delay"@en .
+        dct:description "Integrated water vapour observations derived from GNSS satellite delay"@en ;
+        reg:status reg:statusStable .

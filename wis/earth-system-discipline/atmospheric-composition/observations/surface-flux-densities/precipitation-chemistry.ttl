@@ -6,4 +6,5 @@
 <precipitation-chemistry> a skos:Concept ;
         rdfs:label "precipitation-chemistry" ;
         skos:notation "precipitation-chemistry" ;
-        dct:description "Precipitation chemistry"@en .
+        dct:description "Precipitation chemistry"@en ;
+        reg:status reg:statusStable .

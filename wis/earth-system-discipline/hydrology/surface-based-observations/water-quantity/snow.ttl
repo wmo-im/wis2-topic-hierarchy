@@ -6,4 +6,5 @@
 <snow> a skos:Concept ;
         rdfs:label "snow" ;
         skos:notation "snow" ;
-        dct:description "Snow"@en .
+        dct:description "Snow"@en ;
+        reg:status reg:statusStable .

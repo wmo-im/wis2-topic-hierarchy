@@ -6,4 +6,5 @@
 <reservoir> a skos:Concept ;
         rdfs:label "reservoir" ;
         skos:notation "reservoir" ;
-        dct:description "Reservoir"@en .
+        dct:description "Reservoir"@en ;
+        reg:status reg:statusStable .

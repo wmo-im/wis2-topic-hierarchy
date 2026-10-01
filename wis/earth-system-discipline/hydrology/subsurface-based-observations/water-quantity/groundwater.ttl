@@ -6,4 +6,5 @@
 <groundwater> a skos:Concept ;
         rdfs:label "groundwater" ;
         skos:notation "groundwater" ;
-        dct:description "Groundwater"@en .
+        dct:description "Groundwater"@en ;
+        reg:status reg:statusStable .

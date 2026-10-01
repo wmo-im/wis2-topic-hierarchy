@@ -6,4 +6,5 @@
 <ozone> a skos:Concept ;
         rdfs:label "ozone" ;
         skos:notation "ozone" ;
-        dct:description "Ozone"@en .
+        dct:description "Ozone"@en ;
+        reg:status reg:statusStable .

@@ -6,4 +6,5 @@
 <precipitation> a skos:Concept ;
         rdfs:label "precipitation" ;
         skos:notation "precipitation" ;
-        dct:description "Precipitation"@en .
+        dct:description "Precipitation"@en ;
+        reg:status reg:statusStable .

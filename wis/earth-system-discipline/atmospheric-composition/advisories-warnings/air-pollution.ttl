@@ -6,4 +6,5 @@
 <air-pollution> a skos:Concept ;
         rdfs:label "air-pollution" ;
         skos:notation "air-pollution" ;
-        dct:description "Air pollution"@en .
+        dct:description "Air pollution"@en ;
+        reg:status reg:statusStable .

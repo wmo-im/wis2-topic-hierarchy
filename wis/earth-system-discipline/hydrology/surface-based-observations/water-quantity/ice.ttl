@@ -6,4 +6,5 @@
 <ice> a skos:Concept ;
         rdfs:label "ice" ;
         skos:notation "ice" ;
-        dct:description "Ice"@en .
+        dct:description "Ice"@en ;
+        reg:status reg:statusStable .

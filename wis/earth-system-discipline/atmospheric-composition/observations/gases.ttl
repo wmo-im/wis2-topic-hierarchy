@@ -7,4 +7,5 @@
 <gases> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "gases" ;
-        dct:description "Gases" .
+        dct:description "Gases" ;
+        reg:status reg:statusStable .

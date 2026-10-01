@@ -6,4 +6,5 @@
 <aerosol-particles-and-clouds> a skos:Concept ;
         rdfs:label "aerosol-particles-and-clouds" ;
         skos:notation "aerosol-particles-and-clouds" ;
-        dct:description "Aerosol particles and clouds"@en .
+        dct:description "Aerosol particles and clouds"@en ;
+        reg:status reg:statusStable .

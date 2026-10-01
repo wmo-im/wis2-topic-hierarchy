@@ -6,4 +6,5 @@
 <volcanic-activity> a skos:Concept ;
         rdfs:label "volcanic-activity" ;
         skos:notation "volcanic-activity" ;
-        dct:description "Volcanic activity"@en .
+        dct:description "Volcanic activity"@en ;
+        reg:status reg:statusStable .

@@ -6,4 +6,5 @@
 <dry-deposition> a skos:Concept ;
         rdfs:label "dry-deposition" ;
         skos:notation "dry-deposition" ;
-        dct:description "Dry deposition"@en .
+        dct:description "Dry deposition"@en ;
+        reg:status reg:statusStable .

@@ -7,4 +7,5 @@
 <atmospheric> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "atmospheric" ;
-        dct:description "Atmospheric" .
+        dct:description "Atmospheric" ;
+        reg:status reg:statusStable .

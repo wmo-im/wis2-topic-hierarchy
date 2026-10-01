@@ -6,4 +6,5 @@
 <emissions> a skos:Concept ;
         rdfs:label "emissions" ;
         skos:notation "emissions" ;
-        dct:description "Emissions"@en .
+        dct:description "Emissions"@en ;
+        reg:status reg:statusStable .

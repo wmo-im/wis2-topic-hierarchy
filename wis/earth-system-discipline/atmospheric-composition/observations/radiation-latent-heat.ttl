@@ -7,4 +7,5 @@
 <radiation-latent-heat> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "radiation-latent-heat" ;
-        dct:description "Radiation latent heat" .
+        dct:description "Radiation latent heat" ;
+        reg:status reg:statusStable .

@@ -6,4 +6,5 @@
 <soil> a skos:Concept ;
         rdfs:label "soil" ;
         skos:notation "soil" ;
-        dct:description "Soil"@en .
+        dct:description "Soil"@en ;
+        reg:status reg:statusStable .

@@ -6,4 +6,5 @@
 <lake> a skos:Concept ;
         rdfs:label "lake" ;
         skos:notation "lake" ;
-        dct:description "Lake"@en .
+        dct:description "Lake"@en ;
+        reg:status reg:statusStable .

@@ -6,4 +6,5 @@
 <reactive-gases> a skos:Concept ;
         rdfs:label "reactive-gases" ;
         skos:notation "reactive-gases" ;
-        dct:description "Reactive gases (excluding stratospheric ozone)"@en .
+        dct:description "Reactive gases (excluding stratospheric ozone)"@en ;
+        reg:status reg:statusStable .

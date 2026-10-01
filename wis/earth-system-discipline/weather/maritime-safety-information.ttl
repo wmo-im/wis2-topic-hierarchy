@@ -7,4 +7,5 @@
 <maritime-safety-information> a reg:Register , skos:Collection , ldp:Container ;
         ldp:hasMemberRelation skos:member ;
         rdfs:label "maritime-safety-information" ;
-        dct:description "Maritime safety information" .
+        dct:description "Maritime safety information" ;
+        reg:status reg:statusStable .

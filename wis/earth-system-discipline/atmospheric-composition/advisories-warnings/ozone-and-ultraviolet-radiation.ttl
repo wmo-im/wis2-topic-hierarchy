@@ -6,4 +6,5 @@
 <ozone-and-ultraviolet-radiation> a skos:Concept ;
         rdfs:label "ozone-and-ultraviolet-radiation" ;
         skos:notation "ozone-and-ultraviolet-radiation" ;
-        dct:description "Ozone and ultraviolet radiation"@en .
+        dct:description "Ozone and ultraviolet radiation"@en ;
+        reg:status reg:statusStable .

@@ -6,4 +6,5 @@
 <ru-roshydromet-wmc> a skos:Concept ;
         rdfs:label "ru-roshydromet-wmc" ;
         skos:notation "ru-roshydromet-wmc" ;
-        dct:description "WMC Moscow"@en .
+        dct:description "WMC Moscow"@en ;
+        reg:status reg:statusStable .

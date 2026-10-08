@@ -6,4 +6,5 @@
 <ie-meteireann> a skos:Concept ;
         rdfs:label "ie-meteireann" ;
         skos:notation "ie-meteireann" ;
-        dct:description "Met Éireann"@en .
+        dct:description "Met Éireann"@en ;
+        reg:status reg:statusStable .

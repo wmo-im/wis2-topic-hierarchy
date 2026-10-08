@@ -6,4 +6,5 @@
 <ru-roshydromet-ladnwp> a skos:Concept ;
         rdfs:label "ru-roshydromet-ladnwp" ;
         skos:notation "ru-roshydromet-ladnwp" ;
-        dct:description "RSMC Moscow - Limited Area Deterministic Numerical Weather Prediction"@en .
+        dct:description "RSMC Moscow - Limited Area Deterministic Numerical Weather Prediction"@en ;
+        reg:status reg:statusStable .

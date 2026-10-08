@@ -243,8 +243,8 @@ def process_file(session: requests.Session, url: str, filepath: Path,
             print('  New entry, will upload.')
             url = '/'.join(url.split('/')[:-1])
             post(session, url, ttl_data, dry_run, verbose, status)
-        else:
-            print("  Unchanged entry, nothing to do.")
+#        else:
+#            print("  Unchanged entry, nothing to do.")
 
     return
 

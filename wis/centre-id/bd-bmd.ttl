@@ -6,4 +6,5 @@
 <bd-bmd> a skos:Concept ;
         rdfs:label "bd-bmd" ;
         skos:notation "bd-bmd" ;
-        dct:description "Bangladesh Meteorological Department"@en .
+        dct:description "Bangladesh Meteorological Department"@en ;
+        reg:status reg:statusStable .

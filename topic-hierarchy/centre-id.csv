@@ -7,7 +7,7 @@ at-geosphere,GeoSphere Austria,,Operational
 au-bom,Bureau of Meteorology Water Division,,Retired
 au-imos,Australia's Integrated Marine Observing System (IMOS),,Operational
 bb-barbadosmetservices,Meteorological Services (Barbados),,Operational
-bd-bmd,Bangladesh Meteorological Department,,Pre-operational
+bd-bmd,Bangladesh Meteorological Department,,Operational
 be-rmib,Royal Meteorological Institute of Belgium,,Operational
 bf-anam,Direction de la Météorologie (Burkina Faso),,Operational
 bg-nimh,National Institute of Meteorology and Hydrology (Bulgaria),,Operational
@@ -74,7 +74,7 @@ hk-hko,Hong Kong Observatory,,Operational
 hk-hko-swic,"Severe Weather Information Service (SWIC) (Hong Kong,China)",,Operational
 hn-cenaos,Centro de Estudios Atmosféricos Oceanográficos y Sísmicos (CENAOS),,Operational
 id-bmkg,"Agency for Meteorology,Climatology and Geophysics (Indonesia)",,Operational
-ie-meteireann,Met Éireann,,Pre-operational
+ie-meteireann,Met Éireann,,Operational
 il-ims,Israel Meteorological Service,,Operational
 in-imd,India Meteorological Department,,Operational
 in-ncmrwf,National Centre for Medium Range Weather Forecasting (NCMRWF) (India),,Pre-operational
@@ -84,6 +84,7 @@ int-eumetsat-dcs,European Organization for the Exploitation of Meteorological Sa
 int-spc,Pacific Community (SPC),,Pre-operational
 ir-irimo,Islamic Republic of Iran Meteorological Organization,,Operational
 is-metoffice,Icelandic Meteorological Office,,Pre-operational
+it-cnr-itiam-whos-dab,National Research Council of Italy – Institute of Technologies and Environmental Intelligence (CNR-ITIAm),,Pre-operational
 it-meteoam,Servizio Meteorológico (Italy),,Operational
 jm-msj,Meteorological Service (Jamaica),,Operational
 jp-jma,Japan Meteorological Agency,,Operational
@@ -128,9 +129,9 @@ ro-meteoromania,National Meteorological Administration,,Pre-operational
 rs-rhmz,Republic Hydrometeorological Service of Serbia,,Operational
 ru-aviamettelecom,Russian Federal Service for Hydrometeorology and Environmental Monitoring,,Retired
 ru-roshydromet,Russian Federal Service for Hydrometeorology and Environmental Monitoring,,Operational
-ru-roshydromet-ladnwp,RSMC Moscow - Limited Area Deterministic Numerical Weather Prediction,,Pre-operational
+ru-roshydromet-ladnwp,RSMC Moscow - Limited Area Deterministic Numerical Weather Prediction,,Operational
 ru-roshydromet-neacc,RCC Moscow - North Eurasian Climate Centre,,Pre-operational
-ru-roshydromet-wmc,WMC Moscow,,Pre-operational
+ru-roshydromet-wmc,WMC Moscow,,Operational
 rw-rma,Rwanda Meteorology Agency,,Operational
 sa-ncm,National Center for Meteorology (Saudi Arabia),,Operational
 sa-ncm-global-cache,"National Center for Meteorology (Saudi Arabia), Global Cache Service",,Operational

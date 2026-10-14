@@ -6,4 +6,5 @@
 <ua-hmc> a skos:Concept ;
         rdfs:label "ua-hmc" ;
         skos:notation "ua-hmc" ;
-        dct:description "Ukrainian Hydrometeorological Centre"@en .
+        dct:description "Ukrainian Hydrometeorological Centre"@en ;
+        reg:status reg:statusStable .

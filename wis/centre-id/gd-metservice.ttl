@@ -6,5 +6,5 @@
 <gd-metservice> a skos:Concept ;
         rdfs:label "gd-metservice" ;
         skos:notation "gd-metservice" ;
-        dct:description "CMO Member (Grenada)"@en ;
+        dct:description "Grenada Meteorological Service"@en ;
         reg:status reg:statusStable .

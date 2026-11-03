@@ -106,6 +106,7 @@ ma-marocmeteo,Direction de la Météorologie Nationale (Morocco),,Operational
 ma-marocmeteo-global-monitor,"Direction de la Météorologie Nationale (Morocco), Global Monitor Service",,Operational
 ml-malimeteo,National Meteorological Agency (MALI METEO) (Mali),,Operational
 mn-namem,National Agency for Meteorology and Environmental Monitoring (NAMEM) (Mongolia),,Operational
+mr-onm,Office National de la Météorologie (Mauritania),,Pre-operational
 ms-metservice,Caribbean Meteorological Organization (Montserrat),,Operational
 mv-mms,Maldives Meteorological Service,,Operational
 mw-dccms,Malawi Meteorological Services,,Operational
@@ -113,6 +114,7 @@ mx-smn,Servicio Meteorológico Nacional (Mexico),,Operational
 my-metmalaysia,Malaysian Meteorological Department,,Operational
 mz-inam,Instituto Nacional de Meteorología (INAM) (Mozambique),,Operational
 na-meteona,Namibia Meteorological Service,,Operational
+ne-agrhymet,AGRHYMET Regional Centre,,Pre-operational
 ng-nimet,Nigerian Meteorological Agency,,Operational
 nl-knmi-ecad,RCC Node-CD - Climate data services,,Pre-operational
 nl-knmi-nms,Royal Netherlands Meteorological Institute,,Pre-operational
@@ -131,7 +133,7 @@ rs-rhmz,Republic Hydrometeorological Service of Serbia,,Operational
 ru-aviamettelecom,Russian Federal Service for Hydrometeorology and Environmental Monitoring,,Retired
 ru-roshydromet,Russian Federal Service for Hydrometeorology and Environmental Monitoring,,Operational
 ru-roshydromet-ladnwp,RSMC Moscow - Limited Area Deterministic Numerical Weather Prediction,,Operational
-ru-roshydromet-neacc,RCC Moscow - North Eurasian Climate Centre,,Pre-operational
+ru-roshydromet-neacc,RCC Moscow - North Eurasian Climate Centre,,Operational
 ru-roshydromet-wmc,WMC Moscow,,Operational
 rw-rma,Rwanda Meteorology Agency,,Operational
 sa-ncm,National Center for Meteorology (Saudi Arabia),,Operational
@@ -151,6 +153,7 @@ td-anam,Direction des Ressources en Eau et de la Météorologie (Chad),,Operatio
 tg-anamet,Agence Nationale de la Météorologie du Togo (ANAMET),,Operational
 th-tmd,Thai Meteorological Department,,Operational
 tk-metservice,Tokelau Meteorological Service,,Operational
+tl-dnmg,Direcção Nacional da Meteorologia e Geofísica (DNMG) (Timor-Leste),,Pre-operational
 tt-trin-met,Meteorological Service (Trinidad and Tobago),,Operational
 tz-tma,Tanzania Meteorological Agency,,Operational
 ua-hmc,Ukrainian Hydrometeorological Centre,,Operational

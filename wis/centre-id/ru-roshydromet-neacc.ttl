@@ -6,4 +6,5 @@
 <ru-roshydromet-neacc> a skos:Concept ;
         rdfs:label "ru-roshydromet-neacc" ;
         skos:notation "ru-roshydromet-neacc" ;
-        dct:description "RCC Moscow - North Eurasian Climate Centre"@en .
+        dct:description "RCC Moscow - North Eurasian Climate Centre"@en ;
+        reg:status reg:statusStable .

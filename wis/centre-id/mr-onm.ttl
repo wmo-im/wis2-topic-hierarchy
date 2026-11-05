@@ -6,4 +6,5 @@
 <mr-onm> a skos:Concept ;
         rdfs:label "mr-onm" ;
         skos:notation "mr-onm" ;
-        dct:description "Office National de la Météorologie (Mauritania)"@en .
+        dct:description "Office National de la Météorologie (Mauritania)"@en ;
+        reg:status reg:statusStable .

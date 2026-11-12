@@ -6,4 +6,5 @@
 <it-cnr-itiam-whos-dab> a skos:Concept ;
         rdfs:label "it-cnr-itiam-whos-dab" ;
         skos:notation "it-cnr-itiam-whos-dab" ;
-        dct:description "National Research Council of Italy – Institute of Technologies and Environmental Intelligence (CNR-ITIAm)"@en .
+        dct:description "National Research Council of Italy – Institute of Technologies and Environmental Intelligence (CNR-ITIAm)"@en ;
+        reg:status reg:statusStable .

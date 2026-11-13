@@ -6,4 +6,5 @@
 <int-spc> a skos:Concept ;
         rdfs:label "int-spc" ;
         skos:notation "int-spc" ;
-        dct:description "Pacific Community (SPC)"@en .
+        dct:description "Pacific Community (SPC)"@en ;
+        reg:status reg:statusStable .

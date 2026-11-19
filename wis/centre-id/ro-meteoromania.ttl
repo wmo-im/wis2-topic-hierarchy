@@ -6,4 +6,5 @@
 <ro-meteoromania> a skos:Concept ;
         rdfs:label "ro-meteoromania" ;
         skos:notation "ro-meteoromania" ;
-        dct:description "National Meteorological Administration"@en .
+        dct:description "National Meteorological Administration"@en ;
+        reg:status reg:statusStable .

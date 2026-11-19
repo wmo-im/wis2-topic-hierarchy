@@ -6,4 +6,5 @@
 <sd-sma> a skos:Concept ;
         rdfs:label "sd-sma" ;
         skos:notation "sd-sma" ;
-        dct:description "Sudan Meteorological Authority"@en .
+        dct:description "Sudan Meteorological Authority"@en ;
+        reg:status reg:statusStable .
